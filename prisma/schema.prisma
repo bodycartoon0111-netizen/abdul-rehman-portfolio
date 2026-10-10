@@ -1,0 +1,148 @@
+// Prisma schema — PostgreSQL datasource.
+// Run `npx prisma generate` after install, and `npx prisma migrate dev`
+// against a real database before first deploy.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ── Site-wide profile / hero content ──────────────────────────────────────
+model Profile {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  name     String
+  tagline  String
+  bio      String   @db.Text
+  email    String
+  phone    String?
+  location String?
+  avatar   String?
+  resume   String?
+
+  @@map("profiles")
+}
+
+// ── Portfolio projects (grid + detail pages) ──────────────────────────────
+model Project {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  title       String
+  slug        String   @unique
+  tagline     String
+  description String   @db.Text
+  url         String?
+  imageUrl    String?
+  techStack   String[]
+  featured    Boolean  @default(false)
+  sortOrder   Int      @default(0)
+
+  @@map("projects")
+}
+
+// ── Services (cards + dedicated service pages) ────────────────────────────
+model Service {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  title       String
+  slug        String  @unique
+  summary     String
+  description String? @db.Text
+  icon        String?
+  sortOrder   Int     @default(0)
+
+  @@map("services")
+}
+
+// ── Long-form case studies ─────────────────────────────────────────────────
+model CaseStudy {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  title     String
+  slug      String  @unique
+  client    String?
+  overview  String  @db.Text
+  challenge String? @db.Text
+  solution  String? @db.Text
+  results   String? @db.Text
+  imageUrl  String?
+  published Boolean @default(false)
+
+  @@map("case_studies")
+}
+
+// ── Testimonials ──────────────────────────────────────────────────────────
+model Testimonial {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  name      String
+  role      String?
+  company   String?
+  quote     String  @db.Text
+  avatarUrl String?
+  rating    Int?
+  featured  Boolean @default(false)
+  sortOrder Int     @default(0)
+
+  @@map("testimonials")
+}
+
+// ── Contact form submissions (Resend-ready; status tracked here) ──────────
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  name    String
+  email   String
+  company String?
+  website String?
+  service String?
+  budget  String?
+  message String  @db.Text
+  status  String  @default("new") // new | read | replied | archived
+
+  @@map("contact_submissions")
+}
+
+// ── Blog posts ────────────────────────────────────────────────────────────
+model BlogPost {
+  id          String    @id @default(cuid())
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  publishedAt DateTime?
+
+  title        String
+  slug         String  @unique
+  excerpt      String?
+  content      String  @db.Text
+  coverImageUrl String?
+  published    Boolean @default(false)
+
+  @@map("blog_posts")
+}
+
+// ── Lightweight analytics events (page views, CTA clicks) ─────────────────
+model AnalyticsEvent {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+
+  type     String // e.g. "page_view", "cta_click"
+  path     String?
+  metadata Json?
+
+  @@map("analytics_events")
+}
