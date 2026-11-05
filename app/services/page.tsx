@@ -21,15 +21,7 @@ export const metadata: Metadata = {
     url: "/services",
     type: "website",
   },
-  keywords: [
-    "SEO services",
-    "Google Ads management",
-    "Meta Ads services",
-    "web development services",
-    "AI automation services",
-    "performance marketing services",
-  ],
-};
+};  
 
 const combinations = [
   {
