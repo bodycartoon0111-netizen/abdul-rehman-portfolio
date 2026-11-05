@@ -7,7 +7,6 @@ import { projects } from "@/data/projects";
 import {
   absoluteUrl,
   buildBreadcrumbJsonLd,
-  buildFaqPageJsonLd,
   buildServiceJsonLd,
 } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -59,11 +58,6 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           { name: "Services", path: "/services" },
           { name: service.name, path: `/services/${slug}` },
         ])}
-      />
-      <JsonLd
-        data={buildFaqPageJsonLd(
-          service.faqs.map((f) => ({ question: f.q, answer: f.a }))
-        )}
       />
       <Breadcrumbs
         items={[
