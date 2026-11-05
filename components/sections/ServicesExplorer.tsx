@@ -18,7 +18,7 @@ export default function ServicesExplorer() {
     <section className="bg-surface py-24 md:py-32">
       <Container>
         <SectionHeading
-          eyebrow="Services"
+          eyebrow="SEO & Digital Marketing Services in Pakistan"
           title="Ten services. One growth system."
           lede="Marketing and technology under one roof — pick what you need, combine what compounds."
           align="center"
@@ -69,7 +69,7 @@ export default function ServicesExplorer() {
                         : "border-line bg-paper text-ink hover:border-pine/50"
                     }`}
                   >
-                    {s.name}
+                    <span className="min-w-0"><span className="block text-sm font-extrabold">{s.name}</span><span className="mt-0.5 block text-xs leading-snug opacity-75">{s.description}</span></span>
                     <span aria-hidden="true" className={isActive ? "text-mint" : "text-muted"}>
                       →
                     </span>
