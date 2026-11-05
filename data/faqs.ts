@@ -34,4 +34,6 @@ export const faqs: Faq[] = [
     q: "How do we start working together?",
     a: "Send a message through the contact page or WhatsApp with a sentence about your business and what you're trying to achieve. We'll have a discovery call, I'll send a written proposal with scope, timeline, and fixed pricing — and we start when you're confident, not before.",
   },
+  { q: "Should I hire an SEO consultant or an agency in Lahore?", a: "It depends on what you need. A consultant gives you one accountable person doing the strategy and the work, with direct communication and no hand-offs. An agency suits larger teams that need many specialists at once." },
+  { q: "Do you provide SEO services in Karachi, Islamabad and other cities?", a: "Yes. I am based in Lahore and meet clients here in person, and I deliver SEO and digital marketing remotely to businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan, and anywhere else in Pakistan." },
 ];
