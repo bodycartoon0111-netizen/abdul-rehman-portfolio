@@ -20,13 +20,7 @@ export const metadata: Metadata = {
     url: "/blog",
     type: "website",
   },
-  keywords: [
-    "SEO blog",
-    "marketing tips",
-    "web development articles",
-    "AI automation guides",
-  ],
-};
+};  
 
 function formatDate(iso: string): string {
   return new Date(`${iso}T00:00:00`).toLocaleDateString("en-GB", {
