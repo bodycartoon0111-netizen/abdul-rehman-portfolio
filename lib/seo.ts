@@ -35,15 +35,6 @@ export const defaultMetadata: Metadata = {
     template: "Abdul Rehman — %s",
   },
   description: TAGLINE,
-  keywords: [
-    "Abdul Rehman",
-    "SEO specialist",
-    "digital marketing",
-    "web development",
-    "performance marketing",
-    "AI automation",
-    "custom software",
-  ],
   authors: [{ name: BRAND_NAME }],
   creator: BRAND_NAME,
   openGraph: {
@@ -79,7 +70,9 @@ export function pageMetadata(
     openGraph: {
       title: fullTitle,
       description,
+      locale: "en_US",
       url,
+      images: [absoluteUrl("/opengraph-image")],
     },
     twitter: {
       card: "summary_large_image",
