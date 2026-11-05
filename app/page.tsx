@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -12,12 +13,12 @@ import {
 import { HeroVisual } from "@/components/hero/HeroVisual";
 import TrustStrip from "@/components/sections/TrustStrip";
 import ValueProps from "@/components/sections/ValueProps";
-import ServicesExplorer from "@/components/sections/ServicesExplorer";
-import SelectedWork from "@/components/sections/SelectedWork";
+const ServicesExplorer = dynamic(() => import("@/components/sections/ServicesExplorer"));
+const SelectedWork = dynamic(() => import("@/components/sections/SelectedWork"));
 import IndustryExplorer from "@/components/sections/IndustryExplorer";
-import ProcessSection from "@/components/sections/ProcessSection";
+const ProcessSection = dynamic(() => import("@/components/sections/ProcessSection"));
 import ProofSection from "@/components/sections/ProofSection";
-import FaqSection from "@/components/sections/FaqSection";
+const FaqSection = dynamic(() => import("@/components/sections/FaqSection"));
 import CtaBanner from "@/components/sections/CtaBanner";
 
 export const metadata: Metadata = {
@@ -57,7 +58,7 @@ export default function HomePage() {
                 Grow Your Business with an SEO &amp; Digital Marketing Consultant in Lahore
               </h1>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">
-                Turning Search, Traffic &amp; Technology Into Growth.
+                Turning Search, Traffic &amp; Technology Into Growth. Learn more <Link href="/about">about Abdul Rehman</Link>, and browse the <Link href="/services">digital marketing services</Link> on offer.
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 <Link
@@ -121,7 +122,10 @@ export default function HomePage() {
             lede="An agency hands your account down a chain of juniors. With a consultant, the person you hire is the person doing the work."
             align="center"
           />
-          <div className="mt-14 grid gap-4 md:grid-cols-3">
+<p className="mx-auto mt-8 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">An SEO consultant improves a website's visibility on Google through technical fixes, keyword research, content optimization and link building. In Lahore, a consultant also handles local SEO — Google Business Profile, Maps rankings and location pages — so nearby customers find the business first.</p>
+          <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">You can explore the full scope of my <Link href="/services/seo">SEO services in Lahore</Link> or work through the <Link href="/blog/technical-seo-checklist-2026">technical SEO checklist</Link> before we talk.
+          </p>
+    <div className="mt-14 grid gap-4 md:grid-cols-3">
             <div className="rounded-2xl border border-line bg-paper p-7">
               <h3 className="text-xl font-extrabold text-ink">One person, full accountability</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink/80">
@@ -153,7 +157,21 @@ export default function HomePage() {
             lede="Lahore is my home base — I meet clients here in person. I deliver SEO, Google &amp; Meta Ads, websites and AI automation remotely to businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan, and anywhere else in Pakistan."
             align="center"
           />
+          <p className="mx-auto mt-8 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">In Lahore: DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt and Faisal Town — in-person meetings available. Across Pakistan: Karachi, Islamabad, Rawalpindi, Faisalabad, Multan — remote delivery.</p>
+          <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">Consultation available in English and Roman Urdu.</p>
         </Container>
+      </section>
+
+      <section className="bg-surface py-24 md:py-32">
+  <Container>
+    <div className="mx-auto max-w-3xl text-center">
+      <h2 className="h2 mt-4 text-balance">Free SEO Audit — See Where You Rank Today</h2>
+      <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted text-pretty">Tell us your website and your target keyword. I'll check where you rank today, list first 3 fixes, and send it to you — free, no obligation, no sales call unless you ask for one.</p>
+      <div className="mt-8">
+        <Link href="/contact" className="group inline-flex items-center gap-2 rounded-full bg-pine px-7 py-3.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition-transform hover:scale-[1.03]">Get My Free Audit</Link>
+      </div>
+    </div>
+  </Container>
       </section>
 
       {/* ── FAQ ────────────────────────────────────────────────────── */}
