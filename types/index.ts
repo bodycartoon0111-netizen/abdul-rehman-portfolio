@@ -9,6 +9,7 @@ export interface Service {
   slug: string;
   name: string;
   tagline: string;
+  description: string;
   problem: string;
   solution: string;
   deliverables: string[];
@@ -32,37 +33,4 @@ export interface Project {
   relatedServices: string[];
   /** Original brand logo, served from /images/projects/. */
   logo: string;
-}
-
-export interface CaseStudy {
-  slug: string;
-  title: string;
-  projectSlug: string;
-  industry: string;
-  overview: string;
-  challenge: string;
-  approach: string[];
-  results: string[];
-  services: string[];
-}
-
-export interface Industry {
-  slug: string;
-  name: string;
-  problem: string;
-  recommendedServices: string[];
-  solution: string;
-  /** Slug into data/projects.ts. Empty string when no dedicated project exists yet. */
-  relatedProject: string;
-}
-
-export interface Faq {
-  q: string;
-  a: string;
-}
-
-export interface NavItem {
-  label: string;
-  href: string;
-  children?: NavItem[];
 }
