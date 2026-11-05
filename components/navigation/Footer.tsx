@@ -63,6 +63,11 @@ const SOCIALS = [
   { label: "Facebook", href: SOCIAL_FACEBOOK, Icon: FacebookIcon },
   { label: "Instagram", href: SOCIAL_INSTAGRAM, Icon: InstagramIcon },
 ] as const;
+const PROFILES = [
+  { label: "GitHub", href: "https://github.com/abdulrehman0121" },
+  { label: "Upwork", href: "https://www.upwork.com/freelancers/~01d830ab712952a556" },
+  { label: "Contra", href: "https://contra.com/abdulrehman0121" },
+  ] as const;
 
 const linkClass =
   "text-sm text-muted transition-colors hover:text-pine";
@@ -171,6 +176,8 @@ export function Footer() {
                   ))}
                 </ul>
               </li>
+              <li>
+                <ul className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Freelance profiles">{PROFILES.map(({ label, href }) => (<li key={label}><a href={href} target="_blank" rel="noopener" onClick={() => trackOutboundClick(href)} className="text-sm font-semibold text-ink/80 underline decoration-line underline-offset-4 transition-colors hover:text-pine">{label}</a>a></li>li>))}</ul>ul></li>li></a>
             </ul>
           </div>
         </div>
