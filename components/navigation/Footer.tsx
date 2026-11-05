@@ -177,7 +177,7 @@ export function Footer() {
                 </ul>
               </li>
               <li>
-                  <ul className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Freelance profiles">{PROFILES.map(({ label, href }) => (<li key={label}><a href={href} target="_blank" rel="noopener" onClick={() => trackOutboundClick(href)} className="text-sm font-semibold text-ink/80 underline decoration-line underline-offset-4 transition-colors hover:text-pine">{label}</ul></li>
+                  <ul className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Freelance profiles">{PROFILES.map(({ label, href }) => (<li key={label}><a href={href} target="_blank" rel="noopener" onClick={() => trackOutboundClick(href)} className="text-sm font-semibold text-ink/80 underline decoration-line underline-offset-4 transition-colors hover:text-pine">{label}</a></li>))}</ul></li>
             </ul>
           </div>
         </div>
