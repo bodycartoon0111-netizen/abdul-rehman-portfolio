@@ -19,13 +19,6 @@ export const metadata: Metadata = {
       "Marketing brain, developer hands: the story and philosophy behind Abdul Rehman's SEO, performance marketing, and web development work.",
     url: "/about",
   },
-  keywords: [
-    "Abdul Rehman",
-    "SEO specialist",
-    "web developer",
-    "performance marketer",
-    "digital growth consultant",
-  ],
 };
 
 const PHILOSOPHY = [
