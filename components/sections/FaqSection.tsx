@@ -11,6 +11,25 @@ import { faqs } from "@/data/faqs";
  */
 export default function FaqSection() {
   const items = faqs.map((f) => ({ question: f.q, answer: f.a }));
+  const accordionItems = items.map((item) => {
+    if (item.question !== "How long does SEO take to show results?") {
+      return item;
+      
+    return {
+      ...item,
+      answer: (
+        <span>
+        
+          {item.answer}
+        <br />
+        Related reading:{" "}
+        
+        <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+           target="_blank" rel="noopener">Google's SEO Starter Guide</a>
+        </span>
+        ),
+    };
+    });
 
   return (
     <section className="bg-surface py-24 md:py-32">
@@ -23,7 +42,7 @@ export default function FaqSection() {
           align="center"
         />
         <div className="mx-auto mt-12 max-w-3xl">
-          <Accordion items={items} />
+          <Accordion items={accordionItems} />
         </div>
       </Container>
     </section>
