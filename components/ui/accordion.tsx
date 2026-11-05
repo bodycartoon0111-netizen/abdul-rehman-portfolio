@@ -1,12 +1,13 @@
 "use client";
 
 import { useId, useState } from "react";
+import type { ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 export interface AccordionItem {
   question: string;
-  answer: string;
+  answer: ReactNode;
 }
 
 interface AccordionProps {
