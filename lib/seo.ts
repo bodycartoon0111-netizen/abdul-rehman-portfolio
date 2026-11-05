@@ -43,6 +43,7 @@ export const defaultMetadata: Metadata = {
     title: "Abdul Rehman — SEO, Web Development & Digital Growth",
     description: TAGLINE,
     locale: "en_US",
+    images: [absoluteUrl("/opengraph-image")],
   },
   twitter: {
     card: "summary_large_image",
