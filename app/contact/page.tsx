@@ -19,12 +19,6 @@ export const metadata: Metadata = {
     url: "/contact",
     type: "website",
   },
-  keywords: [
-    "hire SEO consultant",
-    "contact Abdul Rehman",
-    "start a project",
-    "web developer for hire",
-  ],
 };
 
 const whatsappHref = BRAND_WHATSAPP_LINK;
