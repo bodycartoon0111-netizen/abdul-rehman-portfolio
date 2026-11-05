@@ -9,6 +9,7 @@ export const services: Service[] = [
     slug: "seo",
     name: "SEO",
     tagline: "Get found on Google by customers who are ready to buy.",
+    description: "Technical audits, on-page optimization, local SEO and content that ranks in Lahore and across Pakistan.",
     problem:
       "Your competitors show up when customers search — you don't. Paid ads stop the moment you stop paying, and social reach is rented from platforms that change the rules overnight.",
     solution:
@@ -51,6 +52,7 @@ export const services: Service[] = [
     slug: "google-ads",
     name: "Google Ads",
     tagline: "Search and Performance Max campaigns engineered for profit, not clicks.",
+    description: "Search and Performance Max campaigns with conversion tracking, tight keyword intent and budgets managed for profit.",
     problem:
       "Most Google Ads accounts burn budget on broad-match keywords, the wrong search intent, and landing pages that don't convert. Clicks go up; revenue doesn't.",
     solution:
@@ -93,6 +95,7 @@ export const services: Service[] = [
     slug: "meta-ads",
     name: "Meta Ads",
     tagline: "Scroll-stopping creative and full-funnel campaigns on Meta.",
+    description: "Full-funnel Meta and Instagram campaigns with creative testing, Conversions API tracking and retargeting.",
     problem:
       "Boosted posts and loosely targeted ad sets waste spend, and post-iOS tracking gaps leave most advertisers flying blind — optimizing for clicks while sales happen somewhere unmeasured.",
     solution:
@@ -135,6 +138,7 @@ export const services: Service[] = [
     slug: "web-development",
     name: "Web Development",
     tagline: "Fast, conversion-focused websites built with modern code.",
+    description: "Fast, conversion-focused Next.js websites with technical SEO built in from the first commit.",
     problem:
       "Slow, template-built sites leak the traffic your marketing paid for. Page-builder bloat kills load times, hurts rankings, and quietly costs you customers who never wait.",
     solution:
@@ -178,6 +182,7 @@ export const services: Service[] = [
     slug: "app-development",
     name: "App Development",
     tagline: "iOS and Android apps, from idea to App Store.",
+    description: "Cross-platform iOS and Android apps from a single codebase, from scoping to store submission.",
     problem:
       "Great product ideas stall because agencies quote enterprise prices, or deliver codebases nobody can maintain after launch.",
     solution:
@@ -220,6 +225,7 @@ export const services: Service[] = [
     slug: "custom-software",
     name: "Custom Software",
     tagline: "Internal tools, dashboards, and systems built around how you work.",
+    description: "CRMs, dashboards and internal tools built around your workflow, with documentation and training included.",
     problem:
       "Off-the-shelf software forces your team into someone else's workflow, and the subscriptions pile up — while the one feature you actually need still doesn't exist.",
     solution:
@@ -262,6 +268,7 @@ export const services: Service[] = [
     slug: "wordpress",
     name: "WordPress",
     tagline: "WordPress done right: fast, secure, and easy to manage.",
+    description: "Lean, secure WordPress builds with a custom theme, speed optimization and an editing experience your team can use.",
     problem:
       "Most WordPress sites are plugin towers — slow, fragile, and one update away from breaking. The platform gets blamed for what bad builds caused.",
     solution:
@@ -304,6 +311,7 @@ export const services: Service[] = [
     slug: "shopify",
     name: "Shopify",
     tagline: "High-converting Shopify stores, built to sell.",
+    description: "Conversion-tuned Shopify stores with a fast custom theme, checkout optimization and pixel tracking.",
     problem:
       "Generic themes and app overload make stores slow and same-looking. Checkout friction, weak product pages, and blind tracking quietly kill sales you already earned.",
     solution:
@@ -346,6 +354,7 @@ export const services: Service[] = [
     slug: "performance-marketing",
     name: "Performance Marketing",
     tagline: "Full-funnel paid growth across Google, Meta, and beyond — managed as one P&L.",
+    description: "Google and Meta managed as one P&L, with unified tracking, shared creative learnings and plain-language reporting.",
     problem:
       "Agencies optimize channels in silos: Google reports a ROAS, Meta reports a ROAS, and nobody reports profit. Budgets stay where they're comfortable instead of where they convert.",
     solution:
@@ -388,6 +397,7 @@ export const services: Service[] = [
     slug: "ai-automation",
     name: "AI Automation",
     tagline: "AI workflows that remove busywork and follow up like clockwork.",
+    description: "Practical AI workflows for lead follow-up, CRM updates and reporting, with human-in-the-loop safeguards.",
     problem:
       "Leads go cold because follow-up is manual. Teams drown in copy-paste between tools that don't talk to each other. The work is repetitive; the cost of not doing it is real revenue.",
     solution:
