@@ -13,6 +13,14 @@ export default function ServicesExplorer() {
   const active = services.find((s) => s.slug === activeSlug) ?? services[0];
 
   if (!active) return null;
+  const seoIncluded = [
+    "Technical SEO audit",
+    "On-page optimization",
+    "Local SEO and Google Business Profile",
+    "Keyword research and content",
+    "Ethical link building",
+    "Monthly reporting",
+];
 
   return (
     <section className="bg-surface py-24 md:py-32">
@@ -128,6 +136,23 @@ export default function ServicesExplorer() {
                   ))}
                 </ul>
               </div>
+              
+              {active.slug === "seo" && (
+              <div className="mt-8">
+              <h4 className="text-sm font-bold uppercase tracking-[0.18em] text-muted">
+              What is included in SEO services in Lahore?
+              </h4>
+                <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
+                  {seoIncluded.map((item) => (
+                    <li key={item} className="flex items-start gap-2.5 text-[15px] text-ink">
+                      <span aria-hidden="true" className="mt-0.5 font-bold text-pine">✓</span>
+                      {item}
+                    </li>
+            ))}
+                </ul>
+              </div>
+          )}
+              
 
               <div className="mt-8 flex flex-wrap gap-2">
                 {active.technologies.map((t) => (
@@ -144,6 +169,15 @@ export default function ServicesExplorer() {
                 <span className="font-bold text-ink">Ideal for: </span>
                 {active.idealFor}
               </p>
+              
+              {active.slug === "ai-automation" && (
+              <p className="mt-8 text-sm leading-relaxed text-ink/90">Related reading: <Link href="/blog/ai-automation-small-marketing-team">AI automation for small teams</Link>
+              </p>
+          )}
+              {active.slug === "meta-ads" && (
+              <p className="mt-8 text-sm leading-relaxed text-ink/90">Related reading: <a href="https://www.facebook.com/business/help" target="blank" rel="noopener">Meta Business Help</a>
+              </p>
+          )}
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Link
