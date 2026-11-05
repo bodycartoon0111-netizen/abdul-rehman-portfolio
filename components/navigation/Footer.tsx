@@ -112,9 +112,9 @@ export function Footer() {
           </nav>
 
           {/* Company sitemap */}
-          <nav aria-label="Company">
+          <nav aria-label="About Abdul Rehman">
             <h2 className="text-xs font-bold uppercase tracking-[0.16em] text-ink">
-              Company
+              About Abdul Rehman
             </h2>
             <ul className="mt-5 grid gap-2.5">
               {COMPANY.map((item) => (
