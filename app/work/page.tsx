@@ -20,13 +20,7 @@ export const metadata: Metadata = {
     url: "/work",
     type: "website",
   },
-  keywords: [
-    "web development portfolio",
-    "SEO case studies",
-    "website projects",
-    "Abdul Rehman work",
-  ],
-};
+  };
 
 export default function WorkPage() {
   const itemListLd = {
