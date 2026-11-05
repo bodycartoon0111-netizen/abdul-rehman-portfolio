@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
+import { SectionHeading } from "@/components/ui/section-heading";
 import { JsonLd } from "@/components/seo/JsonLd";
 import {
   pageMetadata,
@@ -22,126 +23,166 @@ import CtaBanner from "@/components/sections/CtaBanner";
 export const metadata: Metadata = {
   ...pageMetadata(
     "SEO, Performance Marketing & Web Development",
-    "Abdul Rehman helps businesses grow with SEO, performance marketing, conversion-focused websites, and AI automation — strategy and code, from one person.",
+    "SEO & digital marketing consultant in Lahore, Pakistan. Grow with SEO, Google & Meta Ads, websites and AI automation. Book a free consultation today.",
     "/",
   ),
   title: {
-    absolute: "Abdul Rehman — SEO, Performance Marketing & Web Development",
+    absolute: "SEO Consultant Lahore | Digital Marketing Services Pakistan",
   },
-  keywords: [
-    "SEO consultant",
-    "performance marketing",
-    "web developer",
-    "AI automation",
-    "Google Ads management",
-    "Meta Ads",
-    "Next.js developer",
-    "Abdul Rehman",
-  ],
 };
 
-function Hero() {
-  return (
-    <section aria-labelledby="hero-heading" className="relative overflow-hidden bg-paper">
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -right-40 -top-40 h-[480px] w-[480px] rounded-full bg-mint/40 blur-3xl"
-      />
-      <Container className="relative pb-16 md:pb-24">
-        <div className="grid items-center gap-12 lg:grid-cols-2">
-          <div>
-            <Reveal delay={0.08}>
-              <h1
-                id="hero-heading"
-                className="text-4xl font-black leading-[1.08] tracking-tight text-ink md:text-6xl"
-              >
-                Turning Search, Traffic{" "}
-                <span className="text-gold">&amp;</span> Technology Into Growth.
-              </h1>
-            </Reveal>
-            <Reveal delay={0.16}>
-              <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-                I&apos;m <strong className="font-bold text-ink">Abdul Rehman</strong> — I help
-                businesses get found through <strong className="font-bold text-ink">SEO</strong>,
-                scale with <strong className="font-bold text-ink">performance marketing</strong>,
-                convert with <strong className="font-bold text-ink">websites I build myself</strong>,
-                and systematize it all with{" "}
-                <strong className="font-bold text-ink">AI automation</strong>. Marketing strategy
-                and the code to ship it — from one person.
-              </p>
-            </Reveal>
-            <Reveal delay={0.24}>
-              <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-                <Link
-                  href="/contact"
-                  className="rounded-full bg-pine px-8 py-4 text-center text-sm font-bold uppercase tracking-[0.14em] text-white shadow-[var(--shadow-card)] transition-all hover:-translate-y-0.5 hover:bg-pine-deep hover:shadow-[var(--shadow-lift)]"
-                >
-                  Start a Project
-                </Link>
-                <Link
-                  href="/work"
-                  className="rounded-full border border-pine/25 bg-surface px-8 py-4 text-center text-sm font-bold uppercase tracking-[0.14em] text-ink transition-all hover:-translate-y-0.5 hover:border-gold hover:text-pine"
-                >
-                  Explore My Work
-                </Link>
-              </div>
-            </Reveal>
-            <Reveal delay={0.3}>
-              <dl className="mt-10 flex gap-8 border-t border-line pt-6">
-                <div>
-                  <dt className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Projects live</dt>
-                  <dd className="mt-1 text-2xl font-black text-ink">6</dd>
-                </div>
-                <div>
-                  <dt className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Services</dt>
-                  <dd className="mt-1 text-2xl font-black text-ink">10</dd>
-                </div>
-                <div>
-                  <dt className="text-xs font-bold uppercase tracking-[0.2em] text-muted">Industries</dt>
-                  <dd className="mt-1 text-2xl font-black text-ink">9</dd>
-                </div>
-              </dl>
-            </Reveal>
-          </div>
-
-          <Reveal delay={0.15} className="relative">
-            <div className="relative">
-              <HeroVisual className="h-[400px] md:h-[500px]" />
-              <figure className="absolute -bottom-2 left-4 z-30 md:left-8">
-                <Image
-                  src="/images/abdul-rehman.webp"
-                  alt="Portrait of Abdul Rehman"
-                  width={384}
-                  height={384}
-                  priority
-                  className="h-64 w-64 rounded-2xl object-cover drop-shadow-2xl md:h-96 md:w-96"
-                />
-                <figcaption className="mt-2 text-xs font-bold uppercase tracking-[0.18em] text-muted">
-                  Abdul Rehman — Growth Partner
-                </figcaption>
-              </figure>
-            </div>
-          </Reveal>
-        </div>
-      </Container>
-    </section>
-  );
-}
+const highlights = [
+  { k: "SEO", v: "Technical SEO, local search and content" },
+  { k: "Performance marketing", v: "Google & Meta Ads managed on real data" },
+  { k: "Web development", v: "Fast Next.js sites built to convert" },
+  { k: "AI automation", v: "Workflows that save hours every week" },
+];
 
 export default function HomePage() {
   return (
     <>
       <JsonLd data={buildProfessionalServiceJsonLd()} />
-      <Hero />
+
+      {/* ── Hero ───────────────────────────────────────────────────── */}
+      <section className="relative overflow-hidden bg-paper">
+        <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-mint/50 blur-3xl" />
+        <Container className="relative grid gap-12 pb-16 pt-16 md:pb-20 md:pt-20 lg:grid-cols-2 lg:items-center">
+          <div>
+            <Reveal>
+              <p className="inline-flex items-center gap-2 rounded-full border border-pine/20 bg-mint px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-pine">
+                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-pine" />
+                SEO · Ads · Websites · AI Automation
+              </p>
+              <h1 className="mt-8 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight text-ink md:text-6xl">
+                Grow Your Business with an SEO &amp; Digital Marketing Consultant in Lahore
+              </h1>
+              <p className="mt-5 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">
+                Turning Search, Traffic &amp; Technology Into Growth.
+              </p>
+              <div className="mt-8 flex flex-wrap items-center gap-3">
+                <Link
+                  href="/contact"
+                  className="group inline-flex items-center gap-2 rounded-full bg-pine px-7 py-3.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition-transform hover:scale-[1.03]"
+                >
+                  Get a quote
+                  <span aria-hidden="true">→</span>
+                </Link>
+                <Link
+                  href="/work"
+                  className="group inline-flex items-center gap-2 rounded-full border border-line bg-white/70 px-7 py-3.5 text-sm font-bold uppercase tracking-[0.12em] text-ink transition-colors hover:border-pine hover:text-pine"
+                >
+                  View my work
+                  <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+
+              <dl className="mt-10 grid max-w-lg grid-cols-2 gap-4 sm:grid-cols-2">
+                {highlights.map((h) => (
+                  <div key={h.k} className="rounded-2xl border border-line bg-white/70 p-4">
+                    <dt className="text-sm font-extrabold text-ink">{h.k}</dt>
+                    <dd className="mt-1 text-[13px] leading-snug text-ink/70">{h.v}</dd>
+                  </div>
+                ))}
+              </dl>
+            </Reveal>
+          </div>
+          <Reveal delay={0.08}>
+            <HeroVisual />
+          </Reveal>
+        </Container>
+      </section>
+
       <TrustStrip />
-      <ValueProps />
+
+      {/* ── Services ───────────────────────────────────────────────── */}
       <ServicesExplorer />
+
+      {/* ── Value props ────────────────────────────────────────────── */}
+      <ValueProps />
+
+      {/* ── Case studies ───────────────────────────────────────────── */}
       <SelectedWork />
+
+      {/* ── Industries served ──────────────────────────────────────── */}
       <IndustryExplorer />
+
+      {/* ── Process highlights ─────────────────────────────────────── */}
       <ProcessSection />
+
+      {/* ── Proof / credentials ────────────────────────────────────── */}
       <ProofSection />
+
+      {/* ── Why hire a consultant ─────────────────────────────────── */}
+      <section className="bg-surface py-24 md:py-32">
+        <Container>
+          <SectionHeading
+            eyebrow="Why hire a consultant"
+            title="Why Hire an SEO Consultant in Lahore — Not an Agency?"
+            lede="An agency hands your account down a chain of juniors. With a consultant, the person you hire is the person doing the work."
+            align="center"
+          />
+          <div className="mt-14 grid gap-4 md:grid-cols-3">
+            <div className="rounded-2xl border border-line bg-paper p-7">
+              <h3 className="text-xl font-extrabold text-ink">One person, full accountability</h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink/80">
+                You work directly with the person doing the work — no account managers, no hand-offs, and no one else to blame when results stall.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-line bg-paper p-7">
+              <h3 className="text-xl font-extrabold text-ink">Strategy + code from the same person</h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink/80">
+                SEO, ads and the website are planned and built by the same person, so the strategy never gets lost between a marketer and a developer.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-line bg-paper p-7">
+              <h3 className="text-xl font-extrabold text-ink">Transparent pricing, no lock-in</h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink/80">
+                Clear scope and plain reporting, with no long contract tying you down. You stay because the work performs — not because you have to.
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* ── Service areas ──────────────────────────────────────────── */}
+      <section className="bg-paper py-24 md:py-32">
+        <Container>
+          <SectionHeading
+            eyebrow="Where I work"
+            title="Businesses I Help Across Pakistan"
+            lede="Lahore is my home base — I meet clients here in person. I deliver SEO, Google &amp; Meta Ads, websites and AI automation remotely to businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan, and anywhere else in Pakistan."
+            align="center"
+          />
+        </Container>
+      </section>
+
+      {/* ── FAQ ────────────────────────────────────────────────────── */}
       <FaqSection />
+
+      {/* ── CTA ────────────────────────────────────────────────────── */}
       <CtaBanner />
+
+      {/* ── Bottom credit ──────────────────────────────────────────── */}
+      <div className="border-t border-line py-6 text-center text-sm text-muted">
+        <Container>
+          <p>
+            Built by{" "}
+            <Link href="/about" className="font-semibold text-pine hover:underline">
+              Abdul Rehman
+            </Link>{" "}
+            — SEO, performance marketing &amp; web development.
+          </p>
+          <p className="mt-2">
+            <Link href="/sitemap.xml" className="hover:underline">
+              Sitemap
+            </Link>
+            {" · "}
+            <Link href="/robots.txt" className="hover:underline">
+              Robots
+            </Link>
+          </p>
+        </Container>
+      </div>
     </>
   );
 }
