@@ -97,7 +97,7 @@ export const services: Service[] = [
     tagline: "Scroll-stopping creative and full-funnel campaigns on Meta.",
     description: "Full-funnel Meta and Instagram campaigns with creative testing, Conversions API tracking and retargeting.",
     problem:
-      "Boosted posts and loosely targeted ad sets waste spend, and post-iOS tracking gaps leave most advertisers flying blind — optimizing for clicks while sales happen somewhere unmeasured.",
+      "Meta Ads services in Pakistan that start with creative, not boosting. Full-funnel Facebook and Instagram campaigns — prospecting, retargeting and retention as one system — with creative testing, Conversions API tracking, and a clear kill-or-scale rule for every ad. Run by one consultant in Lahore.",
     solution:
       "Creative-led testing, broad-but-disciplined targeting, Conversions API tracking done correctly, and funnels that warm cold traffic into buyers. Creative does the targeting now — so the testing program is the strategy.",
     deliverables: [
