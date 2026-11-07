@@ -721,9 +721,24 @@ serviceArea: {
           "Documentation, monitoring, and training — plus a clear path for the next workflow.",
       },
     ],
-    metaTitle: "AI Automation Pakistan — Workflow Automation Services | Abdul Rehman",
+    metaTitle: "AI Automation Services Pakistan | Workflows & Chatbots",
     metaDescription:
-      "AI automation services in Pakistan: lead follow-up, reporting, and workflow automation that returns hours to your team.",
+      "AI automation services in Pakistan: lead follow-up, CRM updates and reporting workflows that return hours to your team. Human-in-the-loop, built in Lahore.",
+    problemsHeading: "AI Automation Problems We Solve in Pakistan",
+    solutionHeading: "AI Automation Services in Pakistan — The Solution",
+    faqHeading: "Frequently Asked Questions About AI Automation in Pakistan",
+    snippet:
+      "AI automation services in Pakistan cover lead follow-up, CRM updates, reporting and chat assistants — the repetitive work that eats a small team's week. The work starts by costing the workflow, automates the most expensive one first, and keeps a human approving anything a customer sees.",
+    serviceArea: {
+      heading: "AI Automation Services Across Pakistan",
+      text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+    },
+    heroLinks: [
+      { prefix: "Work with an ", anchor: "SEO consultant in Lahore", href: "/", suffix: " who automates what he measures.", },
+      { prefix: "See all ten ", anchor: "digital marketing services", href: "/services", suffix: ".", },
+      { prefix: "Need a new system, not a workflow? See ", anchor: "custom software", href: "/services/custom-software", suffix: ".", },
+      { prefix: "", anchor: "Read the blog", href: "/blog", suffix: ".", },
+    ],
   },
 };
 
