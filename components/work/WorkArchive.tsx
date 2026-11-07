@@ -16,6 +16,7 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
     [projects]
   );
   const [active, setActive] = useState("All");
+
   const visible = active === "All" ? projects : projects.filter((p) => p.industry === active);
 
   return (
@@ -43,7 +44,7 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
           <article
             key={project.slug}
             data-cursor="view"
-            className="group flex flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-16px_rgba(0,0,0,0.22)]"
+            className="group flex flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white transition hover:-translate-y-1 hover:shadow-xl"
           >
             <div className="flex h-48 items-center justify-center bg-white px-10">
               <Image
@@ -63,41 +64,31 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
                   {project.name}
                 </Link>
               </h3>
-              <p className="mt-3 flex-1 text-sm leading-relaxed text-neutral-600">{project.tagline}</p>
-              <ul className="mt-4 flex flex-wrap gap-2">
-                {project.services.map((s) => (
-                  <li
-                    key={s}
-                    className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-700"
-                  >
-                    {s}
-                  </li>
+              <p className="mt-3 flex-1 text-sm leading-relaxed text-neutral-700">
+                {project.tagline}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-1.5">
+                {project.technologies.slice(0, 3).map((t) => (
+                  <span key={t} className="cursor-default rounded-full bg-mint/40 px-2.5 py-1 text-xs font-medium text-ink transition-all duration-300 hover:-translate-y-0.5 hover:bg-pine hover:text-white hover:shadow-[0_6px_16px_-6px_rgba(30,58,46,0.5)]">
+                    {t}
+                  </span>
                 ))}
-              </ul>
-              <div className="mt-5 flex gap-3">
-                <Link
-                  href={`/work/${project.slug}`}
-                  className="rounded-full border border-neutral-300 px-4 py-2 text-xs font-semibold uppercase tracking-wider transition hover:border-neutral-900"
-                >
-                  View case study
-                </Link>
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-full bg-neutral-900 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white transition hover:bg-neutral-700"
-                >
-                  Live site ↗
-                </a>
               </div>
+              <Link
+                href={`/work/${project.slug}`}
+                className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900"
+                aria-label={`Read the ${project.name} case study`}
+              >
+                Read case study <span aria-hidden="true">→</span>
+              </Link>
             </div>
           </article>
         ))}
       </div>
 
-      <p className="mt-8 text-center text-sm text-neutral-500">
-        Showing {visible.length} project{visible.length === 1 ? "" : "s"}
-      </p>
+      {visible.length === 0 && (
+        <p className="mt-10 text-center text-neutral-600">No projects in this industry yet.</p>
+      )}
     </div>
   );
 }
