@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { faqs } from "@/data/faqs";
 import { buildBreadcrumbJsonLd, BRAND_WHATSAPP_LINK } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -7,15 +8,15 @@ import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Contact — Start Your Project | Abdul Rehman",
+    absolute: "Contact SEO Consultant in Lahore | Abdul Rehman",
   },
   description:
-    "Get in touch for SEO, paid ads, web development, or AI automation. Email, WhatsApp, or the enquiry form — replies within one business day.",
+    "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. I read every message and reply within one business day.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact — Start Your Project | Abdul Rehman",
+    title: "Contact SEO Consultant in Lahore | Abdul Rehman",
     description:
-      "Get in touch for SEO, paid ads, web development, or AI automation. Email, WhatsApp, or the enquiry form — replies within one business day.",
+      "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. I read every message and reply within one business day.",
     url: "/contact",
     type: "website",
   },
@@ -39,12 +40,20 @@ export default function ContactPage() {
           Get in touch
         </p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
-          Let&apos;s build something that grows.
+          Contact an SEO Consultant in Lahore — Let&apos;s Build Something That Grows
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Tell me about your project — the more specific you are about your goals, the more
           useful my reply will be. I read every message personally and respond within one
-          business day.
+          business day. I&apos;m Abdul Rehman, an SEO consultant in Lahore — if you are not
+          sure what you need yet, start with a free SEO audit or browse the{" "}
+          <Link
+            href="/services"
+            className="font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+          >
+            digital marketing services
+          </Link>{" "}
+          first. Prefer direct? WhatsApp and email are on this page.
         </p>
       </header>
 
@@ -119,6 +128,28 @@ export default function ContactPage() {
           </div>
         </aside>
       </div>
+
+      <section className="mt-16 max-w-3xl">
+        <h2 className="text-3xl font-bold tracking-tight text-neutral-900">Where I Work</h2>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+          Based in Lahore — in-person meetings available in DHA, Gulberg, Johar Town, Model
+          Town, Bahria Town, Wapda Town, Cantt and Faisal Town. Across Pakistan — Karachi,
+          Islamabad, Rawalpindi, Faisalabad, Multan — remote delivery. Consultation available
+          in English and Roman Urdu.
+        </p>
+      </section>
+
+      <section className="mt-16 max-w-3xl">
+        <h2 className="text-3xl font-bold tracking-tight text-neutral-900">
+          What to Include in Your Message
+        </h2>
+        <ul className="mt-5 list-disc space-y-2 pl-6 text-lg leading-relaxed text-neutral-700">
+          <li>Your website (if you have one)</li>
+          <li>What you want to grow (calls, sales, rankings)</li>
+          <li>Your timeline</li>
+          <li>Your budget range (if you know it)</li>
+        </ul>
+      </section>
 
       <section aria-labelledby="contact-faq-heading" className="mt-20 max-w-3xl">
         <h2 id="contact-faq-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
