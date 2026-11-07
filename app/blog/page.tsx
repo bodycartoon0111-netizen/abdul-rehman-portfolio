@@ -8,19 +8,19 @@ import CtaBand from "@/components/sections/CtaBand";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Blog — SEO, Marketing & Automation Notes | Abdul Rehman",
+    absolute: "SEO & Digital Marketing Blog Pakistan | Abdul Rehman",
   },
   description:
-    "Practical notes on SEO, paid marketing, web development, and AI automation — written from real project experience.",
+    "Practical notes on SEO, paid marketing, web development and AI automation from real project experience in Pakistan — checklists and mental models that work.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "Blog — SEO, Marketing & Automation Notes | Abdul Rehman",
+    title: "SEO & Digital Marketing Blog Pakistan | Abdul Rehman",
     description:
-      "Practical notes on SEO, paid marketing, web development, and AI automation — written from real project experience.",
+      "Practical notes on SEO, paid marketing, web development and AI automation from real project experience in Pakistan — checklists and mental models that work.",
     url: "/blog",
     type: "website",
   },
-};  
+};
 
 function formatDate(iso: string): string {
   return new Date(`${iso}T00:00:00`).toLocaleDateString("en-GB", {
@@ -44,13 +44,43 @@ export default function BlogPage() {
       <header className="mt-8 max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-widest text-muted">Blog</p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-ink sm:text-5xl">
-          Notes from the work
+          Digital Marketing Blog Pakistan — Notes from the Work
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-muted">
-          Practical write-ups on SEO, marketing, and automation — the checklists and mental
-          models I actually use on client projects.
+          Notes from the work — practical write-ups on SEO, marketing, and automation from
+          real project experience in Pakistan. These are the checklists and mental models I
+          actually use on client projects, written for business owners who want to understand
+          the work, not just buy it. Start with the{" "}
+          <Link
+            href="/blog/technical-seo-checklist-2026"
+            className="font-semibold text-ink underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+          >
+            technical SEO checklist
+          </Link>
+          , or see the{" "}
+          <Link
+            href="/services"
+            className="font-semibold text-ink underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+          >
+            digital marketing services
+          </Link>{" "}
+          behind the notes.
         </p>
       </header>
+
+      <section className="mt-12 max-w-3xl">
+        <h2 className="text-3xl font-bold tracking-tight text-ink">Start Here</h2>
+        <p className="mt-5 text-lg leading-relaxed text-muted">
+          New here? Start with the{" "}
+          <Link
+            href="/blog/technical-seo-checklist-2026"
+            className="font-semibold text-ink underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+          >
+            technical SEO checklist
+          </Link>{" "}
+          — the fundamentals that still decide rankings.
+        </p>
+      </section>
 
       <div className="mt-12 grid gap-8 sm:grid-cols-2">
         {blogPosts.map((post) => (
