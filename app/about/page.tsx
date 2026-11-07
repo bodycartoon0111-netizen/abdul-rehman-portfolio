@@ -8,15 +8,15 @@ import Timeline from "@/components/about/Timeline";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "About Abdul Rehman — SEO Specialist & Web Developer",
+    absolute: "About Abdul Rehman — SEO Consultant in Lahore, Pakistan",
   },
   description:
-    "Marketing brain, developer hands: the story and philosophy behind Abdul Rehman's SEO, performance marketing, and web development work.",
+    "Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google & Meta Ads, websites and AI automation.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "About Abdul Rehman — SEO Specialist & Web Developer",
+    title: "About Abdul Rehman — SEO Consultant in Lahore, Pakistan",
     description:
-      "Marketing brain, developer hands: the story and philosophy behind Abdul Rehman's SEO, performance marketing, and web development work.",
+      "Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google & Meta Ads, websites and AI automation.",
     url: "/about",
   },
 };
@@ -123,20 +123,27 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={0.08}>
                 <h1 id="about-heading" className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
+                  Abdul Rehman — SEO &amp; Digital Marketing Consultant in Lahore
+                </h1>
+                <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">
                   Marketing brain.<br />
                   <span className="text-pine">Developer hands.</span>
-                </h1>
+                </p>
               </Reveal>
               <Reveal delay={0.16}>
                 <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-                  I&apos;m <strong className="font-bold text-ink">Abdul Rehman</strong>. I grow
-                  businesses with SEO, performance marketing, and websites I build myself — then
-                  automate the whole thing so it keeps working when nobody&apos;s watching.
-                </p>
-                <p className="mt-4 max-w-xl leading-relaxed text-muted">
-                  No agency layers, no handoffs, no &ldquo;that&apos;s the developer&apos;s
-                  department.&rdquo; When the person running your ads can also rewrite the
-                  landing page, tracking gets fixed in hours — not sprints.
+                  Marketing brain. Developer hands. I&apos;m <strong className="font-bold text-ink">Abdul Rehman</strong>, an SEO and digital marketing consultant in Lahore, Pakistan. I grow businesses with{" "}
+                  <Link href="/services" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
+                    SEO, performance marketing, and websites I build myself
+                  </Link>{" "}
+                  — then automate the whole thing so it keeps working when nobody&apos;s watching. No agency layers, no handoffs, no &ldquo;that&apos;s the developer&apos;s department.&rdquo; When the person running your ads can also rewrite the landing page, tracking gets fixed in hours — not sprints. See the{" "}
+                  <Link href="/work" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
+                    selected work
+                  </Link>{" "}
+                  or{" "}
+                  <Link href="/contact" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
+                    start a project
+                  </Link>.
                 </p>
               </Reveal>
               <Reveal delay={0.24}>
@@ -188,7 +195,7 @@ export default function AboutPage() {
             </div>
             <div className="max-w-2xl space-y-6 text-[17px] leading-relaxed text-ink">
               <Reveal>
-                <h2 className="sr-only">My story</h2>
+                <h2 className="h2 text-balance">My Story — From Code to Growth</h2>
                 <p>
                   I started on the technology side — learning how websites are actually built,
                   not just how they look in a page builder. Writing code teaches you something
@@ -341,6 +348,45 @@ export default function AboutPage() {
                 </article>
               </Reveal>
             ))}
+          </div>
+        </Container>
+      </section>
+
+      {/* Location */}
+      <section className="bg-paper py-24 md:py-32">
+        <Container>
+          <SectionHeading
+            eyebrow="Location"
+            title="Based in Lahore, Working Across Pakistan"
+            align="center"
+          />
+          <div className="mx-auto mt-8 max-w-2xl text-center text-[17px] leading-relaxed text-ink">
+            <p>
+              In Lahore: DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt and Faisal Town — in-person meetings available. Across Pakistan: Karachi, Islamabad, Rawalpindi, Faisalabad, Multan — remote delivery. Consultation available in English and Roman Urdu.
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      {/* What working with me looks like */}
+      <section className="bg-surface py-24 md:py-32">
+        <Container>
+          <SectionHeading
+            eyebrow="Working with me"
+            title="What Working With Me Looks Like"
+            align="center"
+          />
+          <div className="mx-auto mt-8 max-w-2xl text-center text-[17px] leading-relaxed text-ink">
+            <p>
+              Every engagement starts with a free SEO audit and a plain-language plan. Read how engagements combine on the{" "}
+              <Link href="/services" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
+                services page
+              </Link>
+              , or{" "}
+              <Link href="/contact" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
+                start a project
+              </Link>.
+            </p>
           </div>
         </Container>
       </section>
