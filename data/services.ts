@@ -11,7 +11,7 @@ export const services: Service[] = [
     tagline: "Get found on Google by customers who are ready to buy.",
     description: "Technical audits, on-page optimization, local SEO and content that ranks in Lahore and across Pakistan.",
     problem:
-      "Your competitors show up when customers search — you don't. Paid ads stop the moment you stop paying, and social reach is rented from platforms that change the rules overnight.",
+      "SEO services in Lahore that compound: technical audits, on-page optimization, local SEO and content — delivered by one consultant, not handed down a chain of juniors. Your site ranks for the searches your customers actually type, in Lahore and across Pakistan.",
     solution:
       "I build SEO as an asset, not a campaign. Technical fixes so search engines can crawl and understand your site, content mapped to real search intent, and authority signals that compound over time. The result is rankings you own and traffic that doesn't invoice you every month.",
     deliverables: [
