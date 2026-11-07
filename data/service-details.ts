@@ -642,9 +642,18 @@ serviceArea: {
           "Pre-launch checklist, analytics, and a growth roadmap for what comes after day one.",
       },
     ],
-    metaTitle: "Shopify Development Pakistan — High-Converting Stores | Abdul Rehman",
+    metaTitle: "Shopify Development Pakistan | High-Converting Stores",
     metaDescription:
-      "Shopify development in Pakistan: conversion-focused online stores with proper payments, shipping, and mobile-first design.",
+      "Shopify development in Pakistan: conversion-focused online stores with proper payments, shipping and mobile-first design — built to sell from day one.",
+    faqHeading: "Shopify FAQ",
+    snippet: "Shopify development in Pakistan means building a conversion-focused online store on Shopify — fast theme, product architecture, checkout optimization, local payments like COD and JazzCash, courier setup, and tracking — so a brand can sell from day one without managing servers or security.",
+    introLinks: [
+      { prefix: "Shopify development in Pakistan is not just a theme — it is COD that works, JazzCash and EasyPaisa connected properly, courier setup that reconciles, and a mobile-first store that loads fast on Pakistani connections. I build conversion-focused stores for brands that want to sell from day one, with ", anchor: "tracking that shows what actually sells", href: "/services/performance-marketing", suffix: " and", },
+      { prefix: "", anchor: "Meta ads", href: "/services/meta-ads", suffix: " ready to plug in. Not sure Shopify is right? Compare it with", },
+      { prefix: "", anchor: "WordPress and WooCommerce", href: "/services/wordpress", suffix: ".", },
+      { prefix: "", anchor: "Discuss your store", href: "/contact", suffix: ".", },
+    ],
+    deliverablesLead: "Everything Shopify development in Pakistan should include — store, checkout, local payments, and tracking.",
   },
   "performance-marketing": {
     slug: "performance-marketing",
