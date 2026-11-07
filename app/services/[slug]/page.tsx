@@ -77,6 +77,11 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         </h1>
         <p className="mt-4 text-xl font-medium text-neutral-700">{service.tagline}</p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">{service.problem}</p>
+      {detail.snippet && (
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+        {detail.snippet}
+    </p>
+      )}
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <Link
             href="/contact"
@@ -91,19 +96,33 @@ export default async function ServiceDetailPage({ params }: PageProps) {
             See related work
           </Link>
         </div>
+        {detail.heroLinks && detail.heroLinks.length > 0 && (
+        <p className="mt-6 text-base leading-relaxed text-neutral-700">
+          {detail.heroLinks.map((link, index) => (
+            <span key={link.href}>
+              {index > 0 ? " " : null}
+              {link.prefix}
+              <Link href={link.href} className="font-semibold text-neutral-900 underline">
+                {link.anchor}
+              </Link>
+              {link.suffix}
+            </span>
+          ))}
+        </p>
+      )}
       </header>
 
       {/* Problem */}
       <section aria-labelledby="problem-heading" className="mt-16 max-w-4xl">
         <h2 id="problem-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          The problem it solves
+          {detail.problemsHeading ?? "The problem it solves"}
         </h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-3">
           {detail.problems.map((p) => (
             <div key={p.title} className="rounded-2xl border border-neutral-200 bg-white p-6">
               <h3 className="text-lg font-bold text-neutral-900">{p.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-700">{p.description}</p>
-            </div>
+            </div></div>
           ))}
         </div>
       </section>
@@ -111,7 +130,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       {/* Solution */}
       <section aria-labelledby="solution-heading" className="mt-16 max-w-4xl">
         <h2 id="solution-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          The solution
+          {detail.solutionHeading ?? "The solution"}
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">{service.solution}</p>
       </section>
@@ -187,10 +206,21 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">{service.idealFor}</p>
       </section>
 
+      {detail.serviceArea && (
+        <section aria-labelledby="service-area-heading" className="mt-16 max-w-4xl">
+          <h2 id="service-area-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
+            {detail.serviceArea.heading}
+          </h2>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+          {detail.serviceArea.text}
+        </p>
+      </section>
+      )}
+      
       {/* FAQ */}
       <section aria-labelledby="faq-heading" className="mt-16 max-w-3xl">
         <h2 id="faq-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          Frequently asked questions
+          {detail.faqHeading ?? "Frequently asked questions"}
         </h2>
         <div className="mt-8 divide-y divide-neutral-200">
           {service.faqs.map((faq) => (
