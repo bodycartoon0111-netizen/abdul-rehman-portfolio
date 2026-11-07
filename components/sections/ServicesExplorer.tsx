@@ -175,7 +175,7 @@ export default function ServicesExplorer() {
               </p>
           )}
               {active.slug === "meta-ads" && (
-              <p className="mt-8 text-sm leading-relaxed text-ink/90">Related reading: <a href="https://www.facebook.com/business/help" target="blank" rel="noopener">Meta Business Help</a>
+              <p className="mt-8 text-sm leading-relaxed text-ink/90">Related reading: <a href="https://www.facebook.com/business/help" target="_blank" rel="noopener">Meta Business Help</a>
               </p>
           )}
 
