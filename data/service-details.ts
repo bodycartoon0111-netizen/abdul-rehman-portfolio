@@ -517,9 +517,17 @@ serviceArea: {
           "Training, documentation, and support until the team genuinely prefers the new way.",
       },
     ],
-    metaTitle: "Custom Software Development Pakistan — Business Systems | Abdul Rehman",
+    metaTitle: "Custom Software Development Pakistan | CRMs & Dashboards",
     metaDescription:
-      "Custom software development in Pakistan: internal tools, dashboards, and integrations built around how your business actually works.",
+      "Custom software development in Pakistan: internal tools, dashboards and integrations built around how your business works. Custom-built, never off-the-shelf.",
+    faqHeading: "Custom Software FAQ",
+    snippet: "Custom software development in Pakistan means building internal tools, dashboards and systems around how a specific business actually works — instead of forcing the team into off-the-shelf software. The workflow is mapped first, then the smallest useful system is built, integrated with existing tools, and owned outright.",
+    introLinks: [
+      { prefix: "Custom software development in Pakistan should start with your workflow, not with a feature list. I map how your team actually works — spreadsheets, workarounds and all — then build the CRM, dashboard or internal tool that removes the biggest friction first. The system is yours outright, with ", anchor: "apps on top", href: "/services/app-development", suffix: " when you need them and", },
+      { prefix: "", anchor: "automation", href: "/services/ai-automation", suffix: " for the repetitive middle.", },
+      { prefix: "", anchor: "Discuss your system", href: "/contact", suffix: ".", },
+    ],
+    deliverablesLead: "Everything custom software development in Pakistan should deliver — from process mapping to team training.",
   },
   wordpress: {
     slug: "wordpress",
