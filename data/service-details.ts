@@ -350,9 +350,56 @@ serviceArea: {
           "Testing across devices, analytics and SEO checks, then launch — with handover training included.",
       },
     ],
-    metaTitle: "Web Development Pakistan — Business Websites That Convert | Abdul Rehman",
+    metaTitle: "Web Development Services Pakistan | Fast SEO-Ready Sites",
     metaDescription:
-      "Professional web development in Pakistan: fast, SEO-ready business websites designed to turn visitors into enquiries.",
+      "Web development in Pakistan: fast, SEO-ready Next.js websites built to turn visitors into enquiries. One consultant in Lahore — design, build and launch.",
+    problemsHeading: "Web Development Problems We Solve in Pakistan",
+    solutionHeading: "Web Development Services in Pakistan — The Solution",
+    faqHeading: "Frequently Asked Questions About Web Development in Pakistan",
+    snippet:
+      "Web development services in Pakistan cover business websites, online stores and web applications — designed to turn visitors into enquiries. A good build is fast on real mobile connections, SEO-ready from the first commit, and editable by your team without breaking anything.",
+    serviceArea: {
+      heading: "Web Development Services Across Pakistan",
+      text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+    },
+    heroLinks: [
+      {
+        prefix: "Work with an ",
+        anchor: "SEO consultant in Lahore",
+        href: "/",
+        suffix: " who builds the site and ranks it.",
+      },
+      {
+        prefix: "See all ten ",
+        anchor: "digital marketing services",
+        href: "/services",
+        suffix: ".",
+      },
+      {
+        prefix: "Every build is SEO-ready — see the ",
+        anchor: "SEO services in Lahore",
+        href: "/services/seo",
+        suffix: ".",
+      },
+      {
+        prefix: "Need WordPress instead? See ",
+        anchor: "WordPress development",
+        href: "/services/wordpress",
+        suffix: ".",
+      },
+      {
+        prefix: "Selling online? See ",
+        anchor: "Shopify development",
+        href: "/services/shopify",
+        suffix: ".",
+      },
+      {
+        prefix: "",
+        anchor: "Read the blog",
+        href: "/blog",
+        suffix: ".",
+      },
+    ],
   },
   "app-development": {
     slug: "app-development",
