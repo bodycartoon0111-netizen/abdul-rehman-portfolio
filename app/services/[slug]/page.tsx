@@ -76,6 +76,20 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           {detail.h1}
         </h1>
         <p className="mt-4 text-xl font-medium text-neutral-700">{service.tagline}</p>
+        {detail.introLinks && detail.introLinks.length > 0 && (
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+          {detail.introLinks.map((link, index) => (
+            <span key={link.href}>
+              {index > 0 ? " " : null}
+              {link.prefix}
+              <Link href={link.href} className="font-semibold text-neutral-900 underline">
+                {link.anchor}
+              </Link>
+              {link.suffix}
+            </span>
+          ))}
+        </p>
+      )}
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">{service.problem}</p>
       {detail.snippet && (
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
@@ -139,7 +153,10 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       <section aria-labelledby="included-heading" className="mt-16 max-w-4xl">
         <h2 id="included-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
           What&apos;s included
-        </h2>
+          </h2>
+        {detail.deliverablesLead && (
+            <p className="mt-5 text-lg leading-relaxed text-neutral-700">{detail.deliverablesLead}</p>
+          )}
         <ul className="mt-8 grid gap-4 sm:grid-cols-2">
           {service.deliverables.map((d) => (
             <li key={d} className="flex gap-3 rounded-2xl bg-neutral-50 p-5 text-neutral-700">
