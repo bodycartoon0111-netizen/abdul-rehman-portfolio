@@ -99,7 +99,7 @@ problemsHeading: "SEO Problems We Solve in Lahore",
         "SEO services in Lahore cover technical audits, on-page optimization, local SEO and content — the work that gets a business found on Google by customers in Lahore who are ready to buy. As a consultant, I do the work myself, and every change is tracked against rankings, traffic and enquiries.",
 serviceArea: {
   heading: "SEO Services Across Pakistan",
-  text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",,
+  text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
 },
     heroLinks: [
       {
