@@ -54,7 +54,7 @@ export const services: Service[] = [
     tagline: "Search and Performance Max campaigns engineered for profit, not clicks.",
     description: "Search and Performance Max campaigns with conversion tracking, tight keyword intent and budgets managed for profit.",
     problem:
-      "Most Google Ads accounts burn budget on broad-match keywords, the wrong search intent, and landing pages that don't convert. Clicks go up; revenue doesn't.",
+      "Google Ads management in Pakistan that starts with tracking, not spending. Intent-based Search and Performance Max campaigns, conversion-focused landing pages, and budgets that grow only behind proven cost-per-acquisition numbers — run by one consultant in Lahore.",
     solution:
       "I run Google Ads like a P&L: tight keyword intent, aggressive negative lists, conversion tracking you can actually trust, and landing pages built to close. Every unit of spend is traced back to revenue, and budgets flow to what converts cheapest.",
     deliverables: [
