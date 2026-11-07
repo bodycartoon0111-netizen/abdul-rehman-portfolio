@@ -140,7 +140,7 @@ export const services: Service[] = [
     tagline: "Fast, conversion-focused websites built with modern code.",
     description: "Fast, conversion-focused Next.js websites with technical SEO built in from the first commit.",
     problem:
-      "Slow, template-built sites leak the traffic your marketing paid for. Page-builder bloat kills load times, hurts rankings, and quietly costs you customers who never wait.",
+      "Web development services in Pakistan that start from the conversion goal and work backwards: message, structure, then design. Fast, SEO-ready Next.js websites — built with modern code, measured performance budgets, and technical SEO from the first commit — by one consultant in Lahore.",
     solution:
       "Custom-built with Next.js and React: sub-second loads, SEO-ready structure from the first commit, and every page designed around one job — turning visitors into enquiries. No bloated themes, no plugin towers.",
     deliverables: [
