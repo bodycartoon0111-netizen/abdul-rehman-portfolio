@@ -166,7 +166,7 @@ export default function HomePage() {
   <Container>
     <div className="mx-auto max-w-3xl text-center">
       <h2 className="h2 mt-4 text-balance">Free SEO Audit — See Where You Rank Today</h2>
-      <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted text-pretty">Tell us your website and your target keyword. I'll check where you rank today, list first 3 fixes, and send it to you — free, no obligation, no sales call unless you ask for one.</p>
+      <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted text-pretty">Tell us your website and your target keyword. I'll check where you rank today, list the first 3 fixes, and send it to you — free, no obligation, no sales call unless you ask for one.</p>
       <div className="mt-8">
         <Link href="/contact" className="group inline-flex items-center gap-2 rounded-full bg-pine px-7 py-3.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition-transform hover:scale-[1.03]">Get My Free Audit</Link>
       </div>
