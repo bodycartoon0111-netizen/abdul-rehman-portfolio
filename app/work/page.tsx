@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { projects } from "@/data/projects";
 import { absoluteUrl, buildBreadcrumbJsonLd, siteUrl } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -8,19 +9,19 @@ import WorkArchive from "@/components/work/WorkArchive";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Selected Work & Case Studies | Abdul Rehman",
+    absolute: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
   },
   description:
-    "Selected projects by Abdul Rehman: packaging, real estate, web apps, and business websites — each with the strategy behind the build.",
+    "Selected work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
   alternates: { canonical: "/work" },
   openGraph: {
-    title: "Selected Work & Case Studies | Abdul Rehman",
+    title: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
     description:
-      "Selected projects by Abdul Rehman: packaging, real estate, web apps, and business websites — each with the strategy behind the build.",
+      "Selected work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
     url: "/work",
     type: "website",
   },
-  };
+};
 
 export default function WorkPage() {
   const itemListLd = {
@@ -57,23 +58,73 @@ export default function WorkPage() {
           Portfolio
         </p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
-          Selected work
+          Selected Work &amp; SEO Case Studies from Pakistan
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          A selection of projects across industries — each one shipped, each one documented
-          honestly. Open a case study to see the challenge, the strategy, and the decisions
-          behind the build.
+          A selection of projects across Pakistan and beyond — each one shipped, each one
+          documented honestly. Open a case study to see the challenge, the strategy, and the
+          decisions behind the build. These are real projects from my{" "}
+          <Link
+            href="/services"
+            className="font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+          >
+            digital marketing services
+          </Link>
+          : packaging e-commerce, a property portal, web apps and business websites. Want the
+          same thinking on your project?{" "}
+          <Link
+            href="/contact"
+            className="font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+          >
+            Start a conversation
+          </Link>
+          .
         </p>
       </header>
 
-      <div className="mt-12">
+      <h2 className="mt-12 text-3xl font-bold tracking-tight text-neutral-900">
+        SEO Case Studies in Pakistan
+      </h2>
+
+      <div className="mt-6">
         <WorkArchive projects={projects} />
       </div>
+
+      <section className="mt-16 max-w-3xl">
+        <h2 className="text-3xl font-bold tracking-tight text-neutral-900">
+          What Every Case Study Shows
+        </h2>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+          Every case study shows the same four things — the challenge, the strategy, the
+          decisions, and what happened next. No cherry-picked screenshots, no invented numbers.
+        </p>
+      </section>
+
+      <section className="mt-16 max-w-3xl">
+        <h2 className="text-3xl font-bold tracking-tight text-neutral-900">
+          Industries in This Portfolio
+        </h2>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+          Packaging e-commerce (US), property portals (Pakistan), web apps, agency websites,
+          and local directories (Lahore).
+        </p>
+      </section>
+
+      <p className="mt-12 text-lg leading-relaxed text-neutral-700">
+        The work is one person&apos;s — read{" "}
+        <Link
+          href="/about"
+          className="font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+        >
+          About Abdul Rehman
+        </Link>
+        .
+      </p>
 
       <div className="mt-20">
         <CtaBand
           title="Want results like these for your business?"
-          description="Every project starts with a conversation about your goals. Tell me what you're building — I'll tell you honestly how I'd approach it."
+          description="You don't need a bigger budget. You need someone who treats visibility, speed, and conversion as one system."
         />
       </div>
     </main>
