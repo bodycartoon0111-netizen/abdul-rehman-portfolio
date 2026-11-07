@@ -73,7 +73,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       <header className="mt-8 max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">Service</p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
-          {service.name}
+          {detail.h1}
         </h1>
         <p className="mt-4 text-xl font-medium text-neutral-700">{service.tagline}</p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">{service.problem}</p>
