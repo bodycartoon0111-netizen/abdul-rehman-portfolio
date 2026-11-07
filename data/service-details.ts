@@ -23,6 +23,7 @@ export interface ServiceProcessStep {
 
 export interface ServiceDetail {
   slug: string;
+  h1: string;
   problems: ServiceProblem[];
   strategy: string;
   strategyPoints: string[];
@@ -34,6 +35,7 @@ export interface ServiceDetail {
 export const serviceDetails: Record<string, ServiceDetail> = {
   seo: {
     slug: "seo",
+    h1: "SEO Services in Lahore — Rank Higher, Convert Better",
     problems: [
       {
         title: "Invisible on the searches that matter",
@@ -87,6 +89,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   "google-ads": {
     slug: "google-ads",
+    h1: "Google Ads Management in Pakistan — Clicks That Convert",
     problems: [
       {
         title: "Ad spend with nothing to show",
@@ -140,6 +143,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   "meta-ads": {
     slug: "meta-ads",
+    h1: "Meta Ads in Pakistan — Facebook & Instagram That Convert",
     problems: [
       {
         title: "Boosted posts, not campaigns",
@@ -193,6 +197,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   "web-development": {
     slug: "web-development",
+    h1: "Web Development in Pakistan — Websites Built to Convert",
     problems: [
       {
         title: "A website that doesn't sell",
@@ -246,6 +251,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   "app-development": {
     slug: "app-development",
+    h1: "App Development in Pakistan — iOS & Android Apps That Work.",
     problems: [
       {
         title: "An idea stuck in documents",
@@ -299,6 +305,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   "custom-software": {
     slug: "custom-software",
+    h1: "Custom Software in Pakistan — Systems Built for Business.",
     problems: [
       {
         title: "Processes held together by spreadsheets",
@@ -352,6 +359,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   wordpress: {
     slug: "wordpress",
+    h1: "WordPress Development in Pakistan — Fast, Secure Websites.",
     problems: [
       {
         title: "A WordPress site held together by plugins",
@@ -405,6 +413,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   shopify: {
     slug: "shopify",
+    h1: "Shopify Development in Pakistan — Stores Built to Convert.",
     problems: [
       {
         title: "A store that doesn't convert",
@@ -458,6 +467,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   "performance-marketing": {
     slug: "performance-marketing",
+    h1: "Performance Marketing in Pakistan — Campaigns With ROI.",
     problems: [
       {
         title: "Marketing spend nobody can defend",
@@ -511,6 +521,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   },
   "ai-automation": {
     slug: "ai-automation",
+    h1: "AI Automation in Pakistan — Workflows That Save You Hours",
     problems: [
       {
         title: "Hours lost to copy-paste work",
