@@ -137,7 +137,6 @@ export function buildProfessionalServiceJsonLd(): Record<string, unknown> {
     description: TAGLINE,
     email: BRAND_EMAIL,
     telephone: BRAND_WHATSAPP,
-    priceRange: "$$",
     areaServed: "Worldwide",
     sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM],
   };
