@@ -36,6 +36,8 @@ export interface ServiceDetail {
   faqHeading?: string;
   serviceArea?: { heading: string; text: string };
   heroLinks?: { prefix: string; anchor: string; href: string; suffix: string }[];
+  introLinks?: { prefix: string; anchor: string; href: string; suffix: string }[];
+  deliverablesLead?: string;
 }
 
 export const serviceDetails: Record<string, ServiceDetail> = {
@@ -451,9 +453,19 @@ serviceArea: {
           "Store submission, launch checklist, and a post-launch plan for the improvements real usage will reveal.",
       },
     ],
-    metaTitle: "App Development Pakistan — iOS & Android Apps | Abdul Rehman",
+    metaTitle: "App Development Company Pakistan | iOS & Android Apps",
     metaDescription:
-      "Mobile app development in Pakistan: focused MVPs for iOS and Android, designed around real users and shipped to the stores.",
+      "Mobile app development in Pakistan: focused MVPs for iOS and Android, designed around real users and shipped to stores — lean, fast, zero bloat.",
+  faqHeading: "App Development FAQ",
+  snippet:
+    "App development in Pakistan means designing and building mobile apps for iOS and Android — usually from one cross-platform codebase — then shipping them to the App Store and Google Play with the backend, analytics and store listings they need to work. A focused MVP ships first; real usage decides what gets built next.",
+  introLinks: [
+    { prefix: "App development in Pakistan works best cross-platform: one codebase for iOS and Android, one backend, and one team — ", anchor: "Abdul Rehman", href: "/about", suffix: ". I build focused MVPs for founders who want a real product in users' hands, not a demo. The app ships with its its", },
+    { prefix: "", anchor: "backend and APIs", href: "/services/custom-software", suffix: "included, and the", },
+    { prefix: "", anchor: "website", href: "/services/web-development", suffix: "to support it when you need one.", },
+    { prefix: "", anchor: "Discuss your app idea", href: "/contact", suffix: ".", },
+  ],
+  deliverablesLead: "Everything an app development company in Pakistan should deliver — from scoping to store submission.",
   },
   "custom-software": {
     slug: "custom-software",
