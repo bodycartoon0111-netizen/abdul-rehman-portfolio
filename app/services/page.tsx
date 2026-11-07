@@ -128,6 +128,9 @@ export default function ServicesPage() {
             honestly. As a consultant, I deliver all ten services below
             myself, so strategy and execution never get lost between people.
           </p>
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+            An agency hands your account down a chain of juniors. With a consultant, the person you hire is the person doing the work — one named person, direct access, no hand-offs.
+          </p>
         </header>
 
         <section aria-labelledby="services-grid-heading" className="mt-12">
