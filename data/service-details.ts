@@ -261,9 +261,44 @@ serviceArea: {
           "Winning combinations scaled gradually while fresh creative keeps fatigue from eroding returns.",
       },
     ],
-    metaTitle: "Meta Ads Expert Pakistan — Facebook & Instagram Ads | Abdul Rehman",
+    metaTitle: "Meta Ads Services Pakistan | Facebook & Instagram Ads",
     metaDescription:
-      "Facebook and Instagram advertising by a Meta ads expert in Pakistan: creative testing, full-funnel structure, and retargeting that converts.",
+      "Meta Ads services in Pakistan: Facebook and Instagram campaigns with creative testing, full-funnel structure and retargeting — run by one consultant in Lahore.",
+    problemsHeading: "Meta Ads Problems We Solve in Pakistan",
+    solutionHeading: "Meta Ads Services in Pakistan — The Solution",
+    faqHeading: "Frequently Asked Questions About Meta Ads in Pakistan",
+    snippet:
+      "Meta Ads services in Pakistan cover Facebook and Instagram advertising: creative testing, audience strategy, Conversions API tracking, and full-funnel campaigns that turn attention into enquiries, calls and sales. The work is managed by one consultant, and every ad lives or dies by its numbers.",
+    serviceArea: {
+      heading: "Meta Ads Services Across Pakistan",
+      text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+    },
+    heroLinks: [
+      {
+        prefix: "Work with an ",
+        anchor: "SEO consultant in Lahore",
+        href: "/",
+        suffix: " who also runs your ads.",
+      },
+      {
+        prefix: "See all ten ",
+        anchor: "digital marketing services",
+        href: "/services",
+        suffix: ".",
+      },
+      {
+        prefix: "Pair it with ",
+        anchor: "Google Ads management in Pakistan",
+        href: "/services/google-ads",
+        suffix: " for intent-led coverage.",
+      },
+      {
+        prefix: "",
+        anchor: "Read the blog",
+        href: "/blog",
+        suffix: ".",
+      },
+    ],
   },
   "web-development": {
     slug: "web-development",
