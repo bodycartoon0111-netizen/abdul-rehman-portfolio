@@ -705,9 +705,17 @@ serviceArea: {
           "Continuous reallocation and testing against the targets — marketing as a managed investment.",
       },
     ],
-    metaTitle: "Performance Marketing Pakistan — ROI-Focused Campaigns | Abdul Rehman",
+    metaTitle: "Performance Marketing Agency Pakistan | Google & Meta Ads",
     metaDescription:
-      "Performance marketing in Pakistan: multi-channel campaigns held accountable to revenue, with unified tracking and honest reporting.",
+      "Performance marketing in Pakistan: multi-channel campaigns held accountable to revenue, with unified tracking and honest reporting — no vanity metrics.",
+  faqHeading: "Performance Marketing FAQ",
+  snippet: "Performance marketing in Pakistan means running paid campaigns across Google, Meta and beyond with every rupee held accountable to revenue — unified tracking, targets set from real margins, and budgets moved continuously toward what acquires customers cheapest. No vanity metrics: spend, revenue and cost per acquisition, reported plainly.",
+  introLinks: [
+    { prefix: "Performance marketing in Pakistan only works when every rupee is accountable to revenue. I run ", anchor: "Google Ads", href: "/services/google-ads", suffix: " and", },
+    { prefix: "", anchor: "Meta Ads", href: "/services/meta-ads", suffix: " as one system — unified tracking, targets set from your real margins, and budgets moved to whatever acquires customers cheapest. One accountable owner, not three dashboards.", },
+    { prefix: "", anchor: "Discuss your ad spend", href: "/contact", suffix: ".", },
+  ],
+  deliverablesLead: "Everything performance marketing in Pakistan should include — strategy, tracking, campaigns, creative, and honest reporting.",
   },
   "ai-automation": {
     slug: "ai-automation",
