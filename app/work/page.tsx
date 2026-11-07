@@ -124,7 +124,7 @@ export default function WorkPage() {
       <div className="mt-20">
         <CtaBand
           title="Want results like these for your business?"
-          description="You don't need a bigger budget. You need someone who treats visibility, speed, and conversion as one system."
+          description="Every project starts with a conversation about your goals. Tell me what you're building — I'll tell you honestly how I'd approach it."
         />
       </div>
     </main>
