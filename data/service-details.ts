@@ -30,6 +30,12 @@ export interface ServiceDetail {
   process: ServiceProcessStep[];
   metaTitle: string;
   metaDescription: string;
+  snippet?: string;
+  problemsHeading?: string;
+  solutionHeading?: string;
+  faqHeading?: string;
+  serviceArea?: { heading: string; text: string };
+  heroLinks?: { prefix: string; anchor: string; href: string; suffix: string }[];
 }
 
 export const serviceDetails: Record<string, ServiceDetail> = {
@@ -83,9 +89,38 @@ export const serviceDetails: Record<string, ServiceDetail> = {
           "Authority building and continuous refinement, with monthly reporting tied to rankings, traffic, and leads.",
       },
     ],
-    metaTitle: "SEO Expert Pakistan — Search Engine Optimization Services | Abdul Rehman",
+    metaTitle: "SEO Services in Lahore | SEO Expert Pakistan — Free Audit",
     metaDescription:
-      "Work with an SEO expert in Pakistan: technical audits, on-page optimization, and content strategy that compound into rankings, traffic, and enquiries.",
+      "SEO services in Lahore from one consultant: technical audits, on-page SEO, local SEO and content that compound into rankings, traffic and enquiries.",
+problemsHeading: "SEO Problems We Solve in Lahore",
+    solutionHeading: "SEO Services in Lahore — The Solution",
+    faqHeading: "Frequently Asked Questions About SEO in Lahore",
+    snippet:
+        "SEO services in Lahore cover technical audits, on-page optimization, local SEO and content — the work that gets a business found on Google by customers in Lahore who are ready to buy. As a consultant, I do the work myself, and every change is tracked against rankings, traffic and enquiries.",
+serviceArea: {
+  heading: "SEO Services Across Pakistan",
+  text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",,
+},
+    heroLinks: [
+      {
+          prefix: "Work with an ",
+        anchor: "SEO consultant in Lahore",
+        href: "/",
+        suffix: ", not an agency.",
+      },
+      {
+          prefix: "See all ten ",
+        anchor: "digital marketing services",
+        href: "/services",
+        suffix: ".",
+      },
+      {
+          prefix: "",
+        anchor: "Read the blog",
+        href: "/blog",
+        suffix: ".",
+      },
+  ],
   },
   "google-ads": {
     slug: "google-ads",
