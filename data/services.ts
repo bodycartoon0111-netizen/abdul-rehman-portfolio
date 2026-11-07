@@ -399,7 +399,7 @@ export const services: Service[] = [
     tagline: "AI workflows that remove busywork and follow up like clockwork.",
     description: "Practical AI workflows for lead follow-up, CRM updates and reporting, with human-in-the-loop safeguards.",
     problem:
-      "Leads go cold because follow-up is manual. Teams drown in copy-paste between tools that don't talk to each other. The work is repetitive; the cost of not doing it is real revenue.",
+      "AI automation services in Pakistan that start from costed workflows, not from tools. Lead follow-up, CRM updates and reporting — automated where they pay, with a human approving anything customer-facing. Practical AI for small teams, built in Lahore.",
     solution:
       "Practical AI automation, not demos: instant lead responses, CRM updates, content pipelines, and reporting — wired into the tools you already use, with human-in-the-loop safeguards where judgment matters.",
     deliverables: [
