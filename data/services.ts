@@ -186,7 +186,7 @@ export const services: Service[] = [
     problem:
       "Great product ideas stall because agencies quote enterprise prices, or deliver codebases nobody can maintain after launch.",
     solution:
-      "Cross-platform builds from a single codebase: native feel, one team, faster iterations — plus a backend designed to scale past your first ten thousand users, not just your first hundred.",
+      "App development in Pakistan works best cross-platform: one codebase for iOS and Android, one backend, and one team — Abdul Rehman. Cross-platform builds from a single codebase: native feel, one team, faster iterations — plus a backend designed to scale past your first ten thousand users, not just your first hundred.",
     deliverables: [
       "Product scoping and user flows",
       "UI/UX design",
