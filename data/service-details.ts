@@ -579,9 +579,18 @@ serviceArea: {
           "Security checklist, backup routine, and training so your team publishes confidently.",
       },
     ],
-    metaTitle: "WordPress Development Pakistan — Secure, Fast WP Sites | Abdul Rehman",
+    metaTitle: "WordPress Development Services Pakistan | Fast, Secure Sites",
     metaDescription:
-      "WordPress development in Pakistan: lean, secure, fast WordPress websites your team can actually manage.",
+      "WordPress development in Pakistan: lean, secure, super-fast WordPress websites your team can easily manage — no bloated themes, no plugin chaos.",
+    faqHeading: "WordPress FAQ",
+    snippet: "WordPress development in Pakistan means building lean, secure WordPress websites with a custom theme, only the plugins the site genuinely needs, and hardened security — so the team can publish without fear and the site stays fast. WordPress's flexibility without its reputation for bloat.",
+    introLinks: [
+      { prefix: "WordPress development in Pakistan should be boring — in the best way. A lean custom theme, only the plugins your site genuinely needs, and hardened security, built by one consultant in Lahore: ", anchor: "Abdul Rehman", href: "/about", suffix: ". Your team publishes without fear, your site stays fast, and the", },
+      { prefix: "", anchor: "SEO fundamentals", href: "/services/seo", suffix: " are baked in from the start. Selling online instead? See", },
+      { prefix: "", anchor: "Shopify development", href: "/services/shopify", suffix: ".", },
+      { prefix: "", anchor: "Discuss your WordPress site", href: "/contact", suffix: ".", },
+    ],
+    deliverablesLead: "Everything WordPress development services in Pakistan should include — custom theme, speed, security, and training.",
   },
   shopify: {
     slug: "shopify",
