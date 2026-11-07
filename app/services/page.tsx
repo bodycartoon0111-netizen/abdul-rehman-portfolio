@@ -9,19 +9,19 @@ import CtaBand from "@/components/sections/CtaBand";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Services — SEO, Paid Ads, Web Dev & AI Automation | Abdul Rehman",
+    absolute: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
   },
   description:
-    "Explore 10 growth services: SEO, Google Ads, Meta Ads, web & app development, custom software, WordPress, Shopify, and AI automation.",
+    "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Ten services from one Lahore consultant.",
   alternates: { canonical: "/services" },
   openGraph: {
-    title: "Services — SEO, Paid Ads, Web Dev & AI Automation | Abdul Rehman",
+    title: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
     description:
-      "Explore 10 growth services: SEO, Google Ads, Meta Ads, web & app development, custom software, WordPress, Shopify, and AI automation.",
+      "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Ten services from one Lahore consultant.",
     url: "/services",
     type: "website",
   },
-};  
+};
 
 const combinations = [
   {
@@ -37,7 +37,7 @@ const combinations = [
   {
     title: "Custom software + AI automation",
     description:
-      "Internal tools that remove repetitive work — lead routing, reporting, and follow-ups handled while your team focuses on customers.",
+      "Internal tools that remove repetitive work — lead routing, reporting, and follow-ups handled while you focus on delivery.",
   },
   {
     title: "Shopify / WordPress + Performance marketing",
@@ -62,127 +62,207 @@ export default function ServicesPage() {
         description: s.tagline,
         provider: {
           "@type": "Person",
+          "@id": `${siteUrl}/#person`,
           name: "Abdul Rehman",
-          url: siteUrl(),
         },
-        areaServed: "Worldwide",
       },
     })),
   };
 
+  const breadcrumbLd = buildBreadcrumbJsonLd([
+    { name: "Home", url: "/" },
+    { name: "Services", url: "/services" },
+  ]);
+
   return (
-    <main className="mx-auto max-w-6xl px-6 py-12">
+    <>
       <JsonLd data={itemListLd} />
-      <JsonLd
-        data={buildBreadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Services", path: "/services" },
-        ])}
-      />
-      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services" }]} />
-
-      {/* Hero */}
-      <header className="mt-8 max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">
-          What I do
-        </p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
-          Services engineered for growth, not vanity metrics
-        </h1>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Ten services across search, paid media, development, and automation. Each one is
-          delivered as a complete engagement — strategy, execution, and measurement — so you
-          always know what the work is doing for your business.
-        </p>
-      </header>
-
-      {/* Explorer grid */}
-      <section aria-labelledby="services-grid-heading" className="mt-14">
-        <h2 id="services-grid-heading" className="sr-only">All services</h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((service) => (
-            <article
-              key={service.slug}
-              className="group relative flex flex-col overflow-hidden rounded-2xl border border-line bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-pine/40 hover:shadow-[0_20px_50px_-15px_rgba(30,58,46,0.25)]"
+      <JsonLd data={breadcrumbLd} />
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services" }]} />
+        <header className="mt-8">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+            Digital Marketing Services in Pakistan — SEO, Ads, Websites &amp; AI
+            Automation
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+            Services engineered for growth, not vanity metrics. Ten digital
+            marketing services in Pakistan — SEO, Google Ads, Meta Ads, web
+            development and AI automation — delivered by one consultant in
+            Lahore. I am{" "}
+            <Link
+              href="/about"
+              className="text-primary underline underline-offset-4 hover:text-primary/80"
             >
-              {/* Animated gradient accent bar */}
-              <span
-                aria-hidden="true"
-                className="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-pine via-gold to-mint transition-transform duration-500 ease-out group-hover:scale-x-100"
-              />
-              {/* Soft color wash on hover */}
-              <span
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-0 bg-gradient-to-br from-mint/0 via-mint/0 to-gold-pale/0 transition-all duration-500 group-hover:from-mint/20 group-hover:via-transparent group-hover:to-gold-pale/40"
-              />
-              <h3 className="relative text-xl font-bold text-ink transition-colors duration-300 group-hover:text-pine">
-                <Link href={`/services/${service.slug}`} className="transition group-hover:underline group-hover:decoration-gold group-hover:underline-offset-4">
-                  {service.name}
-                </Link>
-              </h3>
-              <p className="relative mt-3 flex-1 text-sm leading-relaxed text-muted">
-                {service.tagline}
-              </p>
-              <Link
-                href={`/services/${service.slug}`}
-                className="relative mt-5 inline-flex items-center gap-1 text-sm font-semibold text-ink transition-colors duration-300 group-hover:text-pine"
-                aria-label={`Learn more about ${service.name}`}
+              Abdul Rehman
+            </Link>
+            , an{" "}
+            <Link
+              href="/"
+              className="text-primary underline underline-offset-4 hover:text-primary/80"
+            >
+              SEO consultant in Lahore
+            </Link>
+            , and every service below is strategy, execution and measurement
+            from the same person — no hand-offs, no account managers. Explore
+            the{" "}
+            <Link
+              href="/services/seo"
+              className="text-primary underline underline-offset-4 hover:text-primary/80"
+            >
+              SEO services in Lahore
+            </Link>{" "}
+            first, or{" "}
+            <Link
+              href="/contact"
+              className="text-primary underline underline-offset-4 hover:text-primary/80"
+            >
+              book a free consultation
+            </Link>
+            .
+          </p>
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+            Digital marketing services in Pakistan cover SEO, paid ads, social
+            media, web development and automation — the work that gets a
+            business found on Google, chosen by customers, and measured
+            honestly. As a consultant, I deliver all ten services below
+            myself, so strategy and execution never get lost between people.
+          </p>
+        </header>
+
+        <section aria-labelledby="services-grid-heading" className="mt-12">
+          <h2
+            id="services-grid-heading"
+            className="text-2xl font-semibold tracking-tight sm:text-3xl"
+          >
+            Digital Marketing Services in Pakistan
+          </h2>
+          <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {services.map((service) => (
+              <li
+                key={service.slug}
+                className="rounded-lg border border-border bg-card p-6"
               >
-                Explore service{" "}
-                <span
-                  aria-hidden="true"
-                  className="inline-block transition-all duration-300 group-hover:translate-x-1.5 group-hover:text-gold"
-                >
-                  →
-                </span>
-              </Link>
-            </article>
-          ))}
-        </div>
-      </section>
+                <h3 className="text-xl font-semibold">
+                  <Link
+                    href={`/services/${service.slug}`}
+                    className="text-primary underline underline-offset-4 hover:text-primary/80"
+                  >
+                    {service.name}
+                  </Link>
+                </h3>
+                <p className="mt-2 leading-relaxed text-muted-foreground">
+                  {service.description}
+                </p>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-8 text-muted-foreground">
+            See what this looks like in practice —{" "}
+            <Link
+              href="/work"
+              className="text-primary underline underline-offset-4 hover:text-primary/80"
+            >
+              selected work
+            </Link>
+            .
+          </p>
+          <p className="mt-2 text-muted-foreground">
+            <Link
+              href="/blog"
+              className="text-primary underline underline-offset-4 hover:text-primary/80"
+            >
+              Read the blog
+            </Link>
+            .
+          </p>
+        </section>
 
-      {/* How engagements combine */}
-      <section aria-labelledby="combine-heading" className="mt-20">
-        <h2 id="combine-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          How engagements combine
-        </h2>
-        <p className="mt-3 max-w-2xl text-neutral-700">
-          Most clients need more than one discipline. These are the combinations that come up
-          most often — each planned as one coherent engagement, not separate silos.
-        </p>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2">
-          {combinations.map((c) => (
-            <div key={c.title} className="rounded-2xl bg-neutral-50 p-7">
-              <h3 className="text-lg font-bold text-neutral-900">{c.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-700">{c.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+        <section aria-labelledby="combinations-heading" className="mt-16 sm:mt-24">
+          <h2
+            id="combinations-heading"
+            className="text-2xl font-semibold tracking-tight sm:text-3xl"
+          >
+            How engagements combine
+          </h2>
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+            Most clients need more than one of these digital marketing
+            services — here is how they combine into one engagement.
+          </p>
+          <ul className="mt-8 grid gap-6 sm:grid-cols-2">
+            {combinations.map((combination) => (
+              <li
+                key={combination.title}
+                className="rounded-lg border border-border bg-card p-6"
+              >
+                <h3 className="text-xl font-semibold">{combination.title}</h3>
+                <p className="mt-2 leading-relaxed text-muted-foreground">
+                  {combination.description}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
 
-      {/* FAQ */}
-      <section aria-labelledby="services-faq-heading" className="mt-20 max-w-3xl">
-        <h2 id="services-faq-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          Services FAQ
-        </h2>
-        <div className="mt-8 divide-y divide-neutral-200">
-          {faqs.map((faq) => (
-            <details key={faq.q} className="group py-5">
-              <summary className="cursor-pointer list-none text-lg font-semibold text-neutral-900 marker:hidden [&::-webkit-details-marker]:hidden">
-                <span className="flex items-center justify-between gap-4">
-                  {faq.q}
-                  <span aria-hidden="true" className="text-neutral-500 transition group-open:rotate-45">+</span>
-                </span>
-              </summary>
-              <p className="mt-3 leading-relaxed text-neutral-700">{faq.a}</p>
-            </details>
-          ))}
-        </div>
-      </section>
+        <section aria-labelledby="service-area-heading" className="mt-16 sm:mt-24">
+          <h2
+            id="service-area-heading"
+            className="text-2xl font-semibold tracking-tight sm:text-3xl"
+          >
+            Digital Marketing Services Across Pakistan
+          </h2>
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+            In Lahore: DHA, Gulberg, Johar Town, Model Town, Bahria Town,
+            Wapda Town, Cantt and Faisal Town — in-person meetings available.
+            Across Pakistan: Karachi, Islamabad, Rawalpindi, Faisalabad,
+            Multan — remote delivery.
+          </p>
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
+            Consultation available in English and Roman Urdu.
+          </p>
+        </section>
 
-      <div className="mt-20">
-        <CtaBand />
+        <section aria-labelledby="services-faq-heading" className="mt-16 sm:mt-24">
+          <h2
+            id="services-faq-heading"
+            className="text-2xl font-semibold tracking-tight sm:text-3xl"
+          >
+            Digital Marketing Services FAQ
+          </h2>
+          <dl className="mt-8 space-y-6">
+            {faqs.map((faq) => (
+              <div key={faq.question}>
+                <dt className="text-lg font-semibold">{faq.question}</dt>
+                <dd className="mt-2 leading-relaxed text-muted-foreground">
+                  {faq.answer}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
+        <section className="mt-16 sm:mt-24">
+          <p className="text-lg text-muted-foreground">
+            Not sure where to start? Get a free SEO audit — I&apos;ll check where
+            you rank today and list the first 3 fixes.
+          </p>
+          <Link
+            href="/contact"
+            className="mt-4 inline-block text-primary underline underline-offset-4 hover:text-primary/80"
+          >
+            Get My Free Audit
+          </Link>
+        </section>
+
+        <CtaBand
+          heading="Not sure which service fits?"
+          body="Tell me where your business stands and what you want it to do next — I'll point you to the right mix of services."
+          primaryHref="/contact"
+          primaryLabel="Book a free consultation"
+          secondaryHref="/services/seo"
+          secondaryLabel="Start with SEO"
+        />
       </div>
-    </main>
+    </>
   );
 }
