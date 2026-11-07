@@ -172,9 +172,44 @@ serviceArea: {
           "Winners get budget, losers get cut, and testing continues — optimization as a routine, not an event.",
       },
     ],
-    metaTitle: "Google Ads Expert Pakistan — PPC Management Services | Abdul Rehman",
+    metaTitle: "Google Ads Management Pakistan | PPC Expert Lahore",
     metaDescription:
-      "Google Ads management by an expert in Pakistan: intent-based campaigns, conversion-focused landing pages, and tracking you can trust.",
+      "Google Ads management in Pakistan by a Lahore consultant: intent-based Search and Performance Max campaigns, verified tracking, and budgets managed for profit.",
+    problemsHeading: "Google Ads Problems We Solve in Pakistan",
+    solutionHeading: "Google Ads Management in Pakistan — The Solution",
+    faqHeading: "Frequently Asked Questions About Google Ads in Pakistan",
+    snippet:
+      "Google Ads management in Pakistan means building Search and Performance Max campaigns around buyer intent, verifying conversion tracking before spending at scale, and managing bids and budgets against real cost-per-acquisition numbers. The account stays in your name, and every change has a written reason.",
+    serviceArea: {
+      heading: "Google Ads Management Across Pakistan",
+      text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+    },
+    heroLinks: [
+      {
+        prefix: "Work with an ",
+        anchor: "SEO consultant in Lahore",
+        href: "/",
+        suffix: " who also runs your ads.",
+      },
+      {
+        prefix: "See all ten ",
+        anchor: "digital marketing services",
+        href: "/services",
+        suffix: ".",
+      },
+      {
+        prefix: "Pair it with ",
+        anchor: "Meta Ads services in Pakistan",
+        href: "/services/meta-ads",
+        suffix: " for full-funnel coverage.",
+      },
+      {
+        prefix: "",
+        anchor: "Read the blog",
+        href: "/blog",
+        suffix: ".",
+      },
+    ],
   },
   "meta-ads": {
     slug: "meta-ads",
