@@ -129,7 +129,7 @@ export default function HomePage() {
       <ProofSection />
 
       {/* ── Why hire a consultant ─────────────────────────────────── */}
-      <section className="bg-surface py-20 md:py-24">
+      <section className="bg-surface py-16 md:py-20">
         <Container>
           <SectionHeading
             eyebrow="Why hire a consultant"
