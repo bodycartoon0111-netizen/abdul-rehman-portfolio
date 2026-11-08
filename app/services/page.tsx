@@ -234,10 +234,10 @@ export default function ServicesPage() {
           </h2>
           <dl className="mt-8 space-y-6">
             {faqs.map((faq) => (
-              <div key={faq.question}>
-                <dt className="text-lg font-semibold">{faq.question}</dt>
+              <div key={faq.q}>
+                <dt className="text-lg font-semibold">{faq.q}</dt>
                 <dd className="mt-2 leading-relaxed text-muted-foreground">
-                  {faq.answer}
+                  {faq.a}
                 </dd>
               </div>
             ))}
