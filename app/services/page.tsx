@@ -70,8 +70,8 @@ export default function ServicesPage() {
   };
 
   const breadcrumbLd = buildBreadcrumbJsonLd([
-    { name: "Home", url: "/" },
-    { name: "Services", url: "/services" },
+    { name: "Home", path: "/"},
+    { name: "Services", path: "/services"},
   ]);
 
   return (
@@ -257,14 +257,10 @@ export default function ServicesPage() {
           </Link>
         </section>
 
-        <CtaBand
-          heading="Not sure which service fits?"
-          body="Tell me where your business stands and what you want it to do next — I'll point you to the right mix of services."
-          primaryHref="/contact"
-          primaryLabel="Book a free consultation"
-          secondaryHref="/services/seo"
-          secondaryLabel="Start with SEO"
-        />
+<CtaBand
+    title="Not sure which service fits?"
+    description="Tell me where your business stands and what you want it to do next — I'll point you to the right mix of services."
+    />
       </div>
     </>
   );
