@@ -34,3 +34,23 @@ export interface Project {
   /** Original brand logo, served from /images/projects/. */
   logo: string;
 }
+
+export interface Faq {
+  q: string;
+  a: string;
+}
+
+export interface Industry {
+  slug: string;
+  name: string;
+  problem: string;
+  recommendedServices: string[];
+  solution: string;
+  relatedProject: string;
+}
+
+export interface NavItem {
+  label: string;
+  href: string;
+  children?: NavItem[];
+}
