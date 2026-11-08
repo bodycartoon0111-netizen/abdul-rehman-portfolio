@@ -136,7 +136,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
             <div key={p.title} className="rounded-2xl border border-neutral-200 bg-white p-6">
               <h3 className="text-lg font-bold text-neutral-900">{p.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-neutral-700">{p.description}</p>
-            </div></div>
+            </div>
           ))}
         </div>
       </section>
