@@ -77,7 +77,7 @@ export default function ServicesExplorer() {
                         : "border-line bg-paper text-ink hover:border-pine/50"
                     }`}
                   >
-                    <span className="min-w-0"><span className="block text-sm font-extrabold">{s.name}</span><span className="mt-0.5 block text-xs leading-snug line-clamp-2 opacity-75">{s.description}</span></span>
+                    <span className="min-w-0"><span className="block text-sm font-extrabold">{s.name}</span><span className="mt-0.5 text-xs leading-snug line-clamp-2 opacity-75">{s.description}</span></span>
                     <span aria-hidden="true" className={isActive ? "text-mint" : "text-muted"}>
                       →
                     </span>
