@@ -18,7 +18,7 @@ export default function IndustryExplorer() {
   const relatedProject = active.relatedProject ? projectsBySlug[active.relatedProject] : undefined;
 
   return (
-    <section className="bg-surface py-24 md:py-32">
+    <section className="bg-surface py-16 md:py-20">
       <Container>
         <SectionHeading
           eyebrow="Industries"
