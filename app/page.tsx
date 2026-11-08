@@ -87,8 +87,23 @@ export default function HomePage() {
               </dl>
             </Reveal>
           </div>
-          <Reveal delay={0.08}>
-            <HeroVisual />
+          <Reveal delay={0.15} className="relative">
+            <div className="relative">
+              <HeroVisual className="h-[400px] md:h-[500px]" />
+              <figure className="absolute -bottom-2 left-4 z-30 md:left-8">
+                <Image
+                  src="/images/abdul-rehman.webp"
+                  alt="Portrait of Abdul Rehman"
+                  width={384}
+                  height={384}
+                  priority
+                  className="h-64 w-64 rounded-2xl object-cover drop-shadow-2xl md:h-96 md:w-96"
+                />
+                <figcaption className="mt-2 text-xs font-bold uppercase tracking-[0.18em] text-muted">
+                  Abdul Rehman — Growth Partner
+                </figcaption>
+              </figure>
+            </div>
           </Reveal>
         </Container>
       </section>
