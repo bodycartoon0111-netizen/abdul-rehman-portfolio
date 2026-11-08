@@ -6,6 +6,7 @@ import { SignalCursor } from "@/components/cursor/SignalCursor";
 import { Header } from "@/components/navigation/Header";
 import { Footer } from "@/components/navigation/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
+import GoogleAnalytics from "@/components/seo/GoogleAnalytics";
 import {
   buildPersonJsonLd,
   buildWebsiteJsonLd,
@@ -36,6 +37,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={manrope.variable}>
       <body className={cn("bg-paper font-sans text-ink", "min-h-screen")}>
+        {process.env.NEXT_PUBLIC_GA_ID ? (
+          <GoogleAnalytics id={process.env.NEXT_PUBLIC_GA_ID} />
+        ) : null}
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-pill focus:bg-pine focus:px-5 focus:py-3 focus:text-sm focus:font-bold focus:text-white"
