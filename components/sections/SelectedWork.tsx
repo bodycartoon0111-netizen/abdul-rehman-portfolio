@@ -103,7 +103,7 @@ function ProjectCard({ slug }: { slug: string }) {
 /** Selected work grid: 6 project cards with tilt, zoom, custom cursor hook. */
 export default function SelectedWork() {
   return (
-    <section className="bg-paper py-24 md:py-32">
+    <section className="bg-paper py-16 md:py-20">
       <Container>
         <SectionHeading
           eyebrow="Selected work"
