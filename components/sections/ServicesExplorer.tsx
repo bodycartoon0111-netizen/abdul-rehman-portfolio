@@ -23,7 +23,7 @@ export default function ServicesExplorer() {
 ];
 
   return (
-    <section className="bg-surface py-24 md:py-32">
+    <section className="bg-surface py-16 md:py-20">
       <Container>
         <SectionHeading
           eyebrow="SEO & Digital Marketing Services in Pakistan"
