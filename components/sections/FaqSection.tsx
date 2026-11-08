@@ -14,6 +14,7 @@ export default function FaqSection() {
   const accordionItems = items.map((item) => {
     if (item.question !== "How long does SEO take to show results?") {
       return item;
+    }
       
     return {
       ...item,
