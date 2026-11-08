@@ -129,7 +129,7 @@ export default function HomePage() {
       <ProofSection />
 
       {/* ── Why hire a consultant ─────────────────────────────────── */}
-      <section className="bg-surface py-24 md:py-32">
+      <section className="bg-surface py-20 md:py-24">
         <Container>
           <SectionHeading
             eyebrow="Why hire a consultant"
@@ -164,7 +164,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Service areas ──────────────────────────────────────────── */}
-      <section className="bg-paper py-24 md:py-32">
+      <section className="bg-paper py-16 md:py-20">
         <Container>
           <SectionHeading
             eyebrow="Where I work"
@@ -177,7 +177,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      <section className="bg-surface py-24 md:py-32">
+      <section className="bg-surface py-16 md:py-20">
   <Container>
     <div className="mx-auto max-w-3xl text-center">
       <h2 className="h2 mt-4 text-balance">Free SEO Audit — See Where You Rank Today</h2>
