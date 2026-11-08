@@ -63,7 +63,7 @@ export default function ContactPage() {
         </div>
 
         <aside className="lg:col-span-2" aria-label="Direct contact channels">
-          <div className="rounded-2xl bg-neutral-50 p-8">
+          <div className="h-full rounded-2xl bg-neutral-50 p-8">
             <h2 className="text-xl font-bold text-neutral-900">Prefer direct?</h2>
             <ul className="mt-6 space-y-5">
               <li>
