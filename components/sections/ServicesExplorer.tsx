@@ -32,7 +32,7 @@ export default function ServicesExplorer() {
           align="center"
         />
 
-        <div className="mt-14 grid gap-8 lg:grid-cols-[320px_1fr]">
+        <div className="mt-14 grid  items-stretch gap-8 lg:grid-cols-[320px_1fr]">
           {/* Mobile: native dropdown (reliable on all devices) */}
           <div className="lg:hidden">
             <label htmlFor="service-select" className="sr-only">
@@ -71,13 +71,13 @@ export default function ServicesExplorer() {
                     aria-controls={`service-panel-${s.slug}`}
                     id={`service-tab-${s.slug}`}
                     onClick={() => setActiveSlug(s.slug)}
-                    className={`flex shrink-0 items-center justify-between gap-3 rounded-xl border px-5 py-3.5 text-left text-sm font-bold transition-all ${
+                    className={`flex shrink-0 items-center justify-between gap-3 rounded-xl border min-h-22 px-5 py-3.5 text-left text-sm font-bold transition-all ${
                       isActive
                         ? "border-pine bg-pine text-white shadow-lg"
                         : "border-line bg-paper text-ink hover:border-pine/50"
                     }`}
                   >
-                    <span className="min-w-0"><span className="block text-sm font-extrabold">{s.name}</span><span className="mt-0.5 block text-xs leading-snug opacity-75">{s.description}</span></span>
+                    <span className="min-w-0"><span className="block text-sm font-extrabold">{s.name}</span><span className="mt-0.5 block text-xs leading-snug line-clamp-2 opacity-75">{s.description}</span></span>
                     <span aria-hidden="true" className={isActive ? "text-mint" : "text-muted"}>
                       →
                     </span>
@@ -95,7 +95,7 @@ export default function ServicesExplorer() {
               role="tabpanel"
               aria-labelledby={`service-tab-${active.slug}`}
               aria-live="polite"
-              className="rounded-3xl border border-line bg-paper p-8 md:p-12"
+              className="flex h-full flex-col rounded-3xl border border-line bg-paper p-8 md:p-12"
             >
               <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">
                 {active.name}
@@ -179,7 +179,7 @@ export default function ServicesExplorer() {
               </p>
           )}
 
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-auto pt-8 flex flex-col gap-3 sm:flex-row">
                 <Link
                   href={`/contact?service=${active.slug}`}
                   className="rounded-full bg-pine px-7 py-3.5 text-center text-sm font-bold uppercase tracking-[0.14em] text-white transition-transform hover:scale-105"
