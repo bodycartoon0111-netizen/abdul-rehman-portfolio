@@ -24,11 +24,11 @@ import CtaBanner from "@/components/sections/CtaBanner";
 export const metadata: Metadata = {
   ...pageMetadata(
     "SEO, Performance Marketing & Web Development",
-    "SEO & digital marketing consultant in Lahore, Pakistan. Grow with SEO, Google & Meta Ads, websites and AI automation. Book a free consultation today.",
+    "Freelance SEO consultant helping businesses worldwide grow with SEO, Google & Meta Ads, websites and AI automation. Book a free consultation today.",
     "/",
   ),
   title: {
-    absolute: "SEO Consultant Lahore | Digital Marketing Services Pakistan",
+    absolute: "Freelance SEO Consultant | SEO & Digital Marketing Services",
   },
 };
 
@@ -55,7 +55,7 @@ export default function HomePage() {
                 SEO · Ads · Websites · AI Automation
               </p>
               <h1 className="mt-8 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight text-ink md:text-6xl">
-                Grow Your Business with an SEO &amp; Digital Marketing Consultant in Lahore
+                Grow Your Business with a Freelance SEO Consultant
               </h1>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">
                 Turning Search, Traffic &amp; Technology Into Growth. Learn more <Link href="/about">about Abdul Rehman</Link>, and browse the <Link href="/services">digital marketing services</Link> on offer.
