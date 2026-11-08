@@ -33,7 +33,7 @@ export default function ValueProps() {
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (
-    <section className="bg-paper py-24 md:py-32">
+    <section className="bg-paper py-16 md:py-20">
       <Container>
         <SectionHeading
           eyebrow="How I work"
