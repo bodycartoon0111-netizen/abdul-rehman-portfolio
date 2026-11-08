@@ -6,7 +6,7 @@ import { BRAND_WHATSAPP_LINK } from "@/lib/seo";
 /** Big closing CTA banner. Server component. */
 export default function CtaBanner() {
   return (
-    <section className="bg-paper py-24 md:py-32">
+    <section className="bg-paper py-16 md:py-20">
       <Container>
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl bg-pine-deep px-8 py-16 text-center md:px-16 md:py-24">
