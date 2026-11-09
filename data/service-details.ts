@@ -24,6 +24,7 @@ export interface ServiceProcessStep {
 export interface ServiceDetail {
   slug: string;
   h1: string;
+    h1Highlight: string;
   problems: ServiceProblem[];
   strategy: string;
   strategyPoints: string[];
@@ -44,6 +45,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
   seo: {
     slug: "seo",
     h1: "SEO Services in Lahore — Rank Higher, Convert Better",
+      h1Highlight: "SEO Services in Lahore",
     problems: [
       {
         title: "Invisible on the searches that matter",
@@ -127,6 +129,7 @@ serviceArea: {
   "google-ads": {
     slug: "google-ads",
     h1: "Google Ads Management in Pakistan — Clicks That Convert",
+      h1Highlight: "Google Ads Management in Pakistan",
     problems: [
       {
         title: "Ad spend with nothing to show",
@@ -216,6 +219,7 @@ serviceArea: {
   "meta-ads": {
     slug: "meta-ads",
     h1: "Meta Ads in Pakistan — Facebook & Instagram That Convert",
+      h1Highlight: "Meta Ads in Pakistan",
     problems: [
       {
         title: "Boosted posts, not campaigns",
@@ -305,6 +309,7 @@ serviceArea: {
   "web-development": {
     slug: "web-development",
     h1: "Web Development in Pakistan — Websites Built to Convert",
+      h1Highlight: "Web Development in Pakistan",
     problems: [
       {
         title: "A website that doesn't sell",
@@ -406,6 +411,7 @@ serviceArea: {
   "app-development": {
     slug: "app-development",
     h1: "App Development in Pakistan — iOS & Android Apps That Work.",
+      h1Highlight: "App Development in Pakistan",
     problems: [
       {
         title: "An idea stuck in documents",
@@ -470,6 +476,7 @@ serviceArea: {
   "custom-software": {
     slug: "custom-software",
     h1: "Custom Software in Pakistan — Systems Built for Business.",
+      h1Highlight: "Custom Software in Pakistan",
     problems: [
       {
         title: "Processes held together by spreadsheets",
@@ -532,6 +539,7 @@ serviceArea: {
   wordpress: {
     slug: "wordpress",
     h1: "WordPress Development in Pakistan — Fast, Secure Websites.",
+      h1Highlight: "WordPress Development in Pakistan",
     problems: [
       {
         title: "A WordPress site held together by plugins",
@@ -595,6 +603,7 @@ serviceArea: {
   shopify: {
     slug: "shopify",
     h1: "Shopify Development in Pakistan — Stores Built to Convert.",
+      h1Highlight: "Shopify Development in Pakistan",
     problems: [
       {
         title: "A store that doesn't convert",
@@ -658,6 +667,7 @@ serviceArea: {
   "performance-marketing": {
     slug: "performance-marketing",
     h1: "Performance Marketing in Pakistan — Campaigns With ROI.",
+      h1Highlight: "Performance Marketing in Pakistan",
     problems: [
       {
         title: "Marketing spend nobody can defend",
@@ -720,6 +730,7 @@ serviceArea: {
   "ai-automation": {
     slug: "ai-automation",
     h1: "AI Automation in Pakistan — Workflows That Save You Hours",
+      h1Highlight: "AI Automation in Pakistan",
     problems: [
       {
         title: "Hours lost to copy-paste work",
