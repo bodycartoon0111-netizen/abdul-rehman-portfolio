@@ -249,3 +249,21 @@ export function buildLocalBusinessJsonLd(
     sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM],
   };
 }
+
+/** OfferCatalog of the site's services — name + description only, no prices. */
+export function buildOfferCatalogJsonLd(services: Service[]): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "OfferCatalog",
+    name: "Services",
+    itemListElement: services.map((service) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: service.name,
+        description: service.description,
+        url: buildCanonical(`/services/${service.slug}`),
+      },
+    })),
+  };
+}
