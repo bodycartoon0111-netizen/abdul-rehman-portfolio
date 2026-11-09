@@ -37,9 +37,9 @@ export const projectDetails: Record<string, ProjectDetail> = {
       "Quote-oriented conversion path instead of e-commerce checkout, matching how B2B packaging is actually bought.",
       "Restrained motion and generous whitespace so the products — not the decoration — carry the pages.",
     ],
-    metaTitle: "Ecofold Packaging — Case Study | Abdul Rehman",
+    metaTitle: "Ecofold Packaging Website Case Study | Abdul Rehman",
     metaDescription:
-      "Case study: website strategy and build for Ecofold Packaging — product-led structure, technical SEO, and a quote-focused buyer journey.",
+      "Case study: website strategy and build for Ecofold Packaging — product-led structure, technical SEO, and a quote-focused buyer journey. See how it works.",
   },
   zproperty: {
     slug: "zproperty",
@@ -55,9 +55,9 @@ export const projectDetails: Record<string, ProjectDetail> = {
       "Urdu-audience-aware UX patterns: simple language, obvious navigation, minimal jargon.",
       "Contact paths kept short — one tap to call or WhatsApp, because that's how this market converts.",
     ],
-    metaTitle: "ZProperty — Case Study | Abdul Rehman",
+    metaTitle: "ZProperty Real Estate Platform Case Study | Abdul Rehman",
     metaDescription:
-      "Case study: zproperty.pk — a Pakistan real-estate platform designed around how local buyers actually search, scan, and enquire.",
+      "Case study: zproperty.pk — a Pakistan real-estate platform designed around how local buyers actually search, scan, and enquire. Book a free SEO audit today.",
   },
   "calculadora-matematica": {
     slug: "calculadora-matematica",
@@ -73,9 +73,9 @@ export const projectDetails: Record<string, ProjectDetail> = {
       "Explanatory microcopy in plain Spanish alongside results, so the tool also teaches.",
       "Minimal visual noise — a tool earns repeat visits through speed and reliability, not decoration.",
     ],
-    metaTitle: "Calculadora Matemática — Case Study | Abdul Rehman",
+    metaTitle: "Calculadora Matemática Calculator Case Study | Abdul Rehman",
     metaDescription:
-      "Case study: calculadoramatematica.com — a Spanish-language web calculator built for instant answers and search-driven discovery.",
+      "Case study: calculadoramatematica.com — a Spanish-language web calculator built for instant answers and search-driven discovery. Book a free SEO audit today.",
   },
   avexent: {
     slug: "avexent",
@@ -91,9 +91,9 @@ export const projectDetails: Record<string, ProjectDetail> = {
       "Restrained, professional aesthetic appropriate for B2B trust — credibility over flash.",
       "Contact friction minimized: short forms, visible alternatives, no obligatory phone fields.",
     ],
-    metaTitle: "Avexent — Case Study | Abdul Rehman",
+    metaTitle: "Avexent Positioning-Led Website Case Study | Abdul Rehman",
     metaDescription:
-      "Case study: avexent.com — positioning-led website build with service-focused structure and conversion paths for two buyer types.",
+      "Case study: avexent.com — positioning-led website build with service-focused structure and conversion paths for two buyer types. Book a free SEO audit.",
   },
   "digital-clause": {
     slug: "digital-clause",
@@ -109,9 +109,9 @@ export const projectDetails: Record<string, ProjectDetail> = {
       "Attorney-grade restraint in claims: descriptive, never promotional, throughout the copy.",
       "Clear process section — explaining how engagements work removes the biggest barrier to first contact.",
     ],
-    metaTitle: "Digital Clause — Case Study | Abdul Rehman",
+    metaTitle: "Digital Clause Services Website Case Study | Abdul Rehman",
     metaDescription:
-      "Case study: digitalclause.net — a professional-services website built around trust, clear process, and research-heavy buyer behavior.",
+      "Case study: digitalclause.net — a professional-services website built around trust, clear process, and research-heavy buyer behavior. Book a free audit.",
   },
   thekedar: {
     slug: "thekedar",
@@ -127,9 +127,9 @@ export const projectDetails: Record<string, ProjectDetail> = {
       "Call and WhatsApp CTAs above the fold on mobile — matching the market's actual conversion behavior.",
       "Plain-language copy avoiding industry jargon the homeowner audience doesn't use.",
     ],
-    metaTitle: "Thekedar — Case Study | Abdul Rehman",
+    metaTitle: "Thekedar Contractor Website Case Study | Abdul Rehman",
     metaDescription:
-      "Case study: thekedar.com.pk — a Lahore contractor-services website structured around local search behavior and call-first conversions.",
+      "Case study: thekedar.com.pk — a Lahore contractor-services website structured around local search behavior and call-first conversions. Book a free audit.",
   },
 };
 
