@@ -32,7 +32,7 @@ function formatDate(iso: string): string {
 
 export default function BlogPage() {
   return (
-    <main className="mx-auto max-w-6xl px-6 py-12">
+    <main className="mx-auto max-w-6xl px-6 py-10">
       <JsonLd
         data={buildBreadcrumbJsonLd([
           { name: "Home", path: "/" },
@@ -44,7 +44,7 @@ export default function BlogPage() {
       <header className="mt-8 max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-widest text-muted">Blog</p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-ink sm:text-5xl">
-          Digital Marketing Blog Pakistan — Notes from the Work
+          <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Digital Marketing Blog Pakistan</span> — Notes from the Work
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-muted">
           Notes from the work — practical write-ups on SEO, marketing, and automation from
