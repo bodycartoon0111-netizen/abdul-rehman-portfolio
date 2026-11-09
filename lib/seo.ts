@@ -14,7 +14,7 @@ export const SOCIAL_INSTAGRAM =
 /* ── URL helpers ─────────────────────────────────────────────────── */
 export function siteUrl(): string {
   const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-  const fallback = "https://abdul-rehman-portfolio-bodycartoon0111-netizen.vercel.app";
+  const fallback = "https://abdulrehmantech.com";
   const base = raw && raw.length > 0 ? raw : fallback;
   return base.endsWith("/") ? base.slice(0, -1) : base;
 }
@@ -26,12 +26,12 @@ export function absoluteUrl(path: string): string {
 
 /* ── Shared metadata ─────────────────────────────────────────────── */
 const TAGLINE =
-  "SEO, digital marketing, web development and AI automation — growth systems for businesses worldwide.";
+  "Freelance SEO consultant in Lahore, Pakistan. Grow your business with SEO, Google & Meta Ads, websites and AI automation. Book a free SEO audit today..";
 
 export const defaultMetadata: Metadata = {
   metadataBase: new URL(siteUrl()),
   title: {
-    default: "Abdul Rehman — SEO, Web Development & Digital Growth",
+    default: "SEO Consultant in Lahore | Freelance SEO Expert Pakistan",
     template: "Abdul Rehman — %s",
   },
   description: TAGLINE,
@@ -40,14 +40,14 @@ export const defaultMetadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: BRAND_NAME,
-    title: "Abdul Rehman — SEO, Web Development & Digital Growth",
+    title: "SEO Consultant in Lahore | Freelance SEO Expert Pakistan",
     description: TAGLINE,
     locale: "en_US",
     images: [absoluteUrl("/opengraph-image")],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abdul Rehman — SEO, Web Development & Digital Growth",
+    title: "SEO Consultant in Lahore | Freelance SEO Expert Pakistan",
     description: TAGLINE,
   },
   robots: {
@@ -60,7 +60,7 @@ export const defaultMetadata: Metadata = {
 export function pageMetadata(
   title: string,
   description: string = TAGLINE,
-  path = "/",
+  path = "/", openGraphDescription?: string,
 ): Metadata {
   const url = absoluteUrl(path);
   const fullTitle = `${BRAND_NAME} — ${title}`;
@@ -68,9 +68,9 @@ export function pageMetadata(
     title,
     description,
     alternates: { canonical: url },
-    openGraph: {
+    openGraph: { type: "website",
       title: fullTitle,
-      description,
+      description: openGraphDescription ?? description,
       locale: "en_US",
       url,
       images: [absoluteUrl("/opengraph-image")],
@@ -78,7 +78,7 @@ export function pageMetadata(
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
-      description,
+      description: openGraphDescription ?? description,
       images: [absoluteUrl("/opengraph-image")],
     },
   };
@@ -202,5 +202,59 @@ export function buildFaqPageJsonLd(
         text: faq.answer,
       },
     })),
+  };
+}
+
+/* ── LocalBusiness + ProfessionalService (merged) ──────────────── */
+/* Opening hours are Pakistan Standard Time (PKT, UTC+05:00), as confirmed
+   by the owner. Coordinates are city-level for Lahore, Pakistan — they are
+   not a street address (no street address is published). */
+export function buildLocalBusinessJsonLd(
+  pagePath = "/",
+): Record<string, unknown> {
+  return {
+    ...baseContext(),
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    name: "Abdul Rehman — Digital Growth Services",
+    url: absoluteUrl(pagePath),
+    telephone: BRAND_WHATSAPP,
+    priceRange: "$$",
+    currenciesAccepted: "PKR, USD",
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ],
+        opens: "09:00",
+        closes: "18:00",
+      },
+    ],
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Lahore",
+      addressRegion: "Punjab",
+      addressCountry: "PK",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 31.5204,
+      longitude: 74.3587,
+    },
+    areaServed: [
+      "Lahore (DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt, Faisal Town)",
+      "Karachi",
+      "Islamabad",
+      "Rawalpindi",
+      "Faisalabad",
+      "Multan",
+      "Worldwide (remote)",
+    ],
+    sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM],
   };
 }
