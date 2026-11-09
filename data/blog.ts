@@ -444,16 +444,16 @@ paragraphs: [
 {
 heading: "Technical SEO checklist 2026: Core Web Vitals, explained properly",
 paragraphs: [
-"Google's page experience signals are thresholds, and the three that matter are these: Largest Contentful Paint, the time until the main content appears, should be under 2.5 seconds on mobile field data. Interaction to Next Paint, how quickly the page responds when a visitor taps or clicks, should be under 200 milliseconds. Cumulative Layout Shift, how much the page jumps around while loading, should be under 0.1.",
+"Google treats Core Web Vitals as thresholds, and three of them matter: Largest Contentful Paint, the time until the main content appears, should be under 2.5 seconds on mobile field data. Interaction to Next Paint, how quickly the page responds when a visitor taps or clicks, should be under 200 milliseconds. Cumulative Layout Shift, how much the page jumps around while loading, should be under 0.1.",
 "Treat them as a tiebreaker, not a strategy. When two pages are equally relevant, the faster one wins. When one page is far more relevant, speed will not save the weaker page. That is why the order matters: relevance first, then speed. But in competitive searches, relevance is often close — and that is exactly when these numbers decide who ranks. In Pakistan that tiebreaker bites harder than in markets where everyone is on fast broadband, because the gap between a well-built page and a heavy one is wider on a real mobile connection.",
-"The most common cause of a bad Largest Contentful Paint on a business site is the hero image: a large, unoptimised banner that the browser discovers late. Preload it, serve it in a modern format, and keep it as small as you can without losing quality. The most common cause of layout shift is images and ads without reserved space — set dimensions on everything. The most common cause of slow interaction is third-party scripts: audit them quarterly and remove anything that is not earning its place.",
+"The most common cause of a bad Largest Contentful Paint on a business site is the hero image: a large, unoptimised banner that the browser discovers late. Preload it, serve it in a modern format, and keep it as small as you can without losing quality. Layout shift usually comes from images and ads without reserved space — set dimensions on everything. Slow interaction is usually third-party scripts: audit them quarterly and remove anything that is not earning its place.",
 ],
 },
 {
 heading: "Mobile usability: the checks people skip",
 paragraphs: [
 "Open your site on a real phone — not an emulator, a phone — and try to do the one thing a customer would do: find a service, read the offer, and contact you. In Pakistan that usually means tapping a WhatsApp button or a phone number, not filling in a long form. If any step is hard, your visitors are leaving.",
-"Check tap targets: buttons and links need to be big enough to tap without zooming, and spaced far enough apart that a thumb does not hit the wrong one. Check that text is readable without pinching to zoom. Check that no pop-up covers the content on a small screen, and that forms work with a mobile keyboard. These are basic checks, and a surprising number of business sites fail them.",
+"Buttons and links need to be big enough to tap without zooming, and spaced far enough apart that a thumb does not hit the wrong one. Text should be readable without pinching to zoom. No pop-up should cover the content on a small screen, and forms should work with a mobile keyboard. These are basic checks, and a surprising number of business sites fail them.",
 ],
 },
 {
@@ -466,7 +466,7 @@ paragraphs: [
 heading: "Structured data: mark up only what you can prove",
 paragraphs: [
 "Schema markup does not directly raise rankings, but it buys richer results — FAQs, breadcrumbs, and business details shown directly in search — which raise the number of people who click on the position you already hold. The rule is simple and strict: only mark up content that is visible on the page. Marking up reviews you do not have, or FAQs that are not on the page, is the fastest way to lose eligibility.",
-"The sensible starting set for a Pakistani business site is Organization and WebSite schema on the homepage, BreadcrumbList on every template, Article schema on blog posts, and FAQPage schema wherever real FAQs are shown on the page. LocalBusiness schema belongs on the site only when the business details it contains — name, phone, address, hours — are accurate and kept up to date. Stale schema is worse than no schema.",
+"For a Pakistani business site, I would start with Organization and WebSite schema on the homepage, BreadcrumbList on every template, Article schema on blog posts, and FAQPage schema wherever real FAQs are shown on the page. LocalBusiness schema belongs on the site only when the business details it contains — name, phone, address, hours — are accurate and kept up to date. Stale schema is worse than no schema.",
 ],
 },
 {
