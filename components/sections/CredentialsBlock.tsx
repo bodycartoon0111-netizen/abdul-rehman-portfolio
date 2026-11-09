@@ -6,7 +6,7 @@ import { services } from "@/data/services";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { Stat } from "@/components/sections/ProofSection";
+import { Stat } from "@/components/ui/stat";
 
 const PROCESS_STEPS = [
   {
