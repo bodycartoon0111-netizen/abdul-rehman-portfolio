@@ -71,12 +71,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // post is fresh, then yearly once it is older than 90 days.
   for (const slug of getPostSlugs()) {
     const post = getPostBySlug(slug);
-    const ageDays = (Date.now() - post.publishedAt.getTime()) / 86400000;
+    const published = post?.publishedAt
+      ? new Date(post.publishedAt)
+      : siteLastModified;
+    const lastModified = post?.updatedAt
+      ? new Date(post.updatedAt)
+      : published;
+    const ageMs = Date.now() - published.getTime();
     entries.push({
       url: `${base}/blog/${slug}`,
-      lastModified: post.lastUpdated ?? post.publishedAt,
-      changeFrequency: ageDays > 90 ? "yearly" : "monthly",
-      priority: 0.7,
+      lastModified,
+      changeFrequency: ageMs > 90 * 86_400_000 ? "yearly" : "monthly",
+      priority: 0.6,
     });
   }
 
