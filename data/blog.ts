@@ -333,7 +333,105 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
-  ];
+  {
+slug: "technical-seo-checklist-2026-pakistani-websites",
+title: "Technical SEO Checklist 2026 for Pakistani Websites",
+excerpt:
+"Fundamentals decide rankings — but the details decide who wins. This checklist goes deeper: speed on Pakistani mobile networks, Core Web Vitals and indexing.",
+publishedAt: "2026-11-09",
+readingMinutes: 9,
+tags: ["Technical SEO", "Checklist", "Core Web Vitals", "Speed"],
+category: "SEO",
+sample: false,
+metaTitle: "Technical SEO Checklist 2026 for Pakistani Websites",
+metaDescription:
+"A deep technical SEO checklist for Pakistani websites: speed on mobile networks, Core Web Vitals, indexing, structured data, and the quarterly routine.",
+sections: [
+{
+heading: "Start with the fundamentals",
+paragraphs: [
+"If you have already read our [technical SEO checklist for 2026](/blog/technical-seo-checklist-2026), you know the foundations: crawlability, Core Web Vitals, structured data, and index hygiene. This post goes further. It is the deeper version of that technical SEO checklist 2026 — the checks that separate a website that merely works from one that wins rankings in Pakistan, where most visitors arrive on a phone, on a mobile connection, and with very little patience.",
+"Technical SEO is not glamorous work. Nobody sees it, nobody applauds it, and it rarely appears in a sales pitch. But it is the floor everything else stands on. Content cannot rank if search engines cannot reach it. A beautiful page cannot convert if it takes six seconds to load on a phone in Faisalabad, or on mobile data in a Lahore market where the signal drops between shops. Work through this list in order, and fix what you find before spending more on content or ads.",
+],
+},
+{
+heading: "Crawlability and indexing: can Google reach your pages?",
+paragraphs: [
+"Start in Google Search Console, in the Pages report. It shows you two lists that matter: the pages Google has indexed, and the pages it has found but not indexed, with a reason for each. Go through the \"not indexed\" list and sort it into two piles: pages that should be indexed and are not — those need investigation — and pages that should never have been indexed in the first place, like tag archives, thin filter pages, or old staging URLs. The first pile gets fixed. The second pile gets a noindex tag or is removed.",
+"Your XML sitemap is the map you hand to Google. It should list only pages that are indexable, canonical, and returning a 200 status. If your site changes often, the sitemap should regenerate automatically; a sitemap that is months out of date is barely better than no sitemap at all. This is the kind of groundwork a proper [SEO audit](/services/seo-audit) covers first, before any content or link work begins.",
+"Check your robots.txt as well. It is a small file with an outsized ability to cause damage — one wrong line can block your entire site from being crawled. Read it once a quarter. And watch for the quiet killers: redirect chains longer than two hops, which leak authority and slow crawlers down, and soft 404s — pages that look like errors to a visitor but return a \"success\" status to Google, so they sit in the index doing nothing.",
+"Finally, hunt for orphan pages: pages with no internal links pointing to them. If nothing on your site links to a page, visitors cannot find it and crawlers may never reach it either. Every important page needs at least one internal link from a relevant page.",
+],
+},
+{
+heading: "Speed on Pakistani mobile networks",
+paragraphs: [
+"Here is the part most generic checklists get wrong for Pakistan: they assume fast broadband. A large share of Pakistani visitors browse on mobile data, on mid-range phones, in areas where the connection is good on some days and poor on others — and where load-shedding or a weak signal can turn a heavy page into a blank screen. A page that loads in two seconds on office wifi can take five or more on a real connection. For an online store, that lost visitor is a lost order, often a cash-on-delivery order that never gets placed; our work on [e-commerce SEO in Pakistan](/industries/ecommerce) starts from this same reality.",
+"Measure with field data, not just lab scores. PageSpeed Insights shows real-user data from Chrome users on your actual pages; that is the number that matters, because it reflects your visitors' reality. Lab scores are useful for diagnosis, but they are not the verdict.",
+"The fixes that move the needle most are usually unglamorous. Images are the biggest culprit on most Pakistani business sites: oversized photos uploaded straight from a camera, with no dimensions set, in formats from a decade ago. Resize images to the size they are actually displayed at, serve them in a modern format such as WebP, and always set width and height so the page does not jump around while loading. Next, look at JavaScript: chat widgets, sliders, pop-ups, and tracking scripts all compete for the same phone. Remove what you do not need, defer what can wait, and keep what is essential. Fonts are the third usual suspect — a custom font that blocks rendering is a luxury most business sites cannot afford; use system fonts or load custom fonts so text appears immediately. If your site is built on a modern framework, the same principles apply — our guide to [fast website SEO with Next.js](/blog/fast-website-seo-nextjs) shows how speed work looks when the stack is already fast by design.",
+"If you run through this section and realise your site needs more than a tidy-up, that is what proper [technical SEO](/services/technical-seo) work is for. You can [book a free consultation](/contact) or message me on [WhatsApp on +92 371 4972789](https://wa.me/923714972789) and I will tell you honestly whether the fixes are small or whether the site needs real development work.",
+],
+},
+{
+heading: "Technical SEO checklist 2026: Core Web Vitals, explained properly",
+paragraphs: [
+"Google's page experience signals are thresholds, and the three that matter are these: Largest Contentful Paint, the time until the main content appears, should be under 2.5 seconds on mobile field data. Interaction to Next Paint, how quickly the page responds when a visitor taps or clicks, should be under 200 milliseconds. Cumulative Layout Shift, how much the page jumps around while loading, should be under 0.1.",
+"Treat them as a tiebreaker, not a strategy. When two pages are equally relevant, the faster one wins. When one page is far more relevant, speed will not save the weaker page. That is why the order matters: relevance first, then speed. But in competitive searches, relevance is often close — and that is exactly when these numbers decide who ranks. In Pakistan that tiebreaker bites harder than in markets where everyone is on fast broadband, because the gap between a well-built page and a heavy one is wider on a real mobile connection.",
+"The most common cause of a bad Largest Contentful Paint on a business site is the hero image: a large, unoptimised banner that the browser discovers late. Preload it, serve it in a modern format, and keep it as small as you can without losing quality. The most common cause of layout shift is images and ads without reserved space — set dimensions on everything. The most common cause of slow interaction is third-party scripts: audit them quarterly and remove anything that is not earning its place.",
+],
+},
+{
+heading: "Mobile usability: the checks people skip",
+paragraphs: [
+"Open your site on a real phone — not an emulator, a phone — and try to do the one thing a customer would do: find a service, read the offer, and contact you. In Pakistan that usually means tapping a WhatsApp button or a phone number, not filling in a long form. If any step is hard, your visitors are leaving.",
+"Check tap targets: buttons and links need to be big enough to tap without zooming, and spaced far enough apart that a thumb does not hit the wrong one. Check that text is readable without pinching to zoom. Check that no pop-up covers the content on a small screen, and that forms work with a mobile keyboard. These are basic checks, and a surprising number of business sites fail them.",
+],
+},
+{
+heading: "HTTPS and security basics",
+paragraphs: [
+"Your site should load over HTTPS everywhere, with no mixed content — no images, scripts, or stylesheets still loading over plain HTTP. A security warning in the browser is a trust problem before it is an SEO problem: visitors leave, and Google notices. Keep your platform and plugins updated, and check that your security certificate renews automatically rather than expiring silently one weekend.",
+],
+},
+{
+heading: "Structured data: mark up only what you can prove",
+paragraphs: [
+"Schema markup does not directly raise rankings, but it buys richer results — FAQs, breadcrumbs, and business details shown directly in search — which raise the number of people who click on the position you already hold. The rule is simple and strict: only mark up content that is visible on the page. Marking up reviews you do not have, or FAQs that are not on the page, is the fastest way to lose eligibility.",
+"The sensible starting set for a Pakistani business site is Organization and WebSite schema on the homepage, BreadcrumbList on every template, Article schema on blog posts, and FAQPage schema wherever real FAQs are shown on the page. LocalBusiness schema belongs on the site only when the business details it contains — name, phone, address, hours — are accurate and kept up to date. Stale schema is worse than no schema.",
+],
+},
+{
+heading: "Canonicals and duplicate content",
+paragraphs: [
+"Duplicate content is rarely a penalty; it is usually a waste. When Google finds the same content at several URLs — with and without www, with and without a trailing slash, with tracking parameters attached — it has to choose one version, and it may not choose the one you want. Every page should declare one canonical URL, and every variant should point to it.",
+"Check the basics: one version of the domain (www or non-www, not both), one trailing-slash rule applied everywhere, and parameter URLs either canonicalised or excluded. This is a one-time setup job, but it needs checking whenever the site changes, because new duplicates creep in quietly — a new filter, a new campaign link, a migrated page.",
+],
+},
+{
+heading: "Technical SEO checklist 2026: the quarterly routine that keeps it working",
+paragraphs: [
+"Technical SEO is not a project with an end date; it is a habit. Once a quarter, run this routine: crawl the site and fix new errors, compare the indexed pages against the pages you want indexed, re-check Core Web Vitals on your most important pages, review the sitemap and robots.txt, and look at Search Console for new warnings. Two hours a quarter prevents the slow accumulation of problems that eventually costs rankings.",
+"I am Abdul Rehman, a freelance SEO consultant in Lahore, Pakistan, and this checklist is the same routine I run for my own clients. My services cover SEO, Google and Meta Ads, websites, and AI automation, and every engagement follows [my Discover → Strategy → Build → Launch → Optimize process](/process) — the audit comes first, in Google Search Console and GA4, with Screaming Frog and Ahrefs for a deeper crawl, and the plan is agreed before anything is built. You can read [more about me and how I work](/about) before you get in touch. And I will say this plainly, because it is the standard I hold my own work to: I won't promise page-one rankings — anyone who guarantees that is selling something. If you want that work done properly on your site, our [SEO services in Lahore](/services/seo) start with exactly this audit, and if the fixes need development work, our [web development services in Pakistan](/services/web-development) team handles them. Or [book a free consultation](/contact) — or message me on [WhatsApp on +92 371 4972789](https://wa.me/923714972789) — and we can work through this technical SEO checklist 2026 on your site together.",
+],
+},
+{
+heading: "Frequently asked questions",
+paragraphs: [
+"Q: What is the difference between this checklist and your earlier one?",
+"A: The earlier [technical SEO checklist for 2026](/blog/technical-seo-checklist-2026) covers the fundamentals. This post goes deeper: speed on Pakistani mobile networks, Core Web Vitals diagnosis, canonicals, and the quarterly routine.",
+"Q: What are good Core Web Vitals scores?",
+"A: Google's published thresholds are Largest Contentful Paint under 2.5 seconds, Interaction to Next Paint under 200 milliseconds, and Cumulative Layout Shift under 0.1 — measured on real-user field data, not just lab tests.",
+"Q: How often should I run a technical SEO audit?",
+"A: A full audit once or twice a year, with a lighter check every quarter. Fix new errors as they appear rather than letting them accumulate.",
+"Q: Does technical SEO matter if my content is good?",
+"A: Yes. Good content on a site Google cannot crawl, or that loads too slowly on a phone, will underperform. Technical SEO is the foundation content stands on.",
+"Q: Can I do technical SEO myself?",
+"A: The checks in this post, yes — Search Console and PageSpeed Insights are free. The fixes sometimes need a developer, especially for speed and structural issues.",
+],
+},
+],
+},
+];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);
