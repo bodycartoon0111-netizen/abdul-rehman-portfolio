@@ -1340,9 +1340,9 @@ sections: [
 {
 heading: "What performance marketing Pakistan actually means",
 paragraphs: [
-"Performance marketing Pakistan starts with a simple idea and a strict rule: you pay for advertising, and you measure it by what it produces — enquiries, orders, sign-ups, calls — not by how many people saw it. If an ad cannot show what it returned, it is not performance marketing. It is just advertising.",
+"Performance marketing Pakistan starts here: you pay for advertising, and you measure it by what it produces — enquiries, orders, sign-ups, calls — not by how many people saw it. If an ad cannot show what it returned, it is not performance marketing. It is just advertising.",
 "That distinction matters in Pakistan, where many businesses have paid for ads and received a report full of impressions and reach, with no answer to the only question that matters: did it bring customers? A performance campaign answers that question in numbers, every week, in plain language. Impressions are not results. Clicks are not results. Results are the actions a business can count — and the cost of each one.",
-"The other half of the definition is accountability. A performance campaign has a goal, a budget, a way to measure, and a regular review. If any of those is missing, the campaign is running blind. This guide explains how the pieces fit together: the channels, the tracking, the landing pages, the testing, and the point where performance marketing meets SEO.",
+"The other half of the definition is accountability. A performance campaign has a goal, a budget, a way to measure, and a regular review. If any of those is missing, the campaign is running blind. So here is how the pieces fit together: the channels, the tracking, the landing pages, the testing, and the point where performance marketing meets SEO.",
 ],
 },
 {
@@ -1369,14 +1369,14 @@ heading: "Landing pages: where the money is won or lost",
 paragraphs: [
 "Most ad budgets are wasted on the landing page, not the ad. A business pays for a click, sends the visitor to its homepage, and wonders why nobody enquires. The homepage is not a landing page. It is a front door — and a visitor who clicked an ad about one specific service does not want the front door. They want the room.",
 "A good landing page matches the ad. Same service, same promise, same language. It answers the visitor's questions in order: what is this, is it for me, how do I start, and what happens next? Then it makes starting easy: a form with as few fields as possible, a WhatsApp button, a phone number that is visible and tappable. For online stores, the same applies to the product page — clear photos, delivery terms, and cash on delivery stated plainly — the starting point for our [e-commerce SEO in Pakistan](/industries/ecommerce).",
-"Speed matters here more than anywhere. An ad click is expensive, and a landing page that takes five seconds to load throws that money away before the visitor sees anything. Keep the page light, test it on a real phone, and remove anything that does not help the visitor decide. If the page needs rebuilding to do this properly, that is a [web development services in Pakistan](/services/web-development) job — and it is worth doing before spending more on ads.",
+"Speed matters here more than anywhere. An ad click is expensive, and a landing page that takes five seconds to load throws that money away before the visitor sees anything. Keep the page light, test it on a real phone, and remove anything that does not help the visitor decide. If the page needs rebuilding to do this properly, that is a job for [web development services in Pakistan](/services/web-development) — and it is worth doing before spending more on ads.",
 "Spending on ads but not sure what they are returning? [Book a free consultation](/contact) and we will look at your tracking and landing pages together — what is measured, what is missing, and where the budget is actually going.",
 ],
 },
 {
 heading: "Budgets and testing: factors, not figures",
 paragraphs: [
-"Every business asks the same question: how much should I spend? The honest answer is that it depends — on your market, your margins, your goal, and what a customer is worth to you. This guide deliberately gives no figures, because a number printed without context would be meaningless. What matters is how the budget is managed, not how large it is.",
+"Every business asks the same question: how much should I spend? The honest answer is that it depends — on your market, your margins, your goal, and what a customer is worth to you. I give no figures here on purpose, because a number printed without context would be meaningless. What matters is how the budget is managed, not how large it is.",
 "Start small and learn: a new campaign should begin with a test budget, a small set of audiences, and one clear goal — the first job is to learn what works, not to spend the most. The campaigns that waste money are the ones that start large, with no test, and no plan for what happens when the first results come in.",
 "Test one thing at a time: one ad against another, one audience against another, one landing page against another. Change everything at once and you learn nothing. Keep the winners, pause the losers, and let the budget follow the evidence. That is the whole method: small tests, honest numbers, and budget that moves toward what works.",
 ],
@@ -1394,7 +1394,7 @@ heading: "When performance marketing Pakistan meets SEO",
 paragraphs: [
 "Ads and SEO are often presented as a choice. They are not. They are two halves of the same job, and the businesses that do best use both.",
 "Ads bring visitors immediately — the day the campaign starts. SEO builds a flow that compounds over time and keeps coming after the ad budget stops. Ads tell you quickly which keywords and messages work; SEO lets you build lasting pages around the ones that do. SEO brings down your cost per enquiry over time; ads fill the gap while it builds.",
-"The smartest approach for most Pakistani businesses is to run both, in whatever balance the budget allows. Use ads to test and to win customers now. Use SEO to build the asset that keeps working. And use the data from each to make the other better: the keywords that convert in ads are the keywords your SEO should target, and the pages that rank in SEO are the pages your ads should send traffic to. Our guide to [SEO services in Lahore](/services/seo) explains the organic side in detail.",
+"The smartest approach for most Pakistani businesses is to run both, in whatever balance the budget allows. Use ads to test and to win customers now. Use SEO to build the asset that keeps working. And use the data from each to make the other better: the keywords that convert in ads are the keywords your SEO should target, and the pages that rank in SEO are the pages your ads should send traffic to. Our guide to [SEO services in Lahore](/services/seo) covers the organic side.",
 ],
 },
 {
