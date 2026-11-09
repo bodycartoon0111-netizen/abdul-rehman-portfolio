@@ -115,7 +115,7 @@ export default function AboutPage() {
           aria-hidden="true"
           className="pointer-events-none absolute -left-40 top-20 h-[420px] w-[420px] rounded-full bg-lav/30 blur-3xl"
         />
-        <Container className="relative py-16 md:py-24">
+        <Container className="relative py-16 md:py-20">
           <div className="grid items-center gap-12 lg:grid-cols-[1fr_380px]">
             <div>
               <Reveal>
@@ -123,7 +123,7 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={0.08}>
                 <h1 id="about-heading" className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
-                  Abdul Rehman — SEO &amp; Digital Marketing Consultant in Lahore
+                  Abdul Rehman — <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO &amp; Digital Marketing Consultant in Lahore</span>
                 </h1>
                 <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">
                   Marketing brain.<br />
@@ -132,7 +132,7 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={0.16}>
                 <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-                  Marketing brain. Developer hands. I&apos;m <strong className="font-bold text-ink">Abdul Rehman</strong>, an SEO and digital marketing consultant in Lahore, Pakistan. I grow businesses with{" "}
+                  Abdul Rehman — <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO &amp; Digital Marketing Consultant in Lahore</span>
                   <Link href="/services" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
                     SEO, performance marketing, and websites I build myself
                   </Link>{" "}
@@ -183,7 +183,7 @@ export default function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="bg-surface py-24 md:py-32">
+      <section className="bg-surface py-16 md:py-20">
         <Container>
           <div className="grid gap-12 lg:grid-cols-[320px_1fr]">
             <div className="lg:sticky lg:top-24 lg:self-start">
@@ -225,7 +225,7 @@ export default function AboutPage() {
       </section>
 
       {/* Philosophy */}
-      <section className="bg-paper py-24 md:py-32">
+      <section className="bg-paper py-16 md:py-20">
         <Container>
           <SectionHeading
             eyebrow="Philosophy"
@@ -260,7 +260,7 @@ export default function AboutPage() {
       </section>
 
       {/* Skills */}
-      <section className="bg-surface py-24 md:py-32">
+      <section className="bg-surface py-16 md:py-20">
         <Container>
           <SectionHeading
             eyebrow="Skills"
@@ -291,7 +291,7 @@ export default function AboutPage() {
       </section>
 
       {/* Timeline */}
-      <section className="bg-paper py-24 md:py-32">
+      <section className="bg-paper py-16 md:py-20">
         <Container>
           <SectionHeading
             eyebrow="Journey"
@@ -307,7 +307,7 @@ export default function AboutPage() {
       </section>
 
       {/* Technology ecosystem */}
-      <section className="bg-surface py-24 md:py-32">
+      <section className="bg-surface py-16 md:py-20">
         <Container>
           <SectionHeading
             eyebrow="Toolbox"
@@ -353,7 +353,7 @@ export default function AboutPage() {
       </section>
 
       {/* Location */}
-      <section className="bg-paper py-24 md:py-32">
+      <section className="bg-paper py-16 md:py-20">
         <Container>
           <SectionHeading
             eyebrow="Location"
@@ -369,7 +369,7 @@ export default function AboutPage() {
       </section>
 
       {/* What working with me looks like */}
-      <section className="bg-surface py-24 md:py-32">
+      <section className="bg-surface py-16 md:py-20">
         <Container>
           <SectionHeading
             eyebrow="Working with me"
@@ -392,7 +392,7 @@ export default function AboutPage() {
       </section>
 
       {/* Working principles */}
-      <section className="bg-paper py-24 md:py-32">
+      <section className="bg-paper py-16 md:py-20">
         <Container>
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
