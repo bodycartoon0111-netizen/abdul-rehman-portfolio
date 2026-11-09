@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     absolute: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
   },
   description:
-    "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Ten services from one Lahore consultant.",
+    "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Ten services, one Lahore consultant. Book a free audit.",
   alternates: { canonical: "/services" },
   openGraph: {
     title: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
     description:
-      "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Ten services from one Lahore consultant.",
+      "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Ten services, one Lahore consultant. Book a free audit.",
     url: "/services",
     type: "website",
   },
