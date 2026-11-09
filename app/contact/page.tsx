@@ -5,6 +5,7 @@ import { buildBreadcrumbJsonLd, buildLocalBusinessJsonLd, BRAND_WHATSAPP_LINK } 
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import ContactForm from "@/components/forms/ContactForm";
+import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 
 export const metadata: Metadata = {
   title: {
@@ -77,14 +78,12 @@ export default function ContactPage() {
               </li>
               <li>
                 <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600">WhatsApp</p>
-                <a
+                <WhatsAppLink
                   href={whatsappHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="mt-1 block font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
                 >
                   +92 371 4972789
-                </a>
+                </WhatsAppLink>
                 <p className="mt-1 text-sm text-neutral-600">Prefilled message — just press send.</p>
               </li>
               <li>
