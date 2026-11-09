@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import Timeline from "@/components/about/Timeline"; import { JsonLd } from "@/components/seo/JsonLd"; import { buildLocalBusinessJsonLd } from "@/lib/seo";
+import Timeline from "@/components/about/Timeline"; import CredentialsBlock from "@/components/sections/CredentialsBlock"; import { JsonLd } from "@/components/seo/JsonLd"; import { buildLocalBusinessJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
@@ -306,7 +306,8 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      {/* Technology ecosystem */}
+      
+      <CredentialsBlock /> <section className="bg-white py-16 md:py-20"><Container><Reveal><div className="mx-auto max-w-3xl rounded-2xl border border-line bg-paper p-8 text-center"><h2 className="font-display text-2xl font-semibold">Client reviews</h2><p className="mt-3 text-muted-foreground">Client reviews are published here once verified.</p></div></Reveal></Container></section>{/* Technology ecosystem */}
       <section className="bg-surface py-16 md:py-20">
         <Container>
           <SectionHeading
