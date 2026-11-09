@@ -250,10 +250,13 @@ export function buildLocalBusinessJsonLd(
   };
 }
 
+
 /** OfferCatalog of the site's services — name + description only, no prices. */
-export function buildOfferCatalogJsonLd(services: Service[]): Record<string, unknown> {
+export function buildOfferCatalogJsonLd(
+  services: Array<{ name: string; description: string; slug: string }>,
+): Record<string, unknown> {
   return {
-    "@context": "https://schema.org",
+    ...baseContext(),
     "@type": "OfferCatalog",
     name: "Services",
     itemListElement: services.map((service) => ({
@@ -262,8 +265,9 @@ export function buildOfferCatalogJsonLd(services: Service[]): Record<string, unk
         "@type": "Service",
         name: service.name,
         description: service.description,
-        url: buildCanonical(`/services/${service.slug}`),
+        url: absoluteUrl(`/services/${service.slug}`),
       },
     })),
   };
+}
 }
