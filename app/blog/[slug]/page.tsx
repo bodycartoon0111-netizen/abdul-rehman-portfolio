@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getPostSlugs, blogPosts } from "@/data/blog";
-import { absoluteUrl, buildBreadcrumbJsonLd, siteUrl } from "@/lib/seo";
+import { absoluteUrl, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -45,8 +45,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const base = siteUrl();
-  const pageUrl = absoluteUrl(`/blog/${post.slug}`);
+    const pageUrl = absoluteUrl(`/blog/${post.slug}`);
 
   const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 2); const serviceHref = post.category === "AI Automation" ? "/services/ai-automation" : "/services/seo"; const serviceLabel = post.category === "AI Automation" ? "AI automation services" : "SEO services in Lahore";
 
@@ -61,8 +60,8 @@ export default async function BlogPostPage({ params }: PageProps) {
     datePublished: post.publishedAt,
     dateModified: post.updatedAt ?? post.publishedAt,
     mainEntityOfPage: pageUrl,
-    author: { "@type": "Person", name: "Abdul Rehman", url: base },
-    publisher: { "@type": "Person", name: "Abdul Rehman", url: base },
+    author: buildPersonJsonLd(),
+    publisher: buildPersonJsonLd(),
   };
 
   const breadcrumbLd = buildBreadcrumbJsonLd([
@@ -138,7 +137,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </footer>
       <aside className="mt-12 rounded-2xl border border-neutral-200 bg-white p-6"><p className="leading-relaxed text-neutral-700">Want help with this? <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link> — or <Link href="/contact" className="font-semibold text-neutral-900 underline">book a free SEO audit</Link>.</p></aside></article>
 
-      {related.length > 0 && (
+      <section aria-labelledby="author-heading" className="mt-12 rounded-2xl border border-neutral-200 bg-white p-6"><h2 id="author-heading" className="text-2xl font-bold tracking-tight text-neutral-900">About the author</h2><p className="mt-3 text-lg font-semibold text-neutral-900">Abdul Rehman</p><p className="text-sm text-neutral-600">SEO Specialist &amp; Full-Stack Web Developer</p><p className="mt-3 leading-relaxed text-neutral-700">Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google &amp; Meta Ads, websites and AI automation.</p><Link href="/about" className="mt-4 inline-flex items-center gap-1 font-semibold text-neutral-900 underline underline-offset-4">More about Abdul Rehman</Link></section> {related.length > 0 && (
         <section aria-labelledby="more-posts-heading" className="mt-16">
           <h2 id="more-posts-heading" className="text-2xl font-bold tracking-tight text-neutral-900">
             More notes
