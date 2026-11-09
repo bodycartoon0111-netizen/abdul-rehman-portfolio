@@ -6,9 +6,11 @@ import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { services } from "@/data/services";
 import {
   pageMetadata,
   buildLocalBusinessJsonLd,
+    buildOfferCatalogJsonLd,
 } from "@/lib/seo";
 import { HeroVisual } from "@/components/hero/HeroVisual";
 import TrustStrip from "@/components/sections/TrustStrip";
@@ -44,6 +46,7 @@ export default function HomePage() {
   return (
     <>
       <JsonLd data={buildLocalBusinessJsonLd()} />
+            <JsonLd data={buildOfferCatalogJsonLd(services)} />
 
       {/* ── Hero ───────────────────────────────────────────────────── */}
             <section className="relative -mt-8 overflow-hidden bg-paper md:-mt-12">
