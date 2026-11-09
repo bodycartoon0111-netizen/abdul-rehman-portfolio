@@ -31,6 +31,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/services/keyword-research", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.8 },
     { path: "/services/technical-seo", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.8 },
     { path: "/services/off-page-seo", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.8 },
+    // Industry pages (standalone page.tsx files).
+    { path: "/industries/ecommerce", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
+    { path: "/industries/real-estate", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
+    { path: "/industries/healthcare", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
+    { path: "/industries/home-services", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
+    { path: "/industries/saas-startups", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
+    { path: "/industries/education", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
     { path: "/process", lastModified: new Date("2026-11-09"), changeFrequency: "monthly", priority: 0.7 },
     { path: "/work", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
     { path: "/blog", lastModified: modified20261010, changeFrequency: "monthly", priority: 0.7 },
