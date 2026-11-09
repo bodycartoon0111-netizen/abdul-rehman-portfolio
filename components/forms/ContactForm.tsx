@@ -10,6 +10,7 @@ import {
   type ContactResult,
 } from "@/lib/validation";
 import { submitContact } from "@/lib/actions";
+import { trackGenerateLead } from "@/lib/analytics";
 import { services } from "@/data/services";
 
 const inputClass =
@@ -45,7 +46,10 @@ export default function ContactForm() {
     startTransition(async () => {
       const res = await submitContact(values);
       setResult(res);
-      if (res.success) reset();
+      if (res.success) {
+        trackGenerateLead("contact_form");
+        reset();
+      }
     });
   };
 
