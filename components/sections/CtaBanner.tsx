@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { BRAND_WHATSAPP_LINK } from "@/lib/seo";
+import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 
 /** Big closing CTA banner. Server component. */
 export default function CtaBanner() {
@@ -39,14 +40,12 @@ export default function CtaBanner() {
               >
                 Start a Project
               </Link>
-              <a
+              <WhatsAppLink
                 href={BRAND_WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="rounded-full border border-white/40 px-8 py-4 text-sm font-bold uppercase tracking-[0.14em] text-white transition-colors hover:bg-white/10"
               >
                 WhatsApp Me
-              </a>
+              </WhatsAppLink>
             </div>
           </div>
         </Reveal>
