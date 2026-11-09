@@ -50,7 +50,7 @@ export default function RootLayout({
         <JsonLd data={buildPersonJsonLd()} />
         <SignalCursor />
         <Header />
-        <div id="main" className="pt-32 sm:pt-36">{children}</div>
+        <div id="main" className="pt-28 sm:pt-32">{children}</div>
         <Footer />
       </body>
     </html>
