@@ -26,7 +26,7 @@ const whatsappHref = BRAND_WHATSAPP_LINK;
 
 export default function ContactPage() {
   return (
-    <main className="mx-auto max-w-6xl px-6 py-12">
+    <main className="mx-auto max-w-6xl px-6 py-10">
       <JsonLd
         data={buildBreadcrumbJsonLd([
           { name: "Home", path: "/" },
@@ -40,7 +40,7 @@ export default function ContactPage() {
           Get in touch
         </p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
-          Contact an SEO Consultant in Lahore — Let&apos;s Build Something That Grows
+          Contact an <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO Consultant in Lahore</span> — Let&apos;s Build Something That Grows
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Tell me about your project — the more specific you are about your goals, the more
