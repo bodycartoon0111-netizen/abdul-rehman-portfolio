@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: { absolute: "Privacy Policy | Abdul Rehman" },
-  description: "How Abdul Rehman handles your information when you use the contact form.",
+  title: { absolute: "Privacy Policy | Abdul Rehman SEO Consultant Lahore" },
+  description: "How Abdul Rehman handles your information when you use the contact form. Your details are used only to reply — never sold or shared with third parties.",
   alternates: { canonical: "/privacy" },
 };
 
