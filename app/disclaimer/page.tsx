@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: { absolute: "Disclaimer | Abdul Rehman" },
-  description: "Disclaimer: general information on this site is not professional advice and results vary.",
+  title: { absolute: "Disclaimer | Abdul Rehman SEO Consultant Lahore, Pakistan" },
+  description: "Disclaimer: general information on this site is not professional advice and results vary. Case studies describe past work — no promise of future results.",
   alternates: { canonical: "/disclaimer" },
 };
 
