@@ -2,12 +2,13 @@ import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Stat } from "@/components/ui/stat";
+import { industries } from "@/data/industries";
 
 const STATS = [
   { value: 6, label: "Live projects shipped" },
   { value: 10, label: "Services offered" },
   { value: 18, label: "Technologies in the stack" },
-  { value: 9, label: "Industries served" },
+  { value: industries.length, label: "Industries served" },
 ];
 
 /**
