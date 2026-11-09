@@ -9,7 +9,7 @@ export default function CtaBanner() {
     <section className="bg-paper py-16 md:py-20">
       <Container>
         <Reveal>
-          <div className="relative overflow-hidden rounded-3xl bg-pine-deep px-8 py-16 text-center md:px-16 md:py-24">
+          <div className="relative overflow-hidden rounded-3xl bg-pine-deep px-8 py-16 text-center md:px-16 md:py-20">
             <div
               aria-hidden="true"
               className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-mint/25 blur-3xl"
