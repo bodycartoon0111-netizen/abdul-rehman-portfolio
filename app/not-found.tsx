@@ -56,7 +56,7 @@ export default function NotFound() {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Page Not Found | Abdul Rehman",
+  title: { absolute: "Page Not Found | Abdul Rehman" },
   description:
     "The page you were looking for was moved, renamed or never existed. Find your way back to the home page, services, blog or contact.",
   robots: { index: false, follow: true },
