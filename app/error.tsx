@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { BRAND_WHATSAPP_LINK } from "@/lib/seo";
+import { trackWhatsAppClick } from "@/lib/analytics";
 
 interface ErrorProps {
   error: Error & { digest?: string };
@@ -41,6 +42,7 @@ export default function Error({ error, reset }: ErrorProps) {
           href={BRAND_WHATSAPP_LINK}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackWhatsAppClick(BRAND_WHATSAPP_LINK)}
           className="mt-6 inline-block text-sm font-semibold text-pine hover:underline"
         >
           Report this on WhatsApp
