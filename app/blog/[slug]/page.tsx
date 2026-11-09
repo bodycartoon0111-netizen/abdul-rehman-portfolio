@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: post.metaTitle,
       description: post.metaDescription,
       type: "article",
-      publishedTime: post.publishedAt,
-    },
+      publishedTime: post.publishedAt, authors: ["Abdul Rehman"],
+    }, twitter: { card: "summary_large_image", title: post.metaTitle, description: post.metaDescription },
   };
 }
 
@@ -48,7 +48,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const base = siteUrl();
   const pageUrl = absoluteUrl(`/blog/${post.slug}`);
 
-  const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 2);
+  const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 2); const serviceHref = post.category === "AI Automation" ? "/services/ai-automation" : "/services/seo"; const serviceLabel = post.category === "AI Automation" ? "AI automation services" : "SEO services in Lahore";
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -95,7 +95,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
             {post.title}
           </h1>
-          <p className="mt-4 text-lg leading-relaxed text-neutral-700">{post.excerpt}</p>
+          <p className="mt-4 text-lg leading-relaxed text-neutral-700">{post.excerpt}</p><p className="mt-4 text-sm leading-relaxed text-neutral-700">Related service: <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link></p>
           {post.sample && (
             <p className="mt-4 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
               Sample content — a placeholder article demonstrating the blog layout until real
@@ -136,7 +136,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             ))}
           </div>
         </footer>
-      </article>
+      <aside className="mt-12 rounded-2xl border border-neutral-200 bg-white p-6"><p className="leading-relaxed text-neutral-700">Want help with this? <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link> — or <Link href="/contact" className="font-semibold text-neutral-900 underline">book a free SEO audit</Link>.</p></aside></article>
 
       {related.length > 0 && (
         <section aria-labelledby="more-posts-heading" className="mt-16">
