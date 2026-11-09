@@ -50,12 +50,8 @@ export default function HomePage() {
                                     <Container className="relative grid gap-8 pb-8 pt-4 md:pb-10 md:pt-6 lg:grid-cols-2 lg:items-center">
                                                 <div>
             <Reveal>
-              <p className="inline-flex items-center gap-2 rounded-full border border-pine/20 bg-mint px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-pine">
-                <span aria-hidden="true" className="h-2 w-2 rounded-full bg-pine" />
-                SEO · Ads · Websites · AI Automation
-              </p>
                             <h1 className="mt-4 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
-                                Grow Your Business with a <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Freelance SEO Consultant</span>
+                                        A <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Freelance SEO Consultant</span> Who Turns Searches into Sales
               </h1>
                             <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">
                                 Turning <strong className="font-bold text-ink">Search</strong>, <strong className="font-bold text-ink">Traffic</strong> &amp; <strong className="font-bold text-ink">Technology</strong> Into <strong className="font-bold text-ink">Growth</strong>. Learn more <Link href="/about">about <strong className="font-bold text-ink">Abdul Rehman</strong></Link>
@@ -99,8 +95,8 @@ export default function HomePage() {
                   priority
                   className="h-64 w-64 rounded-2xl object-cover drop-shadow-2xl md:h-96 md:w-96"
                 />
-                <figcaption className="mt-2 text-xs font-bold uppercase tracking-[0.18em] text-muted">
-                  Abdul Rehman — Growth Partner
+                <figcaption className="mt-3 text-center text-sm font-extrabold uppercase tracking-[0.18em]">
+                  <span className="text-pine">Abdul Rehman</span> <span className="text-gold">— Growth Partner</span>
                 </figcaption>
               </figure>
             </div>
