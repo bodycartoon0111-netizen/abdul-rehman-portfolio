@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: detail.metaDescription,
       type: "website",
       url: absoluteUrl(`/services/${slug}`),
-    },
+    }, twitter: { card: "summary_large_image", title: detail.metaTitle, description: detail.metaDescription },
   };
 }
 
@@ -49,7 +49,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
   const relatedProjects = projects.filter(
     (p) => p.relatedServices.includes(slug) || p.services.includes(slug)
   );
-  const otherServices = services.filter((s) => s.slug !== slug).slice(0, 3);
+  const otherServices = services.filter((s) => s.slug !== slug).slice(0, 3); const relatedPost = slug === "ai-automation" ? { href: "/blog/ai-automation-small-marketing-team", label: "How AI Automation Fits a Small Marketing Team" } : { href: "/blog/technical-seo-checklist-2026", label: "Technical SEO Checklist for 2026" };
 
   return (
     <main className="mx-auto max-w-6xl px-6 py-10">
@@ -301,7 +301,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         <h2 id="other-services-heading" className="text-2xl font-bold tracking-tight text-neutral-900">
           Other services
         </h2>
-        <div className="mt-6 flex flex-wrap gap-3">
+        <p className="mb-2 text-sm leading-relaxed text-neutral-700">Related reading: <Link href={relatedPost.href} className="font-semibold text-neutral-900 underline">{relatedPost.label}</Link></p><div className="mt-6 flex flex-wrap gap-3">
           {otherServices.map((s) => (
             <Link
               key={s.slug}
