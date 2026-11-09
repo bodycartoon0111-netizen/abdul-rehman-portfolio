@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { services } from "@/data/services";
 import { faqs } from "@/data/faqs";
-import { absoluteUrl, buildBreadcrumbJsonLd, siteUrl } from "@/lib/seo";
+import { absoluteUrl, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -60,12 +60,8 @@ export default function ServicesPage() {
         name: s.name,
         url: absoluteUrl(`/services/${s.slug}`),
         description: s.tagline,
-        provider: {
-          "@type": "Person",
-          "@id": `${siteUrl}/#person`,
-          name: "Abdul Rehman",
-        },
-      },
+        provider: buildPersonJsonLd(),
+                },
     })),
   };
 
