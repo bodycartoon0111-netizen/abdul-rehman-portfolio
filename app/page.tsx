@@ -51,7 +51,7 @@ export default function HomePage() {
                                                 <div>
             <Reveal>
                             <h1 className="mt-4 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
-                                        A <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Freelance SEO Consultant</span> Who Turns Searches into Sales
+                                        I Turn Search Intent Into <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Organic Growth, Traffic &amp; Customers</span>
               </h1>
                             <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">
                                 Turning <strong className="font-bold text-ink">Search</strong>, <strong className="font-bold text-ink">Traffic</strong> &amp; <strong className="font-bold text-ink">Technology</strong> Into <strong className="font-bold text-ink">Growth</strong>. Learn more <Link href="/about">about <strong className="font-bold text-ink">Abdul Rehman</strong></Link>
