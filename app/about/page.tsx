@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import Timeline from "@/components/about/Timeline";
+import Timeline from "@/components/about/Timeline"; import { JsonLd } from "@/components/seo/JsonLd"; import { buildLocalBusinessJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
@@ -109,7 +109,7 @@ const PRINCIPLES = [
 export default function AboutPage() {
   return (
     <>
-      {/* Hero */}
+      <JsonLd data={buildLocalBusinessJsonLd("/about")} />{/* Hero */}
       <section aria-labelledby="about-heading" className="relative overflow-hidden bg-paper">
         <div
           aria-hidden="true"
