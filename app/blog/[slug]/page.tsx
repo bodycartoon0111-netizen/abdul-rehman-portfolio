@@ -7,6 +7,26 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
 
+function renderRichText(text: string) {
+  return text.split(/(\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (!match) return part;
+    const [, label, href] = match;
+    if (href.startsWith("/")) {
+      return (
+        <Link key={i} href={href}>
+          {label}
+        </Link>
+      );
+    }
+    return (
+      <a key={i} href={href} target="_blank" rel="noopener noreferrer">
+        {label}
+      </a>
+    );
+  });
+}
+
 export function generateStaticParams() {
   return getPostSlugs().map((slug) => ({ slug }));
 }
@@ -113,12 +133,12 @@ export default async function BlogPostPage({ params }: PageProps) {
                 {section.heading}
               </h2>
               {section.paragraphs.map((p, i) => (
-                <p key={i} className="mt-4 leading-relaxed text-neutral-700">{p}</p>
+                <p key={i} className="mt-4 leading-relaxed text-neutral-700">{renderRichText(p)}</p>
               ))}
               {section.bullets && (
                 <ul className="mt-4 list-disc space-y-2 pl-6 text-neutral-700">
                   {section.bullets.map((b) => (
-                    <li key={b.slice(0, 40)}>{b}</li>
+                    <li key={b.slice(0, 40)}>{renderRichText(b)}</li>
                   ))}
                 </ul>
               )}
