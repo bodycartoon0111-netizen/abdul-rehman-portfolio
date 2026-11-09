@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
+import Link from "next/link";
 
 const STEPS = [
   {
@@ -138,6 +139,11 @@ export default function ProcessSection() {
           </ol>
         </div>
       </Container>
+            <div className="mt-12 text-center">
+                    <Link href="/process" className="text-primary underline underline-offset-4 hover:text-primary/80">
+                              See the full process →
+                    </Link>
+                  </div>
     </section>
   );
 }
