@@ -1054,6 +1054,107 @@ paragraphs: [
 },
 ],
 },
+{
+slug: "google-business-profile-mistakes-lahore",
+title: "Google Business Profile Mistakes Lahore Businesses Make (And How to Fix Them)",
+excerpt:
+"Google Business Profile mistakes Lahore businesses make cost customers. The most common ones — wrong categories, no photos, ignored reviews — and the fixes.",
+publishedAt: "2026-11-09",
+readingMinutes: 9,
+tags: ["Google Business Profile", "Local SEO", "Lahore", "Maps"],
+category: "SEO",
+sample: false,
+metaTitle: "Google Business Profile Mistakes Lahore Businesses Make (And How to Fix Them)",
+metaDescription:
+"Google Business Profile mistakes Lahore businesses make most — wrong categories, mismatched details, no photos, ignored reviews — and how to fix each one.",
+sections: [
+{
+heading: "The wrong category — the first of the Google Business Profile mistakes Lahore businesses make",
+paragraphs: [
+"The single most common of the Google Business Profile mistakes Lahore businesses make is also the easiest to fix: the wrong category. A dental clinic listed as a \"doctor\", a restaurant listed as a \"food establishment\", a property agency listed as a \"real estate consultant\" — each one is telling Google the wrong thing about what the business is, and Google shows it for the wrong searches as a result.",
+"Your primary category should be the most specific description of what you do. If you are a dental clinic, your primary category is \"dental clinic\" — not \"doctor\" and not \"health\". If you run a car wash, it is \"car wash\". Google has thousands of categories, and the right one exists for almost every business. Take the time to search the list properly instead of accepting the first suggestion.",
+"Secondary categories are for genuine additional services only — a salon that also does bridal makeup, or a restaurant that also does catering. But adding categories for services you do not offer — hoping to appear in more searches — backfires: it confuses Google, and it brings you enquiries you cannot serve. Fix the category first; it takes two minutes, and it changes which searches you appear for.",
+],
+},
+{
+heading: "Name, address and phone that don't match anywhere",
+paragraphs: [
+"Your business name, address, and phone number — NAP, in SEO terms — must be exactly the same everywhere they appear: your profile, your website, Facebook, directories, everywhere. In Lahore, this is where most businesses fail, because details drift: the shop moved, the phone number changed, the sign says one name and the profile another.",
+"Google trusts consistency. When the name on your profile says \"Al-Noor Electronics\" but your website says \"Al Noor Electronics & Mobiles\" and a directory says \"Alnoor Electronics Lahore\", Google is less sure all three are the same business — and less sure means lower ranking. Pick one exact version of your name, address, and phone number, write it down, and use that exact version everywhere. For businesses customers visit in person — a clinic in DHA, a shop on Hall Road — Maps is often the first thing checked before leaving home.",
+"Two specific mistakes to check right now. First, keyword stuffing in the business name: adding \"best\", \"top\", or a list of services to your profile name is against Google's rules and can get your profile suspended. Your name is your name — nothing more. Second, using a mobile number that nobody answers. Your profile phone number should be the number a customer can actually reach you on, during the hours you say you are open. In Lahore, that usually means a WhatsApp-active mobile number answered during business hours, not a landline that rings in an empty shop.",
+],
+},
+{
+heading: "No photos, or the wrong photos",
+paragraphs: [
+"A profile with no photos looks closed. A profile with stock photos looks fake. Lahore customers check photos before they call — they want to see the shop, the food, the clinic, the team. Real, recent photos bring more calls, direction requests, and visits than an identical business with none.",
+"Add photos of what a customer will actually see: the outside of your premises with the sign visible, the inside, your team at work, your products, your menu. A customer driving to a restaurant in Gulberg wants to recognise the building from the road. Update photos when things change. A photo from three years ago of a shop that has since been renovated is worse than no photo at all, because the customer arrives expecting one thing and finds another.",
+"Name your photo files descriptively before uploading, and take them in good light. You do not need a professional photographer — a clean phone photo in daylight is enough. What matters is that the photos are real, recent, and yours.",
+],
+},
+{
+heading: "Google Business Profile mistakes Lahore: ignoring reviews — good and bad",
+paragraphs: [
+"Reviews are the part of a Business Profile that most Lahore businesses neglect, and the part customers trust most. A profile with no reviews looks untested. A profile with reviews and no replies looks unmanaged. A profile with a bad review and no reply looks like a business that does not care.",
+"Reply to every review. Thank happy customers by name — it costs a minute and shows the next reader you notice your customers. Reply to unhappy customers calmly and specifically: apologise for the experience, explain what you will do about it, and invite them to contact you directly. A thoughtful reply to a bad review does more for your reputation than ten perfect ratings with no replies, because it shows how you handle problems.",
+"Ask for reviews at the right moment: after a good service, a delivery, or a successful appointment. Send the customer the direct link to your profile while the experience is fresh. Never buy reviews and never write your own — fake reviews follow patterns (same wording, same timing, no detail) and both Google and customers are getting better at spotting them. One exposure costs more trust than a dozen genuine reviews can rebuild.",
+"Is your profile losing customers in Maps right now? [Book a free consultation](/contact) and I will check your listing with you — category, details, photos, and reviews — and tell you which fixes matter most for your business.",
+],
+},
+{
+heading: "Wrong hours, missing services, no description",
+paragraphs: [
+"Your hours are a promise. If your profile says you open at 9 and you actually open at 11, every customer who arrives at 9:30 leaves annoyed — and some of them leave a review about it. Keep your hours accurate, including holiday hours. Google lets you set special hours for Eid and other holidays; use them. In Lahore, that also means Ramadan hours: many businesses change timings for the month, and a profile showing normal hours sends customers to a closed door.",
+"Fill in the services section. This is where you tell Google — and customers — what you actually do. List your real services with plain descriptions. A clinic lists its treatments; a restaurant lists its cuisines; a workshop lists its repairs. These services feed the searches your profile appears for, so missing services mean missing customers. For clinics, this matters most: patients search for the treatment, not the clinic name — the starting point for our [healthcare SEO](/industries/healthcare).",
+"Write a description too: not a slogan or a list of keywords, but a short, honest paragraph about what your business does and who it serves. It is the one place on the profile where you get to speak directly to a customer who is deciding whether to call you.",
+],
+},
+{
+heading: "No posts, no questions, no sign of life",
+paragraphs: [
+"A profile that has not been touched in a year sends a message: this business may not be paying attention. Google Posts are the simplest fix — a short post about a new service, an offer, an event, a new listing, or even a seasonal greeting. One post a week is enough to show the profile is alive, and posts appear directly in your listing.",
+"Answer the questions in the Q&A section too — and ask a few yourself, with honest answers. Customers ask the same questions again and again: Do you deliver? Do you take appointments? Where do I park? In busy areas like Liberty Market and Anarkali, customers want to know about parking before they set out. Answering them on your profile means the next customer gets the answer without having to call, and Google sees a business that engages with its customers.",
+"Check the profile weekly: new questions, reviews, and photos from customers all deserve a response. Ten minutes a week is enough to keep a profile healthy, and it is the cheapest local SEO work there is. For a fuller picture of how the profile fits into local search, read our [local SEO guide for Lahore businesses](/blog/local-seo-lahore-google-business-profile-guide).",
+],
+},
+{
+heading: "Duplicate or unverified profiles",
+paragraphs: [
+"Many Lahore businesses have two profiles and do not know it: one they created, and one Google created automatically from directory data, or one a previous employee created and forgot. Duplicate profiles split your reviews, confuse customers, and weaken your ranking — Google does not know which one to show. Property dealers see this often: an agency in Bahria Town may hold one profile under the agency name and another under an agent's name. Our [real estate SEO in Lahore](/industries/real-estate) guide covers how property businesses handle this.",
+"Search for your business name on Google and on Maps. If you find a duplicate, request a merge or removal through Google's support — do not just ignore it. And make sure your main profile is verified. An unverified profile has limited features and limited visibility; verification (usually by postcard, phone, or video) proves to Google that you are the real owner. Until a profile is verified, much of the work in this article will not reach its full effect. Postcard verification can be slow in Pakistan, so video verification, where offered, is often faster.",
+"If you have moved premises, update the address on the profile first. A customer following Maps to your old address is a customer lost — and a review waiting to happen.",
+],
+},
+{
+heading: "A quick note on how I check a profile",
+paragraphs: [
+"I am Abdul Rehman, a freelance SEO consultant in Lahore, Pakistan. When I check a Business Profile, I work through my five-step [process](/process) — Discover, Strategy, Build, Launch, Optimize — and I check the profile against the website and Search Console data using Google Search Console, GA4, Screaming Frog, and Ahrefs. You can read more about how I work on my [about page](/about). One thing I tell every local business owner upfront: \"I won't promise page-one rankings — anyone who guarantees that is selling something.\" A profile can be fixed properly and still take time to climb, because Maps rankings depend on the profile, the website, and the competition — and a good [technical SEO checklist for 2026](/blog/technical-seo-checklist-2026) covers the website half.",
+],
+},
+{
+heading: "Conclusion: fixing Google Business Profile mistakes Lahore businesses make",
+paragraphs: [
+"Google Business Profile mistakes Lahore businesses make are rarely complicated — a wrong category, details that do not match, old photos, unanswered reviews, wrong hours, a duplicate nobody noticed. Each fix is small; together, they decide whether a customer in your area finds you or the business down the road. Work through them one at a time, starting with the category and your name, address, and phone number. A complete, honest, active profile is the foundation of local search in Lahore, and it supports everything else your [SEO services in Lahore](/services/seo) do — including the website the profile points to, which needs to be fast and working when the customer arrives. A slow or broken website wastes the clicks the profile earns — a [web development services in Pakistan](/services/web-development) question as much as an SEO one.",
+"If you would like a second pair of eyes on your listing, [book a free SEO audit and consultation](/contact) — or message me on WhatsApp at +92 371 4972789 — and I will go through your profile with you, tell you what needs fixing first, and what a realistic result looks like for your area and your trade.",
+],
+},
+{
+heading: "Frequently asked questions",
+paragraphs: [
+"Q: How do I know if my Business Profile has the wrong category?",
+"A: Search Google for the service you offer and see which businesses appear. If competitors in your exact business appear and you do not, check your category first — it is the most common cause, and the fastest fix.",
+"Q: Can I put keywords in my business name on Google?",
+"A: No. Google's rules say the name must be your real business name. Adding keywords, locations, or superlatives can get your profile suspended. Rank with your categories, services, and reviews instead.",
+"Q: How often should I post on my Business Profile?",
+"A: Once a week is enough for most businesses. A post about a new service, an offer, or a seasonal update keeps the profile active and gives customers something new to see.",
+"Q: What should I do about a fake or unfair review?",
+"A: Reply calmly and factually, then report it to Google if it breaks their rules (fake, spam, or from someone who was never a customer). Never argue in public, and never pay anyone to remove reviews.",
+"Q: Do I need a website as well as a Business Profile?",
+"A: Yes. The profile is how customers find you in Maps and local search; the website is where they check you are real and learn more. The two work together — and the website is where your SEO services in Lahore do their deeper work. A slow or broken website also hurts, so check it against the technical basics as well.",
+],
+},
+],
+},
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
