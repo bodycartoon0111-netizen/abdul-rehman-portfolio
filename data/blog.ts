@@ -37,7 +37,7 @@ export const blogPosts: BlogPost[] = [
     readingMinutes: 8,
     tags: ["SEO", "Technical SEO", "Checklist"],
     sample: true,
-    metaTitle: "Technical SEO Checklist for 2026 | Abdul Rehman",
+    metaTitle: "Technical SEO Checklist 2026: Crawl, Speed & Index",
     metaDescription:
       "A practical 2026 technical SEO checklist: crawlability, Core Web Vitals, structured data, and index hygiene — the fundamentals that still decide rankings.",
     sections: [
@@ -92,7 +92,7 @@ export const blogPosts: BlogPost[] = [
     sample: true,
     metaTitle: "How AI Automation Fits a Small Marketing Team | Abdul Rehman",
     metaDescription:
-      "Where AI automation genuinely helps small marketing teams — lead triage, reporting, repurposing, follow-up — and where the human stays in charge.",
+      "Where AI automation genuinely helps small marketing teams save time — lead triage, reporting, repurposing, follow-up — and where the human stays in charge.",
     sections: [
       {
         heading: "Automate the boring middle, not the creative edges",
