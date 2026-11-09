@@ -587,7 +587,7 @@ serviceArea: {
           "Security checklist, backup routine, and training so your team publishes confidently.",
       },
     ],
-    metaTitle: "WordPress Development Services Pakistan | Fast, Secure Sites",
+    metaTitle: "WordPress Development Pakistan | Fast, Secure Sites",
     metaDescription:
       "WordPress development in Pakistan: lean, secure, super-fast WordPress websites your team can easily manage — no bloated themes, no plugin chaos.",
     faqHeading: "WordPress FAQ",
