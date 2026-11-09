@@ -43,7 +43,7 @@ export default function WorkPage() {
   };
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-12">
+    <main className="mx-auto max-w-6xl px-6 py-10">
       <JsonLd data={itemListLd} />
       <JsonLd
         data={buildBreadcrumbJsonLd([
@@ -58,7 +58,7 @@ export default function WorkPage() {
           Portfolio
         </p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
-          Selected Work &amp; SEO Case Studies from Pakistan
+          Selected Work &amp; <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO Case Studies from Pakistan</span>
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           A selection of projects across Pakistan and beyond — each one shipped, each one
