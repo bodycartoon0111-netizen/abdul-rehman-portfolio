@@ -11,7 +11,9 @@ export type AnalyticsEventName =
   | "form_submit"
   | "service_select"
   | "case_study_view"
-  | "outbound_click";
+  | "outbound_click"
+  | "generate_lead"
+  | "whatsapp_click";
 
 export type AnalyticsParams = Record<string, string | number | boolean>;
 
@@ -53,4 +55,14 @@ export function trackEvent(
 /** Convenience: bind an outbound link click to an `outbound_click` event. */
 export function trackOutboundClick(url: string): void {
   trackEvent("outbound_click", { destination: url });
+}
+
+/** Convenience: fire a `generate_lead` conversion event. */
+export function trackGenerateLead(method: string): void {
+  trackEvent("generate_lead", { method });
+}
+
+/** Convenience: bind a WhatsApp link click to a `whatsapp_click` event. */
+export function trackWhatsAppClick(url: string): void {
+  trackEvent("whatsapp_click", { destination: url });
 }
