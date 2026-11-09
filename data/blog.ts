@@ -21,6 +21,7 @@ export interface BlogPost {
   updatedAt?: string;
   readingMinutes: number;
   tags: string[];
+  category: string;
   sample: true; // marks placeholder content until real posts ship
   metaTitle: string;
   metaDescription: string;
@@ -36,6 +37,7 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-10-01",
     readingMinutes: 8,
     tags: ["SEO", "Technical SEO", "Checklist"],
+    category: "SEO",
     sample: true,
     metaTitle: "Technical SEO Checklist 2026: Crawl, Speed & Index",
     metaDescription:
@@ -89,6 +91,7 @@ export const blogPosts: BlogPost[] = [
     publishedAt: "2026-10-03",
     readingMinutes: 7,
     tags: ["AI Automation", "Marketing", "Workflows"],
+    category: "AI Automation",
     sample: true,
     metaTitle: "How AI Automation Fits a Small Marketing Team | Abdul Rehman",
     metaDescription:
