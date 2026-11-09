@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: detail.metaDescription,
       type: "article",
       url: absoluteUrl(`/work/${slug}`),
-    },
+    }, twitter: { card: "summary_large_image", title: detail.metaTitle, description: detail.metaDescription },
   };
 }
 
