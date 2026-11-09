@@ -227,6 +227,112 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "local-seo-lahore-google-business-profile-guide",
+    title: "Local SEO Lahore: Google Business Profile + Maps Ranking Guide for Lahore Businesses",
+    excerpt:
+      "Most customers in Lahore find local businesses on Google Maps, not on page two of results. This guide shows how to set up your profile and win nearby searches.",
+    publishedAt: "2026-11-09",
+    readingMinutes: 8,
+    tags: ["Local SEO", "Lahore", "Google Business Profile", "Google Maps"],
+    category: "SEO",
+    sample: false,
+    metaTitle: "Local SEO Lahore: Google Business Profile + Maps Ranking Guide for Lahore Businesses",
+    metaDescription:
+      "Local SEO guide for Lahore businesses: set up your Google Business Profile, rank higher in Maps, earn genuine reviews, and turn nearby searches into calls.",
+    sections: [
+      {
+        heading: "What local SEO Lahore businesses actually need",
+        paragraphs: [
+          "When someone in Lahore searches for a service they need now — a clinic in DHA, a restaurant in Gulberg, a plumber in Johar Town, a lawyer near the courts — they usually do not scroll through ten blue links. They look at the map. The three businesses shown in the Maps results get the calls, and the rest get ignored. Local SEO Lahore work is the work of getting your business into that visible group, and keeping it there.",
+          "It is not the same as regular SEO, though the two overlap. Regular SEO is about ranking your website. Local SEO is about ranking your business in a place: Google Maps, the local results, and the \"near me\" searches that happen on phones all day — on mobile data, in traffic on Canal Road, between errands. For a business that serves customers in Lahore, local SEO is usually the fastest route to enquiries — because the person searching is already nearby and already ready to act. A missed call at that moment is a customer who simply rings the next listing.",
+          "The good news is that most Lahore businesses have done almost none of this properly. Their profiles are half empty, their details are inconsistent, and they never ask for reviews. That means the business that does the basics well stands out immediately.",
+        ],
+      },
+      {
+        heading: "Step 1: Claim and verify your Google Business Profile",
+        paragraphs: [
+          "Everything starts with your Google Business Profile — the free listing that controls how your business appears on Maps and in local search. If you have not claimed it, someone else's outdated information may be showing instead. Search for your business name on Google Maps, claim the listing, and complete verification. Google usually verifies by postcard, phone, or video, depending on the business type. Postcard verification in Lahore can take time, so start it early and do not let it sit half-finished.",
+          "If you are a service-area business — you go to customers rather than customers coming to you — you can hide your street address and set the areas you serve instead. That covers most consultants, home services, and delivery-based businesses in Lahore, from electricians in Model Town to home chefs delivering across the city.",
+          "One warning: never create a second listing for the same business at the same location. Duplicate listings split your reviews and confuse Google. One business, one listing.",
+        ],
+      },
+      {
+        heading: "Step 2: Fill in every field properly",
+        paragraphs: [
+          "A half-finished profile ranks like a half-finished business. Work through every field:",
+          "Business name. Your real business name, exactly as it appears on your signboard and your website. Do not stuff keywords into the name — \"Best Dental Clinic Lahore DHA\" as a business name is against Google's rules and can get the listing suspended. The name is the name.",
+          "Category. Pick the primary category that matches what you actually do, then add relevant secondary categories. The category is one of the strongest ranking signals, and the wrong one can make you invisible for the searches that matter. A clinic listed as a generic \"health service\" will lose to one listed precisely; the same applies to property dealers, salons, and repair shops.",
+          "Service areas. List the areas you genuinely serve: DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt, and Faisal Town are the main Lahore areas most businesses cover, plus anywhere else you actually travel to. Do not list areas you will not serve — a job in Bahria Town when you only work in Cantt is one you cannot take. If you serve property buyers, the same discipline applies to [real estate SEO in Lahore](/industries/real-estate): be precise about where you actually operate.",
+          "Hours, phone, and website. Keep your hours accurate, including holiday changes — Eid hours, Friday prayer breaks, and Ramadan timings matter in Lahore, and customers do check. Your phone number should be one you actually answer, and in practice that usually means a WhatsApp number, because that is how most Lahore customers prefer to make first contact. Your website link should go to your homepage or, better, to a page about the service the customer searched for.",
+          "Services and description. List your actual services with plain descriptions. The business description should say what you do and who you serve, in your own words. This is also where a short description of your [SEO services in Lahore](/services/seo) or your core offer belongs if search is how customers find you — but write for the customer, not for Google.",
+        ],
+      },
+      {
+        heading: "Step 3: Photos and posts that build trust",
+        paragraphs: [
+          "People choose businesses they can picture. Upload real photos: the outside of your premises, the inside, your team at work, your actual products. Photos taken on a phone are fine — real beats polished. Businesses with genuine photos get more calls, more direction requests, and more trust than listings with a single blurry logo. For a clinic, that means the waiting area and the doctor's room, not stock photos; for a restaurant, the actual dishes, not downloaded images.",
+          "Posts are the part almost everyone ignores. A short post once a week — an offer, a new service, a tip, a behind-the-scenes photo — keeps the profile active and gives customers a reason to choose you over the listing next to yours. It takes ten minutes and it is one of the easiest gaps to exploit, because your competitors are not doing it either.",
+        ],
+      },
+      {
+        heading: "Step 4: Reviews — the part most businesses get wrong",
+        paragraphs: [
+          "Reviews are the single biggest trust signal in local search. They influence whether customers call you, and they influence where Google ranks you. The way to get them is simple and unglamorous: ask every happy customer, soon after the job is done, while the experience is fresh. A short WhatsApp message with a direct link to your review page is enough — in Lahore, WhatsApp is where that ask actually gets read. Most customers are willing; they just need to be asked.",
+          "Reply to every review — good and bad. A thank-you for a good review takes thirty seconds and shows the next hundred readers that you pay attention. A bad review answered calmly and professionally does more for your reputation than a perfect five-star record, because nobody believes a perfect record anyway. This matters most for trust-heavy businesses — a clinic lives or dies on what patients write, which is why [healthcare SEO in Lahore](/industries/healthcare) puts reviews first.",
+          "What you must never do: buy reviews, write your own, or ask staff to leave them. Fake reviews get removed, and when Google catches a pattern, the listing can be suspended. The honest route is slower. It is also the only one that lasts.",
+        ],
+      },
+      {
+        heading: "Step 5: Keep your business details consistent everywhere",
+        paragraphs: [
+          "Your business name, address, and phone number — together called NAP — should be identical everywhere they appear: your website, your Business Profile, Facebook, directories, and anywhere else you are listed. Small differences (\"Street 1\" vs \"St 1\", two different phone numbers) make it harder for Google to be sure all those mentions are the same business, and that uncertainty costs rankings.",
+          "Do a quick audit: search your business name and check the first two pages of results. Fix anything that shows an old number, an old address, or a misspelled name. It is tedious work and it matters. A proper [SEO audit](/services/seo-audit) covers this same consistency check across your whole web presence, so it is worth doing properly rather than from memory.",
+        ],
+      },
+      {
+        heading: "Step 6: Your website still matters for local SEO Lahore",
+        paragraphs: [
+          "Your Business Profile does not replace your website — Google uses both. A fast, clear website with pages for your main services, your service areas, and real answers to customer questions reinforces everything the profile says. If your site is slow, confusing, or missing the service the customer searched for, the profile alone will not save you. That is especially true on mobile data, which is how most Lahore customers will open your site — a page that stalls on a weak connection loses the customer before they read a word. The underlying fixes are [technical SEO](/services/technical-seo) work: speed, structure, and crawlability.",
+          "This is also where local content helps: a page that explains your service in Lahore, in the words your customers use, beats a generic page every time. If your website needs that work, it is a [web development services in Pakistan](/services/web-development) job — structure, speed, and content working together.",
+        ],
+      },
+      {
+        heading: "Local SEO Lahore: how to know it is working",
+        paragraphs: [
+          "Open your Business Profile insights and watch the numbers that mean business: how many people called you from the listing, how many asked for directions, how many visited your website, and how many times your profile appeared in searches. Those four numbers tell you more than any ranking report.",
+          "Give it time. Local rankings move in weeks, not hours, and they move most for the businesses that keep at it: fresh photos, new reviews, answered questions, accurate hours. The businesses that treat the profile as a one-time setup and forget it are the ones that slowly slide down.",
+          "I am Abdul Rehman, a freelance SEO consultant in Lahore, Pakistan. I work through [my Discover → Strategy → Build → Launch → Optimize process](/process) — first I look at your profile, your website, and what your competitors in your area are actually doing, using Google Search Console, GA4, Screaming Frog, and Ahrefs where a deeper check is needed, then I agree a plan with you before anything is built or changed. You can read [more about me and how I work](/about) before we talk. One thing I will say plainly, because it shapes how I work: I won't promise page-one rankings — anyone who guarantees that is selling something. If your profile is half-finished and you would rather have it fixed properly than guess your way through it, [book a free consultation](/contact) or message me on [WhatsApp on +92 371 4972789](https://wa.me/923714972789) and we can look at your profile together.",
+        ],
+      },
+      {
+        heading: "Local SEO Lahore: mistakes that cost you Maps rankings",
+        paragraphs: [
+          "Keyword-stuffing the business name. It can get the listing suspended, and it looks desperate to customers.",
+          "A fake or borrowed address. Using an address where you do not operate — a virtual office, a friend's shop — violates Google's rules and risks removal.",
+          "Duplicate listings. Two listings for one business split reviews and authority. Find and remove the duplicate.",
+          "Ignoring questions and reviews. Unanswered questions on your profile are answered by anyone — including competitors. Answer them yourself, quickly.",
+          "Wrong category. The single most common technical mistake. If your category is wrong, you are invisible for the searches that should find you.",
+          "Most of these mistakes come from the same root: a profile set up once and never checked again. Our guide to the [Google Business Profile mistakes Lahore businesses make](/blog/google-business-profile-mistakes-lahore) walks through each of these fixes in detail, step by step. And if local visibility is where your customers are and you want help setting this up properly, [book a free consultation](/contact) — or message me on [WhatsApp on +92 371 4972789](https://wa.me/923714972789) — and we can look at your profile together and agree what your local SEO Lahore work needs first.",
+        ],
+      },
+      {
+        heading: "Frequently asked questions",
+        paragraphs: [
+          "Q: Do I need a physical shop for a Google Business Profile?",
+          "A: No. Service-area businesses — consultants, home services, delivery businesses — can hide their street address and list the areas they serve instead. You still need to verify the business.",
+          "Q: How long does it take to appear in Maps results?",
+          "A: It varies. A complete, verified profile can start appearing within weeks, but competitive areas take months of steady work: reviews, photos, posts, and accurate information.",
+          "Q: Can I rank in Maps without reviews?",
+          "A: It is much harder. Reviews are one of the strongest signals Google uses for local ranking, and they are the first thing customers read. A business with no reviews loses to one with genuine reviews almost every time.",
+          "Q: What should I do about a fake negative review?",
+          "A: Reply calmly, state the facts, and report it to Google if it violates policy. Never respond with fake positive reviews — that pattern is easy to detect and damages the listing.",
+          "Q: Is local SEO separate from normal SEO?",
+          "A: They overlap. Local SEO is a layer on top of regular SEO: your website still needs to be fast, clear, and well structured, which is why [SEO services in Lahore](/services/seo) and local SEO are usually done together, not as alternatives.",
+        ],
+      },
+    ],
+  },
   ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
