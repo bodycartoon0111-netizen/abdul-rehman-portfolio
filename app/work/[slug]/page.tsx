@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { projects } from "@/data/projects";
 import { getProjectDetail } from "@/data/project-details";
 import { services } from "@/data/services";
-import { absoluteUrl, buildBreadcrumbJsonLd, siteUrl } from "@/lib/seo";
+import { absoluteUrl, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -59,7 +59,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
     name: project.name,
     description: detail.metaDescription,
     url: absoluteUrl(`/work/${project.slug}`),
-    author: { "@type": "Person", name: "Abdul Rehman", url: siteUrl() },
+    author: buildPersonJsonLd(),
     about: project.industry,
   };
 
@@ -105,7 +105,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
         <h2 id="snapshot-heading" className="text-2xl font-bold tracking-tight text-neutral-900">
           Project snapshot
         </h2>
-        <dl className="mt-6 grid gap-6 rounded-2xl bg-neutral-50 p-8 sm:grid-cols-2 lg:grid-cols-4">
+        <dl className="mt-6 grid gap-6 rounded-2xl bg-neutral-50 p-8 sm:grid-cols-2 lg:grid-cols-4"><div><dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600">What was built</dt><dd className="mt-2 font-semibold text-neutral-900">{project.tagline}</dd></div>
           <div>
             <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600">Industry</dt>
             <dd className="mt-2 font-semibold text-neutral-900">{project.industry}</dd>
@@ -207,7 +207,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
         <h2 id="outcome-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
           Outcome
         </h2>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">{project.outcome}</p>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">{project.outcome}</p> <p className="mt-4 text-lg leading-relaxed text-neutral-700">Results available on request. Traffic, ranking and conversion figures are not published here.</p>
       </section>
 
       {/* Live website button */}
