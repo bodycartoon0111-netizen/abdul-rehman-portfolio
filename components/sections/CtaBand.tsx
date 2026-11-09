@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BRAND_WHATSAPP_LINK } from "@/lib/seo";
+import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 
 interface CtaBandProps {
   title?: string;
@@ -32,14 +33,12 @@ export default function CtaBand({
         >
           Start a project
         </Link>
-        <a
+        <WhatsAppLink
           href={BRAND_WHATSAPP_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
           className="rounded-full border border-white/40 px-8 py-3.5 text-sm font-bold uppercase tracking-[0.14em] text-white transition-colors hover:bg-white/10"
         >
           WhatsApp me
-        </a>
+        </WhatsAppLink>
       </div>
     </section>
   );
