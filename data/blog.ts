@@ -518,7 +518,7 @@ sections: [
 heading: "Your three options, honestly compared",
 paragraphs: [
 "When a business in Pakistan decides it needs SEO, it faces the same three options: hire a freelance consultant, hire an agency, or hire someone in-house. The right choice depends on your budget, your stage, and how much attention you want — not on which option sounds most impressive.",
-"This guide compares the three honestly — so you can choose the right SEO consultant Pakistan option for your business — and explains what to check before you sign anything, and the questions that separate a good provider from a good salesperson.",
+"This guide compares the three honestly, so you can choose the right SEO consultant Pakistan option for your business. It also explains what to check before you sign anything — including the questions that separate a good provider from a good salesperson.",
 ],
 },
 {
@@ -534,7 +534,7 @@ heading: "Hiring an agency",
 paragraphs: [
 "An agency gives you a team: strategists, content writers, technical staff, and account managers. That breadth helps when the work is large — a big e-commerce site, several markets at once, or content at a volume one person cannot sustain. Agencies also have process: onboarding documents, reporting systems, and cover when someone is on leave.",
 "The trade-off is distance. In many agencies, the person who sold you the work is not the person doing it, and the person doing it may be junior and juggling several accounts. Ask directly who will work on your account, how experienced they are, and how much of their time you actually get. An agency's answer to that question tells you more than its brochure. In Pakistan, also ask where the team sits: an agency that outsources your work to a third party without telling you is a common surprise, and you deserve to know before you sign.",
-"Agencies suit businesses with large or complex scopes, businesses that need several skills at once, and businesses that prefer a formal structure with a single contract covering everything.",
+"Agencies suit businesses with large or complex scopes, those that need several skills at once, and those that prefer a formal structure with a single contract covering everything.",
 ],
 },
 {
@@ -547,7 +547,7 @@ paragraphs: [
 {
 heading: "When each option fits",
 paragraphs: [
-"A small or mid-sized business in Lahore that needs steady, senior-led SEO usually fits a consultant. A business with a large site, several product lines, or national ambitions usually fits an agency. A business with daily content and SEO needs, and the budget for a full-time salary plus tools, fits an in-house hire.",
+"A small or mid-sized business in Lahore that needs steady, senior-led SEO usually fits a consultant. A business with a large site, several product lines, or national ambitions is agency territory. A business with daily content and SEO needs, and the budget for a full-time salary plus tools, is ready for an in-house hire.",
 "There is also a fourth path many businesses take without naming it: start with a consultant or agency, learn what good SEO looks like from the inside, and then hire in-house later with a clear idea of what the role should do. That is often the smartest sequence.",
 ],
 },
@@ -582,7 +582,7 @@ bullets: [
 heading: "How SEO pricing models work",
 paragraphs: [
 "Most SEO in Pakistan is sold in one of three ways. A monthly retainer covers ongoing work — the usual model for businesses that want steady progress. A project fee covers a defined job, like an audit or a site migration. An hourly or day rate covers advice or small, bounded tasks.",
-"No model is inherently better; the fit depends on the job. A retainer suits ongoing growth. A project fee suits a one-time fix. What matters is that the scope is written down: what is included, what is not, and what happens when the scope changes. Verbal promises are worth nothing in this business. Before you compare models, it helps to know what drives the cost in the first place — our guide to [SEO services in Lahore: cost and timeline](/blog/seo-services-lahore-cost-timeline-2026) explains the factors, and our timeline guide to [how long SEO takes in Pakistan](/blog/how-long-does-seo-take-pakistan) sets realistic expectations for when the work starts to show.",
+"No model is better on its own — it depends on the job. A retainer suits ongoing growth. A project fee suits a one-time fix. What matters is that the scope is written down: what is included, what is not, and what happens when the scope changes. Verbal promises are worth nothing in this business. Before you compare models, it helps to know what drives the cost in the first place — our guide to [SEO services in Lahore: cost and timeline](/blog/seo-services-lahore-cost-timeline-2026) explains the factors, and our timeline guide to [how long SEO takes in Pakistan](/blog/how-long-does-seo-take-pakistan) sets realistic expectations for when the work starts to show.",
 ],
 },
 {
