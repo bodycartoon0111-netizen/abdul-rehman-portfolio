@@ -79,8 +79,9 @@ export default function HomePage() {
               </div>
                             <dl className="mt-6 grid max-w-lg grid-cols-2 gap-4 sm:grid-cols-2">              
                 {highlights.map((h) => (
-                    <dt className="text-sm font-extrabold text-ink group-hover:text-white">{h.k}</dt>
-                    <dd className="mt-1 text-[13px] leading-snug text-ink/70 group-hover:text-white/80">{h.v}</dd>
+                <div key={h.k} className="group rounded-2xl border border-line bg-white/70 p-4 transition-colors hover:border-pine hover:bg-pine">
+      <dt className="text-sm font-extrabold text-ink group-hover:text-white">{h.k}</dt>
+                          <dd className="mt-1 text-[13px] leading-snug text-ink/70 group-hover:text-white/80">{h.v}</dd>
                   </div>
                 ))}
               </dl>
