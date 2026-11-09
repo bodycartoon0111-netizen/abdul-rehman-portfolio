@@ -690,14 +690,14 @@ paragraphs: [
 heading: "The landing page is half the job",
 paragraphs: [
 "An ad can only do half the work. The other half is the page the visitor lands on. If the ad promises one thing and the page shows another, the visitor leaves — and you still paid for the click. If the page is slow on a phone, confusing, or missing a clear way to contact you, the ad spend leaks away.",
-"This is why ads and websites are one job, not two. A fast page with a clear offer, a visible phone or WhatsApp button, and no distractions will outperform a beautiful ad pointing at a weak page every time. If your landing pages need that work, it is a [web development services in Pakistan](/services/web-development) job — speed, clarity, and one clear action per page.",
+"This is why ads and websites are one job, not two. A fast page with a clear offer, a visible phone or WhatsApp button, and no distractions will outperform a beautiful ad pointing at a weak page every time. If your landing pages need that work, that is a job for [web development services in Pakistan](/services/web-development) — speed, clarity, and one clear action per page.",
 ],
 },
 {
 heading: "Running both together",
 paragraphs: [
 "The honest answer for many businesses is not one or the other; it is both, in sequence. Google Ads captures the demand that exists today. Meta Ads creates demand for tomorrow and brings back the people who visited but did not buy. Together they cover the whole journey: discovery on Meta, search on Google, retargeting to close the gap.",
-"When both run under one roof — one tracking setup, one view of what an enquiry costs, one person accountable — the channels stop competing for budget and start feeding each other. That is why many businesses run [Meta Ads services in Pakistan](/services/meta-ads) alongside [SEO services in Lahore](/services/seo) under one roof, with one person accountable for both. That is what performance marketing means in practice: every channel judged by the same number, the cost of a real enquiry.",
+"When both run under one roof — one tracking setup, one view of what an enquiry costs, one person accountable — the channels stop competing for budget and start feeding each other. That is why many businesses run [Meta Ads services in Pakistan](/services/meta-ads) alongside [SEO services in Lahore](/services/seo), with one person accountable for both. That is what performance marketing means in practice: every channel judged by the same number, the cost of a real enquiry.",
 ],
 },
 {
@@ -714,7 +714,7 @@ paragraphs: [
 heading: "A five-question decision framework",
 paragraphs: [
 "Answer these honestly and the choice in the Meta Ads vs Google Ads Pakistan question usually makes itself:",
-"If you are still unsure, that is a reasonable place to be. [Book a free consultation](/contact) for a free SEO audit — or message me on [WhatsApp +92 371 4972789](https://wa.me/923714972789) — and we can look at your market, your offer, and your tracking together before you spend anything.",
+"If you are still unsure, that is a reasonable place to be. [Book a free consultation](/contact) and get a free SEO audit — or message me on [WhatsApp +92 371 4972789](https://wa.me/923714972789) — and we can look at your market, your offer, and your tracking together before you spend anything.",
 ],
 bullets: [
 "Do people already search for what I sell? Yes leans Google; no leans Meta.",
