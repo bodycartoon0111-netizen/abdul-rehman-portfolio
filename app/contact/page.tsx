@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { faqs } from "@/data/faqs";
-import { buildBreadcrumbJsonLd, BRAND_WHATSAPP_LINK } from "@/lib/seo";
+import { buildBreadcrumbJsonLd, buildLocalBusinessJsonLd, BRAND_WHATSAPP_LINK } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Contact SEO Consultant in Lahore | Abdul Rehman",
+    absolute: "Contact SEO Consultant in Lahore, Pakistan | Abdul Rehman",
   },
   description:
-    "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. I read every message and reply within one business day.",
+    "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact SEO Consultant in Lahore | Abdul Rehman",
+    title: "Contact SEO Consultant in Lahore, Pakistan | Abdul Rehman",
     description:
-      "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. I read every message and reply within one business day.",
+      "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
     url: "/contact",
     type: "website",
   },
@@ -32,7 +32,7 @@ export default function ContactPage() {
           { name: "Home", path: "/" },
           { name: "Contact", path: "/contact" },
         ])}
-      />
+      /> <JsonLd data={buildLocalBusinessJsonLd("/contact")} />
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Contact" }]} />
 
       <header className="mt-8 max-w-3xl">
