@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     absolute: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
   },
   description:
-    "Selected work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
+    "Work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
   alternates: { canonical: "/work" },
   openGraph: {
     title: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
     description:
-      "Selected work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
+      "Work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
     url: "/work",
     type: "website",
   },
