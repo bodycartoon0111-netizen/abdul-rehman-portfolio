@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Fragment } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { services } from "@/data/services";
@@ -51,7 +52,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
   const otherServices = services.filter((s) => s.slug !== slug).slice(0, 3);
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-12">
+    <main className="mx-auto max-w-6xl px-6 py-10">
       <JsonLd data={buildServiceJsonLd(service.name, detail.metaDescription, slug)} />
       <JsonLd
         data={buildBreadcrumbJsonLd([
@@ -73,7 +74,15 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       <header className="mt-8 max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">Service</p>
         <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
-          {detail.h1}
+          {detail.h1.split(detail.h1Highlight).map((part, index) => (
+                <Fragment key={index}>
+                  {index > 0 && (
+                                    <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
+                                      {detail.h1Highlight}</span>
+                                  )}
+                  {part}
+                </Fragment>
+              ))}
         </h1>
         <p className="mt-4 text-xl font-medium text-neutral-700">{service.tagline}</p>
         {detail.introLinks && detail.introLinks.length > 0 && (
