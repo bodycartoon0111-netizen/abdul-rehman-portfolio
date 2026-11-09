@@ -43,16 +43,6 @@ export const industries: Industry[] = [
     relatedProject: "",
   },
   {
-    slug: "dental",
-    name: "Dental",
-    problem:
-      "Dental is brutally local: patients search, compare two or three clinics, and book the one that looks most credible. Most clinic sites look identical and say nothing.",
-    recommendedServices: ["seo", "web-development", "google-ads", "meta-ads"],
-    solution:
-      "Treatment-level SEO pages, before/after credibility done tastefully, review generation systems, and ads that fill chairs for high-value treatments.",
-    relatedProject: "",
-  },
-  {
     slug: "construction",
     name: "Construction",
     problem:
