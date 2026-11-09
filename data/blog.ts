@@ -1,8 +1,9 @@
 /**
  * Blog content model — CMS-ready.
  *
- * The two posts below are original SAMPLE content demonstrating the schema.
+ * The two posts below are full-length guides for this site, written to the same standard as the newer posts, demonstrating the schema.
  * Swap this array for a CMS fetch (Sanity/Contentful/MDX) without touching
+ *
  * the blog pages: they only depend on `blogPosts`, `getPostBySlug` and
  * `getPostSlugs`.
  */
@@ -38,7 +39,7 @@ export const blogPosts: BlogPost[] = [
     readingMinutes: 8,
     tags: ["SEO", "Technical SEO", "Checklist"],
     category: "SEO",
-    sample: true,
+    sample: false,
     metaTitle: "Technical SEO Checklist 2026: Crawl, Speed & Index",
     metaDescription:
       "A practical 2026 technical SEO checklist: crawlability, Core Web Vitals, structured data, and index hygiene — the fundamentals that still decide rankings.",
@@ -48,6 +49,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Most ranking problems I diagnose are not content problems — they are access problems. If search engines cannot reliably crawl and render your pages, nothing else you do matters. Run a crawl of your site at least monthly and watch for orphan pages, redirect chains longer than two hops, and soft 404s that quietly eat crawl budget.",
           "Your robots.txt and XML sitemap are the handshake. Keep the sitemap under 50,000 URLs, regenerate it automatically when content changes, and make sure it only lists indexable, canonical URLs.",
+          "I run this check the same way on every site I audit. I open Search Console first and look at the pages report, because the rows Google labels 'Discovered — currently not indexed' are the most honest picture of a site's crawl health — they are the pages Google found and decided to skip. Then I run a fresh crawl of my own and compare the two lists: pages the crawler reaches that Google ignores, and pages Google wants that my crawler never reaches. On a WordPress site in Lahore, that comparison once found product pages linked only from a single menu and missing from the sitemap entirely, so Google had simply never been told they existed. A [detailed SEO audit](/services/seo-audit) is mostly this kind of cross-checking, and the fixes are unglamorous — a broken internal link, a parameter URL, a sitemap that lists what actually matters. That is the work my [technical SEO services](/services/technical-seo) start with, in the same order as this checklist, because the order is the point: crawl first, then everything else.",
         ],
         bullets: [
           "Verify every important page returns a 200 status and the correct canonical tag",
@@ -60,6 +62,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Google has been consistent: page experience signals matter most when relevance is otherwise equal. That makes them a tiebreaker worth winning, not a strategy on their own. Measure with field data (CrUX via PageSpeed Insights), not just lab scores, because real users on real devices are what count.",
           "The usual wins are unglamorous: properly sized images with explicit dimensions, deferred non-critical JavaScript, and font loading that does not shift the layout. On content sites, the largest contentful paint element is almost always a hero image — preload it and serve it in a modern format.",
+          "One thing I check early is whether the numbers come from real visitors or from a lab test. The lab score is useful for finding problems, but Google ranks on field data — what actual visitors on actual phones experience. Most of the traffic to the sites I work on arrives on a phone, often on a connection far slower than office Wi-Fi, so I test on a mid-range Android handset, not just on my laptop. If a page feels slow there, it is slow for the people who matter. Our guide to [a fast website and SEO](/blog/fast-website-seo-nextjs) walks through the same checks I run: compress the hero image, defer the scripts that can wait, and measure again with PageSpeed Insights until the field data agrees.",
         ],
         bullets: [
           "Largest Contentful Paint under 2.5s on mobile field data",
@@ -72,6 +75,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Schema markup does not directly boost rankings, but it buys you richer results — review stars, FAQs, breadcrumbs, event dates — which raise click-through rates from the positions you already hold. The rule is simple: only mark up content that is visible on the page. Hidden or misleading markup is the fastest way to lose eligibility.",
           "Start with Organization and WebSite schema, add BreadcrumbList on every template, then layer type-specific markup (Article, Product, FAQPage, LocalBusiness) where it genuinely applies.",
+          "For a Lahore business, the schema worth adding first is usually LocalBusiness — name, address, phone number and opening hours, exactly as they appear on your Google Business Profile. If the two disagree, Google trusts neither. I mark up the business details on the contact page first, then the services pages, and I test every page with the Rich Results Test before I call it done. The test shows what Google can actually read on the page, which is what counts. Our [local SEO guide for Lahore businesses](/blog/local-seo-lahore-google-business-profile-guide) covers the profile side of the same job.",
         ],
       },
       {
@@ -79,9 +83,40 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Sites accumulate cruft: tag archives, thin category pages, staging subdomains that leaked into the index. Every quarter, compare the pages Google has indexed against the pages you want indexed. Anything indexed that should not be gets a noindex or a proper 410; anything important that is not indexed gets investigated.",
           "A smaller, cleaner index concentrates your site's authority on the pages that earn business. Technical SEO is mostly this: less, but correct.",
+          "My quarterly routine is simple and it fits in one morning. I pull the indexed pages list from Search Console, export the sitemap, and put the two side by side in a sheet. Anything indexed that should not be gets a noindex or a proper 410; anything important that is missing gets investigated the same day, not next quarter. Tag archives and old category pages cause most of the mess, and a staging subdomain left in the index is the one I check for first, because I have seen it more than once. The deeper version of this routine, with the Pakistan-specific details, is in our [technical SEO checklist for Pakistani websites](/blog/technical-seo-checklist-2026-pakistani-websites).",
         ],
       },
-    ],
+          {
+        heading: "How I work through this technical SEO checklist",
+        paragraphs: [
+          "I do not fix things in the order I find them. I fix them in the order they block everything else, which is the order of this technical SEO checklist. Crawlability comes first because nothing else works until Google can reach the pages. Speed comes second because a page that loads slowly wastes the traffic the crawl work just earned. Structured data comes third, once the pages it describes are reachable and fast. Index hygiene comes last, once a quarter, because it is a cleaning job, not an emergency.",
+          "Once the checklist is clean, I stop looking at technical problems and start looking at content — what the pages say, whether they answer the search, and whether the internal links point at the pages that earn business. That is a different job, and it takes longer: [how long SEO takes in Pakistan](/blog/how-long-does-seo-take-pakistan) explains why.",
+        ],
+        bullets: [
+          "Crawl and index first — the rest is guesswork until Google can reach your pages",
+          "Speed second, on the pages that earn money, not the pages that are easy",
+          "Schema and index hygiene last, on a schedule, not when something breaks",
+        ],
+      },
+            {
+        heading: "Frequently asked questions",
+        paragraphs: [
+          "Q: How long does a technical SEO audit take?",
+          "A: For a small business site, a day or two of checking and a short list of fixes. For a larger site with thousands of pages, the crawl alone takes time, and so does sorting real errors from noise. The size of the site decides it, not the checklist.",
+          "Q: Will fixing technical SEO alone get my site to page one?",
+          "A: No. Technical SEO gets Google to your pages and lets them load properly; rankings still need content that answers the search and pages people actually want. It is the foundation, not the whole house. If the content side needs work, our [SEO services in Lahore](/services/seo) cover that next step.",
+          "Q: My site is on WordPress — does this technical SEO checklist still apply?",
+          "A: Yes. The checks are the same; only the fixes change. WordPress has plugins for sitemaps, redirects and schema, which makes some of it easier — but a bad plugin can also create the redirect chains and bloated pages this checklist exists to catch.",
+        ],
+      },
+            {
+        heading: "Want me to run this checklist on your site?",
+        paragraphs: [
+          "If you would rather have someone else run it, that is what I do. [Book a free consultation](/contact) and I will go through this technical SEO checklist against your site in the same order, then tell you plainly what needs fixing first. No jargon, no fifty-page report you will never read — a short list, in priority order.",
+          "If you prefer to message first, [message me on WhatsApp](https://wa.me/923219482015). I am based in Lahore and work with businesses across Pakistan, and I reply to every message myself.",
+        ],
+      },
+      ],
   },
   {
     slug: "ai-automation-small-marketing-team",
@@ -92,7 +127,7 @@ export const blogPosts: BlogPost[] = [
     readingMinutes: 7,
     tags: ["AI Automation", "Marketing", "Workflows"],
     category: "AI Automation",
-    sample: true,
+    sample: false,
     metaTitle: "How AI Automation Fits a Small Marketing Team | Abdul Rehman",
     metaDescription:
       "Where AI automation genuinely helps small marketing teams save time — lead triage, reporting, repurposing, follow-up — and where the human stays in charge.",
@@ -102,6 +137,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "The most useful framing for AI automation in a small team: humans own strategy and taste; machines own repetition and routing. The moment an automation starts making creative or relationship decisions on its own, you have automated the wrong thing.",
           "The boring middle is where teams bleed hours: copying leads between tools, assembling weekly reports from five dashboards, reformatting one piece of content for four channels, chasing people who never replied to the first email.",
+          "The boring middle is usually the work nobody wants to do but everyone depends on. In a small team it is often one person who knows where the leads are, which sheet holds the numbers, and who was supposed to reply — and when that person is on leave, the whole thing stalls. That is the first sign a workflow is worth automating: it lives in one person's head instead of in a process anyone can follow. I look for the task the team dreads on a Monday morning, the one that takes an hour and adds nothing a customer would notice. Our [AI automation services](/services/ai-automation) start there, and our guide to [AI automation for small marketing teams in Pakistan](/blog/ai-automation-small-marketing-teams-pakistan-workflows) shows what those workflows look like once they are running.",
         ],
         bullets: [
           "Lead capture → enrichment → CRM → assignment → first follow-up",
@@ -114,6 +150,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Do not start with a platform. Start with a single workflow where you can name the hours it costs per week. If following up with quote requests takes six hours a week, an automation that drafts the follow-ups and queues them for one-click approval has a price tag you can calculate.",
           "This discipline also keeps the project small enough to finish. Grand automation roadmaps die in planning; one shipped workflow that saves half a day a week builds the appetite — and the budget — for the next one.",
+          "Counting the hours is the part people skip, and it is the part that makes the decision easy. Pick the workflow, then count what it costs for two ordinary weeks — the sorting, the copying, the chasing, the report that takes an afternoon. A single week lies in both directions: a quiet one makes the cost look small and a busy one makes it look huge. Take the honest average, then multiply it by what an hour of your best person's time is worth. If the number comes out small, leave the workflow alone — the tool, the setup and the fixing will cost more than the hours it saves. I would rather automate one workflow that saves half a day a week than ten that save ten minutes.",
         ],
       },
       {
@@ -121,6 +158,7 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "The cheapest failures in AI automation are the embarrassing ones: a bot that replied to a complaint with a sales pitch, a 'personalized' email that got the company name wrong. The fix is not better AI — it is a review step. Drafts are automated; sending is approved.",
           "Over time, as a workflow proves itself, you can widen the autonomous parts. Earn the trust with volume, then spend it carefully.",
+          "The practical way to do this is a review queue. Anything the automation writes — an email, a reply, a social post — lands in a queue first, and a person reads it before it goes out. Early on the queue is everything; nothing goes out without a human eye. As the workflow proves itself, you can let the low-risk items go straight out and keep the queue for the awkward ones — complaints, refunds, anything with a number in it. The review takes minutes; the mistake it catches takes days. Our guide to [AI automation for small marketing teams in Pakistan](/blog/ai-automation-small-marketing-teams-pakistan-workflows) shows where that queue sits in each workflow.",
         ],
         bullets: [
           "AI drafts, human approves — for every external message",
@@ -133,6 +171,37 @@ export const blogPosts: BlogPost[] = [
         paragraphs: [
           "Automation will not fix a broken offer, a confusing website, or a team that does not trust each other. It multiplies whatever process you feed it — including bad ones. Get the process working manually first, even if slowly, then automate the working version.",
           "Done right, a small team with good automation does the output of a team twice its size — and everyone still goes home on time.",
+          "The test I use before automating anything is simple: can a new person follow the process on paper? If the answer is no, the automation will have to guess — and its guesses land on real customers. So write the process down, run it by hand for two weeks, and fix the steps that break. The steps that break on paper are the ones that would have broken in production, only cheaper. Once the paper version runs cleanly for two weeks, it is ready to automate. What is left over is the part no checklist can hold: the judgement, the tone, the call to phone a customer instead of emailing. That stays with the team. If the process is too tangled to write down, our [web development services](/services/web-development) can untangle it before anything gets automated.",
+        ],
+      },
+      {
+        heading: "A rollout plan that fits a small team",
+        paragraphs: [
+          "I would not roll out automation all at once. Week one, pick the single workflow and count its hours. Weeks two and three, build it and run it on drafts only — nothing the automation writes reaches a customer without a person reading it first. Week four, switch it on for real, but keep the review queue in place and watch it daily. That is a month, not a quarter, and it ends with one workflow that saves real time, not a platform nobody uses.",
+          "After a month, count the hours again and ask the team what changed. If the hours are down and the complaints are not up, you have your proof — and the budget argument for the next workflow. If the hours are not down, stop and fix the process before automating anything else. The worst outcome is not a failed workflow; it is a team that stops trusting the tools because the first one was pushed live too early.",
+        ],
+        bullets: [
+          "One workflow at a time, finished before the next one starts",
+          "Drafts first, live second — the review queue stays on for a month",
+          "Count the hours before and after, and believe the second count",
+        ],
+      },
+      {
+        heading: "Frequently asked questions",
+        paragraphs: [
+          "Q: Will AI automation replace someone on my team?",
+          "A: It replaces repetition, not judgement. The work that disappears is the copying, the sorting, the chasing — the work nobody applied for. The decisions, the tone and the relationships stay with people, and a team that spends less time on admin usually does better work, not less of it.",
+          "Q: What is the cheapest way to start?",
+          "A: Start with the tools you already pay for. Most teams already have a spreadsheet, an inbox and a CRM that can talk to each other with a little help — there is no need to buy a platform first. If you are not sure which workflow to pick, [book a free consultation](/contact) and we will pick it together in one call.",
+          "Q: Do I need a developer to set up AI automation?",
+          "A: Not for the first workflow. If you can describe the process in plain sentences, you can usually automate it with the tools you already have. When it grows into something bigger — connecting systems that do not talk to each other, or handling data that needs real care — that is when our [web development services in Pakistan](/services/web-development) come in.",
+        ],
+      },
+      {
+        heading: "Want help picking your first workflow?",
+        paragraphs: [
+          "[Book a free consultation](/contact) and I will help you pick the one workflow worth automating first and tell you honestly whether it is worth automating at all. Some weeks the honest answer is that the process needs fixing first, and I will say that too.",
+          "If you prefer to message first, [message me on WhatsApp](https://wa.me/923219482015). I am based in Lahore and work with small teams across Pakistan, and I reply to every message myself.",
         ],
       },
     ],
