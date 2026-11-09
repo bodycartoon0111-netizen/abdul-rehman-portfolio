@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { BRAND_WHATSAPP_LINK } from "@/lib/seo";
-import { trackEvent, trackOutboundClick } from "@/lib/analytics";
+import { trackEvent, trackOutboundClick, trackWhatsAppClick } from "@/lib/analytics";
 
 interface NavLink {
   label: string;
@@ -121,6 +121,7 @@ export function MobileNav({ links, onClose }: MobileNavProps) {
             onClick={() => {
               trackEvent("cta_click", { location: "mobile_menu" });
               trackOutboundClick(BRAND_WHATSAPP_LINK);
+              trackWhatsAppClick(BRAND_WHATSAPP_LINK);
             }}
             className="mt-4 block text-center text-sm font-semibold text-muted"
           >
