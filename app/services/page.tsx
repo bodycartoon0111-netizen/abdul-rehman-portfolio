@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { services } from "@/data/services";
 import { faqs } from "@/data/faqs";
-import { absoluteUrl, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
+import { absoluteUrl, buildBreadcrumbJsonLd, buildOfferCatalogJsonLd, buildPersonJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -74,6 +74,7 @@ export default function ServicesPage() {
     <>
       <JsonLd data={itemListLd} />
       <JsonLd data={breadcrumbLd} />
+            <JsonLd data={buildOfferCatalogJsonLd(services)} />
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services" }]} />
         <header className="mt-8">
