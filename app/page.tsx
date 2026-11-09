@@ -18,6 +18,7 @@ const SelectedWork = dynamic(() => import("@/components/sections/SelectedWork"))
 import IndustryExplorer from "@/components/sections/IndustryExplorer";
 const ProcessSection = dynamic(() => import("@/components/sections/ProcessSection"));
 import ProofSection from "@/components/sections/ProofSection";
+import CredentialsBlock from "@/components/sections/CredentialsBlock";
 const FaqSection = dynamic(() => import("@/components/sections/FaqSection"));
 import CtaBanner from "@/components/sections/CtaBanner";
 
@@ -120,6 +121,7 @@ export default function HomePage() {
 
       {/* ── Process highlights ─────────────────────────────────────── */}
       <ProcessSection />
+      <CredentialsBlock />
 
       {/* ── Proof / credentials ────────────────────────────────────── */}
       <ProofSection />
