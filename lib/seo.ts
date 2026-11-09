@@ -166,19 +166,14 @@ export function buildServiceJsonLd(
   name: string,
   description: string,
   slug: string,
-): Record<string, unknown> {
-  return {
+): Record<string, unknown> {  return {
     ...baseContext(),
     "@type": "Service",
     name,
     description,
     url: absoluteUrl(`/services/${slug}`),
-    provider: {
-      "@type": "Person",
-      name: BRAND_NAME,
-      url: absoluteUrl("/"),
-      email: BRAND_EMAIL,
-    },
+    provider: { ...buildPersonJsonLd(), email: BRAND_EMAIL },
+    
     areaServed: "Worldwide",
   };
 }
