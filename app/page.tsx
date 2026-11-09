@@ -45,7 +45,7 @@ export default function HomePage() {
       <JsonLd data={buildProfessionalServiceJsonLd()} />
 
       {/* ── Hero ───────────────────────────────────────────────────── */}
-            <section className="relative -mt-10 overflow-hidden bg-paper md:-mt-12">
+            <section className="relative -mt-8 overflow-hidden bg-paper md:-mt-12">
         <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-mint/50 blur-3xl" />
                                     <Container className="relative grid gap-8 pb-8 pt-4 md:pb-10 md:pt-6 lg:grid-cols-2 lg:items-center">
                                                 <div>
