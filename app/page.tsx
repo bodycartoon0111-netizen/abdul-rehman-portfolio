@@ -45,22 +45,23 @@ export default function HomePage() {
       <JsonLd data={buildProfessionalServiceJsonLd()} />
 
       {/* ── Hero ───────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden bg-paper">
+            <section className="relative -mt-10 overflow-hidden bg-paper md:-mt-12">
         <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-mint/50 blur-3xl" />
-        <Container className="relative grid gap-12 pb-16 pt-16 md:pb-20 md:pt-20 lg:grid-cols-2 lg:items-center">
-          <div>
+                                    <Container className="relative grid gap-8 pb-8 pt-4 md:pb-10 md:pt-6 lg:grid-cols-2 lg:items-center">
+                                                <div>
             <Reveal>
               <p className="inline-flex items-center gap-2 rounded-full border border-pine/20 bg-mint px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-pine">
                 <span aria-hidden="true" className="h-2 w-2 rounded-full bg-pine" />
                 SEO · Ads · Websites · AI Automation
               </p>
-              <h1 className="mt-8 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight text-ink md:text-6xl">
-                Grow Your Business with a Freelance SEO Consultant
+                            <h1 className="mt-4 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
+                                Grow Your Business with a <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Freelance SEO Consultant</span>
               </h1>
-              <p className="mt-5 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">
-                Turning Search, Traffic &amp; Technology Into Growth. Learn more <Link href="/about">about Abdul Rehman</Link>, and browse the <Link href="/services">digital marketing services</Link> on offer.
-              </p>
-              <div className="mt-8 flex flex-wrap items-center gap-3">
+                            <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">
+                                Turning <strong className="font-bold text-ink">Search</strong>, <strong className="font-bold text-ink">Traffic</strong> &amp; <strong className="font-bold text-ink">Technology</strong> Into <strong className="font-bold text-ink">Growth</strong>. Learn more <Link href="/about">about <strong className="font-bold text-ink">Abdul Rehman</strong></Link>
+                        , and browse the <Link href="/services"><strong className="font-bold text-ink">digital marketing services</strong></Link> on offer.
+                            </p>
+                            <div className="mt-5 flex flex-wrap items-center gap-3">
                 <Link
                   href="/contact"
                   className="group inline-flex items-center gap-2 rounded-full bg-pine px-7 py-3.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition-transform hover:scale-[1.03]"
@@ -76,10 +77,8 @@ export default function HomePage() {
                   <span aria-hidden="true">→</span>
                 </Link>
               </div>
-
-              <dl className="mt-10 grid max-w-lg grid-cols-2 gap-4 sm:grid-cols-2">
+                            <dl className="mt-6 grid max-w-lg grid-cols-2 gap-4 sm:grid-cols-2">              
                 {highlights.map((h) => (
-                  <div key={h.k} className="group rounded-2xl border border-line bg-white/70 p-4 transition-colors hover:border-pine hover:bg-pine">
                     <dt className="text-sm font-extrabold text-ink group-hover:text-white">{h.k}</dt>
                     <dd className="mt-1 text-[13px] leading-snug text-ink/70 group-hover:text-white/80">{h.v}</dd>
                   </div>
@@ -89,7 +88,7 @@ export default function HomePage() {
           </div>
           <Reveal delay={0.15} className="relative">
             <div className="relative">
-              <HeroVisual className="h-[400px] md:h-[500px]" />
+                              <HeroVisual className="h-[340px] md:h-[420px]" />
               <figure className="absolute -bottom-2 left-4 z-30 md:left-8">
                 <Image
                   src="/images/abdul-rehman.webp"
