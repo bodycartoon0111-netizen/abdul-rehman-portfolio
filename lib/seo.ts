@@ -209,10 +209,12 @@ export function buildLocalBusinessJsonLd(
     name: "Abdul Rehman — Digital Growth Services",
     url: absoluteUrl(pagePath),
     telephone: BRAND_WHATSAPP,
+    email: "contact@abdulrehmantech.com",
     priceRange: "$$",
     currenciesAccepted: "PKR, USD",
     openingHoursSpecification: [
       {
+        
         "@type": "OpeningHoursSpecification",
         dayOfWeek: [
           "Monday",
