@@ -120,12 +120,8 @@ export function buildWebsiteJsonLd(): Record<string, unknown> {
     url: absoluteUrl("/"),
     description: TAGLINE,
     inLanguage: "en",
-    publisher: {
-      "@type": "Person",
-      name: BRAND_NAME,
-      url: absoluteUrl("/"),
-    },
-  };
+    publisher: buildPersonJsonLd(),
+        };
 }
 
 export function buildProfessionalServiceJsonLd(): Record<string, unknown> {
