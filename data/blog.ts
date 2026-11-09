@@ -22,7 +22,7 @@ export interface BlogPost {
   readingMinutes: number;
   tags: string[];
   category: string;
-  sample: true; // marks placeholder content until real posts ship
+  sample: boolean; // marks placeholder content until real posts ship
   metaTitle: string;
   metaDescription: string;
   sections: BlogSection[];
