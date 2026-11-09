@@ -8,7 +8,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { JsonLd } from "@/components/seo/JsonLd";
 import {
   pageMetadata,
-  buildProfessionalServiceJsonLd,
+  buildLocalBusinessJsonLd,
 } from "@/lib/seo";
 import { HeroVisual } from "@/components/hero/HeroVisual";
 import TrustStrip from "@/components/sections/TrustStrip";
@@ -24,11 +24,11 @@ import CtaBanner from "@/components/sections/CtaBanner";
 export const metadata: Metadata = {
   ...pageMetadata(
     "SEO, Performance Marketing & Web Development",
-    "Freelance SEO consultant helping businesses worldwide grow with SEO, Google & Meta Ads, websites and AI automation. Book a free consultation today.",
-    "/",
+    "Freelance SEO consultant in Lahore, Pakistan. Grow your business with SEO, Google & Meta Ads, websites and AI automation. Book a free SEO audit today.",
+    "/", "Abdul Rehman — SEO, Google & Meta Ads, websites and AI automation from Lahore, Pakistan. See the work, then book a free SEO audit.",
   ),
   title: {
-    absolute: "Freelance SEO Consultant | SEO & Digital Marketing Services",
+    absolute: "SEO Consultant in Lahore | Freelance SEO Expert Pakistan",
   },
 };
 
@@ -42,7 +42,7 @@ const highlights = [
 export default function HomePage() {
   return (
     <>
-      <JsonLd data={buildProfessionalServiceJsonLd()} />
+      <JsonLd data={buildLocalBusinessJsonLd()} />
 
       {/* ── Hero ───────────────────────────────────────────────────── */}
             <section className="relative -mt-8 overflow-hidden bg-paper md:-mt-12">
