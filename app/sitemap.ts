@@ -26,6 +26,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "", lastModified: modified20261109, changeFrequency: "weekly", priority: 1 },
     { path: "/about", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
     { path: "/services", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.8 },
+    // Granular service pages (standalone page.tsx files, not in data/services).
+    { path: "/services/seo-audit", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.8 },
+    { path: "/services/keyword-research", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.8 },
+    { path: "/services/technical-seo", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.8 },
+    { path: "/services/off-page-seo", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.8 },
     { path: "/process", lastModified: new Date("2026-11-09"), changeFrequency: "monthly", priority: 0.7 },
     { path: "/work", lastModified: modified20261109, changeFrequency: "monthly", priority: 0.7 },
     { path: "/blog", lastModified: modified20261010, changeFrequency: "monthly", priority: 0.7 },
@@ -66,18 +71,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // post is fresh, then yearly once it is older than 90 days.
   for (const slug of getPostSlugs()) {
     const post = getPostBySlug(slug);
-    const published = post?.publishedAt
-      ? new Date(post.publishedAt)
-      : siteLastModified;
-    const lastModified = post?.updatedAt
-      ? new Date(post.updatedAt)
-      : published;
-    const ageMs = Date.now() - published.getTime();
+    const ageDays = (Date.now() - post.publishedAt.getTime()) / 86400000;
     entries.push({
       url: `${base}/blog/${slug}`,
-      lastModified,
-      changeFrequency: ageMs > 90 * 86_400_000 ? "yearly" : "monthly",
-      priority: 0.6,
+      lastModified: post.lastUpdated ?? post.publishedAt,
+      changeFrequency: ageDays > 90 ? "yearly" : "monthly",
+      priority: 0.7,
     });
   }
 
