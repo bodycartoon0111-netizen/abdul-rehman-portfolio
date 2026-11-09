@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: { absolute: "Terms of Use | Abdul Rehman" },
-  description: "The terms under which you may use this portfolio website.",
+  title: { absolute: "Terms of Use | Abdul Rehman SEO Consultant Lahore, Pakistan" },
+  description: "The terms under which you may use this portfolio website. By using this site you accept these terms — please read them before working with Abdul Rehman.",
   alternates: { canonical: "/terms" },
 };
 
