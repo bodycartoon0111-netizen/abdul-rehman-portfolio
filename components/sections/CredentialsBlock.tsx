@@ -59,10 +59,10 @@ export default function CredentialsBlock() {
         />
         <Reveal>
           <dl className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
-            <Stat value={String(projects.length)} label="Live projects" />
-            <Stat value={String(services.length)} label="Services offered" />
-            <Stat value={String(technologyCount)} label="Technologies" />
-            <Stat value={String(industries.length)} label="Industries served" />
+            <Stat value={projects.length} label="Live projects" />
+            <Stat value={services.length} label="Services offered" />
+            <Stat value={technologyCount} label="Technologies" />
+            <Stat value={industries.length} label="Industries served" />
           </dl>
         </Reveal>
         <Reveal delay={0.1}>
