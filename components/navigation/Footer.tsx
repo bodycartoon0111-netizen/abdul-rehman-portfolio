@@ -10,7 +10,7 @@ import {
   SOCIAL_FACEBOOK,
   SOCIAL_INSTAGRAM,
 } from "@/lib/seo";
-import { trackEvent, trackOutboundClick } from "@/lib/analytics";
+import { trackEvent, trackOutboundClick, trackWhatsAppClick } from "@/lib/analytics";
 
 /** All ten services — slugs must match the /services/[slug] pages. */
 const SERVICES = [
@@ -146,7 +146,10 @@ export function Footer() {
                   href={BRAND_WHATSAPP_LINK}
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={() => trackOutboundClick(BRAND_WHATSAPP_LINK)}
+                  onClick={() => {
+                    trackOutboundClick(BRAND_WHATSAPP_LINK);
+                    trackWhatsAppClick(BRAND_WHATSAPP_LINK);
+                  }}
                   className="font-semibold text-ink transition-colors hover:text-pine"
                 >
                   {BRAND_WHATSAPP}
@@ -171,7 +174,7 @@ export function Footer() {
                   ))}
                 </ul>
               </li>
-                          </ul>
+            </ul>
           </div>
         </div>
 
