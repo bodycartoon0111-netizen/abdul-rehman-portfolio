@@ -758,7 +758,7 @@ sections: [
 {
 heading: "The idea: automate the boring middle",
 paragraphs: [
-"A small marketing team in Pakistan does not lose its week to strategy. AI automation Pakistan is, at its simplest, the fix for that repetition. It loses it to repetition: copying a new lead from a form into a spreadsheet, then into a CRM, then into a WhatsApp message; assembling the same weekly report from four dashboards; reformatting one piece of content for four channels; chasing people who never replied to the first email.",
+"A small marketing team in Pakistan does not lose its week to strategy. It loses it to repetition: copying a new lead from a form into a spreadsheet, then into a CRM, then into a WhatsApp message; assembling the same weekly report from four dashboards; reformatting one piece of content for four channels; chasing people who never replied to the first email. AI automation Pakistan is, at its simplest, the fix for that repetition.",
 "That repetition is the boring middle, and it is exactly what AI automation is good at. The framing from our earlier post on [how AI automation fits a small marketing team](/blog/ai-automation-small-marketing-team) still holds: humans own strategy and taste; machines own repetition and routing. This post goes further, with five specific workflows, what each one does step by step, and how to start without a large project or a large budget.",
 "One note on the headline number: ten hours a week is not a promise, it is arithmetic. If each of these workflows saves your team two hours a week, five of them return a full working day. Work through the maths for your own team — count the hours each task costs now — and judge the claim against your own numbers.",
 ],
@@ -800,7 +800,7 @@ paragraphs: [
 heading: "Workflow 5: Ad spend and lead alerts",
 paragraphs: [
 "The problem. An ad campaign spends for days before anyone notices it has stopped producing leads, or a sudden spike in enquiries goes unanswered because nobody was watching.",
-"The workflow. A [Google Ads campaign in Pakistan](/services/google-ads) or a [Meta Ads campaign](/services/meta-ads) can spend for days before anyone notices it has stopped producing leads. The automation watches the numbers daily and flags the exceptions: spend without leads, cost per lead jumping sharply, a campaign that stopped delivering, or a sudden surge in enquiries that needs a fast response. The alert goes to one person, with the numbers attached, so the decision takes minutes instead of a Monday-morning investigation.",
+"The workflow. Whether it is a [Google Ads campaign in Pakistan](/services/google-ads) or a [Meta Ads campaign](/services/meta-ads), the automation watches the numbers daily and flags the exceptions: spend without leads, cost per lead jumping sharply, a campaign that stopped delivering, or a sudden surge in enquiries that needs a fast response. The alert goes to one person, with the numbers attached, so the decision takes minutes instead of a Monday-morning investigation.",
 "What it saves. The wasted spend, and the slow response to good news. Small teams cannot watch dashboards all day; an alert that only fires when something is wrong is worth more than a dashboard nobody opens. Set the thresholds with the person who will act on them, so alerts stay rare enough to take seriously.",
 ],
 },
