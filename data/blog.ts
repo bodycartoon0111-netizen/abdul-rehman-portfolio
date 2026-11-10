@@ -112,7 +112,7 @@ export const blogPosts: BlogPost[] = [
             {
         heading: "Want me to run this checklist on your site?",
         paragraphs: [
-          "If you would rather have someone else run it, that is what I do. [Book a free consultation](/contact) and I will go through this technical SEO checklist against your site in the same order, then tell you plainly what needs fixing first. No jargon, no fifty-page report you will never read — a short list, in priority order.",
+          "If you would rather have someone else run it, that is what I do. [Book a free consultation](/contact) and I will go through this technical SEO checklist against your site in the same order, then tell you plainly what needs fixing first. No jargon, no fifty-page report you will never read — a short list, in priority order. You can see the full list of [services](/services) on the site before you decide.",
           "If you prefer to message first, [message me on WhatsApp](https://wa.me/923219482015). I am based in Lahore and work with businesses across Pakistan, and I reply to every message myself. You can read more about how I work on my [about page](/about).",
         ],
       },
