@@ -84,7 +84,7 @@ export default function HomePage() {
                   </div>
                 ))}
               </dl>
-            div>
+                                                </div>
           <Reveal delay={0.15} className="relative">
             <div className="relative">
                               <HeroVisual className="h-[340px] md:h-[420px]" />
