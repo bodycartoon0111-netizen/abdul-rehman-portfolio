@@ -4,7 +4,7 @@ import type { Faq } from "@/types";
 export const faqs: Faq[] = [
   {
     q: "What services do you offer?",
-    a: "Ten, across two disciplines that usually live in separate agencies: growth marketing (SEO, Google Ads, Meta Ads, performance marketing) and technology (web development, app development, custom software, WordPress, Shopify, AI automation). You can hire one service or combine them into a single growth system.",
+    a: "Eleven, across two disciplines that usually live in separate agencies: growth marketing (SEO, Google Ads, Meta Ads, performance marketing) and technology (web development, app development, custom software, WordPress, Shopify, AI automation). You can hire one service or combine them into a single growth system.",
   },
   {
     q: "How much does a project cost?",
