@@ -16,13 +16,16 @@ import {
 // Desktop-only cursor, code-split; no ssr: false (Server Component).
 const SignalCursor = dynamic(
   () => import("@/components/cursor/SignalCursor").then((mod) => mod.SignalCursor),
-);  
+);
 
+// Manrope is a variable font (weight 200-800): load its single variable
+// latin file instead of five static instances, so the H1 weight (800)
+// is preloaded in one file and paints sooner on mobile.
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
-  weight: ["400", "500", "600", "700", "800"],
   display: "swap",
+  preload: true,
 });
 
 export const metadata: Metadata = defaultMetadata;
