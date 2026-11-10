@@ -7,10 +7,11 @@ export const BRAND_WHATSAPP = "+923714972789";
 export const BRAND_WHATSAPP_LINK = "https://wa.me/923714972789";
 export const SOCIAL_LINKEDIN = "https://www.linkedin.com/in/abdulrehman--asghar/";
 export const SOCIAL_FACEBOOK =
-  "https://www.facebook.com/profile.php?id=61592492806563";
+  "https://www.facebook.com/abdulrehman.tech.service";
 export const SOCIAL_INSTAGRAM =
   "https://www.instagram.com/abdulrehman.tech.service/";
-
+export const SOCIAL_X = "https://x.com/abdulrehman_tec";
+export const SOCIAL_PINTEREST = "https://www.pinterest.com/abdulrehmantechservice/";
 /* ── URL helpers ─────────────────────────────────────────────────── */
 export function siteUrl(): string {
   const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
@@ -103,7 +104,7 @@ export function buildPersonJsonLd(): Record<string, unknown> {
       "AI Automation",
       "Custom Software Development",
     ],
-    sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM],
+    sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM, SOCIAL_X, SOCIAL_PINTEREST],
   };
 }
 
@@ -130,7 +131,7 @@ export function buildProfessionalServiceJsonLd(): Record<string, unknown> {
     email: BRAND_EMAIL,
     telephone: BRAND_WHATSAPP,
     areaServed: "Worldwide",
-    sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM],
+    sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM, SOCIAL_X, SOCIAL_PINTEREST],
   };
 }
 
@@ -245,7 +246,7 @@ export function buildLocalBusinessJsonLd(
       "Multan",
       "Worldwide (remote)",
     ],
-    sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM],
+    sameAs: [SOCIAL_LINKEDIN, SOCIAL_FACEBOOK, SOCIAL_INSTAGRAM, SOCIAL_X, SOCIAL_PINTEREST],
   };
 }
 
