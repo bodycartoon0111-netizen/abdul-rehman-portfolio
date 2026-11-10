@@ -87,7 +87,7 @@ export default function HomePage() {
                                                 </div>
           <Reveal delay={0.15} className="relative">
             <div className="relative">
-                              <HeroVisual className="h-[340px] md:h-[420px]" />
+                              <HeroVisual className="h-[400px] md:h-[560px]" />
               <figure className="absolute -bottom-2 left-4 z-30 md:left-8">
                 <Image
                   src="/images/abdul-rehman.webp"
