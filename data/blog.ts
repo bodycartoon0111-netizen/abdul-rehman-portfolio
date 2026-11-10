@@ -340,7 +340,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Step 3: Photos and posts that build trust",
         paragraphs: [
-          "People choose businesses they can picture. Upload real photos: the outside of your premises, the inside, your team at work, your actual products. Photos taken on a phone are fine — real beats polished. A listing with genuine photos gets more calls, more direction requests and more trust than one with a single blurry logo. For a clinic, that means the waiting area and the doctor's room, not stock photos; for a restaurant, the actual dishes, not downloaded images.",
+          "People choose businesses they can picture. Upload real photos: the outside of your premises, the inside, your team at work, your actual products. Photos taken on a phone are fine — real beats polished. A listing with genuine photos gets more calls, more direction requests and more trust than one with a single blurry logo. For a [clinic](/industries/healthcare), that means the waiting area and the doctor's room, not stock photos; for a restaurant, the actual dishes, not downloaded images.",
           "Posts are the part almost everyone ignores. A short post once a week — an offer, a new service, a tip, a behind-the-scenes photo — keeps the profile active and gives customers a reason to choose you over the listing next to yours. It takes ten minutes and it is one of the easiest gaps to exploit, because your competitors are not doing it either.",
         ],
       },
@@ -348,7 +348,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Step 4: Reviews — the part most businesses get wrong",
         paragraphs: [
           "Reviews are the single biggest trust signal in local search. They decide whether a customer calls you — and where Google puts you in the results. The way to get them is simple and unglamorous: ask every happy customer, soon after the job is done, while the experience is fresh. A short WhatsApp message with a direct link to your review page is enough — in Lahore, WhatsApp is where that ask actually gets read. Most customers are willing; they just need to be asked.",
-          "Reply to every review — good and bad. A thank-you for a good review takes thirty seconds and shows the next hundred readers that you pay attention. A bad review answered calmly and professionally does more for your reputation than a perfect five-star record, because nobody believes a perfect record anyway. This matters most for trust-heavy businesses — a clinic lives or dies on what patients write, which is why [healthcare SEO in Lahore](/industries/healthcare) puts reviews first.",
+          "Reply to every review — good and bad. A thank-you for a good review takes thirty seconds and shows the next hundred readers that you pay attention. A bad review answered calmly and professionally does more for your reputation than a perfect five-star record, because nobody believes a perfect record anyway. This matters most for trust-heavy businesses — a clinic lives or dies on what patients write, which is why [healthcare SEO in Lahore](/industries/healthcare) puts reviews first. The same is true for [schools and coaching centres](/industries/education), where parents read reviews before they enrol a child.",
           "What you must never do: buy reviews, write your own, or ask staff to leave them. Fake reviews get removed, and when Google catches a pattern, the listing can be suspended. The honest route is slower. It is also the only one that lasts.",
         ],
       },
