@@ -1,7 +1,6 @@
 "use client";
 
-import { useRef } from "react";
-import { motion, useMotionValue, useSpring } from "framer-motion";
+import { useRef, type CSSProperties } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
@@ -45,74 +44,77 @@ export function Button({
   ariaLabel,
 }: ButtonProps) {
   const ref = useRef<HTMLElement | null>(null);
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const sx = useSpring(x, { stiffness: 220, damping: 18, mass: 0.4 });
-  const sy = useSpring(y, { stiffness: 220, damping: 18, mass: 0.4 });
-
-  const reducedMotion =
-    typeof window !== "undefined" &&
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function handleMove(event: React.MouseEvent<HTMLElement>) {
-    if (!magnetic || reducedMotion || !ref.current) return;
+    if (!magnetic || !ref.current) return;
+    if (
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      return;
+    }
     const rect = ref.current.getBoundingClientRect();
-    x.set((event.clientX - (rect.left + rect.width / 2)) * MAGNETIC_STRENGTH);
-    y.set((event.clientY - (rect.top + rect.height / 2)) * MAGNETIC_STRENGTH);
+    const targetX =
+      (event.clientX - (rect.left + rect.width / 2)) * MAGNETIC_STRENGTH;
+    const targetY =
+      (event.clientY - (rect.top + rect.height / 2)) * MAGNETIC_STRENGTH;
+    ref.current.style.transform = `translate(${targetX}px, ${targetY}px)`;
   }
 
   function handleLeave() {
-    x.set(0);
-    y.set(0);
+    if (ref.current) ref.current.style.transform = "";
   }
 
-  const classes = cn(
-    "inline-flex items-center justify-center gap-2 rounded-pill font-bold tracking-tight",
-    "transition-[background-color,border-color,box-shadow,transform] duration-[var(--duration-fast)] ease-[var(--ease-out-soft)]",
-    "active:scale-[0.98]",
+  // CSS transition for the magnetic pull. It also keeps the 0.3s colour
+  // transition the Tailwind classes provide, which a transform-only
+  // transition rule would otherwise drop.
+  const magneticStyle: CSSProperties | undefined = magnetic
+    ? {
+        transition:
+          "transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.3s, border-color 0.3s, color 0.3s",
+      }
+    : undefined;
+
+  const sharedClassName = cn(
+    "inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pine",
     variantStyles[variant],
     sizeStyles[size],
     className,
   );
 
-  const motionProps = magnetic
-    ? {
-        style: { x: sx, y: sy },
-        onMouseMove: handleMove,
-        onMouseLeave: handleLeave,
-      }
-    : {};
-
-  const innerClassName = cn(
-    "inline-flex items-center justify-center gap-2",
-    classes,
-  );
-
   if (href) {
     return (
-      <Link href={href} className="inline-block" aria-label={ariaLabel}>
-        <motion.span
-          {...motionProps}
-          ref={ref as React.Ref<HTMLSpanElement>}
-          className={innerClassName}
-          data-cursor="cta"
-        >
-          {children}
-        </motion.span>
+      <Link
+        href={href}
+        ref={(el: HTMLAnchorElement | null) => {
+          ref.current = el;
+        }}
+        onMouseMove={handleMove}
+        onMouseLeave={handleLeave}
+        onClick={onClick}
+        aria-label={ariaLabel}
+        style={magneticStyle}
+        className={sharedClassName}
+      >
+        {children}
       </Link>
     );
   }
+
   return (
-    <motion.button
+    <button
+      ref={(el: HTMLButtonElement | null) => {
+        ref.current = el;
+      }}
       type="button"
-      {...motionProps}
-      ref={ref as React.Ref<HTMLButtonElement>}
-      className={innerClassName}
-      data-cursor="cta"
+      onMouseMove={handleMove}
+      onMouseLeave={handleLeave}
       onClick={onClick}
       aria-label={ariaLabel}
+      style={magneticStyle}
+      className={sharedClassName}
     >
       {children}
-    </motion.button>
+    </button>
   );
 }
