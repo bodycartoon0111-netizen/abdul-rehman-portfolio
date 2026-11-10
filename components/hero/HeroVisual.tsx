@@ -10,7 +10,7 @@ const GrowthNetwork = dynamic(() => import("@/components/hero/GrowthNetwork"), {
   loading: () => (
     <div
       aria-hidden="true"
-      className="h-[340px] animate-pulse rounded-3xl bg-gradient-to-br from-mint/30 via-surface to-paper md:h-[420px]"
+      className="h-[400px] animate-pulse rounded-3xl bg-gradient-to-br from-mint/30 via-surface to-paper md:h-[560px]"
     />
   ),
 });
@@ -20,7 +20,7 @@ export function HeroVisual({ className }: { className?: string }) {
   // and then only when the browser is idle. The network is decorative,
   // so it must not compete with the hero text (LCP) for bandwidth and
   // main-thread time on mobile. The placeholder above is exactly the
-  // loaded canvas height (h-[340px] md:h-[420px], as passed by the
+  // loaded canvas height (h-[400px] md:h-[560px], as passed by the
   // homepage), so the swap causes no layout shift.
   const [ready, setReady] = useState(false);
   useEffect(() => {
@@ -53,7 +53,7 @@ export function HeroVisual({ className }: { className?: string }) {
     return (
       <div
         aria-hidden="true"
-        className="h-[340px] animate-pulse rounded-3xl bg-gradient-to-br from-mint/30 via-surface to-paper md:h-[420px]"
+        className="h-[400px] animate-pulse rounded-3xl bg-gradient-to-br from-mint/30 via-surface to-paper md:h-[560px]"
       />
     );
   }
