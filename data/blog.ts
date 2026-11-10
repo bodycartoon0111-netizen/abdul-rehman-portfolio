@@ -792,7 +792,7 @@ paragraphs: [
 heading: "Workflow 4: Review requests at the right moment",
 paragraphs: [
 "The problem. Happy customers rarely leave reviews on their own, and the business forgets to ask. The listing slowly falls behind competitors who ask consistently.",
-"The workflow. After a job is marked complete or a delivery is confirmed, the automation waits a short time — long enough for the customer to have used what they bought — then sends a short, polite request with a direct link to the Google review page. If the customer replies with a problem instead, the message routes to a human immediately, before any review request goes out.",
+"The workflow. After a job is marked complete or a delivery is confirmed, the automation waits a short time — long enough for the customer to have used what they bought — then sends a short, polite request with a direct link to the Google review page. If the customer replies with a problem instead, the message routes to a human immediately, before any review request goes out. For an online store, that delivery confirmation comes from the store itself — if you are still choosing a platform, our [Shopify vs WordPress](/blog/shopify-vs-wordpress) guide compares the two most common choices.",
 "What it saves. The asking, which is the part everyone forgets, and the timing, which is the part that decides whether the customer responds. Reviews must always be genuine and never paid for; the automation only handles the asking, never the content.",
 ],
 },
@@ -830,7 +830,7 @@ paragraphs: [
 "Q: What tools do I need?",
 "A: An automation platform, a CRM or shared sheet, and the tools you already use — email, WhatsApp, Analytics. The tools matter less than the workflow design. Start with the process, then pick the tool.",
 "Q: Is AI automation only for large companies?",
-"A: The opposite. Large companies can afford the manual work. Small teams feel every wasted hour, which is why the return is usually clearest for them.",
+"A: The opposite. Large companies can afford the manual work. Small teams feel every wasted hour, which is why the return is usually clearest for them. It is the same pattern I see in [SaaS startups](/industries/saas-startups), where a small team runs the whole funnel.",
 "Q: What should I automate first?",
 "A: The workflow with the clearest weekly hour cost — usually lead follow-up or reporting. If you want a second opinion on which one that is, [book a free consultation](/contact) and we can map it together. If the website itself needs work first, our [web development services in Pakistan](/services/web-development) team can sort the foundations.",
 ],
