@@ -24,15 +24,15 @@ const NODES: GrowthNodeDatum[] = [
   // label in the list never renders. Positioned far off-screen.
   { id: "_dummy", label: "", tooltip: "", base: [0, 100, 0], color: "#000000", phase: 0.0 },
   // LANDSCAPE layout: wide top row + right column, routed AROUND the portrait
-  // (portrait covers bottom-left). All 7 labels stay visible — none hidden
-  // behind the portrait. Composition reads wide/horizontal.
-  { id: "seo", label: "SEO", tooltip: "Increase qualified organic visibility", base: [-5.5, 4.9, 0.0], color: "#1b4332", phase: 0.0 },
-  { id: "traffic", label: "Traffic", tooltip: "Attract the right visitors, not just more of them", base: [-3.0, 5.1, -0.3], color: "#2d6a4f", phase: 1.3 },
-  { id: "content", label: "Content", tooltip: "Answer the questions buyers are actually asking", base: [-0.5, 4.9, 0.4], color: "#40916c", phase: 2.6 },
-  { id: "ads", label: "Ads", tooltip: "Buy attention only where it converts", base: [2.0, 5.1, -0.2], color: "#52b788", phase: 3.9 },
-  { id: "website", label: "Website", tooltip: "A fast site engineered to earn trust", base: [5.0, 2.5, 0.5], color: "#74c69d", phase: 5.2 },
-  { id: "conversion", label: "Conversion", tooltip: "Turn traffic into measurable business outcomes", base: [5.8, 0.5, 0.0], color: "#14532d", phase: 6.5 },
-  { id: "automation", label: "Automation", tooltip: "Systems that follow up while you sleep", base: [5.0, -1.8, -0.4], color: "#0b3d2e", phase: 7.8 },
+  // The canvas is taller now, so the top row sits in the clear band above the
+  // portrait's head, and the network is layered IN FRONT of it.
+  { id: "seo", label: "SEO", tooltip: "Increase qualified organic visibility", base: [-5.5, 5.5, 0.0], color: "#1b4332", phase: 0.0 },
+  { id: "traffic", label: "Traffic", tooltip: "Attract the right visitors, not just more of them", base: [-3.0, 5.7, -0.3], color: "#2d6a4f", phase: 1.3 },
+  { id: "content", label: "Content", tooltip: "Answer the questions buyers are actually asking", base: [-0.5, 5.5, 0.4], color: "#40916c", phase: 2.6 },
+  { id: "ads", label: "Ads", tooltip: "Buy attention only where it converts", base: [2.0, 5.7, -0.2], color: "#52b788", phase: 3.9 },
+  { id: "website", label: "Website", tooltip: "A fast site engineered to earn trust", base: [4.6, 2.6, 0.5], color: "#74c69d", phase: 5.2 },
+  { id: "conversion", label: "Conversion", tooltip: "Turn traffic into measurable business outcomes", base: [4.6, 0.4, 0.0], color: "#14532d", phase: 6.5 },
+  { id: "automation", label: "Automation", tooltip: "Systems that follow up while you sleep", base: [4.6, -1.9, -0.4], color: "#0b3d2e", phase: 7.8 },
 ];
 
 const EDGES: Array<[number, number]> = [
@@ -256,13 +256,13 @@ function usePositions(): { current: Float32Array } {
 /* ------------------------------------------------------------------ */
 
 function toSvg(x: number, y: number): [number, number] {
-  // world x in [-7, 7] -> [40, 860]; world y in [-3, 3] -> [520, 40]
-  return [((x + 7) / 14) * 820 + 40, ((3 - y) / 6) * 480 + 40];
+  // world x in [-7, 7] -> [40, 860]; world y in [-3, 6.5] -> [520, 40]
+  return [((x + 7) / 14) * 820 + 40, ((6.5 - y) / 9.5) * 480 + 40];
 }
 
 function StaticNetwork({ className = "" }: { className?: string }) {
   return (
-    <div className={`relative ${className}`} role="img" aria-label="Network diagram of growth services: SEO, Traffic, Content, Ads, Website, Automation, Conversion">
+    <div className={`relative z-40 ${className}`} role="img" aria-label="Network diagram of growth services: SEO, Traffic, Content, Ads, Website, Automation, Conversion">
       <svg viewBox="0 0 900 560" className="h-full w-full" aria-hidden="true">
         <defs>
           <radialGradient id="gn-glow" cx="50%" cy="50%" r="50%">
@@ -270,7 +270,7 @@ function StaticNetwork({ className = "" }: { className?: string }) {
             <stop offset="100%" stopColor="#d8f3dc" stopOpacity="0" />
           </radialGradient>
         </defs>
-        <circle cx="450" cy="280" r="330" fill="url(#gn-glow)" />
+        <circle cx="450" cy="280" r="330" fill="none" />
         {EDGES.map(([a, b]) => {
           const [x1, y1] = toSvg(NODES[a].base[0], NODES[a].base[1]);
           const [x2, y2] = toSvg(NODES[b].base[0], NODES[b].base[1]);
@@ -364,7 +364,7 @@ export default function GrowthNetwork({
         camera={{ position: [0, 0, 12.5], fov: 45 }}
         gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
         frameloop={inView ? "always" : "never"}
-        style={{ background: "transparent" }}
+        style={{ background: "transparent", position: "relative", zIndex: 40 /* above the portrait figure (z-30 in app/page.tsx) */ }}
       >
         <GrowthScene positionsRef={positionsRef} pointerActive={pointerActive} />
       </Canvas>
