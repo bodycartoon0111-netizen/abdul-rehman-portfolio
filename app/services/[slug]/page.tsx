@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { Fragment } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -13,8 +14,7 @@ import {
 } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
-import CtaBand from "@/components/sections/CtaBand";
-
+const CtaBand = dynamic(() => import("@/components/sections/CtaBand"));
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
 }
