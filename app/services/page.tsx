@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     absolute: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
   },
   description:
-    "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Ten services, one Lahore consultant. Book a free audit.",
+    "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Eleven services, one Lahore consultant. Book a free audit.",
   alternates: { canonical: "/services" },
   openGraph: {
     title: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
     description:
-      "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Ten services, one Lahore consultant. Book a free audit.",
+      "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Eleven services, one Lahore consultant. Book a free audit.",
     url: "/services",
     type: "website",
   },
@@ -83,7 +83,7 @@ export default function ServicesPage() {
             Automation
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Services engineered for growth, not vanity metrics. Ten digital
+            Services engineered for growth, not vanity metrics. Eleven digital
             marketing services in Pakistan — SEO, Google Ads, Meta Ads, web
             development and AI automation — delivered by one consultant in
             Lahore. I am{" "}
@@ -122,7 +122,7 @@ export default function ServicesPage() {
             Digital marketing services in Pakistan cover SEO, paid ads, social
             media, web development and automation — the work that gets a
             business found on Google, chosen by customers, and measured
-            honestly. As a consultant, I deliver all ten services below
+            honestly. As a consultant, I deliver all Eleven services below
             myself, so strategy and execution never get lost between people.
           </p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
