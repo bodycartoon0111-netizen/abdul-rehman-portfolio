@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/navigation/MobileNav";
@@ -34,12 +33,9 @@ export function Header() {
 
   return (
     <>
-      <motion.header
-        initial={{ y: -72, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-        className="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4"
-      >
+      {/* Slide-down entry is a CSS animation (.header-enter in globals.css),
+          same 0.7s ease as before, so it runs without any JS library. */}
+      <header className="header-enter fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4">
         <nav
           aria-label="Primary"
           className={cn(
@@ -92,12 +88,11 @@ export function Header() {
                     )}
                   >
                     {link.label}
+                    {/* Was a framer-motion layoutId pill that slid between
+                        links; now a plain pill on the active link. Final
+                        appearance is identical — only the slide is gone. */}
                     {active && (
-                      <motion.span
-                        layoutId="nav-active-pill"
-                        className="absolute inset-0 -z-10 rounded-pill bg-mint/70"
-                        transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-                      />
+                      <span className="absolute inset-0 -z-10 rounded-pill bg-mint/70" />
                     )}
                   </Link>
                 </li>
@@ -131,19 +126,17 @@ export function Header() {
             </span>
           </button>
         </nav>
-      </motion.header>
+      </header>
 
-      <AnimatePresence>
-        {menuOpen && (
-          <MobileNav
-            links={[...NAV_LINKS]}
-            onClose={() => {
-              setMenuOpen(false);
-              menuButtonRef.current?.focus();
-            }}
-          />
-        )}
-      </AnimatePresence>
+      {menuOpen && (
+        <MobileNav
+          links={[...NAV_LINKS]}
+          onClose={() => {
+            setMenuOpen(false);
+            menuButtonRef.current?.focus();
+          }}
+        />
+      )}
     </>
   );
 }
