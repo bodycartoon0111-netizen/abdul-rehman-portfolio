@@ -12,6 +12,7 @@ export const SOCIAL_INSTAGRAM =
   "https://www.instagram.com/abdulrehman.tech.service/";
 export const SOCIAL_X = "https://x.com/abdulrehman_tec";
 export const SOCIAL_PINTEREST = "https://www.pinterest.com/abdulrehmantechservice/";
+
 /* ── URL helpers ─────────────────────────────────────────────────── */
 export function siteUrl(): string {
   const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
