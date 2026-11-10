@@ -49,7 +49,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
   const relatedProjects = projects.filter(
     (p) => p.relatedServices.includes(slug) || p.services.includes(slug)
   );
-  const otherServices = services.filter((s) => s.slug !== slug).slice(0, 3); const relatedPost = slug === "ai-automation" ? { href: "/blog/ai-automation-small-marketing-team", label: "How AI Automation Fits a Small Marketing Team" } : { href: "/blog/technical-seo-checklist-2026", label: "Technical SEO Checklist for 2026" };
+  const otherServices = services.filter((s) => s.slug !== slug).slice(0, 3); const relatedPost = slug === "local-seo" ? { href: "/blog/local-seo-lahore-google-business-profile-guide", label: "Local SEO Lahore: Google Business Profile + Maps Ranking Guide for Lahore Businesses" } : slug === "ai-automation" ? { href: "/blog/ai-automation-small-marketing-team", label: "How AI Automation Fits a Small Marketing Team" } : { href: "/blog/technical-seo-checklist-2026", label: "Technical SEO Checklist for 2026" };
 
   return (
     <main className="mx-auto max-w-6xl px-6 py-10">
