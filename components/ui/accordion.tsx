@@ -2,7 +2,6 @@
 
 import { useId, useState } from "react";
 import type { ReactNode } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 export interface AccordionItem {
@@ -20,6 +19,9 @@ interface AccordionProps {
 /**
  * Accessible accordion (FAQ). Keyboard-operable buttons with
  * aria-expanded / aria-controls, smooth height animation.
+ * Expand/collapse is a CSS grid-template-rows transition
+ * (.accordion-panel in globals.css) instead of framer-motion;
+ * the panel stays mounted but is aria-hidden while closed.
  */
 export function Accordion({ items, className, defaultOpen = -1 }: AccordionProps) {
   const [openIndex, setOpenIndex] = useState<number>(defaultOpen);
@@ -45,35 +47,35 @@ export function Accordion({ items, className, defaultOpen = -1 }: AccordionProps
                 <span className="text-base font-bold tracking-tight sm:text-lg">
                   {item.question}
                 </span>
-                <motion.span
+                <span
                   aria-hidden="true"
-                  animate={{ rotate: open ? 45 : 0 }}
-                  transition={{ duration: 0.25, ease: "easeOut" }}
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-pill border border-line text-xl leading-none text-pine"
+                  className={cn(
+                    "accordion-icon flex h-8 w-8 shrink-0 items-center justify-center rounded-pill border border-line text-xl leading-none text-pine",
+                    open && "is-open",
+                  )}
                 >
                   +
-                </motion.span>
+                </span>
               </button>
             </h3>
-            <AnimatePresence initial={false}>
-              {open && (
-                <motion.div
-                  key="panel"
-                  id={panelId}
-                  role="region"
-                  aria-labelledby={buttonId}
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: "auto", opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                  className="overflow-hidden"
-                >
-                  <p className="px-6 pb-6 leading-relaxed text-muted">
-                    {item.answer}
-                  </p>
-                </motion.div>
-              )}
-            </AnimatePresence>
+            <div
+              id={panelId}
+              role="region"
+              aria-labelledby={buttonId}
+              aria-hidden={!open}
+              className={cn("accordion-panel", open && "is-open")}
+              style={{
+                opacity: open ? 1 : 0,
+                transition:
+                  "grid-template-rows 0.3s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s cubic-bezier(0.22, 1, 0.36, 1)",
+              }}
+            >
+              <div>
+                <p className="px-6 pb-6 leading-relaxed text-muted">
+                  {item.answer}
+                </p>
+              </div>
+            </div>
           </div>
         );
       })}
