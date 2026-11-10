@@ -206,6 +206,7 @@ export function buildLocalBusinessJsonLd(
     url: absoluteUrl(pagePath),
     telephone: BRAND_WHATSAPP,
     email: "contact@abdulrehmantech.com",
+        contactPoint: { "@type": "ContactPoint", telephone: BRAND_WHATSAPP, email: BRAND_EMAIL, contactType: "customer service" },
     priceRange: "$$",
     currenciesAccepted: "PKR, USD",
     openingHoursSpecification: [
@@ -266,5 +267,41 @@ export function buildOfferCatalogJsonLd(
         url: absoluteUrl(`/services/${service.slug}`),
       },
     })),
+  };
+}
+
+/** Blog hub — a Blog with an ItemList of all blog posts. */
+export function buildBlogJsonLd(
+  posts: Array<{ slug: string; title: string }>,
+): Record<string, unknown> {
+  return {
+    ...baseContext(),
+    "@type": "Blog",
+    name: "Digital Marketing Blog Pakistan",
+    url: absoluteUrl("/blog"),
+    description:
+      "Practical notes on SEO, paid marketing, web development and AI automation from real project experience in Pakistan — checklists and mental models that work.",
+    inLanguage: "en",
+    author: {
+      "@type": "Person",
+      name: BRAND_NAME,
+      url: absoluteUrl("/"),
+    },
+    hasPart: {
+      "@type": "ItemList",
+      name: "Blog posts",
+      itemListElement: posts.map((post, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: post.title,
+        url: absoluteUrl(`/blog/${post.slug}`),
+        item: {
+          "@type": "BlogPosting",
+          url: absoluteUrl(`/blog/${post.slug}`),
+          headline: post.title,
+          name: post.title,
+        },
+      })),
+    },
   };
 }
