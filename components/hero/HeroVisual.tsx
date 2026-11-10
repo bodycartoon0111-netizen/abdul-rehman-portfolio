@@ -10,7 +10,7 @@ const GrowthNetwork = dynamic(() => import("@/components/hero/GrowthNetwork"), {
   loading: () => (
     <div
       aria-hidden="true"
-      className="h-[400px] animate-pulse rounded-3xl bg-gradient-to-br from-mint/30 via-surface to-paper md:h-[560px]"
+      className="h-[400px] animate-pulse rounded-3xl bg-gradient-to-br from-mint/60 via-mint/30 to-mint/10 md:h-[560px]"
     />
   ),
 });
@@ -53,7 +53,7 @@ export function HeroVisual({ className }: { className?: string }) {
     return (
       <div
         aria-hidden="true"
-        className="h-[400px] animate-pulse rounded-3xl bg-gradient-to-br from-mint/30 via-surface to-paper md:h-[560px]"
+        className="h-[400px] animate-pulse rounded-3xl bg-gradient-to-br from-mint/60 via-mint/30 to-mint/10 md:h-[560px]"
       />
     );
   }
