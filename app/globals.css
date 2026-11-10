@@ -290,3 +290,9 @@
 .mobilenav-cta {
   animation: mobilenav-rise-16 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
+/* Note: framer-motion is no longer used by Header, Button, Reveal,
+   MobileNav, Accordion or Stat (all CSS/IntersectionObserver now).
+   It remains only for the desktop-only SignalCursor (and the unused
+   GrowthSignalCard), which is why the dependency is kept. Button's
+   magnetic pull uses an inline transition, so .button-magnetic above
+   is currently unused. */
