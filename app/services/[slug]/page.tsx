@@ -315,7 +315,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
             href="/services"
             className="rounded-full border border-neutral-900 bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-neutral-700"
           >
-            View all 10 services
+            View all 11 services
           </Link>
         </div>
       </section>
