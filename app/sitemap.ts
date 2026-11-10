@@ -55,10 +55,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // Service pages: last edited 2026-11-09 with the service-details data.
+  // Local SEO was added on 2026-11-10.
   for (const s of services) {
     entries.push({
       url: `${base}/services/${s.slug}`,
-      lastModified: modified20261109,
+      lastModified: s.slug === "local-seo" ? new Date("2026-11-10") : modified20261109,
       changeFrequency: "monthly",
       priority: 0.8,
     });
