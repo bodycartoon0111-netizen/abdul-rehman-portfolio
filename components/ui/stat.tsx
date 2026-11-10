@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { animate, useInView } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 interface StatProps {
@@ -20,6 +19,8 @@ interface StatProps {
 /**
  * Animated counter stat. Counts up when scrolled into view;
  * renders a static value when reduced motion is preferred.
+ * Uses IntersectionObserver + requestAnimationFrame (1.6s, ease-out)
+ * instead of framer-motion's animate/useInView.
  *
  * NOTE: only pass values that are real and verified — never invent stats.
  */
@@ -39,21 +40,40 @@ export function Stat({
   className,
 }: StatProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-64px" });
   // Reduced-motion users get the final value immediately — no animation needed.
   const [display, setDisplay] = useState<number>(() =>
     prefersReducedMotion() ? value : 0,
   );
 
   useEffect(() => {
-    if (!inView || prefersReducedMotion()) return;
-    const controls = animate(0, value, {
-      duration: 1.6,
-      ease: [0.22, 1, 0.36, 1],
-      onUpdate: (v) => setDisplay(v),
-    });
-    return () => controls.stop();
-  }, [inView, value]);
+    const el = ref.current;
+    if (!el || prefersReducedMotion()) return;
+    if (typeof IntersectionObserver === "undefined") {
+      setDisplay(value);
+      return;
+    }
+    let frame = 0;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        observer.disconnect();
+        const start = performance.now();
+        const tick = (now: number) => {
+          const progress = Math.min(1, (now - start) / 1600);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          setDisplay(value * eased);
+          if (progress < 1) frame = requestAnimationFrame(tick);
+        };
+        frame = requestAnimationFrame(tick);
+      },
+      { threshold: 0.15, rootMargin: "0px 0px -64px 0px" },
+    );
+    observer.observe(el);
+    return () => {
+      observer.disconnect();
+      cancelAnimationFrame(frame);
+    };
+  }, [value]);
 
   const formatted = display.toLocaleString("en-US", {
     minimumFractionDigits: decimals,
