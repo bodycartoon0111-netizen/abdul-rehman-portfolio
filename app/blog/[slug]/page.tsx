@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getPostSlugs, blogPosts } from "@/data/blog";
 import { absoluteUrl, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
-import CtaBand from "@/components/sections/CtaBand";
-
+const CtaBand = dynamic(() => import("@/components/sections/CtaBand"));
 function renderRichText(text: string) {
   return text.split(/(\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
     const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
