@@ -13,15 +13,10 @@ import {
   defaultMetadata,
 } from "@/lib/seo";
 
-// The custom cursor is a desktop-only decoration (it renders nothing on
-// touch devices and is hidden below the md breakpoint). Load it after
-// hydration in its own chunk so its animation code is not part of the
-// initial JavaScript every page ships, and does not compete with LCP.
-// GA4 and the header/footer are untouched.
+// Desktop-only cursor, code-split; no ssr: false (Server Component).
 const SignalCursor = dynamic(
   () => import("@/components/cursor/SignalCursor").then((mod) => mod.SignalCursor),
-  { ssr: false },
-);
+);  
 
 const manrope = Manrope({
   subsets: ["latin"],
