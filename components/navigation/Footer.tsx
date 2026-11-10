@@ -12,9 +12,10 @@ import {
 } from "@/lib/seo";
 import { trackEvent, trackOutboundClick, trackWhatsAppClick } from "@/lib/analytics";
 
-/** All ten services — slugs must match the /services/[slug] pages. */
+/** All eleven services — slugs must match the /services/[slug] pages. */
 const SERVICES = [
   { label: "SEO", slug: "seo" },
+  { label: "Local SEO", slug: "local-seo" },
   { label: "Google Ads", slug: "google-ads" },
   { label: "Meta Ads", slug: "meta-ads" },
   { label: "Web Development", slug: "web-development" },
