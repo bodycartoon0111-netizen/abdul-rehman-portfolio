@@ -1,10 +1,10 @@
 "use client";
 
-import { motion, useReducedMotion, type Variants } from "framer-motion";
+import { useEffect, useRef, useState, type CSSProperties, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 interface RevealProps {
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
   /** Vertical offset in px for the entrance. */
   y?: number;
@@ -15,6 +15,8 @@ interface RevealProps {
 
 /**
  * Scroll-triggered reveal: fades + rises once when entering the viewport.
+ * Uses IntersectionObserver + a CSS transition (see .reveal in globals.css)
+ * instead of framer-motion, so no animation library is in the critical bundle.
  * Renders statically (no animation) under prefers-reduced-motion.
  */
 export function Reveal({
@@ -24,33 +26,47 @@ export function Reveal({
   delay = 0,
   as = "div",
 }: RevealProps) {
-  const reduceMotion = useReducedMotion();
+  const ref = useRef<HTMLElement | null>(null);
+  const [visible, setVisible] = useState(false);
 
-  const variants: Variants = {
-    hidden: reduceMotion ? { opacity: 1, y: 0 } : { opacity: 0, y },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: reduceMotion ? 0 : 0.7,
-        delay,
-        ease: [0.22, 1, 0.36, 1],
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      setVisible(true);
+      return;
+    }
+    if (typeof IntersectionObserver === "undefined") {
+      setVisible(true);
+      return;
+    }
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
       },
-    },
-  };
+      { threshold: 0.15, rootMargin: "0px 0px -80px 0px" },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
 
-  const MotionTag =
-    as === "section" ? motion.section : as === "span" ? motion.span : motion.div;
+  const Tag = as === "section" ? "section" : as === "span" ? "span" : "div";
 
   return (
-    <MotionTag
-      className={cn(className)}
-      variants={variants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-80px" }}
+    <Tag
+      ref={(el: HTMLElement | null) => {
+        ref.current = el;
+      }}
+      style={{ "--reveal-y": `${y}px`, transitionDelay: `${delay}s` } as CSSProperties}
+      className={cn("reveal", visible && "is-visible", className)}
     >
       {children}
-    </MotionTag>
+    </Tag>
   );
 }
