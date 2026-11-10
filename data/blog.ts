@@ -82,15 +82,15 @@ export const blogPosts: BlogPost[] = [
         heading: "Index hygiene is a quarterly habit",
         paragraphs: [
           "Sites accumulate cruft: tag archives, thin category pages, staging subdomains that leaked into the index. Every quarter, compare the pages Google has indexed against the pages you want indexed. Anything indexed that should not be gets a noindex or a proper 410; anything important that is not indexed gets investigated.",
-          "A smaller, cleaner index concentrates your site's authority on the pages that earn business. Technical SEO is mostly this: less, but correct.",
+          "A smaller, cleaner index concentrates [your site's authority](/services/off-page-seo) on the pages that earn business. Technical SEO is mostly this: less, but correct.",
           "My quarterly routine is simple and it fits in one morning. I pull the indexed pages list from Search Console, export the sitemap, and put the two side by side in a sheet. Anything indexed that should not be gets a noindex or a proper 410; anything important that is missing gets investigated the same day, not next quarter. Tag archives and old category pages cause most of the mess, and a staging subdomain left in the index is the one I check for first, because I have seen it more than once. The deeper version of this routine, with the Pakistan-specific details, is in our [technical SEO checklist for Pakistani websites](/blog/technical-seo-checklist-2026-pakistani-websites).",
         ],
       },
           {
         heading: "How I work through this technical SEO checklist",
         paragraphs: [
-          "I do not fix things in the order I find them. I fix them in the order they block everything else, which is the order of this technical SEO checklist. Crawlability comes first because nothing else works until Google can reach the pages. Speed comes second because a page that loads slowly wastes the traffic the crawl work just earned. Structured data comes third, once the pages it describes are reachable and fast. Index hygiene comes last, once a quarter, because it is a cleaning job, not an emergency.",
-          "Once the checklist is clean, I stop looking at technical problems and start looking at content — what the pages say, whether they answer the search, and whether the internal links point at the pages that earn business. That is a different job, and it takes longer: [how long SEO takes in Pakistan](/blog/how-long-does-seo-take-pakistan) explains why.",
+          "I do not fix things in the order I find them. I fix them in the order they block everything else, which is the order of this technical SEO checklist. Crawlability comes first because nothing else works until Google can reach the pages. Speed comes second because a page that loads slowly wastes the traffic the crawl work just earned. Structured data comes third, once the pages it describes are reachable and fast. Index hygiene comes last, once a quarter, because it is a cleaning job, not an emergency. It is the same [process](/process) I follow on every audit.",
+          "Once the checklist is clean, I stop looking at technical problems and start looking at content — what the pages say, [whether they answer the search](/services/keyword-research), and whether the internal links point at the pages that earn business. That is a different job, and it takes longer: [how long SEO takes in Pakistan](/blog/how-long-does-seo-take-pakistan) explains why.",
         ],
         bullets: [
           "Crawl and index first — the rest is guesswork until Google can reach your pages",
@@ -113,7 +113,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Want me to run this checklist on your site?",
         paragraphs: [
           "If you would rather have someone else run it, that is what I do. [Book a free consultation](/contact) and I will go through this technical SEO checklist against your site in the same order, then tell you plainly what needs fixing first. No jargon, no fifty-page report you will never read — a short list, in priority order.",
-          "If you prefer to message first, [message me on WhatsApp](https://wa.me/923219482015). I am based in Lahore and work with businesses across Pakistan, and I reply to every message myself.",
+          "If you prefer to message first, [message me on WhatsApp](https://wa.me/923219482015). I am based in Lahore and work with businesses across Pakistan, and I reply to every message myself. You can read more about how I work on my [about page](/about).",
         ],
       },
       ],
