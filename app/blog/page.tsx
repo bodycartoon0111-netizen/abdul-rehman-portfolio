@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { blogPosts } from "@/data/blog";
-import { buildBreadcrumbJsonLd } from "@/lib/seo";
+import { buildBlogJsonLd, buildBreadcrumbJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -32,6 +32,7 @@ export default function BlogPage() {
           { name: "Blog", path: "/blog" },
         ])}
       />
+      <JsonLd data={buildBlogJsonLd(blogPosts)} />
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Blog" }]} />
 
       <header className="mt-8 max-w-3xl">
