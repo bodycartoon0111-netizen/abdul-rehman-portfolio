@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 /* ── Brand constants ─────────────────────────────────────────────── */
 export const BRAND_NAME = "Abdul Rehman";
-export const BRAND_EMAIL = "abdulrehmanasghar916@gmail.com";
+export const BRAND_EMAIL = "contact@abdulrehmantech.com";
 export const BRAND_WHATSAPP = "+923714972789";
 export const BRAND_WHATSAPP_LINK = "https://wa.me/923714972789";
 export const SOCIAL_LINKEDIN = "https://www.linkedin.com/in/abdulrehman--asghar/";
