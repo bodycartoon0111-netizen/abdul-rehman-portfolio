@@ -53,12 +53,11 @@ export default function NotFound() {
     </main>
   );
 }
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: { absolute: "Page Not Found | Abdul Rehman" },
   description:
     "The page you were looking for was moved, renamed or never existed. Find your way back to the home page, services, blog or contact.",
-  robots: { index: false, follow: true },
 };
-
