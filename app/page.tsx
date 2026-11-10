@@ -49,9 +49,9 @@ export default function HomePage() {
             <JsonLd data={buildOfferCatalogJsonLd(services)} />
 
       {/* ── Hero ───────────────────────────────────────────────────── */}
-            <section className="relative -mt-8 overflow-hidden bg-paper md:-mt-12">
+            <section className="relative -mt-2 overflow-hidden bg-paper md:-mt-4">
         <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-mint/50 blur-3xl" />
-                                                        <Container className="relative grid gap-8 pb-8 pt-4 md:pb-10 md:pt-6 lg:grid-cols-2 lg:items-center">
+                                                        <Container className="relative grid gap-8 pb-8 pt-8 md:pb-10 md:pt-10 lg:grid-cols-2 lg:items-center">
                             <div><p className="inline-flex items-center gap-2 rounded-full border border-line bg-white/70 px-3.5 py-1.5 text-sm font-semibold text-pine"><span aria-hidden="true" className="h-2 w-2 rounded-full bg-green-500" />One person — website, rankings &amp; automation</p><h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
                                         I Turn Search Visibility Into{" "}<span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Sustainable Business Growth</span>
               </h1>
@@ -86,7 +86,7 @@ export default function HomePage() {
           <Reveal delay={0.15} className="relative">
             <div className="relative">
                               <HeroVisual className="h-[400px] md:h-[560px]" />
-              <figure className="absolute -bottom-2 left-4 z-30 md:left-8">
+              <figure className="absolute -bottom-2 left-4 z-30 bg-transparent md:left-8">
                 <Image
                   src="/images/abdul-rehman.webp"
                   alt="Portrait of Abdul Rehman"
