@@ -91,7 +91,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
             <span key={link.href}>
               {index > 0 ? " " : null}
               {link.prefix}
-              <Link href={link.href} className="font-semibold text-neutral-900 underline">
+              <Link href={link.href} prefetch={false} className="font-semibold text-neutral-900 underline">
                 {link.anchor}
               </Link>
               {link.suffix}
@@ -107,13 +107,13 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       )}
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <Link
-            href="/contact"
+            href="/contact" prefetch={false}
             className="rounded-lg bg-neutral-900 px-8 py-3.5 text-center font-semibold text-white transition hover:bg-neutral-700"
           >
             Discuss this service
           </Link>
           <Link
-            href="/work"
+            href="/work" prefetch={false}
             className="rounded-lg border border-neutral-300 px-8 py-3.5 text-center font-semibold text-neutral-900 transition hover:border-neutral-900"
           >
             See related work
@@ -125,7 +125,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
             <span key={link.href}>
               {index > 0 ? " " : null}
               {link.prefix}
-              <Link href={link.href} className="font-semibold text-neutral-900 underline">
+              <Link href={link.href} prefetch={false} className="font-semibold text-neutral-900 underline">
                 {link.anchor}
               </Link>
               {link.suffix}
@@ -279,13 +279,13 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                   {p.industry}
                 </p>
                 <h3 className="mt-2 text-lg font-bold text-neutral-900">
-                  <Link href={`/work/${p.slug}`} className="transition group-hover:underline">
+                  <Link href={`/work/${p.slug}`} prefetch={false} className="transition group-hover:underline">
                     {p.name}
                   </Link>
                 </h3>
                 <p className="mt-2 flex-1 text-sm leading-relaxed text-neutral-700">{p.tagline}</p>
                 <Link
-                  href={`/work/${p.slug}`}
+                  href={`/work/${p.slug}`} prefetch={false}
                   className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900"
                 >
                   Read case study <span aria-hidden="true">→</span>
@@ -301,18 +301,18 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         <h2 id="other-services-heading" className="text-2xl font-bold tracking-tight text-neutral-900">
           Other services
         </h2>
-        <p className="mb-2 text-sm leading-relaxed text-neutral-700">Related reading: <Link href={relatedPost.href} className="font-semibold text-neutral-900 underline">{relatedPost.label}</Link></p><div className="mt-6 flex flex-wrap gap-3">
+        <p className="mb-2 text-sm leading-relaxed text-neutral-700">Related reading: <Link href={relatedPost.href} prefetch={false} className="font-semibold text-neutral-900 underline">{relatedPost.label}</Link></p><div className="mt-6 flex flex-wrap gap-3">
           {otherServices.map((s) => (
             <Link
               key={s.slug}
-              href={`/services/${s.slug}`}
+              href={`/services/${s.slug}`} prefetch={false}
               className="rounded-full border border-neutral-300 px-5 py-2.5 text-sm font-medium text-neutral-700 transition hover:border-neutral-900 hover:text-neutral-900"
             >
               {s.name}
             </Link>
           ))}
           <Link
-            href="/services"
+            href="/services" prefetch={false}
             className="rounded-full border border-neutral-900 bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-neutral-700"
           >
             View all 11 services
