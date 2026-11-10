@@ -52,19 +52,19 @@ export default function HomePage() {
             <section className="relative -mt-8 overflow-hidden bg-paper md:-mt-12">
         <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-mint/50 blur-3xl" />
                                                         <Container className="relative grid gap-8 pb-8 pt-4 md:pb-10 md:pt-6 lg:grid-cols-2 lg:items-center">
-                            <div><h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
-                                        I Build the Website, <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Rank It, and Automate What Happens Next.</span>
+                            <div><p className="inline-flex items-center gap-2 rounded-full border border-line bg-white/70 px-3.5 py-1.5 text-sm font-semibold text-pine"><span aria-hidden="true" className="h-2 w-2 rounded-full bg-green-500" />One person — website, rankings &amp; automation</p><h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
+                                        SEO Consultant in Lahore —{" "}<span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">I Build It, Rank It, Automate It.</span>
               </h1>
-                                <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">Turning <strong className="font-bold text-ink">Search</strong>, <strong className="font-bold text-ink">Traffic</strong> &amp; <strong className="font-bold text-ink">Technology</strong> Into <strong className="font-bold text-ink">Growth</strong>. Learn more <Link href="/about">about <strong className="font-bold text-ink">Abdul Rehman</strong></Link>
-                        , and browse the <Link href="/services"><strong className="font-bold text-ink">digital marketing services</strong></Link> on offer.
+                                <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">I&apos;m <strong className="font-bold text-ink">Abdul Rehman</strong>. I build your website, rank it on Google, and automate what happens after someone finds it — SEO, Google &amp; Meta Ads, and AI automation, all handled by one person, so nothing gets lost between the build and the results.
+                        
                             </p>
                             <div className="mt-5 flex flex-wrap items-center gap-3">
                 <Link
                   href="/contact"
                   className="group inline-flex items-center gap-2 rounded-full bg-pine px-7 py-3.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition-transform hover:scale-[1.03]"
                 >
-                  Get a quote
-                  <span aria-hidden="true">→</span>
+                  Get a Free SEO Audit
+                  <span aria-hidden="true">↗</span>
                 </Link>
                 <Link
                   href="/work"
