@@ -50,10 +50,6 @@ export const defaultMetadata: Metadata = {
     title: "SEO Consultant in Lahore | Freelance SEO Expert Pakistan",
     description: TAGLINE,
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
 };
 
 /** Page-level metadata helper with a title segment + optional overrides. */
