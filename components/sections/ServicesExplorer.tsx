@@ -27,7 +27,7 @@ export default function ServicesExplorer() {
       <Container>
         <SectionHeading
           eyebrow="SEO & Digital Marketing Services in Pakistan"
-          title="Ten services. One growth system."
+          title="Eleven services. One growth system."
           lede="Marketing and technology under one roof — pick what you need, combine what compounds."
           align="center"
         />
