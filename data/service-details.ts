@@ -6,8 +6,8 @@
  * faqs) with the deeper sections the detail pages render: problems breakdown,
  * strategy, process, and SEO metadata with natural keyword phrasing.
  *
- * Keyed by the 10 canonical service slugs:
- * seo, google-ads, meta-ads, web-development, app-development,
+ * Keyed by the 11 canonical service slugs:
+ * seo, local-seo, google-ads, meta-ads, web-development, app-development,
  * custom-software, wordpress, shopify, performance-marketing, ai-automation
  */
 
@@ -107,7 +107,13 @@ serviceArea: {
 },
     heroLinks: [
       {
-          prefix: "Work with an ",
+          prefix: "For Maps and nearby searches, see ",
+        anchor: "Local SEO services in Lahore",
+        href: "/services/local-seo",
+        suffix: ".",
+      },
+      {
+        prefix: "Work with an ",
         anchor: "SEO consultant in Lahore",
         href: "/",
         suffix: ", not an agency.",
@@ -125,6 +131,117 @@ serviceArea: {
         suffix: ".",
       },
   ],
+  },
+  "local-seo": {
+    slug: "local-seo",
+    h1: "Local SEO Services in Lahore — Get Found on Google Maps",
+    h1Highlight: "Local SEO Services in Lahore",
+    problems: [
+      {
+        title: "You do not show up on the map",
+        description:
+          "A customer nearby searches for what you do, Google shows three businesses on Maps, and yours is not one of them. The call goes to a competitor.",
+      },
+      {
+        title: "Your profile looks half-finished",
+        description:
+          "No photos, or stock photos. Wrong hours, missing services, no description, and questions left unanswered. It reads like a business that may have closed.",
+      },
+      {
+        title: "Your details do not match anywhere",
+        description:
+          "One phone number on your website, another on a directory, and a different spelling of your address on your profile. Google trusts consistency, and mixed details cost you trust.",
+      },
+    ],
+    strategy:
+      "Local SEO is not a trick. It is the steady work of making one business easy for Google and customers to trust: a complete profile, the right category, clear service areas, consistent details, real photos, fresh posts and genuine reviews. I start with the profile, because that is what customers see first on Maps. Then I fix the website pages that support it, so the profile and the site tell the same story about where you work and what you do. I check what competitors in your area are doing — the categories they use, the reviews they answer, the photos they post — and I close the gaps that matter, one at a time. I do not chase every directory or add keywords to your business name, because that gets listings suspended and looks desperate to customers. The work is checked in Google Business Profile insights, Search Console and GA4, so we can see calls, direction requests and visits, and keep doing what works.",
+    strategyPoints: [
+      "Profile first: claim, verify, and complete every field before anything else",
+      "One consistent name, address and phone number everywhere customers find you",
+      "Local keywords written the way customers search, not stuffed into names or pages",
+      "Real reviews earned at the right moment, with a reply to every one",
+    ],
+    process: [
+      {
+        title: "Check",
+        description:
+          "I look at your profile, your website and your competitors in your area, and I check for duplicate listings, wrong categories and details that do not match.",
+      },
+      {
+        title: "Fix the profile",
+        description:
+          "Claim and verify the profile, set the right category and service areas, add real photos, correct hours, services and description, and answer open questions.",
+      },
+      {
+        title: "Fix the website",
+        description:
+          "Local pages and keywords for the areas you serve, with NAP details that match the profile and internal links that help customers find the right page.",
+      },
+      {
+        title: "Keep it alive",
+        description:
+          "Weekly posts, new photos, review replies and a monthly check of calls, direction requests and profile views, with the next fixes listed in plain language.",
+      },
+    ],
+    metaTitle: "Local SEO services Lahore | Google Maps & Reviews Expert",
+    metaDescription:
+      "Local SEO services in Lahore: Google Business Profile setup, Maps ranking, local keywords, reviews and NAP consistency for DHA, Gulberg and Johar Town.",
+    problemsHeading: "Local SEO Problems We Solve in Lahore",
+    solutionHeading: "Local SEO Services in Lahore — The Solution",
+    faqHeading: "Frequently Asked Questions About Local SEO in Lahore",
+    snippet:
+      "Local SEO services in Lahore are the work of getting your business found on Google Maps and in nearby searches, by the customers who are closest and most ready to act. I do this work myself, as a consultant in Lahore, and I start from your profile and your website as they are — no shortcuts, no bought reviews, no promises about page one. Local SEO takes time: a complete, verified profile can start appearing within weeks, but competitive areas take longer, and the businesses that keep their profile fresh are the ones that hold their place.",
+    serviceArea: {
+      heading: "Local SEO Services Across Pakistan",
+      text: "In Lahore, I work in person in DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt and Faisal Town. I also work remotely in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+    },
+    heroLinks: [
+      {
+        prefix: "Local SEO sits inside ",
+        anchor: "SEO services in Lahore",
+        href: "/services/seo",
+        suffix: " — this page covers the Maps and nearby-search part.",
+      },
+      {
+        prefix: "Start with my ",
+        anchor: "Local SEO guide for Lahore businesses",
+        href: "/blog/local-seo-lahore-google-business-profile-guide",
+        suffix: ".",
+      },
+      {
+        prefix: "Or read the ",
+        anchor: "Google Business Profile mistakes Lahore businesses make",
+        href: "/blog/google-business-profile-mistakes-lahore",
+        suffix: " before you change anything.",
+      },
+      {
+        prefix: "See all ",
+        anchor: "digital marketing services",
+        href: "/services",
+        suffix: ".",
+      },
+    ],
+    introLinks: [
+      {
+        prefix: "I am Abdul Rehman, an SEO consultant in Lahore. Local SEO is the part of SEO that deals with place: when someone in DHA searches for a clinic, or someone in Gulberg searches for a restaurant, or someone in Johar Town searches for a plumber, Google answers with a map. The three businesses on that map get the calls. Local SEO is the work of getting your business into that group and keeping it there. It is not the same as ranking a website for a general search. Your website still matters — it needs to be fast, clear and easy to use when a customer taps through — but the profile is what most nearby customers see first, so that is where I start. Read my ",
+        anchor: "Local SEO guide for Lahore businesses",
+        href: "/blog/local-seo-lahore-google-business-profile-guide",
+        suffix: " for the steps, or keep reading for how I do the work.",
+      },
+      {
+        prefix: "Reviews decide a lot of those calls. A business with recent, honest reviews and replies to each one looks open and trusted. A business with no reviews, or with reviews nobody answers, looks uncertain. I help you earn real reviews by asking at the right moment and making it easy for a happy customer to leave one, and I help you reply to the unhappy ones calmly, with facts. What I will not do is buy reviews, write them, or ask staff to leave them — fake reviews get removed, and they damage trust when they are found. The same plain rule applies to your details: one name, one address, one phone number, spelled the same way everywhere. My ",
+        anchor: "guide to Google Business Profile mistakes in Lahore",
+        href: "/blog/google-business-profile-mistakes-lahore",
+        suffix: " walks through the errors that quietly hold a profile back.",
+      },
+      {
+        prefix: "If you want me to look at your profile with you, ",
+        anchor: "book a free consultation",
+        href: "/contact",
+        suffix: " and we can go through it together.",
+      },
+    ],
+    deliverablesLead: "Everything local SEO in Lahore should include — your profile, Maps, local keywords, reviews, citations and plain monthly reporting.",
   },
   "google-ads": {
     slug: "google-ads",
