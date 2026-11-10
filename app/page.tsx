@@ -53,7 +53,7 @@ export default function HomePage() {
         <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-mint/50 blur-3xl" />
                                                         <Container className="relative grid gap-8 pb-8 pt-4 md:pb-10 md:pt-6 lg:grid-cols-2 lg:items-center">
                             <div><h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
-                                        I Turn Search Intent Into <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Organic Growth, Traffic &amp; Customers</span>
+                                        I Build the Website, <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Rank It, and Automate What Happens Next.</span>
               </h1>
                                 <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">Turning <strong className="font-bold text-ink">Search</strong>, <strong className="font-bold text-ink">Traffic</strong> &amp; <strong className="font-bold text-ink">Technology</strong> Into <strong className="font-bold text-ink">Growth</strong>. Learn more <Link href="/about">about <strong className="font-bold text-ink">Abdul Rehman</strong></Link>
                         , and browse the <Link href="/services"><strong className="font-bold text-ink">digital marketing services</strong></Link> on offer.
