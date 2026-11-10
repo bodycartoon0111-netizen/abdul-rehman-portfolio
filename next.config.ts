@@ -31,7 +31,6 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   reactStrictMode: true, experimental: { optimizePackageImports: ["lucide-react", "framer-motion"] },
   images: {
-    unoptimized: true,
     remotePatterns: projectDomains.map((hostname) => ({
       protocol: "https",
       hostname,
