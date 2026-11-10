@@ -45,8 +45,8 @@ export default function PrivacyPage() {
           <p className="mt-3">
             You can request a copy of the information you sent, ask for corrections, or ask for
             deletion by writing to{" "}
-            <a href="mailto:abdulrehmanasghar916@gmail.com" className="font-semibold text-neutral-900 underline">
-              abdulrehmanasghar916@gmail.com
+            <a href="mailto:contact@abdulrehmantech.com" className="font-semibold text-neutral-900 underline">
+              contact@abdulrehmantech.com
             </a>
             . I will respond within a reasonable time.
           </p>
