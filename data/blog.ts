@@ -665,7 +665,7 @@ paragraphs: [
 {
 heading: "Meta Ads vs Google Ads Pakistan: when to start with Meta Ads",
 paragraphs: [
-"Start with Meta Ads when the product sells itself visually, when the customer does not know your brand exists yet, or when demand has to be created rather than captured. Fashion, food, furniture, beauty, gadgets, courses, and e-commerce stores usually belong here first — the customer needs to see it before they want it.",
+"Start with Meta Ads when the product sells itself visually, when the customer does not know your brand exists yet, or when demand has to be created rather than captured. Fashion, food, furniture, beauty, gadgets, [courses](/industries/education), and e-commerce stores usually belong here first — the customer needs to see it before they want it.",
 "Meta also fits new brands and new offers, where there is no search volume yet because nobody knows to search for you. And it fits retargeting: showing ads to people who already visited your website or watched your video, and nudging them back. Retargeting is often the highest-return Meta spend a business has, because the audience already knows you.",
 ],
 },
@@ -714,7 +714,7 @@ paragraphs: [
 heading: "A five-question decision framework",
 paragraphs: [
 "Answer these honestly and the choice in the Meta Ads vs Google Ads Pakistan question usually makes itself:",
-"If you are still unsure, that is a reasonable place to be. [Book a free consultation](/contact) and get a free SEO audit — or message me on [WhatsApp +92 371 4972789](https://wa.me/923714972789) — and we can look at your market, your offer, and your tracking together before you spend anything.",
+"If you are still unsure, that is a reasonable place to be. [Book a free consultation](/contact) and get a free SEO audit — or message me on [WhatsApp +92 371 4972789](https://wa.me/923714972789) — and we can look at your market, your offer, and your tracking together before you spend anything. If you want to compare the channels in more depth first, the other guides on the [blog](/blog) cover each one separately.",
 ],
 bullets: [
 "Do people already search for what I sell? Yes leans Google; no leans Meta.",
