@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { SignalCursor } from "@/components/cursor/SignalCursor";
+import dynamic from "next/dynamic";
 import { Header } from "@/components/navigation/Header";
 import { Footer } from "@/components/navigation/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -12,6 +12,16 @@ import {
   buildWebsiteJsonLd,
   defaultMetadata,
 } from "@/lib/seo";
+
+// The custom cursor is a desktop-only decoration (it renders nothing on
+// touch devices and is hidden below the md breakpoint). Load it after
+// hydration in its own chunk so its animation code is not part of the
+// initial JavaScript every page ships, and does not compete with LCP.
+// GA4 and the header/footer are untouched.
+const SignalCursor = dynamic(
+  () => import("@/components/cursor/SignalCursor").then((mod) => mod.SignalCursor),
+  { ssr: false },
+);
 
 const manrope = Manrope({
   subsets: ["latin"],
