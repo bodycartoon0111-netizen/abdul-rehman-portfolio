@@ -322,7 +322,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Step 1: Claim and verify your Google Business Profile",
         paragraphs: [
           "Everything starts with your Google Business Profile — the free listing that controls how your business appears on Maps and in local search. If you have not claimed it, someone else's outdated information may be showing instead. Search for your business name on Google Maps, claim the listing, and complete verification. Google usually verifies by postcard, phone, or video, depending on the business type. Postcard verification in Lahore can take time, so start it early and do not let it sit half-finished.",
-          "If you are a service-area business — you go to customers rather than customers coming to you — you can hide your street address and set the areas you serve instead. That covers most consultants, home services, and delivery-based businesses in Lahore, from electricians in Model Town to home chefs delivering across the city.",
+          "If you are a service-area business — you go to customers rather than customers coming to you — you can hide your street address and set the areas you serve instead. That covers most consultants, [home services](/industries/home-services), and delivery-based businesses in Lahore, from electricians in Model Town to home chefs delivering across the city.",
           "One warning: never create a second listing for the same business at the same location. Duplicate listings split your reviews and confuse Google. One business, one listing.",
         ],
       },
@@ -355,7 +355,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Step 5: Keep your business details consistent everywhere",
         paragraphs: [
-          "Your business name, address, and phone number — together called NAP — should be identical everywhere they appear: your website, your Business Profile, Facebook, directories, and anywhere else you are listed. Small differences (\"Street 1\" vs \"St 1\", two different phone numbers) leave Google unsure whether all those mentions are one business, and that doubt costs you rankings.",
+          "Your business name, address, and phone number — together called NAP — should be identical everywhere they appear: your website, your Business Profile, Facebook, [directories](/services/off-page-seo), and anywhere else you are listed. Small differences (\"Street 1\" vs \"St 1\", two different phone numbers) leave Google unsure whether all those mentions are one business, and that doubt costs you rankings.",
           "Do a quick audit: search your business name and check the first two pages of results. Fix anything that shows an old number, an old address, or a misspelled name. It is tedious work and it matters. A proper [SEO audit](/services/seo-audit) covers this same consistency check across your whole web presence, so it is worth doing properly rather than from memory.",
         ],
       },
