@@ -70,10 +70,10 @@ export default function ContactPage() {
               <li>
                 <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600">Email</p>
                 <a
-                  href="mailto:abdulrehmanasghar916@gmail.com"
+                  href="mailto:contact@abdulrehmantech.com"
                   className="mt-1 block break-all font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
                 >
-                  abdulrehmanasghar916@gmail.com
+                  contact@abdulrehmantech.com
                 </a>
               </li>
               <li>
