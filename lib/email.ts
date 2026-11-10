@@ -21,7 +21,7 @@ export interface ContactEmailData {
 export type EmailSendResult = { ok: true } | { ok: false; reason: string };
 
 const CONTACT_TO_EMAIL =
-  process.env.CONTACT_TO_EMAIL?.trim() || "abdulrehmanasghar916@gmail.com";
+  process.env.CONTACT_TO_EMAIL?.trim() || "contact@abdulrehmantech.com";
 const CONTACT_FROM_EMAIL =
   process.env.CONTACT_FROM_EMAIL?.trim() || "onboarding@resend.dev";
 
