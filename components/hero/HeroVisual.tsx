@@ -16,24 +16,37 @@ const GrowthNetwork = dynamic(() => import("@/components/hero/GrowthNetwork"), {
 });
 
 export function HeroVisual({ className }: { className?: string }) {
-  // Defer the Three.js chunk until the browser is idle (2.5s at most).
-  // The network is decorative, so it must not compete with the hero
-  // text (LCP) for bandwidth and main-thread time on mobile.
-  // The placeholder above is exactly the loaded canvas height
-  // (h-[340px] md:h-[420px], as passed by the homepage), so the swap
-  // causes no layout shift.
+  // Start the Three.js network only after the page has fully loaded,
+  // and then only when the browser is idle. The network is decorative,
+  // so it must not compete with the hero text (LCP) for bandwidth and
+  // main-thread time on mobile. The placeholder above is exactly the
+  // loaded canvas height (h-[340px] md:h-[420px], as passed by the
+  // homepage), so the swap causes no layout shift.
   const [ready, setReady] = useState(false);
   useEffect(() => {
-    const w = window as unknown as {
-      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
-      cancelIdleCallback?: (id: number) => void;
+    // Load first, idle second: the heavy Three.js chunk must stay out
+    // of the LCP window entirely — the hero text paints first, and
+    // the network appears afterwards in the same reserved space.
+    let cancelled = false;
+    const start = (): void => {
+      const w = window as unknown as {
+        requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      };
+      if (w.requestIdleCallback) {
+        w.requestIdleCallback(() => { if (!cancelled) setReady(true); }, { timeout: 3000 });
+        return;
+      }
+      window.setTimeout(() => { if (!cancelled) setReady(true); }, 1500);
     };
-    if (w.requestIdleCallback) {
-      const id = w.requestIdleCallback(() => setReady(true), { timeout: 2500 });
-      return () => w.cancelIdleCallback?.(id);
+    if (document.readyState === "complete") {
+      start();
+    } else {
+      window.addEventListener("load", start, { once: true });
     }
-    const t = window.setTimeout(() => setReady(true), 1200);
-    return () => window.clearTimeout(t);
+    return () => {
+      cancelled = true;
+      window.removeEventListener("load", start);
+    };
   }, []);
 
   if (!ready) {
