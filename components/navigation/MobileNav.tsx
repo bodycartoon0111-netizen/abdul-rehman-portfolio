@@ -3,11 +3,14 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { BRAND_WHATSAPP_LINK } from "@/lib/seo";
-import { trackEvent, trackOutboundClick, trackWhatsAppClick } from "@/lib/analytics";
+import {
+  trackEvent,
+  trackOutboundClick,
+  trackWhatsAppClick,
+} from "@/lib/analytics";
 
 interface NavLink {
   label: string;
@@ -20,8 +23,10 @@ interface MobileNavProps {
 }
 
 /**
- * Fullscreen mobile menu overlay: staggered link entrance, Escape to close,
- * body scroll lock, and focus moved into the panel on open.
+ * Full-screen mobile menu. Opening animations are CSS keyframes
+ * (.mobilenav-panel / .mobilenav-item / .mobilenav-cta in globals.css)
+ * instead of framer-motion, with the same timings as before.
+ * Closing unmounts immediately (no exit fade).
  */
 export function MobileNav({ links, onClose }: MobileNavProps) {
   const pathname = usePathname();
@@ -30,32 +35,29 @@ export function MobileNav({ links, onClose }: MobileNavProps) {
 
   useEffect(() => {
     closeButtonRef.current?.focus();
-    const previousOverflow = document.body.style.overflow;
+    const originalOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") onClose();
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        onClose();
+      }
     };
-    window.addEventListener("keydown", onKeyDown);
+    window.addEventListener("keydown", handleEscape);
     return () => {
-      document.body.style.overflow = previousOverflow;
-      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = originalOverflow;
+      window.removeEventListener("keydown", handleEscape);
     };
   }, [onClose]);
 
   return (
-    <motion.div
+    <div
       ref={panelRef}
       role="dialog"
       aria-modal="true"
       aria-label="Menu"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.25 }}
-      className="fixed inset-0 z-[60] flex flex-col bg-paper/95 backdrop-blur-2xl md:hidden"
+      className="mobilenav-panel fixed inset-0 z-[60] flex flex-col bg-paper/95 backdrop-blur-2xl md:hidden"
     >
-      <div className="flex items-center justify-between px-5 pt-7">
+      <div className="flex items-center justify-between px-6 py-5">
         <span className="text-base font-extrabold tracking-tight">
           Menu
         </span>
@@ -64,12 +66,11 @@ export function MobileNav({ links, onClose }: MobileNavProps) {
           type="button"
           onClick={onClose}
           aria-label="Close menu"
-          className="flex h-11 w-11 items-center justify-center rounded-pill border border-line bg-surface text-xl leading-none"
+          className="flex h-11 w-11 items-center justify-center rounded-pill border border-line bg-surface text-xl"
         >
           ×
         </button>
       </div>
-
       <nav aria-label="Mobile" className="flex flex-1 flex-col justify-center px-8">
         <ul className="flex flex-col gap-2">
           {links.map((link, index) => {
@@ -79,15 +80,10 @@ export function MobileNav({ links, onClose }: MobileNavProps) {
                 : pathname === link.href ||
                   pathname.startsWith(`${link.href}/`);
             return (
-              <motion.li
+              <li
                 key={link.href}
-                initial={{ opacity: 0, x: -24 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{
-                  delay: 0.08 + index * 0.07,
-                  duration: 0.45,
-                  ease: [0.22, 1, 0.36, 1],
-                }}
+                className="mobilenav-item"
+                style={{ animationDelay: `${0.08 + index * 0.07}s` }}
               >
                 <Link
                   href={link.href}
@@ -100,16 +96,13 @@ export function MobileNav({ links, onClose }: MobileNavProps) {
                 >
                   {link.label}
                 </Link>
-              </motion.li>
+              </li>
             );
           })}
         </ul>
-
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.08 + links.length * 0.07, duration: 0.45 }}
-          className="mt-10"
+        <div
+          className="mobilenav-cta mt-10"
+          style={{ animationDelay: `${0.08 + links.length * 0.07}s` }}
         >
           <Button href="/contact" size="lg" className="w-full" onClick={onClose}>
             Start a Project
@@ -127,8 +120,8 @@ export function MobileNav({ links, onClose }: MobileNavProps) {
           >
             Prefer chat? Message on WhatsApp
           </a>
-        </motion.div>
+        </div>
       </nav>
-    </motion.div>
+    </div>
   );
 }
