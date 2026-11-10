@@ -270,3 +270,23 @@
 .accordion-icon.is-open {
   transform: rotate(45deg);
 }
+/* MobileNav: list items actually slide in from the left (0.45s), while
+   the CTA block rises 16px (0.45s). These override the earlier
+   .mobilenav-item rise rule above (same specificity, later in file). */
+@keyframes mobilenav-slide {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.mobilenav-item {
+  animation: mobilenav-slide 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.mobilenav-cta {
+  animation: mobilenav-rise 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes mobilenav-rise-16 {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.mobilenav-cta {
+  animation: mobilenav-rise-16 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
