@@ -314,7 +314,7 @@ serviceArea: {
         suffix: " who also runs your ads.",
       },
       {
-        prefix: "See all ten ",
+        prefix: "See all eleven ",
         anchor: "digital marketing services",
         href: "/services",
         suffix: ".",
@@ -404,7 +404,7 @@ serviceArea: {
         suffix: " who also runs your ads.",
       },
       {
-        prefix: "See all ten ",
+        prefix: "See all eleven ",
         anchor: "digital marketing services",
         href: "/services",
         suffix: ".",
@@ -494,7 +494,7 @@ serviceArea: {
         suffix: " who builds the site and ranks it.",
       },
       {
-        prefix: "See all ten ",
+        prefix: "See all eleven ",
         anchor: "digital marketing services",
         href: "/services",
         suffix: ".",
@@ -909,7 +909,7 @@ serviceArea: {
     },
     heroLinks: [
       { prefix: "Work with an ", anchor: "SEO consultant in Lahore", href: "/", suffix: " who automates what he measures.", },
-      { prefix: "See all ten ", anchor: "digital marketing services", href: "/services", suffix: ".", },
+      { prefix: "See all eleven ", anchor: "digital marketing services", href: "/services", suffix: ".", },
       { prefix: "Need a new system, not a workflow? See ", anchor: "custom software", href: "/services/custom-software", suffix: ".", },
       { prefix: "", anchor: "Read the blog", href: "/blog", suffix: ".", },
     ],
