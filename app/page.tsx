@@ -141,19 +141,19 @@ export default function HomePage() {
             <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
               <h3 className="text-xl font-extrabold text-ink group-hover:text-white">One person, full accountability</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
-                You work directly with the person doing the work — no account managers, no hand-offs, and no one else to blame when results stall.
+                You work directly with <Link href="/about" className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">the person doing the work</Link> — no account managers, no hand-offs, and no one else to blame when results stall.
               </p>
             </div>
             <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
               <h3 className="text-xl font-extrabold text-ink group-hover:text-white">Strategy + code from the same person</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
-                SEO, ads and the website are planned and built by the same person, so the strategy never gets lost between a marketer and a developer.
+                <Link href="/services" className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">SEO, ads and the website</Link> are planned and built by the same person, so the strategy never gets lost between a marketer and a developer.
               </p>
             </div>
             <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
               <h3 className="text-xl font-extrabold text-ink group-hover:text-white">Transparent pricing, no lock-in</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
-                Clear scope and plain reporting, with no long contract tying you down. You stay because the work performs — not because you have to.
+                <Link href="/contact" className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">Clear scope and plain reporting</Link>, with no long contract tying you down. You stay because the work performs — not because you have to.
               </p>
             </div>
           </div>
