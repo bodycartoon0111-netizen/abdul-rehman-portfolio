@@ -36,8 +36,8 @@ export default function BlogPage() {
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Blog" }]} />
 
       <header className="mt-8 max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-widest text-muted">Blog</p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-ink sm:text-5xl">
+        <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Blog</p>
+        <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Digital Marketing Blog Pakistan</span> — Notes from the Work
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-muted">
