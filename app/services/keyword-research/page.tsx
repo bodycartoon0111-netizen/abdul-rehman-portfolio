@@ -9,6 +9,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
 
+
 const TITLE = "Keyword Research Services Pakistan | Find Buyers’ Searches";
 const DESCRIPTION =
   "Keyword research services for Pakistan businesses: search-intent mapping, competitor gaps and keyword plan that targets the searches your customers type.";
@@ -113,13 +114,13 @@ export default function KeywordResearchPage() {
 
       {/* Hero */}
       <header className="mt-8 max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">Service</p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
+        <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Service</p>
+        <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
             Keyword Research Services in Pakistan
           </span>{" "}
           — Find the Searches That Bring Buyers
-        </h1>
+        </h1><p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">The searches your customers type, mapped to the pages that win them.</p><p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">The searches your customers type, mapped to the pages that win them.</p>
         <p className="mt-4 text-xl font-medium text-neutral-700">
           The searches your customers actually type, mapped to the pages that should win them.
         </p>
