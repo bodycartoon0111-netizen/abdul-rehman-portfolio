@@ -106,13 +106,14 @@ export default function HomeServicesSeoPage() {
 
       {/* Hero */}
       <header className="mt-8 max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">Industry</p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
+        <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Industry</p>
+        <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
             Home Services SEO in Pakistan
           </span>{" "}
           — Win the Local Jobs Near You
         </h1>
+        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Be the first reliable business they call.</p>
         <p className="mt-4 text-xl font-medium text-neutral-700">
           A homeowner needs help now, searches near home, and calls the first business that looks reliable. This work puts yours in that place.
         </p>
