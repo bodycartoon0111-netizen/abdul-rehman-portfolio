@@ -141,21 +141,20 @@ export default function ServicesPage() {
           </h2>
           <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
-              <li
-                key={service.slug}
-                className="rounded-lg border border-border bg-card p-6"
-              >
-                <h3 className="text-xl font-semibold">
-                  <Link
-                    href={`/services/${service.slug}`}
-                    className="text-primary underline underline-offset-4 hover:text-primary/80"
-                  >
-                    {service.name}
-                  </Link>
-                </h3>
-                <p className="mt-2 leading-relaxed text-muted-foreground">
-                  {service.description}
-                </p>
+              <li key={service.slug}>
+                <Link
+                  href={`/services/${service.slug}`}
+                  className="group block h-full rounded-lg border border-border bg-card p-6 transition-colors hover:border-pine hover:bg-pine"
+                >
+                  <h3 className="text-xl font-semibold">
+                    <span className="text-primary underline underline-offset-4 group-hover:text-white">
+                      {service.name}
+                    </span>
+                  </h3>
+                  <p className="mt-2 leading-relaxed text-muted-foreground group-hover:text-white/85">
+                    {service.description}
+                  </p>
+                </Link>
               </li>
             ))}
           </ul>
