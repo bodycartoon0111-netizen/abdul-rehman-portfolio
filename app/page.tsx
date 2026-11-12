@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { Container } from "@/components/ui/container";
-import { Reveal } from "@/components/ui/reveal";
+
 import { SectionHeading } from "@/components/ui/section-heading";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { services } from "@/data/services";
@@ -83,7 +83,7 @@ export default function HomePage() {
                 ))}
               </dl>
                                                 </div>
-          <Reveal delay={0.15} className="relative mt-4 md:mt-6">
+          <div className="relative mt-4 md:mt-6">
             <div className="relative">
                               <HeroVisual className="h-[400px] md:h-[560px]" />
               <figure className="absolute -bottom-2 left-4 z-30 bg-transparent md:left-8">
@@ -100,7 +100,7 @@ export default function HomePage() {
                 </figcaption>
               </figure>
             </div>
-          </Reveal>
+          </div>
         </Container>
       </section>
 
