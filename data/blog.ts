@@ -1239,7 +1239,7 @@ paragraphs: [
 {
 slug: "fast-website-seo-nextjs",
     image: "/images/blog/blog-fast-website-seo-nextjs.jpg",
-title: "Fast Website SEO Next.js: Speed That Actually Ranks",
+title: "Fast Website SEO with Next.js: Speed Google Notices, Visitors Feel",
 excerpt:
 "Fast website SEO Next.js: why speed ranks, what Next.js does for Core Web Vitals and server rendering, and the fixes that still fall to you and your developer.",
 publishedAt: "2026-11-09",
@@ -1339,7 +1339,7 @@ paragraphs: [
 {
 slug: "performance-marketing-pakistan",
     image: "/images/blog/blog-performance-marketing-pakistan.jpg",
-title: "Performance Marketing Pakistan: Ads That Pay Back",
+title: "Performance Marketing Pakistan: Ads That Pay Back, Because Everything Is Measured",
 excerpt:
 "Performance marketing Pakistan only works when results are tracked. The channels, tracking, landing pages and testing behind campaigns that grow and pay back.",
 publishedAt: "2026-11-09",
@@ -1444,7 +1444,7 @@ paragraphs: [
   {
     slug: "shopify-vs-wordpress",
     image: "/images/blog/blog-shopify-vs-wordpress.jpg",
-    title: "Shopify vs WordPress: Which One Is Better for Your Online Store?",
+    title: "Shopify vs WordPress: The Right Store for Pakistan — and for Selling Worldwide",
     excerpt:
       "Shopify vs WordPress for your online store: payments, COD, speed, SEO and control compared honestly — pick the right platform that fits your business best.",
     publishedAt: "2026-11-10",
