@@ -45,6 +45,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           alt: "Abdul Rehman - Freelance SEO Consultant",
         },
     ],
+    },
         twitter: {
             card: "summary_large_image",
           title: detail.metaTitle,
