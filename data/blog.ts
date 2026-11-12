@@ -18,6 +18,7 @@ export interface BlogPost {
   slug: string;
   image?: string;
   title: string;
+  titleHighlight?: string;
   excerpt: string;
   publishedAt: string; // ISO date
   updatedAt?: string;
@@ -35,6 +36,7 @@ export const blogPosts: BlogPost[] = [
     slug: "technical-seo-checklist-2026",
     image: "/images/blog/blog-technical-seo-checklist-2026.jpg",
     title: "Technical SEO Checklist 2026: Fix the Basics Google Judges First",
+  titleHighlight: "Fix the Basics Google Judges First",
     excerpt:
       "Algorithms change, but the technical foundations of search barely move. A practical checklist covering crawlability, Core Web Vitals, structured data, and index hygiene.",
     publishedAt: "2026-10-01",
@@ -123,6 +125,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "ai-automation-small-marketing-team",
     title: "AI Automation for a Small Marketing Team: What to Automate First (and What to Leave Alone)",
+  titleHighlight: "What to Automate First (and What to Leave Alone)",
     excerpt:
       "A grounded look at where AI automation actually helps small marketing teams: lead triage, reporting, content repurposing, and follow-up — and where the human stays in charge.",
     publishedAt: "2026-10-03",
@@ -212,6 +215,7 @@ export const blogPosts: BlogPost[] = [
     slug: "seo-services-lahore-cost-timeline-2026",
     image: "/images/blog/blog-seo-services-lahore-cost-timeline-2026.jpg",
     title: "SEO Services in Lahore: What They Cost, How Long They Take, and the 5 Red Flags to Spot First",
+  titleHighlight: "the 5 Red Flags to Spot First",
     excerpt:
       "SEO pricing in Lahore has no single number. This guide explains what drives the cost, how long results realistically take, and the red flags to avoid.",
     publishedAt: "2026-11-09",
