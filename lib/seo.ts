@@ -240,7 +240,7 @@ export function buildLocalBusinessJsonLd(
           "Saturday",
         ],
         opens: "09:00",
-        closes: "18:00",
+        closes: "23:00",
       },
     ],
     address: {
