@@ -23,24 +23,24 @@ export const metadata: Metadata = {
   },
 };
 
-const combinations = [
+const combinations: { title: string; titleParts: { text: string; href?: string }[]; description: string }[] = [
   {
-    title: "SEO + Content-ready development",
+    title: "SEO + Content-ready development", titleParts: [{ text: "SEO", href: "/services/seo" }, { text: " + " }, { text: "Content-ready development", href: "/services/web-development" }],
     description:
       "A technically sound website built to rank from day one — clean architecture, fast pages, and schema baked in.",
   },
   {
-    title: "Paid ads + Conversion-focused landing pages",
+    title: "Paid ads + Conversion-focused landing pages", titleParts: [{ text: "Paid ads", href: "/services/google-ads" }, { text: " + " }, { text: "Conversion-focused landing pages", href: "/services/performance-marketing" }],
     description:
       "Google and Meta campaigns pointed at pages designed to convert, so ad spend turns into enquiries instead of bounces.",
   },
   {
-    title: "Custom software + AI automation",
+    title: "Custom software + AI automation", titleParts: [{ text: "Custom software", href: "/services/custom-software" }, { text: " + " }, { text: "AI automation", href: "/services/ai-automation" }],
     description:
       "Internal tools that remove repetitive work — lead routing, reporting, and follow-ups handled while you focus on delivery.",
   },
   {
-    title: "Shopify / WordPress + Performance marketing",
+    title: "Shopify / WordPress + Performance marketing", titleParts: [{ text: "Shopify", href: "/services/shopify" }, { text: " / " }, { text: "WordPress", href: "/services/wordpress" }, { text: " + " }, { text: "Performance marketing", href: "/services/performance-marketing" }],
     description:
       "A store or site your team can manage, paired with ongoing campaigns that keep qualified traffic flowing.",
   },
@@ -194,10 +194,10 @@ Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r fro
             {combinations.map((combination) => (
               <li
                 key={combination.title}
-                className="rounded-lg border border-border bg-card p-6"
+                className="group rounded-lg border border-border bg-card p-6 transition-colors hover:border-pine hover:bg-pine"
               >
-                <h3 className="text-xl font-semibold">{combination.title}</h3>
-                <p className="mt-2 leading-relaxed text-muted-foreground">
+                <h3 className="text-xl font-semibold group-hover:text-white">{combination.titleParts.map((part, index) => (part.href ? (<Link key={index} href={part.href} className="text-primary underline underline-offset-4 group-hover:text-white">{part.text}</Link>) : (<span key={index}>{part.text}</span>)))}</h3>
+                <p className="mt-2 leading-relaxed text-muted-foreground group-hover:text-white/85">
                   {combination.description}
                 </p>
               </li>
