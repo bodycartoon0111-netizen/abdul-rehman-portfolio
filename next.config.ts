@@ -36,6 +36,7 @@ const nextConfig: NextConfig = {
       hostname,
       pathname: "/**",
     })),
+    formats: ["image/avif", "image/webp"],
   },
   async headers() {
     return [
