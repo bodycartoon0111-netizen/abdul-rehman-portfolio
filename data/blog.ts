@@ -954,6 +954,7 @@ paragraphs: [
 slug: "real-estate-seo-lahore",
     image: "/images/blog/blog-real-estate-seo-lahore.jpg",
 title: "Real Estate SEO in Lahore: Win Property Buyers on Google Before They Visit Any Office",
+  titleHighlight: "Win Property Buyers on Google Before They Visit Any Office",
 excerpt:
 "Property buyers in Lahore start on Google. This guide explains how area pages, your Business Profile, reviews and photos turn searches into visits and calls.",
 publishedAt: "2026-11-09",
@@ -1042,6 +1043,7 @@ paragraphs: [
 slug: "how-long-does-seo-take-pakistan",
     image: "/images/blog/blog-how-long-does-seo-take-pakistan.jpg",
 title: "How Long Does SEO Take in Pakistan? The Honest Timeline, Month by Month",
+  titleHighlight: "The Honest Timeline, Month by Month",
 excerpt:
 "How long does SEO take Pakistan? A realistic first-year timeline — what happens in months 1–3, 3–6 and 6–12, and what makes results come faster or slower.",
 publishedAt: "2026-11-09",
@@ -1148,6 +1150,7 @@ paragraphs: [
 slug: "google-business-profile-mistakes-lahore",
     image: "/images/blog/blog-google-business-profile-mistakes-lahore.jpg",
 title: "7 Google Business Profile Mistakes Keeping Lahore Businesses Off Google Maps (and How to Fix Them)",
+  titleHighlight: "Keeping Lahore Businesses Off Google Maps (and How to Fix Them)",
 excerpt:
 "Google Business Profile mistakes Lahore businesses make cost customers. The most common ones — wrong categories, no photos, ignored reviews — and the fixes.",
 publishedAt: "2026-11-09",
