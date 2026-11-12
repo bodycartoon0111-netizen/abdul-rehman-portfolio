@@ -5,7 +5,8 @@ import dynamic from "next/dynamic";
 
 // 3D network is heavy (three.js) — lazy-load after initial paint so the
 // hero text/CTAs appear instantly. Shows a soft placeholder meanwhile.
-const GrowthNetwork = dynamic(() => import("@/components/hero/GrowthNetwork"), {
+// webpackPrefetch starts downloading the chunk early, while mounting stays lazy.
+const GrowthNetwork = dynamic(() => import(/* webpackPrefetch: true */ "@/components/hero/GrowthNetwork"), {
   ssr: false,
   loading: () => (
     <div
