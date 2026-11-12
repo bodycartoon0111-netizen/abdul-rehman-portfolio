@@ -138,24 +138,24 @@ export default function HomePage() {
           <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">You can explore the full scope of my <Link href="/services/seo">SEO services in Lahore</Link> or work through the <Link href="/blog/technical-seo-checklist-2026">technical SEO checklist</Link> before we talk.
           </p>
     <div className="mt-14 grid gap-4 md:grid-cols-3">
-            <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
+            <Link href="/about" className="block group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
               <h3 className="text-xl font-extrabold text-ink group-hover:text-white">One person, full accountability</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
-                You work directly with <Link href="/about" className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">the person doing the work</Link> — no account managers, no hand-offs, and no one else to blame when results stall.
+                You work directly with <span className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">the person doing the work</span> — no account managers, no hand-offs, and no one else to blame when results stall.
               </p>
-            </div>
-            <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
+                </Link>
+            <Link href="/services" className="block group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
               <h3 className="text-xl font-extrabold text-ink group-hover:text-white">Strategy + code from the same person</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
-                <Link href="/services" className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">SEO, ads and the website</Link> are planned and built by the same person, so the strategy never gets lost between a marketer and a developer.
+                <span className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">SEO, ads and the website</span> are planned and built by the same person, so the strategy never gets lost between a marketer and a developer.
               </p>
-            </div>
-            <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
+            </Link>
+            <Link href="/contact" className="block group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
               <h3 className="text-xl font-extrabold text-ink group-hover:text-white">Transparent pricing, no lock-in</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
-                <Link href="/contact" className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">Clear scope and plain reporting</Link>, with no long contract tying you down. You stay because the work performs — not because you have to.
+                <span className="font-semibold underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/70">Clear scope and plain reporting</span>, with no long contract tying you down. You stay because the work performs — not because you have to.
               </p>
-            </div>
+            </Link>
           </div>
         </Container>
       </section>
