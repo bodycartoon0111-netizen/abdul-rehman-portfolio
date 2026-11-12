@@ -153,6 +153,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           alt={post.title}
           width={1200}
           height={630}
+          sizes="(max-width: 768px) 100vw, 800px"
           className="mt-8 w-full rounded-2xl"
           priority
         />
