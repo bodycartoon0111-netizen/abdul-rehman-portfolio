@@ -81,7 +81,7 @@ export default function ServicesPage() {
           <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Services</p>
           <h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
 Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO, Ads, Websites &amp; AI
-            Automation</span
+            Automation</span>
           </h1>
           <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Growth, not vanity metrics.</p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
