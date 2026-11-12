@@ -37,12 +37,13 @@ export default function ContactPage() {
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Contact" }]} />
 
       <header className="mt-8 max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">
+        <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">
           Get in touch
         </p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
+        <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           Contact an <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO Consultant in Lahore</span> — Let&apos;s Build Something That Grows
         </h1>
+        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Tell me about your project — I read every message myself.</p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Tell me about your project — the more specific you are about your goals, the more
           useful my reply will be. I read every message personally and respond within one
