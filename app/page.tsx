@@ -138,21 +138,21 @@ export default function HomePage() {
           <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">You can explore the full scope of my <Link href="/services/seo">SEO services in Lahore</Link> or work through the <Link href="/blog/technical-seo-checklist-2026">technical SEO checklist</Link> before we talk.
           </p>
     <div className="mt-14 grid gap-4 md:grid-cols-3">
-            <div className="rounded-2xl border border-line bg-paper p-7">
-              <h3 className="text-xl font-extrabold text-ink">One person, full accountability</h3>
-              <p className="mt-3 text-sm leading-relaxed text-ink/80">
+            <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
+              <h3 className="text-xl font-extrabold text-ink group-hover:text-white">One person, full accountability</h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
                 You work directly with the person doing the work — no account managers, no hand-offs, and no one else to blame when results stall.
               </p>
             </div>
-            <div className="rounded-2xl border border-line bg-paper p-7">
-              <h3 className="text-xl font-extrabold text-ink">Strategy + code from the same person</h3>
-              <p className="mt-3 text-sm leading-relaxed text-ink/80">
+            <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
+              <h3 className="text-xl font-extrabold text-ink group-hover:text-white">Strategy + code from the same person</h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
                 SEO, ads and the website are planned and built by the same person, so the strategy never gets lost between a marketer and a developer.
               </p>
             </div>
-            <div className="rounded-2xl border border-line bg-paper p-7">
-              <h3 className="text-xl font-extrabold text-ink">Transparent pricing, no lock-in</h3>
-              <p className="mt-3 text-sm leading-relaxed text-ink/80">
+            <div className="group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
+              <h3 className="text-xl font-extrabold text-ink group-hover:text-white">Transparent pricing, no lock-in</h3>
+              <p className="mt-3 text-sm leading-relaxed text-ink/80 group-hover:text-white/85">
                 Clear scope and plain reporting, with no long contract tying you down. You stay because the work performs — not because you have to.
               </p>
             </div>
