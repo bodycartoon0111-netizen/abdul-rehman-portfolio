@@ -33,6 +33,7 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "technical-seo-checklist-2026",
+    image: "/images/blog/blog-technical-seo-checklist-2026.jpg",
     title: "Technical SEO Checklist for 2026: The Fundamentals That Still Decide Rankings",
     excerpt:
       "Algorithms change, but the technical foundations of search barely move. A practical checklist covering crawlability, Core Web Vitals, structured data, and index hygiene.",
