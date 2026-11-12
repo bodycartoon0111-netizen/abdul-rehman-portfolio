@@ -79,9 +79,9 @@ export default function ServicesPage() {
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services" }]} />
         <header className="mt-8">
           <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Services</p>
-          <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
-<span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Digital Marketing Services in Pakistan</span> — SEO, Ads, Websites &amp; AI
-            Automation
+          <h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
+Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO, Ads, Websites &amp; AI
+            Automation</span
           </h1>
           <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Growth, not vanity metrics.</p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
