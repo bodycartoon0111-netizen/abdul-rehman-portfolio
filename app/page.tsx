@@ -52,8 +52,8 @@ export default function HomePage() {
             <section className="relative -mt-2 overflow-hidden bg-paper md:-mt-4">
         <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-mint/50 blur-3xl" />
                                                         <Container className="relative grid gap-8 pb-8 pt-8 md:pb-10 md:pt-10 lg:grid-cols-2 lg:items-center">
-                            <div><p className="inline-flex items-center gap-2 rounded-full border border-line bg-white/70 px-3.5 py-1.5 text-sm font-semibold text-pine"><span aria-hidden="true" className="h-2 w-2 rounded-full bg-green-500" />One person — website, rankings &amp; automation</p><h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
-                                        I Turn Search Visibility Into{" "}<span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Sustainable Business Growth</span>
+                            <div><h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
+                                I Turn Search Visibility Into{" "}<span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Sustainable Business Growth</span>
               </h1>
                                 <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">I&apos;m <strong className="font-bold text-ink">Abdul Rehman</strong>. I build your website, rank it on Google, and automate what happens after someone finds it — SEO, Google &amp; Meta Ads, and AI automation, all handled by one person, so nothing gets lost between the build and the results.
                         
