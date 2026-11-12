@@ -45,11 +45,27 @@ export const defaultMetadata: Metadata = {
     title: "SEO Consultant in Lahore | Freelance SEO Expert Pakistan",
     description: TAGLINE,
     locale: "en_US",
-    images: [absoluteUrl("/opengraph-image")],
+        images: [
+          {
+              url: absoluteUrl("/images/og-default.jpg"),
+            width: 1200,
+            height: 630,
+            type: "image/jpeg",
+            alt: "Abdul Rehman - Freelance SEO Consultant",
+          },
+      ],
   },
   twitter: {
     card: "summary_large_image",
     title: "SEO Consultant in Lahore | Freelance SEO Expert Pakistan",
+    images: [
+      {
+          url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+  ],
     description: TAGLINE,
   },
 };
