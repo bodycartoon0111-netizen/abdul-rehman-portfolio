@@ -192,7 +192,7 @@ export default function KeywordResearchPage() {
           What is included
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The research covers your services, your competitors and your local market, so the map reflects the searches that matter to your business rather than the searches a tool happens to suggest first.
+          The research covers your services, your competitors and <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">your local market</Link>, so the map reflects the searches that matter to your business rather than the searches a tool happens to suggest first.
         </p>
         <ul className="mt-8 grid gap-4 sm:grid-cols-2">
           {deliverables.map((d) => (
