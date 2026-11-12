@@ -636,6 +636,7 @@ paragraphs: [
 slug: "meta-ads-vs-google-ads-pakistan",
     image: "/images/blog/blog-meta-ads-vs-google-ads-pakistan.jpg",
 title: "Meta Ads vs Google Ads in Pakistan: Intent or Interruption — Which One Deserves Your Budget First?",
+  titleHighlight: "Which One Deserves Your Budget First?",
 excerpt:
 "Google Ads catches people who are already searching. Meta Ads finds people who are not looking yet. Here is how each works and which one to start with.",
 publishedAt: "2026-11-09",
@@ -759,6 +760,7 @@ paragraphs: [
 slug: "ai-automation-small-marketing-teams-pakistan-workflows",
     image: "/images/blog/blog-ai-automation-small-marketing-teams-pakistan-workflows.jpg",
 title: "AI Automation Pakistan: 5 Workflows That Hand 10+ Hours a Week Back to a Small Team",
+  titleHighlight: "5 Workflows That Hand 10+ Hours a Week Back to a Small Team",
 excerpt:
 "Marketing teams lose hours to repetition: copying leads, assembling reports, chasing replies. These five AI workflows take that work back — with human approval.",
 publishedAt: "2026-11-09",
@@ -856,6 +858,7 @@ paragraphs: [
 slug: "ecommerce-seo-pakistan",
     image: "/images/blog/blog-ecommerce-seo-pakistan.jpg",
 title: "E-Commerce SEO Pakistan: Get Found, Get Trusted, Get the Sale",
+  titleHighlight: "Get Found, Get Trusted, Get the Sale",
 excerpt:
 "An online store lives or dies on search. This guide explains how product pages, category structure, speed and trust signals turn Google traffic into orders.",
 publishedAt: "2026-11-09",
