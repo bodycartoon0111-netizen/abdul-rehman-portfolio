@@ -5,6 +5,11 @@ export interface ServiceFaq {
   a: string;
 }
 
+export interface ServiceDeliverable {
+  text: string;
+  href?: string;
+}
+
 export interface Service {
   slug: string;
   name: string;
@@ -12,7 +17,7 @@ export interface Service {
   description: string;
   problem: string;
   solution: string;
-  deliverables: string[];
+  deliverables: ServiceDeliverable[];
   technologies: string[];
   idealFor: string;
   faqs: ServiceFaq[];
