@@ -120,7 +120,8 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       <article className="mt-8">
         <header>
-          <h1 className="mt-4 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
+          <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Blog</p>
+          <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
             {post.title}
           </h1>
           <p className="mt-4 text-lg leading-relaxed text-neutral-700">{post.excerpt}</p><p className="mt-4 text-sm leading-relaxed text-neutral-700">Related service: <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link></p>
