@@ -252,7 +252,7 @@ export default function SeoAuditPage() {
           SEO audits in Lahore and across Pakistan
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The audit is carried out for businesses in Lahore first and foremost, with the local searches, neighbourhoods and buying habits of the city in mind — from DHA and Gulberg to Johar Town, Model Town and Bahria Town, the aim is always the same: to be found by customers nearby who are ready to buy. The same checks apply for businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan, and for Pakistan-based businesses serving customers abroad. Because the work is done remotely using Search Console, analytics and crawling tools, the audit does not depend on where your office sits; it depends on what your site shows search engines, wherever your customers are.
+          The audit is carried out for businesses in Lahore first and foremost, with the <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">local searches</Link>, neighbourhoods and buying habits of the city in mind — from DHA and Gulberg to Johar Town, Model Town and Bahria Town, the aim is always the same: to be found by customers nearby who are ready to buy. The same checks apply for businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan, and for Pakistan-based businesses serving customers abroad. Because the work is done remotely using Search Console, analytics and crawling tools, the audit does not depend on where your office sits; it depends on what your site shows search engines, wherever your customers are.
         </p>
       </section>
 
