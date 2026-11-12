@@ -78,10 +78,12 @@ export default function ServicesPage() {
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services" }]} />
         <header className="mt-8">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+          <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Services</p>
+          <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
 <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Digital Marketing Services in Pakistan</span> — SEO, Ads, Websites &amp; AI
             Automation
           </h1>
+          <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Growth, not vanity metrics.</p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
             Services engineered for growth, not vanity metrics. Eleven digital
             marketing services in Pakistan — SEO, Google Ads, Meta Ads, web
