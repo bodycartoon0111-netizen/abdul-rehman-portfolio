@@ -64,9 +64,11 @@ export default function ProcessPage() {
           items={[{ label: "Home", href: "/" }, { label: "Our Process" }]}
         />
         <header className="mt-8">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            Our Process
+          <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Process</p>
+          <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
+            Our <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Process</span>
           </h1>
+          <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Discover. Strategy. Build. Launch. Optimize.</p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
             {processDescription}
           </p>
