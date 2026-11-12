@@ -51,6 +51,8 @@ export default function BlogHub({ posts }: BlogHubProps) {
           alt={featured.title}
           width={1200}
           height={630}
+          priority
+          sizes="(max-width: 768px) 100vw, 1200px"
           className="h-auto w-full"
         />
         <div className="p-8 sm:p-10">
@@ -143,6 +145,7 @@ export default function BlogHub({ posts }: BlogHubProps) {
                 alt={post.title}
                 width={1200}
                 height={630}
+                sizes="(max-width: 640px) 100vw, 600px"
                 className="h-auto w-full"
               />
               <div className="flex flex-1 flex-col p-8">
