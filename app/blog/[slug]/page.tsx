@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getPostSlugs, blogPosts } from "@/data/blog";
@@ -39,6 +40,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
+  const ogImage = absoluteUrl(post.image ?? "/images/og-default.jpg");
   return {
     title: { absolute: post.metaTitle },
     description: post.metaDescription,
@@ -50,7 +52,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       publishedTime: post.publishedAt, authors: ["Abdul Rehman"],
       images: [
         {
-            url: absoluteUrl("/images/og-default.jpg"),
+            url: ogImage,
           width: 1200,
           height: 630,
           type: "image/jpeg",
@@ -64,7 +66,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description: post.metaDescription,
         images: [
           {
-              url: absoluteUrl("/images/og-default.jpg"),
+              url: ogImage,
             width: 1200,
             height: 630,
             alt: "Abdul Rehman - Freelance SEO Consultant",
@@ -144,6 +146,17 @@ export default async function BlogPostPage({ params }: PageProps) {
             </p>
           )}
         </header>
+
+      {post.image && (
+        <Image
+          src={post.image}
+          alt={post.title}
+          width={1200}
+          height={630}
+          className="mt-8 w-full rounded-2xl"
+          priority
+        />
+      )}
 
         <div className="mt-10 space-y-10">
           {post.sections.map((section) => (
