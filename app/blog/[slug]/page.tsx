@@ -76,14 +76,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-function formatDate(iso: string): string {
-  return new Date(`${iso}T00:00:00`).toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
-}
-
 export default async function BlogPostPage({ params }: PageProps) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
@@ -128,13 +120,6 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       <article className="mt-8">
         <header>
-          <div className="flex flex-wrap items-center gap-3 text-sm text-neutral-600">
-            <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
-            <span aria-hidden="true">·</span>
-            <span>{post.readingMinutes} min read</span>
-            <span aria-hidden="true">·</span>
-            <span>By Abdul Rehman</span>
-          </div>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
             {post.title}
           </h1>
