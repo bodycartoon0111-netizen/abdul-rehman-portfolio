@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
+import { Fragment } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -122,7 +123,18 @@ export default async function BlogPostPage({ params }: PageProps) {
         <header>
           <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Blog</p>
           <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
-            {post.title}
+            {post.titleHighlight
+          ? post.title.split(post.titleHighlight).map((part, index) => (
+              <Fragment key={index}>
+                {index > 0 && (
+                  <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
+                    {post.titleHighlight}
+                  </span>
+                )}
+                {part}
+              </Fragment>
+            ))
+          : post.title}
           </h1>
           <p className="mt-4 text-lg leading-relaxed text-neutral-700">{post.excerpt}</p><p className="mt-4 text-sm leading-relaxed text-neutral-700">Related service: <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link></p>
           {post.sample && (
