@@ -54,12 +54,13 @@ export default function WorkPage() {
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Work" }]} />
 
       <header className="mt-8 max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">
+        <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">
           Portfolio
         </p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
+        <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           Selected Work &amp; <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO Case Studies from Pakistan</span>
         </h1>
+        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Every project shipped. Every one documented honestly.</p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           A selection of projects across Pakistan and beyond — each one shipped, each one
           documented honestly. Open a case study to see the challenge, the strategy, and the
