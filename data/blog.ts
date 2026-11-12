@@ -302,7 +302,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "local-seo-lahore-google-business-profile-guide",
     image: "/images/blog/blog-local-seo-lahore-google-business-profile-guide.jpg",
-    title: "Local SEO Lahore: Google Business Profile + Maps Ranking Guide for Lahore Businesses",
+    title: "Local SEO in Lahore: 6 Steps to Rank on Google Maps (Starting With Your Business Profile)",
     excerpt:
       "Most customers in Lahore find local businesses on Google Maps, not on page two of results. This guide shows how to set up your profile and win nearby searches.",
     publishedAt: "2026-11-09",
@@ -409,7 +409,7 @@ export const blogPosts: BlogPost[] = [
   {
 slug: "technical-seo-checklist-2026-pakistani-websites",
     image: "/images/blog/blog-technical-seo-checklist-2026-pakistani-websites.jpg",
-title: "Technical SEO Checklist 2026 for Pakistani Websites",
+title: "Technical SEO Checklist 2026 for Pakistani Websites: What to Fix When Your Visitors Are on Mobile Data",
 excerpt:
 "Fundamentals decide rankings — but the details decide who wins. This checklist goes deeper: speed on Pakistani mobile networks, Core Web Vitals and indexing.",
 publishedAt: "2026-11-09",
@@ -508,7 +508,7 @@ paragraphs: [
 {
 slug: "choose-seo-consultant-pakistan-vs-agency",
     image: "/images/blog/blog-choose-seo-consultant-pakistan-vs-agency.jpg",
-title: "SEO Consultant Pakistan vs Agency: How to Choose the Right SEO Help",
+title: "SEO Consultant or Agency in Pakistan? The 7 Questions to Ask Before You Hire Either",
 excerpt:
 "Should you hire a freelance SEO consultant, an agency, or someone in-house? This guide compares the three honestly and lists the questions to ask first.",
 publishedAt: "2026-11-09",
