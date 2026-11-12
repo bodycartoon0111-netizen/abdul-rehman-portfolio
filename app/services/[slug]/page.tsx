@@ -94,8 +94,8 @@ export default async function ServiceDetailPage({ params }: PageProps) {
 
       {/* Hero */}
       <header className="mt-8 max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">Service</p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
+        <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Service</p>
+        <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           {detail.h1.split(detail.h1Highlight).map((part, index) => (
                 <Fragment key={index}>
                   {index > 0 && (
@@ -106,7 +106,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
                 </Fragment>
               ))}
         </h1>
-        <p className="mt-4 text-xl font-medium text-neutral-700">{service.tagline}</p>
+        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">{service.tagline}</p>
         {detail.introLinks && detail.introLinks.length > 0 && (
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           {detail.introLinks.map((link, index) => (
