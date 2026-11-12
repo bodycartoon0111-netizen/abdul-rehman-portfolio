@@ -16,6 +16,7 @@ export interface BlogSection {
 
 export interface BlogPost {
   slug: string;
+  image?: string;
   title: string;
   excerpt: string;
   publishedAt: string; // ISO date
@@ -208,6 +209,7 @@ export const blogPosts: BlogPost[] = [
   },
 {
     slug: "seo-services-lahore-cost-timeline-2026",
+    image: "/images/blog/blog-seo-services-lahore-cost-timeline-2026.jpg",
     title: "SEO Services in Lahore: Cost, Timeline & What to Expect in 2026",
     excerpt:
       "SEO pricing in Lahore has no single number. This guide explains what drives the cost, how long results realistically take, and the red flags to avoid.",
@@ -298,6 +300,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "local-seo-lahore-google-business-profile-guide",
+    image: "/images/blog/blog-local-seo-lahore-google-business-profile-guide.jpg",
     title: "Local SEO Lahore: Google Business Profile + Maps Ranking Guide for Lahore Businesses",
     excerpt:
       "Most customers in Lahore find local businesses on Google Maps, not on page two of results. This guide shows how to set up your profile and win nearby searches.",
@@ -404,6 +407,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
 slug: "technical-seo-checklist-2026-pakistani-websites",
+    image: "/images/blog/blog-technical-seo-checklist-2026-pakistani-websites.jpg",
 title: "Technical SEO Checklist 2026 for Pakistani Websites",
 excerpt:
 "Fundamentals decide rankings — but the details decide who wins. This checklist goes deeper: speed on Pakistani mobile networks, Core Web Vitals and indexing.",
@@ -502,6 +506,7 @@ paragraphs: [
 },
 {
 slug: "choose-seo-consultant-pakistan-vs-agency",
+    image: "/images/blog/blog-choose-seo-consultant-pakistan-vs-agency.jpg",
 title: "SEO Consultant Pakistan vs Agency: How to Choose the Right SEO Help",
 excerpt:
 "Should you hire a freelance SEO consultant, an agency, or someone in-house? This guide compares the three honestly and lists the questions to ask first.",
@@ -621,6 +626,7 @@ paragraphs: [
 },
 {
 slug: "meta-ads-vs-google-ads-pakistan",
+    image: "/images/blog/blog-meta-ads-vs-google-ads-pakistan.jpg",
 title: "Meta Ads vs Google Ads Pakistan: Which One Should Your Business Start With?",
 excerpt:
 "Google Ads catches people who are already searching. Meta Ads finds people who are not looking yet. Here is how each works and which one to start with.",
@@ -743,6 +749,7 @@ paragraphs: [
 },
 {
 slug: "ai-automation-small-marketing-teams-pakistan-workflows",
+    image: "/images/blog/blog-ai-automation-small-marketing-teams-pakistan-workflows.jpg",
 title: "AI Automation Pakistan: 5 Workflows for Small Marketing Teams That Save 10+ Hours/Week",
 excerpt:
 "Marketing teams lose hours to repetition: copying leads, assembling reports, chasing replies. These five AI workflows take that work back — with human approval.",
@@ -839,6 +846,7 @@ paragraphs: [
 },
 {
 slug: "ecommerce-seo-pakistan",
+    image: "/images/blog/blog-ecommerce-seo-pakistan.jpg",
 title: "E-Commerce SEO Pakistan: Turn Search into Sales for Your Online Store",
 excerpt:
 "An online store lives or dies on search. This guide explains how product pages, category structure, speed and trust signals turn Google traffic into orders.",
@@ -933,6 +941,7 @@ paragraphs: [
 },
 {
 slug: "real-estate-seo-lahore",
+    image: "/images/blog/blog-real-estate-seo-lahore.jpg",
 title: "Real Estate SEO Lahore: Get Found by Property Buyers First",
 excerpt:
 "Property buyers in Lahore start on Google. This guide explains how area pages, your Business Profile, reviews and photos turn searches into visits and calls.",
@@ -1020,6 +1029,7 @@ paragraphs: [
 },
 {
 slug: "how-long-does-seo-take-pakistan",
+    image: "/images/blog/blog-how-long-does-seo-take-pakistan.jpg",
 title: "How Long Does SEO Take Pakistan: A Realistic Timeline",
 excerpt:
 "How long does SEO take Pakistan? A realistic first-year timeline — what happens in months 1–3, 3–6 and 6–12, and what makes results come faster or slower.",
@@ -1125,6 +1135,7 @@ paragraphs: [
 },
 {
 slug: "google-business-profile-mistakes-lahore",
+    image: "/images/blog/blog-google-business-profile-mistakes-lahore.jpg",
 title: "Google Business Profile Mistakes Lahore Businesses Make (And How to Fix Them)",
 excerpt:
 "Google Business Profile mistakes Lahore businesses make cost customers. The most common ones — wrong categories, no photos, ignored reviews — and the fixes.",
@@ -1226,6 +1237,7 @@ paragraphs: [
 },
 {
 slug: "fast-website-seo-nextjs",
+    image: "/images/blog/blog-fast-website-seo-nextjs.jpg",
 title: "Fast Website SEO Next.js: Speed That Actually Ranks",
 excerpt:
 "Fast website SEO Next.js: why speed ranks, what Next.js does for Core Web Vitals and server rendering, and the fixes that still fall to you and your developer.",
@@ -1325,6 +1337,7 @@ paragraphs: [
 },
 {
 slug: "performance-marketing-pakistan",
+    image: "/images/blog/blog-performance-marketing-pakistan.jpg",
 title: "Performance Marketing Pakistan: Ads That Pay Back",
 excerpt:
 "Performance marketing Pakistan only works when results are tracked. The channels, tracking, landing pages and testing behind campaigns that grow and pay back.",
@@ -1429,6 +1442,7 @@ paragraphs: [
 },
   {
     slug: "shopify-vs-wordpress",
+    image: "/images/blog/blog-shopify-vs-wordpress.jpg",
     title: "Shopify vs WordPress: Which One Is Better for Your Online Store?",
     excerpt:
       "Shopify vs WordPress for your online store: payments, COD, speed, SEO and control compared honestly — pick the right platform that fits your business best.",
