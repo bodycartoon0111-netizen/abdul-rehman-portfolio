@@ -113,13 +113,14 @@ export default function OffPageSeoPage() {
 
       {/* Hero */}
       <header className="mt-8 max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-widest text-neutral-600">Service</p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-neutral-900 sm:text-5xl">
+        <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Service</p>
+        <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
             Off-Page SEO Services in Pakistan
           </span>{" "}
           — Earn Authority That Lasts
         </h1>
+        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Trust search engines can see.</p>
         <p className="mt-4 text-xl font-medium text-neutral-700">
           Trust that search engines can see — earned off your site, from the places your customers already read.
         </p>
