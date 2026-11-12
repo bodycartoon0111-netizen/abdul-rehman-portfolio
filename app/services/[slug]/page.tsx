@@ -190,10 +190,27 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           )}
         <ul className="mt-8 grid gap-4 sm:grid-cols-2">
           {service.deliverables.map((d) => (
-            <li key={d} className="flex gap-3 rounded-2xl bg-neutral-50 p-5 text-neutral-700">
-              <span aria-hidden="true" className="mt-0.5 font-bold text-neutral-900">✓</span>
-              <span className="leading-relaxed">{d}</span>
-            </li>
+            d.href ? (
+              <li key={d.text}>
+                <Link
+                  href={d.href}
+                  prefetch={false}
+                  className="group flex h-full gap-3 rounded-2xl border border-transparent bg-neutral-50 p-5 text-neutral-700 transition hover:border-pine hover:bg-pine hover:text-white"
+                >
+                  <span aria-hidden="true" className="mt-0.5 font-bold text-neutral-900 transition group-hover:text-white">
+                    ✓
+                  </span>
+                  <span className="leading-relaxed transition group-hover:text-white">{d.text}</span>
+                </Link>
+              </li>
+            ) : (
+              <li key={d.text} className="flex gap-3 rounded-2xl bg-neutral-50 p-5 text-neutral-700">
+                <span aria-hidden="true" className="mt-0.5 font-bold text-neutral-900">
+                  ✓
+                </span>
+                <span className="leading-relaxed">{d.text}</span>
+              </li>
+            )
           ))}
         </ul>
       </section>
@@ -218,12 +235,18 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         </h2>
         <ol className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {detail.process.map((step, i) => (
-            <li key={step.title} className="rounded-2xl border border-neutral-200 bg-white p-6">
-              <span className="text-sm font-bold uppercase tracking-widest text-neutral-500">
-                Step {i + 1}
-              </span>
-              <h3 className="mt-2 text-lg font-bold text-neutral-900">{step.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-700">{step.description}</p>
+            <li key={step.title}>
+              <Link
+                href="/process"
+                prefetch={false}
+                className="group block h-full rounded-2xl border border-neutral-200 bg-white p-6 transition hover:border-pine hover:bg-pine hover:text-white"
+              >
+                <span className="text-sm font-bold uppercase tracking-widest text-neutral-500 transition group-hover:text-white">
+                  Step {i + 1}
+                </span>
+                <h3 className="mt-2 text-lg font-bold text-neutral-900 transition group-hover:text-white">{step.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-neutral-700 transition group-hover:text-white">{step.description}</p>
+              </Link>
             </li>
           ))}
         </ol>
@@ -293,26 +316,21 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           </h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {relatedProjects.map((p) => (
-              <article
+              <Link
                 key={p.slug}
-                className="group flex flex-col rounded-2xl border border-neutral-200 bg-white p-6 transition hover:-translate-y-1 hover:shadow-xl"
+                href={`/work/${p.slug}`}
+                prefetch={false}
+                className="group flex h-full flex-col rounded-2xl border border-neutral-200 bg-white p-6 transition hover:-translate-y-1 hover:border-pine hover:bg-pine hover:text-white hover:shadow-xl"
               >
-                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600">
+                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white">
                   {p.industry}
                 </p>
-                <h3 className="mt-2 text-lg font-bold text-neutral-900">
-                  <Link href={`/work/${p.slug}`} prefetch={false} className="transition group-hover:underline">
-                    {p.name}
-                  </Link>
-                </h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-neutral-700">{p.tagline}</p>
-                <Link
-                  href={`/work/${p.slug}`} prefetch={false}
-                  className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900"
-                >
+                <h3 className="mt-2 text-lg font-bold text-neutral-900 transition group-hover:text-white">{p.name}</h3>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-neutral-700 transition group-hover:text-white">{p.tagline}</p>
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900 transition group-hover:text-white">
                   Read case study <span aria-hidden="true">→</span>
-                </Link>
-              </article>
+                </span>
+              </Link>
             ))}
           </div>
         </section>
@@ -328,7 +346,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
             <Link
               key={s.slug}
               href={`/services/${s.slug}`} prefetch={false}
-              className="rounded-full border border-neutral-300 px-5 py-2.5 text-sm font-medium text-neutral-700 transition hover:border-neutral-900 hover:text-neutral-900"
+              className="rounded-full border border-neutral-300 px-5 py-2.5 text-sm font-medium text-neutral-700 transition hover:border-pine hover:bg-pine hover:text-white"
             >
               {s.name}
             </Link>
