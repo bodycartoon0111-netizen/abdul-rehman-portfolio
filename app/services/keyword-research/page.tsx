@@ -120,7 +120,8 @@ export default function KeywordResearchPage() {
             Keyword Research Services in Pakistan
           </span>{" "}
           — Find the Searches That Bring Buyers
-        </h1><p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">The searches your customers type, mapped to the pages that win them.</p><p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">The searches your customers type, mapped to the pages that win them.</p>
+        </h1>
+        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">The searches your customers type, mapped to the pages that win them.</p>
         <p className="mt-4 text-xl font-medium text-neutral-700">
           The searches your customers actually type, mapped to the pages that should win them.
         </p>
