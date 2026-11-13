@@ -16,13 +16,13 @@ function renderRichText(text: string) {
     const [, label, href] = match;
     if (href.startsWith("/")) {
       return (
-        <Link key={i} href={href}>
+        <Link key={i} href={href} className="font-semibold text-pine underline underline-offset-2 decoration-pine/60 transition hover:text-pine-bright">
           {label}
         </Link>
       );
     }
     return (
-      <a key={i} href={href} target="_blank" rel="noopener noreferrer">
+      <a key={i} href={href} target="_blank" rel="noopener noreferrer" className="font-semibold text-pine underline underline-offset-2 decoration-pine/60 transition hover:text-pine-bright">
         {label}
       </a>
     );
