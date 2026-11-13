@@ -651,7 +651,7 @@ sections: [
 {
 heading: "The one-line difference: intent vs interruption",
 paragraphs: [
-"Google Ads catches people who are already looking for what you sell. Meta Ads — Facebook and Instagram — finds people who are not looking yet, and gives them a reason to care. That single difference decides almost everything in the Meta Ads vs Google Ads Pakistan decision: which one to start with, what it costs you in attention, and what you should expect from it.",
+"[Google Ads](/services/google-ads) catches people who are already looking for what you sell. Meta Ads — Facebook and Instagram — finds people who are not looking yet, and gives them a reason to care. That single difference decides almost everything in the Meta Ads vs Google Ads Pakistan decision: which one to start with, what it costs you in attention, and what you should expect from it.",
 "Both can work for Pakistani businesses. Both can also waste money quickly when they are set up carelessly. This guide explains how each channel works, when to start with which, and the mistakes that burn budget.",
 ],
 },
@@ -873,7 +873,7 @@ sections: [
 {
 heading: "Why e-commerce SEO is a different job",
 paragraphs: [
-"An online store is not a brochure website with a shopping cart bolted on. It is a catalogue, a sales floor, and a checkout counter at the same time — and search engines judge it on all three. A service business can rank with ten good pages. An online store might have hundreds or thousands of pages, most of them competing for the same kind of search, and every one of them has to earn its place.",
+"An [online store](/industries/ecommerce) is not a brochure website with a shopping cart bolted on. It is a catalogue, a sales floor, and a checkout counter at the same time — and search engines judge it on all three. A service business can rank with ten good pages. An online store might have hundreds or thousands of pages, most of them competing for the same kind of search, and every one of them has to earn its place.",
 "That is what makes [e-commerce SEO Pakistan](/services/seo) a different job from ordinary SEO. The questions are different: how do you stop a hundred similar product pages from competing with each other? How do you make a category page rank for a broad search while the product pages rank for the specific ones? How do you keep a store fast when every product needs photos?",
 "Pakistani online shopping has its own habits too. Many customers browse on a phone, compare prices across two or three stores, and pay cash on delivery. They search in a mix of English and Roman Urdu. They check delivery times before they check anything else. A store that builds its SEO around those habits has an advantage over one that copied a foreign template.",
 "This guide covers the parts of e-commerce SEO that actually move sales: product pages, category structure, speed, trust, content, and measurement. Most stores here run on one of two platforms — [Shopify](/services/shopify) or [WordPress](/services/wordpress) — and the advice in this guide applies to both.",
@@ -894,7 +894,7 @@ paragraphs: [
 "A store with hundreds of products needs a structure that makes sense to a human and to a search engine. That structure is your category tree, and getting it wrong is one of the most common e-commerce SEO mistakes.",
 "The rule is simple: categories should match how customers think, not how your warehouse is organised. If shoppers look for shoes by occasion — running, formal, casual — then your categories should reflect that. If they look by brand, then brand should be a level in the tree. Let how people browse and search shape the structure.",
 "Every category page should be a real page, not just a list of products. It needs a clear title, a short introduction that explains what the category covers, and enough unique text to give Google something to rank. A category page with no text is a missed opportunity: it should rank for the broad search, while the product pages rank for the specific ones.",
-"Two technical points matter here. First, avoid duplicate pages: the same product reachable through three different category paths creates three near-identical URLs, and Google has to guess which one counts. Second, keep the important categories no more than two or three clicks from the homepage. A page buried five levels deep is a page Google crawls rarely and shoppers never find.",
+"Two technical points matter here. First, avoid [duplicate pages](/blog/technical-seo-checklist-2026-pakistani-websites): the same product reachable through three different category paths creates three near-identical URLs, and Google has to guess which one counts. Second, keep the important categories no more than two or three clicks from the homepage. A page buried five levels deep is a page Google crawls rarely and shoppers never find.",
 ],
 },
 {
@@ -1165,7 +1165,7 @@ sections: [
 {
 heading: "The wrong category — the first of the Google Business Profile mistakes Lahore businesses make",
 paragraphs: [
-"The most common of the Google Business Profile mistakes Lahore businesses make is also the easiest to fix: the wrong category. A dental clinic listed as a \"doctor\", a restaurant listed as a \"food establishment\", a property agency listed as a \"real estate consultant\" — each one tells Google the wrong thing about the business, and Google shows it for the wrong searches.",
+"The most common of the Google Business Profile mistakes Lahore businesses make is also the easiest to fix: the wrong category. A dental clinic listed as a \"doctor\", a restaurant listed as a \"food establishment\", a [property agency](/industries/real-estate) listed as a \"real estate consultant\" — each one tells Google the wrong thing about the business, and Google shows it for the wrong searches.",
 "Your primary category should be the most specific description of what you do. If you are a dental clinic, your primary category is \"dental clinic\" — not \"doctor\" and not \"health\". If you run a car wash, it is \"car wash\". Google has thousands of categories, and the right one exists for almost every business. Take the time to search the list properly instead of accepting the first suggestion.",
 "Secondary categories are for genuine additional services only — a salon that also does bridal makeup, or a restaurant that also does catering. But adding categories for services you do not offer — hoping to appear in more searches — backfires: it confuses Google, and it brings you enquiries you cannot serve. Fix the category first; it takes two minutes, and it changes which searches you appear for.",
 ],
