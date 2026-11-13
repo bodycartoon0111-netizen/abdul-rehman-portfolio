@@ -105,14 +105,14 @@ export default async function CaseStudyPage({ params }: PageProps) {
         <h2 id="snapshot-heading" className="text-2xl font-bold tracking-tight text-neutral-900">
           Project snapshot
         </h2>
-        <dl className="mt-6 grid gap-6 rounded-2xl bg-neutral-50 p-8 sm:grid-cols-2 lg:grid-cols-4"><div><dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600">What was built</dt><dd className="mt-2 font-semibold text-neutral-900">{project.tagline}</dd></div>
+        <dl className="group mt-6 grid gap-6 rounded-2xl bg-neutral-50 p-8 transition-colors hover:bg-pine sm:grid-cols-2 lg:grid-cols-4"><div><dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">What was built</dt><dd className="mt-2 font-semibold text-neutral-900 transition group-hover:text-white">{project.tagline}</dd></div>
           <div>
-            <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600">Industry</dt>
-            <dd className="mt-2 font-semibold text-neutral-900">{project.industry}</dd>
+            <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">Industry</dt>
+            <dd className="mt-2 font-semibold text-neutral-900 transition group-hover:text-white">{project.industry}</dd>
           </div>
           <div>
-            <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600">Services</dt>
-            <dd className="mt-2 font-semibold text-neutral-900">
+            <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">Services</dt>
+            <dd className="mt-2 font-semibold text-neutral-900 transition group-hover:text-white">
               {serviceLinks.length > 0
                 ? serviceLinks.map((s, i) => (
                     <span key={s.slug}>
@@ -126,12 +126,12 @@ export default async function CaseStudyPage({ params }: PageProps) {
             </dd>
           </div>
           <div>
-            <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600">Technology</dt>
-            <dd className="mt-2 font-semibold text-neutral-900">{project.technologies.join(", ")}</dd>
+            <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">Technology</dt>
+            <dd className="mt-2 font-semibold text-neutral-900 transition group-hover:text-white">{project.technologies.join(", ")}</dd>
           </div>
           <div>
-            <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600">Live link</dt>
-            <dd className="mt-2 font-semibold text-neutral-900">
+            <dt className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">Live link</dt>
+            <dd className="mt-2 font-semibold text-neutral-900 transition group-hover:text-white">
               <a href={project.url} target="_blank" rel="noopener noreferrer" className="break-all underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900">
                 {project.url.replace(/^https?:\/\//, "").replace(/\/$/, "")}
               </a>
@@ -203,11 +203,11 @@ export default async function CaseStudyPage({ params }: PageProps) {
       </section>
 
       {/* Outcome — truthful, no invented numbers */}
-      <section aria-labelledby="outcome-heading" className="mt-14 max-w-4xl rounded-3xl bg-neutral-50 p-8 sm:p-10">
-        <h2 id="outcome-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
+      <section aria-labelledby="outcome-heading" className="group mt-14 max-w-4xl rounded-3xl bg-neutral-50 p-8 sm:p-10 transition-colors hover:bg-pine">
+        <h2 id="outcome-heading" className="text-3xl font-bold tracking-tight text-neutral-900 group-hover:text-white">
           Outcome
         </h2>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">{project.outcome}</p> <p className="mt-4 text-lg leading-relaxed text-neutral-700">Results available on request. Traffic, ranking and conversion figures are not published here.</p>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">{project.outcome}</p> <p className="mt-4 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">Results available on request. Traffic, ranking and conversion figures are not published here.</p>
       </section>
 
       {/* Live website button */}
@@ -230,16 +230,16 @@ export default async function CaseStudyPage({ params }: PageProps) {
           </h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {relatedProjects.map((p) => (
-              <article key={p.slug} className="group rounded-2xl border border-neutral-200 bg-white p-6 transition hover:-translate-y-1 hover:shadow-xl">
-                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600">{p.industry}</p>
-                <h3 className="mt-2 text-lg font-bold text-neutral-900">
-                  <Link href={`/work/${p.slug}`} className="transition group-hover:underline">{p.name}</Link>
+              <Link key={p.slug} href={`/work/${p.slug}`} className="group flex h-full flex-col rounded-2xl border border-neutral-200 bg-white p-6 transition hover:-translate-y-1 hover:border-pine hover:bg-pine hover:text-white hover:shadow-xl">
+                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">{p.industry}</p>
+                <h3 className="mt-2 text-lg font-bold text-neutral-900 transition group-hover:text-white group-hover:underline">
+                  {p.name}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-neutral-700">{p.tagline}</p>
-                <Link href={`/work/${p.slug}`} className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900">
+                <p className="mt-2 text-sm leading-relaxed text-neutral-700 transition group-hover:text-white">{p.tagline}</p>
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900 transition group-hover:text-white">
                   Read case study <span aria-hidden="true">→</span>
-                </Link>
-              </article>
+                </span>
+              </Link>
             ))}
           </div>
         </section>
