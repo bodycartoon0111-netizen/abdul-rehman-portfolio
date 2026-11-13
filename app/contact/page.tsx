@@ -120,7 +120,7 @@ export default function ContactPage() {
             <div className="group/info mt-8 rounded-xl border border-neutral-200 bg-white p-5 text-sm leading-relaxed text-neutral-700 transition-colors hover:border-pine hover:bg-pine">
               <p className="font-semibold text-neutral-900 transition group-hover/info:text-white">What happens next?</p>
               <ol className="mt-3 list-decimal space-y-2 pl-5 transition-colors group-hover/info:text-white/85">
-                <li>You send the form — I read it the same day.</li>
+                <li>You send the form to contact SEO consultant Lahore — I read it the same day.</li>
                 <li>I reply with honest first impressions and clarifying questions.</li>
                 <li>If we&apos;re a fit, we schedule a call and I prepare a scoped proposal.</li>
               </ol>
