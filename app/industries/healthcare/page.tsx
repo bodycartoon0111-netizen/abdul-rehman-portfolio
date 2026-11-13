@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, buildBreadcrumbJsonLd } from "@/lib/seo";
+import { absoluteUrl, buildBreadcrumbJsonLd, buildServiceJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -96,6 +96,9 @@ export default function HealthcareSeoPage() {
           { name: "Home", path: "/" },
           { name: NAME, path: `/industries/${SLUG}` },
         ])}
+      />
+      <JsonLd
+        data={buildServiceJsonLd(NAME, DESCRIPTION, SLUG, "/industries")}
       />
       <Breadcrumbs
         items={[
@@ -235,7 +238,7 @@ export default function HealthcareSeoPage() {
           Who this is for
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
-          This is for clinics, dental practices, physiotherapy centres, diagnostic labs and other healthcare providers in Pakistan whose patients find them by searching. It suits practices with real practitioners and real premises, where the website should reflect the standard of care patients receive. If your practice is trusted by the patients who find it, but too few patients find it in the first place, this is the work that changes that.
+          This is for clinics, dental practices, pharmacies, physiotherapy centres, diagnostic labs and other healthcare providers in Pakistan whose patients find them by searching. It suits practices with real practitioners and real premises, where the website should reflect the standard of care patients receive. If your practice is trusted by the patients who find it, but too few patients find it in the first place, this is the work that changes that.
         </p>
       </section>
 
