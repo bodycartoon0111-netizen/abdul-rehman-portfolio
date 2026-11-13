@@ -157,9 +157,9 @@ export default function SaasStartupsSeoPage() {
         </h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-3">
           {problems.map((p) => (
-            <div key={p.title} className="rounded-2xl border border-neutral-200 bg-white p-6">
-              <h3 className="text-lg font-bold text-neutral-900">{p.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-700">{p.description}</p>
+            <div key={p.title} className="group rounded-2xl border border-neutral-200 bg-white p-6 transition-colors hover:border-pine hover:bg-pine">
+              <h3 className="text-lg font-bold text-neutral-900 group-hover:text-white">{p.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-700 group-hover:text-white/85">{p.description}</p>
             </div>
           ))}
         </div>
@@ -188,8 +188,8 @@ export default function SaasStartupsSeoPage() {
         </p>
         <ul className="mt-8 grid gap-4 sm:grid-cols-2">
           {deliverables.map((d) => (
-            <li key={d} className="flex gap-3 rounded-2xl bg-neutral-50 p-5 text-neutral-700">
-              <span aria-hidden="true" className="mt-0.5 font-bold text-neutral-900">✓</span>
+            <li key={d} className="group flex gap-3 rounded-2xl bg-neutral-50 p-5 text-neutral-700 transition-colors hover:bg-pine group-hover:text-white">
+              <span aria-hidden="true" className="mt-0.5 font-bold text-neutral-900 group-hover:text-white">✓</span>
               <span className="leading-relaxed">{d}</span>
             </li>
           ))}
@@ -218,23 +218,23 @@ export default function SaasStartupsSeoPage() {
         </h2>
         <ol className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {processSteps.map((step, i) => (
-            <li key={step.title} className="rounded-2xl border border-neutral-200 bg-white p-6">
-              <span className="text-sm font-bold uppercase tracking-widest text-neutral-500">
+            <li key={step.title} className="group rounded-2xl border border-neutral-200 bg-white p-6 transition-colors hover:border-pine hover:bg-pine">
+              <span className="text-sm font-bold uppercase tracking-widest text-neutral-500 group-hover:text-white/85">
                 Step {i + 1}
               </span>
-              <h3 className="mt-2 text-lg font-bold text-neutral-900">{step.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-700">{step.description}</p>
+              <h3 className="mt-2 text-lg font-bold text-neutral-900 group-hover:text-white">{step.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-700 group-hover:text-white/85">{step.description}</p>
             </li>
           ))}
         </ol>
       </section>
 
       {/* Ideal client */}
-      <section aria-labelledby="ideal-heading" className="mt-16 max-w-4xl rounded-3xl bg-neutral-50 p-8 sm:p-10">
-        <h2 id="ideal-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
+      <section aria-labelledby="ideal-heading" className="group mt-16 max-w-4xl rounded-3xl bg-neutral-50 p-8 sm:p-10 transition-colors hover:bg-pine">
+        <h2 id="ideal-heading" className="text-3xl font-bold tracking-tight text-neutral-900 group-hover:text-white">
           Who this is for
         </h2>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
           This is for SaaS startups and young software companies in Pakistan — a live product, early users, and a need for growth that does not depend on ad spend alone. It suits teams selling to businesses or to consumers, at home or abroad, where buyers research before they sign up. If your product works and your users stay, but too few new users find you through search, this is the work that changes that.
         </p>
       </section>
