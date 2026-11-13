@@ -236,7 +236,7 @@ export default function AboutPage() {
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {PHILOSOPHY.map((p, i) => (
               <Reveal key={p.title} delay={i * 0.08}>
-                <article className="group relative h-full overflow-hidden rounded-2xl border border-line bg-surface p-8 transition-all duration-300 hover:-translate-y-1 hover:border-pine/40 hover:shadow-[0_20px_50px_-15px_rgba(30,58,46,0.25)]">
+                <article className="group relative h-full overflow-hidden rounded-2xl border border-line bg-surface p-8 transition-all duration-300 hover:-translate-y-1 hover:border-pine hover:bg-pine hover:shadow-[0_20px_50px_-15px_rgba(30,58,46,0.25)]">
                   {/* Animated gradient accent bar */}
                   <span
                     aria-hidden="true"
@@ -245,13 +245,13 @@ export default function AboutPage() {
                   {/* Soft color wash on hover */}
                   <span
                     aria-hidden="true"
-                    className="pointer-events-none absolute inset-0 bg-gradient-to-br from-mint/0 via-mint/0 to-gold-pale/0 transition-all duration-500 group-hover:from-mint/20 group-hover:via-transparent group-hover:to-gold-pale/40"
+                    className="pointer-events-none absolute inset-0 bg-gradient-to-br from-mint/0 via-mint/0 to-gold-pale/0 transition-all duration-500 group-hover:from-mint/0 group-hover:via-transparent group-hover:to-gold-pale/0"
                   />
-                  <span className="relative text-xs font-black tracking-[0.24em] text-pine transition-colors duration-300 group-hover:text-gold">
+                  <span className="relative text-xs font-black tracking-[0.24em] text-pine transition-colors duration-300 group-hover:text-white">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <h3 className="relative mt-3 text-xl font-extrabold text-ink transition-colors duration-300 group-hover:text-pine">{p.title}</h3>
-                  <p className="relative mt-3 text-[15px] leading-relaxed text-ink">{p.body}</p>
+                  <h3 className="relative mt-3 text-xl font-extrabold text-ink transition-colors duration-300 group-hover:text-white">{p.title}</h3>
+                  <p className="relative mt-3 text-[15px] leading-relaxed text-ink transition-colors duration-300 group-hover:text-white/85">{p.body}</p>
                 </article>
               </Reveal>
             ))}
@@ -271,8 +271,8 @@ export default function AboutPage() {
           <div className="mx-auto mt-14 grid max-w-4xl gap-6 md:grid-cols-3">
             {SKILL_GROUPS.map((g, i) => (
               <Reveal key={g.name} delay={i * 0.08}>
-                <article className="h-full rounded-2xl border border-line bg-paper p-7">
-                  <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-pine">{g.name}</h3>
+                <article className="group h-full rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
+                  <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-pine transition-colors group-hover:text-white">{g.name}</h3>
                   <ul className="mt-4 flex flex-wrap gap-2">
                     {g.skills.map((s) => (
                       <li
@@ -307,7 +307,7 @@ export default function AboutPage() {
       </section>
 
       
-      <CredentialsBlock /> <section className="bg-white py-16 md:py-20"><Container><Reveal><div className="mx-auto max-w-3xl rounded-2xl border border-line bg-paper p-8 text-center"><h2 className="font-display text-2xl font-semibold">Client reviews</h2><p className="mt-3 text-muted-foreground">Client reviews are published here once verified.</p></div></Reveal></Container></section>{/* Technology ecosystem */}
+      <CredentialsBlock /> <section className="bg-white py-16 md:py-20"><Container><Reveal><div className="group mx-auto max-w-3xl rounded-2xl border border-line bg-paper p-8 text-center transition-colors hover:border-pine hover:bg-pine"><h2 className="font-display text-2xl font-semibold transition-colors group-hover:text-white">Client reviews</h2><p className="mt-3 text-muted-foreground transition-colors group-hover:text-white/85">Client reviews are published here once verified.</p></div></Reveal></Container></section>{/* Technology ecosystem */}
       <section className="bg-surface py-16 md:py-20">
         <Container>
           <SectionHeading
@@ -329,7 +329,7 @@ export default function AboutPage() {
                     {group.items.map((t) => (
                       <div
                         key={t.name}
-                        className="group relative overflow-hidden rounded-xl border border-line bg-paper p-5 transition-all duration-300 hover:-translate-y-1 hover:border-pine/40 hover:shadow-[0_16px_40px_-15px_rgba(30,58,46,0.28)]"
+                        className="group relative overflow-hidden rounded-xl border border-line bg-paper p-5 transition-all duration-300 hover:-translate-y-1 hover:border-pine hover:bg-pine hover:shadow-[0_16px_40px_-15px_rgba(30,58,46,0.28)]"
                       >
                         {/* Animated gradient accent bar */}
                         <span
@@ -339,10 +339,10 @@ export default function AboutPage() {
                         {/* Soft color wash on hover */}
                         <span
                           aria-hidden="true"
-                          className="pointer-events-none absolute inset-0 bg-gradient-to-br from-mint/0 to-gold-pale/0 transition-all duration-500 group-hover:from-mint/25 group-hover:to-gold-pale/30"
+                          className="pointer-events-none absolute inset-0 bg-gradient-to-br from-mint/0 to-gold-pale/0 transition-all duration-500 group-hover:from-mint/0 group-hover:to-gold-pale/0"
                         />
-                        <dt className="relative text-[15px] font-extrabold text-ink transition-colors duration-300 group-hover:text-pine">{t.name}</dt>
-                        <dd className="relative mt-1.5 text-sm leading-relaxed text-muted">{t.purpose}</dd>
+                        <dt className="relative text-[15px] font-extrabold text-ink transition-colors duration-300 group-hover:text-white">{t.name}</dt>
+                        <dd className="relative mt-1.5 text-sm leading-relaxed text-muted transition-colors duration-300 group-hover:text-white/85">{t.purpose}</dd>
                       </div>
                     ))}
                   </dl>
@@ -415,14 +415,14 @@ export default function AboutPage() {
             <ul className="space-y-4">
               {PRINCIPLES.map((p, i) => (
                 <Reveal key={p} delay={i * 0.06}>
-                  <li className="flex items-start gap-4 rounded-xl border border-line bg-surface p-5">
+                  <li className="group flex items-start gap-4 rounded-xl border border-line bg-surface p-5 transition-colors hover:border-pine hover:bg-pine">
                     <span
                       aria-hidden="true"
-                      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-pine text-sm font-black text-white"
+                      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-pine text-sm font-black text-white transition-colors group-hover:bg-white group-hover:text-pine"
                     >
                       ✓
                     </span>
-                    <span className="pt-1 text-[15px] font-semibold text-ink">{p}</span>
+                    <span className="pt-1 text-[15px] font-semibold text-ink transition-colors group-hover:text-white">{p}</span>
                   </li>
                 </Reveal>
               ))}
