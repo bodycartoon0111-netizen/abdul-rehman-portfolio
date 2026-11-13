@@ -176,12 +176,13 @@ export function buildServiceJsonLd(
   name: string,
   description: string,
   slug: string,
+  basePath = "/services",
 ): Record<string, unknown> {  return {
     ...baseContext(),
     "@type": "Service",
     name,
     description,
-    url: absoluteUrl(`/services/${slug}`),
+    url: absoluteUrl(`${basePath}/${slug}`),
     provider: { ...buildPersonJsonLd(), email: BRAND_EMAIL },
     
     areaServed: "Worldwide",
