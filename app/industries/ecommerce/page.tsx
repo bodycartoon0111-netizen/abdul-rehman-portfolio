@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, buildBreadcrumbJsonLd } from "@/lib/seo";
+import { absoluteUrl, buildBreadcrumbJsonLd, buildServiceJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -113,6 +113,9 @@ export default function EcommerceSeoPage() {
           { name: "Home", path: "/" },
           { name: NAME, path: `/industries/${SLUG}` },
         ])}
+      />
+      <JsonLd
+        data={buildServiceJsonLd(NAME, DESCRIPTION, SLUG, "/industries")}
       />
       <Breadcrumbs
         items={[
@@ -262,7 +265,7 @@ export default function EcommerceSeoPage() {
           E-commerce SEO for Pakistan stores
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Shoppers in Pakistan search in a mix of English and Urdu terms, compare prices across several stores and marketplaces, and often pay on delivery — so trust signals matter as much as rankings. Delivery times, cash-on-delivery options, return policies and clear contact details all shape whether a visitor becomes a buyer, and they shape what search engines show too. A Lahore store may serve customers nationwide, while a store in Karachi or Islamabad faces the same questions from a different city. The work is planned around that reality: pages written for how Pakistani shoppers actually search and decide, on the phones they actually use, with the delivery and payment details they actually need to see.
+          Shoppers in Pakistan search in a mix of English and Urdu terms, compare prices across several stores and marketplaces, and often pay on delivery — so trust signals matter as much as rankings. Delivery times, cash-on-delivery options, return policies and clear contact details all shape whether a visitor becomes a buyer, and they shape what search engines show too. A Lahore store may serve customers nationwide, while a store in Karachi or Islamabad faces the same questions from a different city. The work is planned around that reality: SEO for E-commerce in Pakistan means pages written for how Pakistani shoppers actually search and decide, on the phones they actually use, with the delivery and payment details they actually need to see.
         </p>
       </section>
 
