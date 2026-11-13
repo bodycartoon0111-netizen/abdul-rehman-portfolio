@@ -129,7 +129,7 @@ export default function OffPageSeoPage() {
           <Link href="/services/seo" className="font-semibold text-neutral-900 underline">
             SEO services in Lahore
           </Link>{" "}
-          I offer: everything that happens away from your website and still shapes how search engines judge it. The pages on your site say what you do; the web around it says whether anyone believes you. Links, mentions, reviews and local listings are the signals search engines use to settle that question, and this service earns them honestly — through work worth linking to, rather than through shortcuts that can damage a site for years.
+          I offer: everything that happens away from your website and still shapes how search engines judge it. The pages on your site say what you do; the web around it says whether anyone believes you. Links, mentions, reviews and local listings are the signals search engines use to settle that question, and this service earns them honestly — through link building and work worth linking to, rather than through shortcuts that can damage a site for years.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           A website can have good content and solid technical foundations and still sit below competitors, because search engines do not only judge pages — they judge reputations. If nobody links to your site, nobody mentions it, and no local listing confirms it, there is little for a search engine to trust. The result is familiar: pages that deserve to rank sit on the second page while older, better-known competitors take the enquiries, even when their content is no better than yours. Off-page SEO is the work that closes that trust gap, steadily and openly.
