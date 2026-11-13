@@ -322,7 +322,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "What local SEO Lahore businesses actually need",
         paragraphs: [
-          "When someone in Lahore searches for a service they need now — a clinic in DHA, a restaurant in Gulberg, a plumber in Johar Town, a lawyer near the courts — they usually do not scroll through ten blue links. They look at the map. The three businesses shown in the Maps results get the calls, and the rest get ignored. Local SEO Lahore work is the work of getting your business into that visible group, and keeping it there.",
+          "When someone in Lahore searches for a service they need now — a clinic in DHA, a restaurant in Gulberg, a plumber in Johar Town, a lawyer near the courts — they usually do not scroll through ten blue links. They look at the map. The three businesses shown in the Maps results get the calls, and the rest get ignored. [Local SEO Lahore work](/services/local-seo) is the work of getting your business into that visible group, and keeping it there.",
           "It is not the same as regular SEO, though the two overlap. Regular SEO is about ranking your website. Local SEO is about ranking your business in a place: Google Maps, the local results, and the \"near me\" searches that happen on phones all day — on mobile data, in traffic on Canal Road, between errands. For a business that serves customers in Lahore, local SEO is usually the fastest route to enquiries — because the person searching is already nearby and already ready to act. A missed call at that moment is a customer who simply rings the next listing.",
           "The good news is that most Lahore businesses have done almost none of this properly. Their profiles are half empty, their details are inconsistent, and they never ask for reviews. That means the business that does the basics well stands out immediately.",
         ],
@@ -477,7 +477,7 @@ paragraphs: [
 heading: "Structured data: mark up only what you can prove",
 paragraphs: [
 "Schema markup does not directly raise rankings, but it buys richer results — FAQs, breadcrumbs, and business details shown directly in search — which raise the number of people who click on the position you already hold. The rule is simple and strict: only mark up content that is visible on the page. Marking up reviews you do not have, or FAQs that are not on the page, is the fastest way to lose eligibility.",
-"For a Pakistani business site, I would start with Organization and WebSite schema on the homepage, BreadcrumbList on every template, Article schema on blog posts, and FAQPage schema wherever real FAQs are shown on the page. LocalBusiness schema belongs on the site only when the business details it contains — name, phone, address, hours — are accurate and kept up to date. Stale schema is worse than no schema.",
+"For a Pakistani business site, I would start with Organization and WebSite schema on the homepage, BreadcrumbList on every template, Article schema on blog posts, and FAQPage schema wherever real FAQs are shown on the page. [LocalBusiness schema](/services/local-seo) belongs on the site only when the business details it contains — name, phone, address, hours — are accurate and kept up to date. Stale schema is worse than no schema.",
 ],
 },
 {
@@ -545,7 +545,7 @@ paragraphs: [
 {
 heading: "Hiring an agency",
 paragraphs: [
-"An agency gives you a team: strategists, content writers, technical staff, and account managers. That breadth helps when the work is large — a big e-commerce site, several markets at once, or content at a volume one person cannot sustain. Agencies also have process: onboarding documents, reporting systems, and cover when someone is on leave.",
+"An agency gives you a team: strategists, content writers, technical staff, and account managers. That breadth helps when the work is large — a big [e-commerce site](/industries/ecommerce), several markets at once, or content at a volume one person cannot sustain. Agencies also have process: onboarding documents, reporting systems, and cover when someone is on leave.",
 "The trade-off is distance. In many agencies, the person who sold you the work is not the person doing it, and the person doing it may be junior and juggling several accounts. Ask directly who will work on your account, how experienced they are, and how much of their time you actually get. An agency's answer to that question tells you more than its brochure. In Pakistan, also ask where the team sits: an agency that outsources your work to a third party without telling you is a common surprise, and you deserve to know before you sign.",
 "Agencies suit businesses with large or complex scopes, those that need several skills at once, and those that prefer a formal structure with a single contract covering everything.",
 ],
