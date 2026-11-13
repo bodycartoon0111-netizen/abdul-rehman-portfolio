@@ -768,7 +768,7 @@ readingMinutes: 9,
 tags: ["AI Automation", "Workflows", "Small Teams", "Marketing"],
 category: "AI Automation",
 sample: false,
-metaTitle: "AI Automation Pakistan: 5 Workflows for Small Marketing Teams That Save 10+ Hours/Week",
+metaTitle: "AI Automation Pakistan: 5 Workflows for Marketing Teams",
 metaDescription:
 "AI automation Pakistan: five workflows for small marketing teams — lead follow-up, reporting, content repurposing, review requests and ad alerts today.",
 sections: [
@@ -866,7 +866,7 @@ readingMinutes: 10,
 tags: ["E-commerce", "SEO", "Pakistan", "Online Store"],
 category: "SEO",
 sample: false,
-metaTitle: "E-Commerce SEO Pakistan: Turn Search into Sales for Your Online Store",
+metaTitle: "E-Commerce SEO Pakistan: Turn Search into Sales",
 metaDescription:
 "E-commerce SEO Pakistan turns search traffic into sales. Learn how product pages, category structure and site speed help your online store rank higher.",
 sections: [
@@ -1158,7 +1158,7 @@ readingMinutes: 9,
 tags: ["Google Business Profile", "Local SEO", "Lahore", "Maps"],
 category: "SEO",
 sample: false,
-metaTitle: "Google Business Profile Mistakes Lahore Businesses Make (And How to Fix Them)",
+metaTitle: "Google Business Profile Mistakes Lahore Businesses Make",
 metaDescription:
 "Google Business Profile mistakes Lahore businesses make most — wrong categories, mismatched details, no photos, ignored reviews — and how to fix each one.",
 sections: [
@@ -1468,7 +1468,7 @@ paragraphs: [
     tags: ["Shopify", "WordPress", "E-Commerce", "Pakistan"],
     category: "Web Development",
     sample: false,
-    metaTitle: "Shopify vs WordPress: Which One Is Better for Your Online Store?",
+    metaTitle: "Shopify vs WordPress: Which Is Better for Your Store?",
     metaDescription:
       "Shopify vs WordPress compared honestly: payments, COD, speed, SEO, costs, control and ownership for online stores — pick the right one first time.",
     sections: [
