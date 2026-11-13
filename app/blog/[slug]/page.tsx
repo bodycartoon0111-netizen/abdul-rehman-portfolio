@@ -189,21 +189,21 @@ export default async function BlogPostPage({ params }: PageProps) {
             ))}
           </div>
         </footer>
-      <aside className="mt-12 rounded-2xl border border-neutral-200 bg-white p-6"><p className="leading-relaxed text-neutral-700">Want help with this? <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link> — or <Link href="/contact" className="font-semibold text-neutral-900 underline">book a free SEO audit</Link>.</p></aside></article>
+      <aside className="group mt-12 rounded-2xl border border-neutral-200 bg-white p-6 transition hover:border-pine hover:bg-pine"><p className="leading-relaxed text-neutral-700 group-hover:text-white">Want help with this? <Link href={serviceHref} className="font-semibold text-neutral-900 underline group-hover:text-white">{serviceLabel}</Link> — or <Link href="/contact" className="font-semibold text-neutral-900 underline group-hover:text-white">book a free SEO audit</Link>.</p></aside></article>
 
-      <section aria-labelledby="author-heading" className="mt-12 rounded-2xl border border-neutral-200 bg-white p-6"><h2 id="author-heading" className="text-2xl font-bold tracking-tight text-neutral-900">About the author</h2><p className="mt-3 text-lg font-semibold text-neutral-900">Abdul Rehman</p><p className="text-sm text-neutral-600">SEO Specialist &amp; Full-Stack Web Developer</p><p className="mt-3 leading-relaxed text-neutral-700">Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google &amp; Meta Ads, websites and AI automation.</p><Link href="/about" className="mt-4 inline-flex items-center gap-1 font-semibold text-neutral-900 underline underline-offset-4">More about Abdul Rehman</Link></section> {related.length > 0 && (
+      <section aria-labelledby="author-heading" className="group mt-12 rounded-2xl border border-neutral-200 bg-white p-6 transition hover:border-pine hover:bg-pine"><h2 id="author-heading" className="text-2xl font-bold tracking-tight text-neutral-900 group-hover:text-white">About the author</h2><p className="mt-3 text-lg font-semibold text-neutral-900 group-hover:text-white">Abdul Rehman</p><p className="text-sm text-neutral-600 group-hover:text-white">SEO Specialist &amp; Full-Stack Web Developer</p><p className="mt-3 leading-relaxed text-neutral-700 group-hover:text-white">Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google &amp; Meta Ads, websites and AI automation.</p><Link href="/about" className="mt-4 inline-flex items-center gap-1 font-semibold text-neutral-900 underline underline-offset-4 group-hover:text-white">More about Abdul Rehman</Link></section> {related.length > 0 && (
         <section aria-labelledby="more-posts-heading" className="mt-16">
           <h2 id="more-posts-heading" className="text-2xl font-bold tracking-tight text-neutral-900">
             More notes
           </h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2">
             {related.map((p) => (
-              <article key={p.slug} className="rounded-2xl border border-neutral-200 bg-white p-6">
-                <h3 className="text-lg font-bold text-neutral-900">
-                  <Link href={`/blog/${p.slug}`} className="transition hover:underline">{p.title}</Link>
+              <Link key={p.slug} href={`/blog/${p.slug}`} className="group block rounded-2xl border border-neutral-200 bg-white p-6 transition hover:border-pine hover:bg-pine">
+                <h3 className="text-lg font-bold text-neutral-900 group-hover:text-white">
+                  <span>{p.title}</span>
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-neutral-700">{p.excerpt}</p>
-              </article>
+                <p className="mt-2 text-sm leading-relaxed text-neutral-700 group-hover:text-white">{p.excerpt}</p>
+              </Link>
             ))}
           </div>
         </section>
