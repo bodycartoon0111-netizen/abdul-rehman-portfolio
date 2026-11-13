@@ -38,13 +38,14 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
           </button>
         ))}
       </div>
-
       <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((project) => (
-          <article
+          <Link
             key={project.slug}
+            href={`/work/${project.slug}`}
             data-cursor="view"
-            className="group flex flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white transition hover:-translate-y-1 hover:shadow-xl"
+            aria-label={`Read the ${project.name} case study`}
+            className="group flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white transition hover:-translate-y-1 hover:border-pine hover:bg-pine hover:text-white hover:shadow-xl"
           >
             <div className="flex h-48 items-center justify-center bg-white px-10">
               <Image
@@ -56,15 +57,11 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
               />
             </div>
             <div className="flex flex-1 flex-col p-6">
-              <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600">
+              <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white">
                 {project.industry}
               </p>
-              <h3 className="mt-2 text-xl font-bold text-neutral-900">
-                <Link href={`/work/${project.slug}`} className="transition group-hover:underline">
-                  {project.name}
-                </Link>
-              </h3>
-              <p className="mt-3 flex-1 text-sm leading-relaxed text-neutral-700">
+              <h3 className="mt-2 text-xl font-bold text-neutral-900 transition group-hover:text-white group-hover:underline">{project.name}</h3>
+              <p className="mt-3 flex-1 text-sm leading-relaxed text-neutral-700 transition group-hover:text-white">
                 {project.tagline}
               </p>
               <div className="mt-4 flex flex-wrap gap-1.5">
@@ -74,18 +71,13 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
                   </span>
                 ))}
               </div>
-              <Link
-                href={`/work/${project.slug}`}
-                className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900"
-                aria-label={`Read the ${project.name} case study`}
-              >
+              <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900 transition group-hover:text-white">
                 Read case study <span aria-hidden="true">→</span>
-              </Link>
+              </span>
             </div>
-          </article>
+          </Link>
         ))}
       </div>
-
       {visible.length === 0 && (
         <p className="mt-10 text-center text-neutral-600">No projects in this industry yet.</p>
       )}
