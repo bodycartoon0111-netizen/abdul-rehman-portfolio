@@ -65,36 +65,36 @@ export default function ContactPage() {
         </div>
 
         <aside className="lg:col-span-2" aria-label="Direct contact channels">
-          <div className="h-full rounded-2xl bg-neutral-50 p-8">
-            <h2 className="text-xl font-bold text-neutral-900">Prefer direct?</h2>
+          <div className="group h-full rounded-2xl bg-neutral-50 p-8 transition-colors hover:bg-pine">
+            <h2 className="text-xl font-bold text-neutral-900 transition group-hover:text-white">Prefer direct?</h2>
             <ul className="mt-6 space-y-5">
               <li>
-                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600">Email</p>
+                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">Email</p>
                 <a
                   href="mailto:contact@abdulrehmantech.com"
-                  className="mt-1 block break-all font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+                  className="mt-1 block break-all font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/60 hover:decoration-white"
                 >
                   contact@abdulrehmantech.com
                 </a>
               </li>
               <li>
-                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600">WhatsApp</p>
+                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">WhatsApp</p>
                 <WhatsAppLink
                   href={whatsappHref}
-                  className="mt-1 block font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
+                  className="mt-1 block font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition group-hover:text-white group-hover:decoration-white/60 hover:decoration-white"
                 >
                   +92 371 4972789
                 </WhatsAppLink>
-                <p className="mt-1 text-sm text-neutral-600">Prefilled message — just press send.</p>
+                <p className="mt-1 text-sm text-neutral-600 transition group-hover:text-white/85">Prefilled message — just press send.</p>
               </li>
               <li>
-                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600">Social</p>
+                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">Social</p>
                 <div className="mt-2 flex flex-wrap gap-3">
                   <a
                     href="https://www.linkedin.com/in/abdulrehman--asghar/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-700 transition hover:border-neutral-900 hover:text-neutral-900"
+                    className="rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-700 transition group-hover:border-white/60 group-hover:text-white hover:border-white hover:text-white"
                   >
                     LinkedIn
                   </a>
@@ -102,7 +102,7 @@ export default function ContactPage() {
                     href="https://www.facebook.com/61592492806563"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-700 transition hover:border-neutral-900 hover:text-neutral-900"
+                    className="rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-700 transition group-hover:border-white/60 group-hover:text-white hover:border-white hover:text-white"
                   >
                     Facebook
                   </a>
@@ -110,15 +110,15 @@ export default function ContactPage() {
                     href="https://www.instagram.com/abdulrehman.tech.service"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-700 transition hover:border-neutral-900 hover:text-neutral-900"
+                    className="rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-700 transition group-hover:border-white/60 group-hover:text-white hover:border-white hover:text-white"
                   >
                     Instagram
                   </a>
                 </div>
               </li>
             </ul>
-            <div className="mt-8 rounded-xl border border-neutral-200 bg-white p-5 text-sm leading-relaxed text-neutral-700">
-              <p className="font-semibold text-neutral-900">What happens next?</p>
+            <div className="group/info mt-8 rounded-xl border border-neutral-200 bg-white p-5 text-sm leading-relaxed text-neutral-700 transition-colors group-hover/info:text-white/85 hover:border-pine hover:bg-pine">
+              <p className="font-semibold text-neutral-900 transition group-hover/info:text-white">What happens next?</p>
               <ol className="mt-3 list-decimal space-y-2 pl-5">
                 <li>You send the form — I read it the same day.</li>
                 <li>I reply with honest first impressions and clarifying questions.</li>
