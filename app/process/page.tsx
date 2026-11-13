@@ -84,24 +84,24 @@ export default function ProcessPage() {
             {steps.map((step, index) => (
               <li
                 key={step.name}
-                className="rounded-lg border border-border bg-card p-6"
+                className="group rounded-lg border border-border bg-card p-6 transition-colors hover:border-pine hover:bg-pine"
               >
                 <div className="mb-4 flex items-center justify-between">
                   <div className="flex items-center">
-                    <span className="text-sm text-muted-foreground">Step</span>
-                    <span className="ml-2 font-mono text-sm font-bold text-primary-600 dark:text-primary-300">
+                    <span className="text-sm text-muted-foreground group-hover:text-white/85">Step</span>
+                    <span className="ml-2 font-mono text-sm font-bold text-primary-600 group-hover:text-white dark:text-primary-300">
                       {String(index + 1).padStart(2, "0")}
                     </span>
                   </div>
                   <step.icon
-                    className="size-5 text-muted-foreground/60"
+                    className="size-5 text-muted-foreground/60 group-hover:text-white/85"
                     aria-hidden="true"
                   />
                 </div>
-                <h3 className="mt-3 text-xl font-semibold tracking-tight text-foreground">
+                <h3 className="mt-3 text-xl font-semibold tracking-tight text-foreground group-hover:text-white">
                   {step.name}
                 </h3>
-                <p className="mt-2 leading-relaxed text-muted-foreground">
+                <p className="mt-2 leading-relaxed text-muted-foreground group-hover:text-white/85">
                   {step.body}
                 </p>
               </li>
