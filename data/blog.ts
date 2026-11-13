@@ -223,7 +223,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["SEO", "Lahore", "Pricing", "Timeline"],
     category: "SEO",
     sample: false,
-    metaTitle: "SEO Services in Lahore: Cost, Timeline & What to Expect in 2026",
+    metaTitle: "SEO Services in Lahore: Cost & Timeline in 2026",
     metaDescription:
       "What do SEO services in Lahore cost, how long do results take, and what should you expect in 2026? A plain-English guide for Lahore business owners today.",
     sections: [
@@ -315,7 +315,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["Local SEO", "Lahore", "Google Business Profile", "Google Maps"],
     category: "SEO",
     sample: false,
-    metaTitle: "Local SEO Lahore: Google Business Profile + Maps Ranking Guide for Lahore Businesses",
+    metaTitle: "Local SEO Lahore: Google Business Profile & Maps Guide",
     metaDescription:
       "Local SEO guide for Lahore businesses: set up your Google Business Profile, rank higher in Maps, earn genuine reviews, and turn nearby searches into calls.",
     sections: [
@@ -523,7 +523,7 @@ readingMinutes: 8,
 tags: ["SEO Consultant", "Agency", "Hiring", "Pakistan"],
 category: "SEO",
 sample: false,
-metaTitle: "SEO Consultant Pakistan vs Agency: How to Choose the Right SEO Help",
+metaTitle: "SEO Consultant Pakistan vs Agency: How to Choose",
 metaDescription:
 "Consultant, agency, or in-house? How to choose SEO help in Pakistan — what each option costs in time and attention, what to check, and the warning signs.",
 sections: [
@@ -644,7 +644,7 @@ readingMinutes: 8,
 tags: ["Meta Ads", "Google Ads", "PPC", "Pakistan"],
 category: "SEO",
 sample: false,
-metaTitle: "Meta Ads vs Google Ads Pakistan: Which One Should Your Business Start With?",
+metaTitle: "Meta Ads vs Google Ads Pakistan: Which One to Start With",
 metaDescription:
 "Meta Ads vs Google Ads Pakistan: how each channel works, when to start with Google, when to start with Meta, and the costly tracking mistakes to avoid.",
 sections: [
