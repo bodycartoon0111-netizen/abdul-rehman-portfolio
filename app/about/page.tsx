@@ -379,7 +379,7 @@ export default function AboutPage() {
           />
           <div className="mx-auto mt-8 max-w-2xl text-center text-[17px] leading-relaxed text-ink">
             <p>
-              Every engagement starts with a free SEO audit and a plain-language plan. Read how engagements combine on the{" "}
+              Every engagement starts with a free SEO audit and a plain-language plan from Abdul Rehman SEO consultant Lahore. Read how engagements combine on the{" "}
               <Link href="/services" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
                 services page
               </Link>
