@@ -14,7 +14,9 @@ import {
 } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
+
 const CtaBand = dynamic(() => import("@/components/sections/CtaBand"));
+
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
 }
@@ -38,52 +40,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: absoluteUrl(`/services/${slug}`),
       images: [
         {
-            url: absoluteUrl("/images/og-default.jpg"),
+          url: absoluteUrl("/images/og-default.jpg"),
           width: 1200,
           height: 630,
           type: "image/jpeg",
           alt: "Abdul Rehman - Freelance SEO Consultant",
         },
-    ],
+      ],
     },
-        twitter: {
-            card: "summary_large_image",
-          title: detail.metaTitle,
-          description: detail.metaDescription,
-          images: [
-            {
-                url: absoluteUrl("/images/og-default.jpg"),
-              width: 1200,
-              height: 630,
-              alt: "Abdul Rehman - Freelance SEO Consultant",
-            },
-        ],
+    twitter: {
+      card: "summary_large_image",
+      title: detail.metaTitle,
+      description: detail.metaDescription,
+      images: [
+        {
+          url: absoluteUrl("/images/og-default.jpg"),
+          width: 1200,
+          height: 630,
+          alt: "Abdul Rehman - Freelance SEO Consultant",
         },
+      ],
+    },
   };
 }
 
 export default async function ServiceDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const service = services.find((s) => s.slug === slug);
+  if (!service) notFound();
   const detail = getServiceDetail(slug);
-  if (!service || !detail) notFound();
-
   const relatedProjects = projects.filter(
-    (p) => p.relatedServices.includes(slug) || p.services.includes(slug)
+    (p) => p.relatedServices.includes(slug) || p.services.includes(slug),
   );
-  const otherServices = services.filter((s) => s.slug !== slug).slice(0, 3); const relatedPost = slug === "local-seo" ? { href: "/blog/local-seo-lahore-google-business-profile-guide", label: "Local SEO Lahore: Google Business Profile + Maps Ranking Guide for Lahore Businesses" } : slug === "ai-automation" ? { href: "/blog/ai-automation-small-marketing-team", label: "How AI Automation Fits a Small Marketing Team" } : { href: "/blog/technical-seo-checklist-2026", label: "Technical SEO Checklist for 2026" };
+  const otherServices = services.filter((s) => s.slug !== slug).slice(0, 3);
+  const relatedPost = slug === "local-seo" ? { href: "/blog/local-seo-lahore-google-business-profile-guide", label: "Local SEO Lahore: Google Business Profile + Maps Ranking Guide for Lahore Businesses" } : slug === "ai-automation" ? { href: "/blog/ai-automation-small-marketing-team", label: "How AI Automation Fits a Small Marketing Team" } : { href: "/blog/technical-seo-checklist-2026", label: "Technical SEO Checklist for 2026" };
+  const faqs = detail?.faqs ?? [];
+  const steps = detail?.process ?? [];
+  const relatedServices = detail?.relatedServices ?? [];
+  const deliverables = detail?.deliverables ?? [];
 
   return (
     <main className="mx-auto max-w-6xl px-6 py-10">
-      <JsonLd data={buildServiceJsonLd(service.name, detail.metaDescription, slug)} />
-      <JsonLd
-        data={buildBreadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Services", path: "/services" },
-          { name: service.name, path: `/services/${slug}` },
-        ])}
-      />
-<JsonLd data={buildFaqPageJsonLd(service.faqs.map((f) => ({ question: f.q, answer: f.a })))} />      
+      <JsonLd data={buildBreadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: service.name, path: `/services/${slug}` }])} />
+      <JsonLd data={buildServiceJsonLd(slug)} />
+      {faqs.length > 0 && (
+        <JsonLd data={buildFaqPageJsonLd(faqs)} />
+      )}
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },
@@ -91,82 +93,63 @@ export default async function ServiceDetailPage({ params }: PageProps) {
           { label: service.name },
         ]}
       />
-
-      {/* Hero */}
       <header className="mt-8 max-w-3xl">
         <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Service</p>
         <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
-          {detail.h1.split(detail.h1Highlight).map((part, index) => (
-                <Fragment key={index}>
-                  {index > 0 && (
-                                    <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
-                                      {detail.h1Highlight}</span>
-                                  )}
-                  {part}
-                </Fragment>
-              ))}
+          {service.h1.split(" ").map((word, index) => (
+            <Fragment key={word}>
+              {word === "in" ? (
+                <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">{word}</span>
+              ) : (
+                word
+              )}{" "}
+            </Fragment>
+          ))}
         </h1>
         <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">{service.tagline}</p>
-        {detail.introLinks && detail.introLinks.length > 0 && (
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          {detail.introLinks.map((link, index) => (
-            <span key={link.href}>
-              {index > 0 ? " " : null}
-              {link.prefix}
-              <Link href={link.href} prefetch={false} className="font-semibold text-neutral-900 underline">
-                {link.anchor}
-              </Link>
-              {link.suffix}
-            </span>
-          ))}
-        </p>
-      )}
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">{service.problem}</p>
-      {detail.snippet && (
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-        {detail.snippet}
-    </p>
-      )}
+        <p className="mt-4 text-xl font-medium text-neutral-700">{service.problem}</p>
+        <div className="mt-6">
+          <p className="text-sm font-bold uppercase tracking-widest text-neutral-500">{service.introTitle}</p>
+          <ul className="mt-3 space-y-2">
+            {service.introLinks.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} prefetch={false} className="font-semibold text-neutral-900 underline">{l.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <Link
-            href="/contact" prefetch={false}
+            href="/contact"
             className="rounded-lg bg-neutral-900 px-8 py-3.5 text-center font-semibold text-white transition hover:bg-neutral-700"
           >
-            Discuss this service
+            Get a clear scope
           </Link>
           <Link
-            href="/work" prefetch={false}
+            href="/work"
             className="rounded-lg border border-neutral-300 px-8 py-3.5 text-center font-semibold text-neutral-900 transition hover:border-neutral-900"
           >
-            See related work
+            See how it works in practice
           </Link>
         </div>
-        {detail.heroLinks && detail.heroLinks.length > 0 && (
-        <p className="mt-6 text-base leading-relaxed text-neutral-700">
-          {detail.heroLinks.map((link, index) => (
-            <span key={link.href}>
-              {index > 0 ? " " : null}
-              {link.prefix}
-              <Link href={link.href} prefetch={false} className="font-semibold text-neutral-900 underline">
-                {link.anchor}
-              </Link>
-              {link.suffix}
-            </span>
-          ))}
-        </p>
-      )}
+        {detail && (
+          <p className="mt-6 text-base leading-relaxed text-neutral-700">
+            {service.snippet}{" "}
+            <Link href={detail.heroLink.href} className="font-semibold text-neutral-900 underline">{detail.heroLink.label}</Link>
+          </p>
+        )}
       </header>
 
       {/* Problem */}
       <section aria-labelledby="problem-heading" className="mt-16 max-w-4xl">
         <h2 id="problem-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          {detail.problemsHeading ?? "The problem it solves"}
+          The problem it solves
         </h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-3">
-          {detail.problems.map((p) => (
-            <div key={p.title} className="rounded-2xl border border-neutral-200 bg-white p-6">
-              <h3 className="text-lg font-bold text-neutral-900">{p.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-700">{p.description}</p>
+          {service.problems.map((p) => (
+            <div key={p.title} className="group rounded-2xl border border-neutral-200 bg-white p-6 transition hover:border-pine hover:bg-pine hover:text-white">
+              <h3 className="text-lg font-bold text-neutral-900 transition group-hover:text-white">{p.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-700 transition group-hover:text-white">{p.description}</p>
             </div>
           ))}
         </div>
@@ -175,7 +158,7 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       {/* Solution */}
       <section aria-labelledby="solution-heading" className="mt-16 max-w-4xl">
         <h2 id="solution-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          {detail.solutionHeading ?? "The solution"}
+          The solution
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">{service.solution}</p>
       </section>
@@ -184,34 +167,31 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       <section aria-labelledby="included-heading" className="mt-16 max-w-4xl">
         <h2 id="included-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
           What&apos;s included
-          </h2>
-        {detail.deliverablesLead && (
-            <p className="mt-5 text-lg leading-relaxed text-neutral-700">{detail.deliverablesLead}</p>
-          )}
+        </h2>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+          The work below is all included, and every change is reported in plain language, so you can see what was done to the site and why.
+        </p>
         <ul className="mt-8 grid gap-4 sm:grid-cols-2">
-          {service.deliverables.map((d) => (
+          {deliverables.map((d) =>
             d.href ? (
-              <li key={d.text}>
-                <Link
-                  href={d.href}
-                  prefetch={false}
-                  className="group flex h-full gap-3 rounded-2xl border border-transparent bg-neutral-50 p-5 text-neutral-700 transition hover:border-pine hover:bg-pine hover:text-white"
-                >
-                  <span aria-hidden="true" className="mt-0.5 font-bold text-neutral-900 transition group-hover:text-white">
-                    ✓
-                  </span>
-                  <span className="leading-relaxed transition group-hover:text-white">{d.text}</span>
-                </Link>
-              </li>
+              <Link
+                key={d.text}
+                href={d.href}
+                prefetch={false}
+                className="group flex h-full gap-3 rounded-2xl border border-transparent bg-neutral-50 p-5 text-neutral-700 transition hover:border-pine hover:bg-pine hover:text-white"
+              >
+                <span aria-hidden="true" className="mt-0.5 shrink-0 font-bold text-neutral-900 transition group-hover:text-white">✓</span>
+                <span className="leading-relaxed transition group-hover:text-white">{d.text}</span>
+              </Link>
             ) : (
-              <li key={d.text} className="flex gap-3 rounded-2xl bg-neutral-50 p-5 text-neutral-700">
-                <span aria-hidden="true" className="mt-0.5 font-bold text-neutral-900">
+              <li key={d.text} className="group flex gap-3 rounded-2xl bg-neutral-50 p-5 text-neutral-700 transition hover:bg-pine hover:text-white">
+                <span aria-hidden="true" className="mt-0.5 font-bold text-neutral-900 transition group-hover:text-white">
                   ✓
                 </span>
-                <span className="leading-relaxed">{d.text}</span>
+                <span className="leading-relaxed transition group-hover:text-white">{d.text}</span>
               </li>
-            )
-          ))}
+            ),
+          )}
         </ul>
       </section>
 
@@ -220,9 +200,9 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         <h2 id="strategy-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
           Strategy
         </h2>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">{detail.strategy}</p>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">{detail.strategyIntro}</p>
         <ul className="mt-6 list-disc space-y-3 pl-6 text-neutral-700">
-          {detail.strategyPoints.map((point) => (
+          {detail.strategy.map((point) => (
             <li key={point}>{point}</li>
           ))}
         </ul>
@@ -231,23 +211,22 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       {/* Process */}
       <section aria-labelledby="process-heading" className="mt-16">
         <h2 id="process-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          Process
+          How it works
         </h2>
         <ol className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {detail.process.map((step, i) => (
-            <li key={step.title}>
-              <Link
-                href="/process"
-                prefetch={false}
-                className="group block h-full rounded-2xl border border-neutral-200 bg-white p-6 transition hover:border-pine hover:bg-pine hover:text-white"
-              >
-                <span className="text-sm font-bold uppercase tracking-widest text-neutral-500 transition group-hover:text-white">
-                  Step {i + 1}
-                </span>
-                <h3 className="mt-2 text-lg font-bold text-neutral-900 transition group-hover:text-white">{step.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-neutral-700 transition group-hover:text-white">{step.description}</p>
-              </Link>
-            </li>
+          {steps.map((step, i) => (
+            <Link
+              key={step.title}
+              href={step.href}
+              prefetch={false}
+              className="group block h-full rounded-2xl border border-neutral-200 bg-white p-6 transition hover:border-pine hover:bg-pine hover:text-white"
+            >
+              <span className="text-sm font-bold uppercase tracking-widest text-neutral-500 transition group-hover:text-white">
+                Step {i + 1}
+              </span>
+              <h3 className="mt-2 text-lg font-bold text-neutral-900 transition group-hover:text-white">{step.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-700 transition group-hover:text-white">{step.description}</p>
+            </Link>
           ))}
         </ol>
       </section>
@@ -255,54 +234,42 @@ export default async function ServiceDetailPage({ params }: PageProps) {
       {/* Technology */}
       <section aria-labelledby="tech-heading" className="mt-16 max-w-4xl">
         <h2 id="tech-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          Technology
+          Tools & technology
         </h2>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">Built to work with the tools you already use.</p>
         <div className="mt-8 flex flex-wrap gap-3">
-          {service.technologies.map((t) => (
-            <span
-              key={t}
-              className="rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700"
-            >
-              {t}
-            </span>
+          {(service.technologies ?? []).map((t) => (
+            <span key={t} className="rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700">{t}</span>
           ))}
         </div>
       </section>
 
       {/* Ideal client */}
-      <section aria-labelledby="ideal-heading" className="mt-16 max-w-4xl rounded-3xl bg-neutral-50 p-8 sm:p-10">
-        <h2 id="ideal-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
+      <section aria-labelledby="ideal-heading" className="group mt-16 max-w-4xl rounded-3xl bg-neutral-50 p-8 sm:p-10 transition hover:bg-pine">
+        <h2 id="ideal-heading" className="text-3xl font-bold tracking-tight text-neutral-900 group-hover:text-white">
           Who this is for
         </h2>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">{service.idealFor}</p>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white">{service.idealFor}</p>
       </section>
 
-      {detail.serviceArea && (
-        <section aria-labelledby="service-area-heading" className="mt-16 max-w-4xl">
-          <h2 id="service-area-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-            {detail.serviceArea.heading}
-          </h2>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          {detail.serviceArea.text}
-        </p>
-      </section>
-      )}
-      
-      {/* FAQ */}
-      <section aria-labelledby="faq-heading" className="mt-16 max-w-3xl">
-        <h2 id="faq-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          {detail.faqHeading ?? "Frequently asked questions"}
+      {/* Service area */}
+      <section aria-labelledby="service-area-heading" className="mt-16 max-w-4xl">
+        <h2 id="service-area-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
+          {detail.serviceArea.heading}
         </h2>
-        <div className="mt-8 divide-y divide-neutral-200">
-          {service.faqs.map((faq) => (
-            <details key={faq.q} className="group py-5">
-              <summary className="cursor-pointer list-none text-lg font-semibold text-neutral-900 marker:hidden [&::-webkit-details-marker]:hidden">
-                <span className="flex items-center justify-between gap-4">
-                  {faq.q}
-                  <span aria-hidden="true" className="text-neutral-500 transition group-open:rotate-45">+</span>
-                </span>
-              </summary>
-              <p className="mt-3 leading-relaxed text-neutral-700">{faq.a}</p>
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">{detail.serviceArea.text}</p>
+      </section>
+
+      {/* FAQs */}
+      <section aria-labelledby="faqs-heading" className="mt-16 max-w-4xl">
+        <h2 id="faqs-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
+          FAQs
+        </h2>
+        <div className="mt-8 space-y-4">
+          {faqs.map((item) => (
+            <details key={item.question} className="rounded-2xl border border-neutral-200 bg-white p-6">
+              <summary className="cursor-pointer list-none text-lg font-semibold text-neutral-900 marker:hidden [&::-webkit-details-marker]:hidden">{item.question}</summary>
+              <p className="mt-3 text-neutral-700">{item.answer}</p>
             </details>
           ))}
         </div>
@@ -310,21 +277,17 @@ export default async function ServiceDetailPage({ params }: PageProps) {
 
       {/* Related work */}
       {relatedProjects.length > 0 && (
-        <section aria-labelledby="related-work-heading" className="mt-16">
+        <section aria-labelledby="related-work-heading" className="mt-16 max-w-6xl">
           <h2 id="related-work-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
             Related work
           </h2>
+          <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+            For a closer look at this work in practice, see these projects.
+          </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {relatedProjects.map((p) => (
-              <Link
-                key={p.slug}
-                href={`/work/${p.slug}`}
-                prefetch={false}
-                className="group flex h-full flex-col rounded-2xl border border-neutral-200 bg-white p-6 transition hover:-translate-y-1 hover:border-pine hover:bg-pine hover:text-white hover:shadow-xl"
-              >
-                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white">
-                  {p.industry}
-                </p>
+              <Link key={p.slug} href={`/work/${p.slug}`} prefetch={false} className="group flex h-full flex-col rounded-2xl border border-neutral-200 bg-white p-6 transition hover:-translate-y-1 hover:border-pine hover:bg-pine hover:text-white hover:shadow-xl">
+                <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white">{p.industry}</p>
                 <h3 className="mt-2 text-lg font-bold text-neutral-900 transition group-hover:text-white">{p.name}</h3>
                 <p className="mt-2 flex-1 text-sm leading-relaxed text-neutral-700 transition group-hover:text-white">{p.tagline}</p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-neutral-900 transition group-hover:text-white">
@@ -341,21 +304,23 @@ export default async function ServiceDetailPage({ params }: PageProps) {
         <h2 id="other-services-heading" className="text-2xl font-bold tracking-tight text-neutral-900">
           Other services
         </h2>
-        <p className="mb-2 text-sm leading-relaxed text-neutral-700">Related reading: <Link href={relatedPost.href} prefetch={false} className="font-semibold text-neutral-900 underline">{relatedPost.label}</Link></p><div className="mt-6 flex flex-wrap gap-3">
+        <p className="mb-2 text-sm leading-relaxed text-neutral-700">Related reading: <Link href={relatedPost.href} prefetch={false} className="font-semibold text-neutral-900 underline">{relatedPost.label}</Link></p>
+        <div className="mt-6 flex flex-wrap gap-3">
           {otherServices.map((s) => (
             <Link
               key={s.slug}
-              href={`/services/${s.slug}`} prefetch={false}
+              href={`/services/${s.slug}`}
+              prefetch={false}
               className="rounded-full border border-neutral-300 px-5 py-2.5 text-sm font-medium text-neutral-700 transition hover:border-pine hover:bg-pine hover:text-white"
             >
               {s.name}
             </Link>
           ))}
           <Link
-            href="/services" prefetch={false}
+            href="/services"
             className="rounded-full border border-neutral-900 bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-neutral-700"
           >
-            View all 11 services
+            View all services
           </Link>
         </div>
       </section>
