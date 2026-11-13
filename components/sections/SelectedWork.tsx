@@ -51,7 +51,7 @@ function ProjectCard({ slug }: { slug: string }) {
           setHovered(false);
           setTilt({ rx: 0, ry: 0 });
         }}
-        className="flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-paper transition-shadow duration-300 group-hover:shadow-2xl"
+        className="flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-paper transition duration-300 hover:border-pine hover:bg-pine group-hover:shadow-2xl"
         style={{
           transform: `rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)`,
           transition: hovered ? "transform 0.08s linear" : "transform 0.4s ease",
@@ -82,9 +82,9 @@ function ProjectCard({ slug }: { slug: string }) {
         {/* Meta */}
         <div className="flex items-start justify-between gap-4 flex-1 p-6">
           <div>
-            <h3 className="text-xl font-extrabold text-ink">{project.name}</h3>
-            <p className="mt-1.5 text-[15px] font-medium leading-relaxed text-ink">{project.tagline}</p>
-            <p className="mt-2 text-xs font-bold uppercase tracking-[0.16em] text-ink/55">
+            <h3 className="text-xl font-extrabold text-ink transition group-hover:text-white">{project.name}</h3>
+            <p className="mt-1.5 text-[15px] font-medium leading-relaxed text-ink transition group-hover:text-white">{project.tagline}</p>
+            <p className="mt-2 text-xs font-bold uppercase tracking-[0.16em] text-ink/55 transition group-hover:text-white/85">
               {project.services.join(" · ")}
             </p>
           </div>
