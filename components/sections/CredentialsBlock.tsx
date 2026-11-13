@@ -107,9 +107,9 @@ export default function CredentialsBlock() {
             <p className="mt-3 text-sm text-muted-foreground">
               Named in the SEO service listing on this site.
             </p>
-            <blockquote className="mt-8 rounded-xl border border-border bg-card p-6">
-              <p className="text-lg leading-relaxed">{NO_FAKE_GUARANTEES}</p>
-              <p className="mt-3 text-sm font-medium text-muted-foreground">
+            <blockquote className="group mt-8 rounded-xl border border-border bg-card p-6 transition-colors hover:border-pine hover:bg-pine">
+              <p className="text-lg leading-relaxed transition-colors group-hover:text-white">{NO_FAKE_GUARANTEES}</p>
+              <p className="mt-3 text-sm font-medium text-muted-foreground transition-colors group-hover:text-white/85">
                 No fake guarantees — quoted from the FAQ on this site.
               </p>
             </blockquote>
