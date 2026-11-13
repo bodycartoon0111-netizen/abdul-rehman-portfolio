@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, buildBreadcrumbJsonLd } from "@/lib/seo";
+import { absoluteUrl, buildBreadcrumbJsonLd, buildServiceJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -32,7 +32,7 @@ const problems = [
   {
     title: "A good product nobody finds",
     description:
-      "The software works, the early users like it, but the website is a single landing page with nothing for search engines to rank. Every signup depends on paid ads or personal introductions.",
+      "The software works, the early users like it, but the website is a single landing page with nothing for search engines to rank. Every signup depends on paid ads (PPC) or personal introductions.",
   },
   {
     title: "Blog posts that bring readers, not users",
@@ -96,6 +96,9 @@ export default function SaasStartupsSeoPage() {
           { name: "Home", path: "/" },
           { name: NAME, path: `/industries/${SLUG}` },
         ])}
+      />
+      <JsonLd
+        data={buildServiceJsonLd(NAME, DESCRIPTION, SLUG, "/industries")}
       />
       <Breadcrumbs
         items={[
