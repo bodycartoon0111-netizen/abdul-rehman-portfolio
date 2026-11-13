@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, buildBreadcrumbJsonLd } from "@/lib/seo";
+import { absoluteUrl, buildBreadcrumbJsonLd, buildServiceJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -96,6 +96,9 @@ export default function EducationSeoPage() {
           { name: "Home", path: "/" },
           { name: NAME, path: `/industries/${SLUG}` },
         ])}
+      />
+      <JsonLd
+        data={buildServiceJsonLd(NAME, DESCRIPTION, SLUG, "/industries")}
       />
       <Breadcrumbs
         items={[
@@ -245,7 +248,7 @@ export default function EducationSeoPage() {
           Education SEO for Lahore and Pakistan
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Families in Lahore search for schools, academies and courses by area — DHA, Gulberg, Johar Town, Model Town, Cantt, Bahria Town and the neighbourhoods around them — and by the subject or programme they want, in both English and Urdu. The same pattern holds in Karachi, Islamabad and Rawalpindi, where a parent wants a good institution near home and a student wants a course that leads somewhere. Online courses add another audience: learners anywhere in Pakistan searching for skills they can learn from home. The work is planned around that: pages for the courses and campuses you actually run, and local signals that tell search engines where each one belongs.
+          Families in Lahore search for schools, academies and courses by area — DHA, Gulberg, Johar Town, Model Town, Cantt, Bahria Town and the neighbourhoods around them — and by the subject or programme they want, in both English and Urdu. The same pattern holds in Karachi, Islamabad and Rawalpindi, where a parent wants a good institution near home and a student wants a course that leads somewhere. Online courses add another audience: learners anywhere in Pakistan searching for skills they can learn from home. The work is planned around that: SEO for Schools, Academies & Institutes in Pakistan means pages for the courses and campuses you actually run, and local signals that tell search engines where each one belongs.
         </p>
       </section>
 
