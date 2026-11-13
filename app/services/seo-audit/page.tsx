@@ -241,7 +241,7 @@ export default function SeoAuditPage() {
         <h2 id="ideal-heading" className="text-3xl font-bold tracking-tight text-neutral-900 group-hover:text-white">
           Who this is for
         </h2>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
           This audit is for businesses that already have a website and want to know, honestly, what is wrong with it before spending more on marketing. It suits owners in Lahore whose sites were built some time ago and have never been checked properly, as well as businesses elsewhere in Pakistan whose traffic has stalled and who need a second pair of eyes. It is also useful before a redesign or a new content push, when the worst outcome would be rebuilding on top of faults nobody noticed. If you would rather have a clear list of what to fix than another promise of fast rankings, this is the right starting point.
         </p>
       </section>
@@ -251,7 +251,7 @@ export default function SeoAuditPage() {
         <h2 id="service-area-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
           SEO audits in Lahore and across Pakistan
         </h2>
-        <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
+        <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           The audit is carried out for businesses in Lahore first and foremost, with the <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">local searches</Link>, neighbourhoods and buying habits of the city in mind — from DHA and Gulberg to Johar Town, Model Town and Bahria Town, the aim is always the same: to be found by customers nearby who are ready to buy. The same checks apply for businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan, and for Pakistan-based businesses serving customers abroad. Because the work is done remotely using Search Console, analytics and crawling tools, the audit does not depend on where your office sits; it depends on what your site shows search engines, wherever your customers are.
         </p>
       </section>
