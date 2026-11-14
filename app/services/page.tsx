@@ -249,16 +249,16 @@ Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r fro
           </p>
           <Link
             href="/contact"
-            className="mt-4 inline-block text-primary underline underline-offset-4 hover:text-primary/80"
+            className="mt-6 inline-block rounded-full bg-pine px-8 py-4 text-sm font-bold uppercase tracking-[0.14em] text-white transition-transform hover:scale-105"
           >
             Get My Free Audit
           </Link>
         </section>
 
-<CtaBand
+<div className="mt-16 sm:mt-24"><CtaBand
     title="Not sure which service fits?"
     description="Tell me where your business stands and what you want it to do next — I'll point you to the right mix of services."
-    />
+/></div>
       </div>
     </>
   );
