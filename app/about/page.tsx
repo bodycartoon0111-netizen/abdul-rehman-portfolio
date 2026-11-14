@@ -115,8 +115,8 @@ export default function AboutPage() {
           aria-hidden="true"
           className="pointer-events-none absolute -left-40 top-20 h-[420px] w-[420px] rounded-full bg-lav/30 blur-3xl"
         />
-        <Container className="relative py-16 md:py-20">
-          <div className="grid items-center gap-12 lg:grid-cols-[1fr_380px]">
+        <Container className="relative pb-16 pt-8 md:pb-20 md:pt-10">
+          <div className="grid items-start gap-12 lg:grid-cols-[1fr_380px]">
             <div>
               <Reveal>
                 <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">About</p>
