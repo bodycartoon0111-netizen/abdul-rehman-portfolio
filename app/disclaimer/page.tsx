@@ -1,10 +1,40 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
+import { absoluteUrl, BRAND_NAME } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: { absolute: "Disclaimer | Abdul Rehman SEO Consultant Lahore, Pakistan" },
   description: "Disclaimer: general information on this site is not professional advice and results vary. Case studies describe past work — no promise of future results.",
   alternates: { canonical: "/disclaimer" },
+  openGraph: {
+    siteName: BRAND_NAME,
+    title: "Disclaimer | Abdul Rehman SEO Consultant Lahore, Pakistan",
+    description: "Disclaimer: general information on this site is not professional advice and results vary. Case studies describe past work — no promise of future results.",
+    type: "website",
+    url: absoluteUrl("/disclaimer"),
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Disclaimer | Abdul Rehman SEO Consultant Lahore, Pakistan",
+    description: "Disclaimer: general information on this site is not professional advice and results vary. Case studies describe past work — no promise of future results.",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
 };
 
 export default function DisclaimerPage() {
