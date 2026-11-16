@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   absoluteUrl,
+  BRAND_NAME,
   buildBreadcrumbJsonLd,
   buildServiceJsonLd,
 } from "@/lib/seo";
@@ -20,15 +21,33 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   alternates: { canonical: `/services/${SLUG}` },
   openGraph: {
+    siteName: BRAND_NAME,
     title: TITLE,
     description: DESCRIPTION,
     type: "website",
     url: absoluteUrl(`/services/${SLUG}`),
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: TITLE,
     description: DESCRIPTION,
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
 };
 
@@ -181,7 +200,7 @@ export default function SeoAuditPage() {
           The audit works through your site the way a search engine does. It starts with access: can the important pages be found, crawled and indexed, or are they blocked, orphaned or buried under pages that do not matter? From there it moves to speed and structure, checking how quickly key pages load on real mobile connections and whether headings, titles and internal links tell search engines what each page is for. Finally it looks outward, at the content and links around your site, to see whether search engines have reason to trust your pages more than the competitors already ranking above them.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          What makes the result useful is the order it is given in. A long list of faults with no ranking is almost as unhelpful as no audit at all, so every finding is scored by how much it is likely to matter and how much work it will take to fix. Quick wins come first: the changes that unlock traffic without a rebuild. Larger pieces of work are described honestly, with the trade-off stated plainly, so you can decide what to approve and what to leave. The report is written in plain language throughout, because an audit only helps if the person paying for it can understand it.
+          What makes the result useful is the order it is given in. A long list of faults with no ranking is almost as unhelpful as no audit at all, so every finding is scored by how much it is likely to matter and how much work it will take to fix. Quick wins come first: the changes that bring in traffic without a rebuild. Larger pieces of work are described honestly, with the trade-off stated plainly, so you can decide what to approve and what to leave. The report is written in plain language throughout, because an audit only helps if the person paying for it can understand it.
         </p>
       </section>
 
