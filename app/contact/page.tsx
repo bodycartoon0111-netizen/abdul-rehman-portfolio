@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { faqs } from "@/data/faqs";
-import { buildBreadcrumbJsonLd, buildLocalBusinessJsonLd, BRAND_WHATSAPP_LINK } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd, buildLocalBusinessJsonLd, BRAND_WHATSAPP_LINK } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import ContactForm from "@/components/forms/ContactForm";
@@ -15,11 +15,34 @@ export const metadata: Metadata = {
     "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
   alternates: { canonical: "/contact" },
   openGraph: {
+    siteName: BRAND_NAME,
     title: "Contact SEO Consultant in Lahore, Pakistan | Abdul Rehman",
     description:
       "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
-    url: "/contact",
+    url: absoluteUrl("/contact"),
     type: "website",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact SEO Consultant in Lahore, Pakistan | Abdul Rehman",
+    description: "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
 };
 
