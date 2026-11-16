@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, getPostSlugs, blogPosts } from "@/data/blog";
-import { absoluteUrl, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 const CtaBand = dynamic(() => import("@/components/sections/CtaBand"));
@@ -47,9 +47,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: post.metaDescription,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
+      siteName: BRAND_NAME,
       title: post.metaTitle,
       description: post.metaDescription,
       type: "article",
+      url: absoluteUrl(`/blog/${post.slug}`),
       publishedTime: post.publishedAt, authors: ["Abdul Rehman"],
       images: [
         {
