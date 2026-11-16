@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   absoluteUrl,
+  BRAND_NAME,
   buildBreadcrumbJsonLd,
   buildServiceJsonLd,
 } from "@/lib/seo";
@@ -20,15 +21,33 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   alternates: { canonical: `/services/${SLUG}` },
   openGraph: {
+    siteName: BRAND_NAME,
     title: TITLE,
     description: DESCRIPTION,
     type: "website",
     url: absoluteUrl(`/services/${SLUG}`),
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: TITLE,
     description: DESCRIPTION,
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
 };
 
