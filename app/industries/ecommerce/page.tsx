@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, buildBreadcrumbJsonLd, buildServiceJsonLd } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd, buildServiceJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: `/industries/${SLUG}` },
-  openGraph: {
+  openGraph: { siteName: BRAND_NAME,
     title: TITLE,
     description: DESCRIPTION,
     type: "website",
