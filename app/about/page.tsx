@@ -4,7 +4,8 @@ import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/ui/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import Timeline from "@/components/about/Timeline"; import CredentialsBlock from "@/components/sections/CredentialsBlock"; import { JsonLd } from "@/components/seo/JsonLd"; import { buildLocalBusinessJsonLd } from "@/lib/seo";
+import Timeline from "@/components/about/Timeline"; import CredentialsBlock from "@/components/sections/CredentialsBlock"; import { JsonLd } from "@/components/seo/JsonLd";
+import { absoluteUrl, BRAND_NAME, buildLocalBusinessJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
@@ -14,10 +15,34 @@ export const metadata: Metadata = {
     "Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google & Meta Ads, websites and AI automation.",
   alternates: { canonical: "/about" },
   openGraph: {
+    siteName: BRAND_NAME,
+    type: "website",
     title: "About Abdul Rehman — SEO Consultant in Lahore, Pakistan",
     description:
       "Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google & Meta Ads, websites and AI automation.",
-    url: "/about",
+    url: absoluteUrl("/about"),
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Abdul Rehman — SEO Consultant in Lahore, Pakistan",
+    description: "Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google & Meta Ads, websites and AI automation.",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
 };
 
