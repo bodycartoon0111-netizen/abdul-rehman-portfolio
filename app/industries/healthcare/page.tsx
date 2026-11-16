@@ -5,9 +5,9 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
 
-const TITLE = "Local SEO for Clinics & Pharmacies in Lahore | Healthcare SEO Services Pakistan";
+const TITLE = "Local SEO for Clinics and Pharmacies in Lahore";
 const DESCRIPTION =
-  "Local SEO for Clinics & Pharmacies in Lahore: local SEO for clinics and pharmacies, healthcare SEO services and Google Maps ranking for clinics that help patients in Pakistan find the care they need nearby.";
+  "Local SEO for Clinics & Pharmacies in Lahore: local SEO for clinics and pharmacies, healthcare SEO and Google Maps ranking that help patients find care nearby.";
 const SLUG = "healthcare";
 const NAME = "Healthcare SEO";
 
@@ -130,7 +130,7 @@ export default function HealthcareSeoPage() {
         <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Industry</p>
         <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
-            Local SEO for Clinics & Pharmacies in Lahore
+            Local SEO for Clinics and Pharmacies in Lahore
           </span>{" "}
           — Help Patients Find You
         </h1>
