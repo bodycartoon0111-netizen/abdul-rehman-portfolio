@@ -56,9 +56,9 @@ export const services: Service[] = [
     problem:
       "Local SEO services in Lahore for businesses that serve customers nearby: clinics, restaurants, salons, shops, plumbers, electricians, schools and estate agents in DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt and Faisal Town. When someone nearby searches for what you do, Google shows a map first. If your profile is half-finished, your details do not match, or you have few recent reviews, that customer rings the next listing instead of you.",
     solution:
-      "I start with your Google Business Profile: I claim and verify it, pick the category that matches what you actually do, and fill in every field properly — your real business name, service areas, hours, phone, website, services and a plain description of what you offer. Then I work on the searches that bring calls: local keywords on your website, such as a dentist in DHA or a plumber in Johar Town, written in the words customers use. I check your name, address and phone number everywhere they appear, so Google sees one consistent business, and I list you in local directories that fit what you do. For reviews, I set up a simple routine: ask happy customers at the right moment, after a good service, a delivery or a successful appointment, and reply to every review, good and bad. I never buy reviews, write them myself, or ask staff to leave them. I track calls, direction requests and website visits from your profile in Google Business Profile insights, Search Console and GA4, and I tell you plainly what changed each month.",
+      "Google Business Profile optimization services Lahore start with your profile: I claim and verify it, pick the category that matches what you actually do, and fill in every field properly — your real business name, service areas, hours, phone, website, services and a plain description of what you offer. That is how to optimize Google Business Profile Lahore businesses rely on: a complete profile, consistent details, and fresh posts and reviews. Then I work on the searches that bring calls: local keywords on your website, such as a dentist in DHA or a plumber in Johar Town, written in the words customers use. I check your name, address and phone number everywhere they appear, so Google sees one consistent business, and I list you in local directories that fit what you do. For reviews, I set up a simple routine: ask happy customers at the right moment, after a good service, a delivery or a successful appointment, and reply to every review, good and bad. I never buy reviews, write them myself, or ask staff to leave them. I track calls, direction requests and website visits from your profile in Google Business Profile insights, Search Console and GA4, and I tell you plainly what changed each month. That monthly rhythm is Google Business Profile management Lahore businesses can follow: posts, photos, review replies and a plain report.",
     deliverables: [
-      { text: "Google Business Profile setup, verification and optimisation", href: "/blog/local-seo-lahore-google-business-profile-guide" },
+      { text: "Google Business Profile setup Lahore, verification and optimisation", href: "/blog/local-seo-lahore-google-business-profile-guide" },
       { text: "Maps ranking work for your service areas in Lahore", href: "/blog/local-seo-lahore-google-business-profile-guide" },
       { text: "Local keyword research and on-page local content", href: "/services/keyword-research" },
       { text: "Review routine: how to ask, when to ask, and replies to every review" },
@@ -72,15 +72,15 @@ export const services: Service[] = [
       "GA4",
     ],
     idealFor:
-      "Clinics and dentists, restaurants and cafes, salons, shops, plumbers, electricians, lawyers, schools and coaching centres, estate agents and home-service businesses that take customers in person or visit them at home. It fits a business in DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt or Faisal Town, and it works the same way for businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan that serve customers in a specific area.",
+      "Clinics and dentists, restaurants and cafes, salons, shops, plumbers, electricians, lawyers, schools and coaching centres, estate agents and home-service businesses that take customers in person or visit them at home. It is local SEO for small business Lahore owners who serve a neighbourhood, not a country. It fits a business in DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt or Faisal Town, and it works the same way for businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan that serve customers in a specific area. — local SEO services in Lahore Pakistan businesses use when their customers are nearby.",
     faqs: [
       {
         q: "How long does SEO take to work?",
-        a: "Most sites see meaningful movement in three to six months. SEO compounds — early work on technical health and content keeps paying long after it's done.",
+        a: "Most sites see meaningful movement in three to six months. SEO compounds — early work on technical health and content keeps paying long after it's done. If you are asking how to rank on Google Maps, the work is the same: a complete profile, consistent details, real reviews and local keywords — and the patience to let it compound.",
       },
       {
         q: "Do you guarantee first-page rankings?",
-        a: "No, and you should be skeptical of anyone who does. Rankings depend on competition and search engines I don't control. What I guarantee is transparent work and honest reporting of what's happening.",
+        a: "No, and you should be skeptical of anyone who does. Rankings depend on competition and search engines I don't control. What I guarantee is transparent work and honest reporting of what's happening. That applies to Maps too: if you are asking how to rank on Google Maps in Lahore, the honest answer is a complete profile, consistent details, real reviews and time — not a guaranteed position.",
       },
       {
         q: "Will my website need changes?",
