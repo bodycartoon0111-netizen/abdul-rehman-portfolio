@@ -142,11 +142,11 @@ export const services: Service[] = [
       "As your Meta Ads consultant, I run creative-led testing, broad-but-disciplined targeting, Conversions API tracking done correctly, and funnels that warm cold traffic into buyers. Creative does the targeting now — so the testing program is the strategy, and the work of a Meta Ads expert Lahore businesses hire me for. That is the Meta Ads management Pakistan businesses get from one person, not a team — Meta Ads management services Lahore brands can follow in plain language, and Meta Ads management services Pakistan businesses can follow the same way.",
     deliverables: [
       { text: "Pixel, Conversions API, and tracking setup — checked by a Facebook and Instagram Ads expert Lahore brands can reach directly" },
-      { text: "Audience and full-funnel strategy", href: "/services/performance-marketing" },
+      { text: "Audience and full-funnel strategy — the plan a Meta Ads specialist draws up before a rupee is spent", href: "/services/performance-marketing" },
       { text: "Creative concepts and testing matrix built by an Instagram Ads consultant, and a Meta Ads consultant Pakistan brands brief directly" },
       { text: "Ad copywriting from a Facebook Ads consultant Lahore brands brief directly" },
-      { text: "Campaign build, testing, and scaling", href: "/services/performance-marketing" },
-      { text: "Retargeting sequences", href: "/services/performance-marketing" },
+      { text: "Campaign build, testing, and scaling by an Instagram Ads expert Lahore brands can reach directly", href: "/services/performance-marketing" },
+      { text: "Retargeting sequences built by a Facebook Ads expert Lahore brands rely on — Facebook Ads management Lahore brands can follow in plain language", href: "/services/performance-marketing" },
       { text: "Revenue-tied reporting from a freelance Facebook Ads consultant, in plain language — the same plain report Instagram Ads Pakistan brands get" },
     ],
     technologies: [
