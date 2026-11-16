@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { services } from "@/data/services";
 import { faqs } from "@/data/faqs";
-import { absoluteUrl, buildBreadcrumbJsonLd, buildOfferCatalogJsonLd, buildPersonJsonLd } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd, buildOfferCatalogJsonLd, buildPersonJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -15,11 +15,34 @@ export const metadata: Metadata = {
     "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Eleven services, one Lahore consultant. Book a free audit.",
   alternates: { canonical: "/services" },
   openGraph: {
+    siteName: BRAND_NAME,
     title: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
     description:
       "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Eleven services, one Lahore consultant. Book a free audit.",
-    url: "/services",
+    url: absoluteUrl("/services"),
     type: "website",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
+    description: "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Eleven services, one Lahore consultant. Book a free audit.",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
 };
 
