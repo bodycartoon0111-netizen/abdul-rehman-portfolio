@@ -83,6 +83,7 @@ export function pageMetadata(
     description,
     alternates: { canonical: url },
     openGraph: { type: "website",
+      siteName: BRAND_NAME,
       title: fullTitle,
       description: openGraphDescription ?? description,
       locale: "en_US",
