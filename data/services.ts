@@ -94,17 +94,17 @@ export const services: Service[] = [
     tagline: "Search and Performance Max campaigns engineered for profit, not clicks.",
     description: "Search and Performance Max campaigns with conversion tracking, tight keyword intent and budgets managed for profit.",
     problem:
-      "Google Ads management in Pakistan that starts with tracking, not spending. Intent-based Search and Performance Max campaigns, conversion-focused landing pages, and budgets that grow only behind proven cost-per-acquisition numbers — run by one consultant in Lahore.",
+      "Google Ads management services in Pakistan that start with tracking, not spending. Intent-based Search and Performance Max campaigns, conversion-focused landing pages, and budgets that grow only behind proven cost-per-acquisition numbers — run by me, a Google Ads consultant Lahore businesses work with directly.",
     solution:
-      "I run Google Ads like a P&L: tight keyword intent, aggressive negative lists, conversion tracking you can actually trust, and landing pages built to close. Every unit of spend is traced back to revenue, and budgets flow to what converts cheapest.",
+      "As your Google Ads consultant, I run Google Ads like a P&L — the way a PPC consultant should: tight keyword intent, aggressive negative lists, conversion tracking you can actually trust, and landing pages built to close. Every unit of spend is traced back to revenue, and budgets flow to what converts cheapest. That is Google Ads management services Lahore businesses can follow month to month, reported in plain language, by a Google Ads expert Pakistan businesses can reach directly.",
     deliverables: [
-      { text: "Account, tracking, and waste audit" },
-      { text: "Campaign architecture (Search, Performance Max, remarketing)", href: "/services/performance-marketing" },
-      { text: "Keyword research and negative-list management", href: "/services/keyword-research" },
-      { text: "Ad copy and asset testing program" },
-      { text: "Landing page recommendations", href: "/services/web-development" },
-      { text: "Bid and budget strategy" },
-      { text: "Bi-weekly optimization and reporting" },
+      { text: "Account, tracking, and waste audit by a Google Ads audit consultant" },
+      { text: "Campaign architecture (Search, Performance Max, remarketing) — Google Ads services Lahore businesses get from a PPC management consultant, with a written reason for every change", href: "/services/performance-marketing" },
+      { text: "Keyword research and negative-list management — the unglamorous work a PPC expert Lahore businesses rely on me for every week", href: "/services/keyword-research" },
+      { text: "Ad copy and asset testing program — written by a Google Ads consultant Pakistan advertisers brief directly, and tested the way the best PPC consultant would: against revenue, not clicks" },
+      { text: "Landing page recommendations, with the reasoning behind each one — part of Google Ads PPC management Lahore clients can follow", href: "/services/web-development" },
+      { text: "Bid and budget strategy from a Google Ads expert Lahore businesses deal with directly" },
+      { text: "Bi-weekly optimization and reporting from a freelance Google Ads consultant Lahore clients deal with directly, and a PPC expert in Lahore you can ask about any number in the report" },
     ],
     technologies: [
       "Google Ads",
@@ -115,7 +115,7 @@ export const services: Service[] = [
       "WordPress",
     ],
     idealFor:
-      "Businesses with a proven offer that need predictable, scalable lead flow from high-intent searches.",
+      "Businesses with a proven offer that need predictable, scalable lead flow from high-intent searches. If you want to hire Google Ads consultant Lahore businesses trust with that lead flow, you work with me directly, a freelance PPC consultant — no handover, no juniors. That includes Google Ads services Lahore shops and clinics ask for first — the work of a Google Ads consultant for small business Lahore owners — and Google Ads services Pakistan businesses use when their customers are across the country.",
     faqs: [
       {
         q: "What ad budget do I need to start?",
@@ -123,7 +123,7 @@ export const services: Service[] = [
       },
       {
         q: "How fast will I see results?",
-        a: "Campaigns can be live within two weeks once tracking is verified. Expect a learning and tuning phase first — profitable scale comes after the data tells us what works.",
+        a: "Campaigns can be live within two weeks once tracking is verified. Expect a learning and tuning phase first — profitable scale comes after the data tells us what works. If you are working out how to choose a Google Ads consultant, ask how they track conversions, what they count as a result, and when they would cut a losing campaign.",
       },
       {
         q: "Do you write the ad copy?",
