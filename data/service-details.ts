@@ -140,7 +140,7 @@ serviceArea: {
       {
         title: "You do not show up on the map",
         description:
-          "A customer nearby searches for what you do, Google shows three businesses on Maps, and yours is not one of them. The call goes to a competitor.",
+          "A customer nearby searches for what you do, Google shows three businesses on Maps, and yours is not one of them. The call goes to a competitor. — the gap the best local SEO services in Lahore are hired to close.",
       },
       {
         title: "Your profile looks half-finished",
@@ -154,7 +154,7 @@ serviceArea: {
       },
     ],
     strategy:
-      "Local SEO is not a trick. It is the steady work of making one business easy for Google and customers to trust: a complete profile, the right category, clear service areas, consistent details, real photos, fresh posts and genuine reviews. I start with the profile, because that is what customers see first on Maps. Then I fix the website pages that support it, so the profile and the site tell the same story about where you work and what you do. I check what competitors in your area are doing — the categories they use, the reviews they answer, the photos they post — and I close the gaps that matter, one at a time. I do not chase every directory or add keywords to your business name, because that gets listings suspended and looks desperate to customers. The work is checked in Google Business Profile insights, Search Console and GA4, so we can see calls, direction requests and visits, and keep doing what works.",
+      "Local SEO is not a trick. It is the steady work of making one business easy for Google and customers to trust: a complete profile, the right category, clear service areas, consistent details, real photos, fresh posts and genuine reviews. I start with the profile, because that is what customers see first on Maps. Then I fix the website pages that support it, so the profile and the site tell the same story about where you work and what you do. I check what competitors in your area are doing — the categories they use, the reviews they answer, the photos they post — and I close the gaps that matter, one at a time. I do not chase every directory or add keywords to your business name, because that gets listings suspended and looks desperate to customers. The work is checked in Google Business Profile insights, Search Console and GA4, so we can see calls, direction requests and visits, and keep doing what works. That is what Google Maps ranking services Lahore businesses get from me: steady map visibility, not a one-off fix.",
     strategyPoints: [
       "Profile first: claim, verify, and complete every field before anything else",
       "One consistent name, address and phone number everywhere customers find you",
@@ -165,7 +165,7 @@ serviceArea: {
       {
         title: "Check",
         description:
-          "I look at your profile, your website and your competitors in your area, and I check for duplicate listings, wrong categories and details that do not match.",
+          "I look at your profile, your website and your competitors in your area, and I check for duplicate listings, wrong categories and details that do not match. — the local SEO audit Lahore businesses start with before any monthly work.",
       },
       {
         title: "Fix the profile",
@@ -175,12 +175,12 @@ serviceArea: {
       {
         title: "Fix the website",
         description:
-          "Local pages and keywords for the areas you serve, with NAP details that match the profile and internal links that help customers find the right page.",
+          "Local pages and keywords for the areas you serve, with NAP details that match the profile and internal links that help customers find the right page. — Google Maps optimization services Pakistan businesses run alongside their website, not instead of it.",
       },
       {
         title: "Keep it alive",
         description:
-          "Weekly posts, new photos, review replies and a monthly check of calls, direction requests and profile views, with the next fixes listed in plain language.",
+          "Weekly posts, new photos, review replies and a monthly check of calls, direction requests and profile views, with the next fixes listed in plain language. — the steady rhythm a local SEO company Lahore businesses hire should keep.",
       },
     ],
     metaTitle: "Local SEO services Lahore | Google Maps & Reviews Expert",
@@ -193,7 +193,7 @@ serviceArea: {
       "Local SEO services in Lahore are the work of getting your business found on Google Maps and in nearby searches, by the customers who are closest and most ready to act. I do this work myself, as a consultant in Lahore, and I start from your profile and your website as they are — no shortcuts, no bought reviews, no promises about page one. Local SEO takes time: a complete, verified profile can start appearing within weeks, but competitive areas take longer, and the businesses that keep their profile fresh are the ones that hold their place.",
     serviceArea: {
       heading: "Local SEO Services Across Pakistan",
-      text: "In Lahore, I work in person in DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt and Faisal Town. I also work remotely in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+      text: "In Lahore, I work in person in DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt and Faisal Town — including local SEO services DHA Lahore clinics, restaurants and shops ask for first, and the near me SEO services Lahore customers search for when they need someone nearby. I also work remotely in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan — Google Maps SEO services Pakistan businesses use when their customers are nearby. Consultation available in English and Roman Urdu.",
     },
     heroLinks: [
       {
@@ -223,7 +223,7 @@ serviceArea: {
     ],
     introLinks: [
       {
-        prefix: "I am Abdul Rehman, an SEO consultant in Lahore. Local SEO is the part of SEO that deals with place: when someone in DHA searches for a clinic, or someone in Gulberg searches for a restaurant, or someone in Johar Town searches for a plumber, Google answers with a map. The three businesses on that map get the calls. Local SEO is the work of getting your business into that group and keeping it there. It is not the same as ranking a website for a general search. Your website still matters — it needs to be fast, clear and easy to use when a customer taps through — but the profile is what most nearby customers see first, so that is where I start. Read my ",
+        prefix: "I am Abdul Rehman, an SEO consultant in Lahore and a local SEO expert Lahore businesses call when their map listing stops bringing calls. Local SEO is the part of SEO that deals with place: when someone in DHA searches for a clinic, or someone in Gulberg searches for a restaurant, or someone in Johar Town searches for a plumber, Google answers with a map. The three businesses on that map get the calls. Local SEO is the work of getting your business into that group and keeping it there. It is not the same as ranking a website for a general search. Your website still matters — it needs to be fast, clear and easy to use when a customer taps through — but the profile is what most nearby customers see first, so that is where I start. Read my ",
         anchor: "Local SEO guide for Lahore businesses",
         href: "/blog/local-seo-lahore-google-business-profile-guide",
         suffix: " for the steps, or keep reading for how I do the work.",
