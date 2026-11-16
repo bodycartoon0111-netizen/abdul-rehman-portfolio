@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { projects } from "@/data/projects";
-import { absoluteUrl, buildBreadcrumbJsonLd, siteUrl } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd, siteUrl } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -15,11 +15,34 @@ export const metadata: Metadata = {
     "Work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
   alternates: { canonical: "/work" },
   openGraph: {
+    siteName: BRAND_NAME,
     title: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
     description:
       "Work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
-    url: "/work",
+    url: absoluteUrl("/work"),
     type: "website",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
+    description: "Work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
 };
 
