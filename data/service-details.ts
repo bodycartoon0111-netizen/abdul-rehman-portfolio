@@ -386,7 +386,7 @@ serviceArea: {
     ],
     metaTitle: "Meta Ads Consultant Pakistan | Facebook & Instagram Ads",
     metaDescription:
-      "Meta Ads consultant in Pakistan: Facebook and Instagram campaigns with creative testing, full-funnel structure and retargeting — run by one consultant in Lahore.",
+      "Meta Ads consultant in Pakistan: Facebook and Instagram campaigns with creative testing, full-funnel structure and retargeting, run by one consultant in Lahore.",
     problemsHeading: "Meta Ads Problems We Solve in Pakistan",
     solutionHeading: "Meta Ads Services in Pakistan — The Solution",
     faqHeading: "Frequently Asked Questions About Meta Ads in Pakistan",
