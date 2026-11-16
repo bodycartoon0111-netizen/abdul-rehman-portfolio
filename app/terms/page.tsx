@@ -1,10 +1,40 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
+import { absoluteUrl, BRAND_NAME } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: { absolute: "Terms of Use | Abdul Rehman SEO Consultant Lahore, Pakistan" },
   description: "The terms under which you may use this portfolio website. By using this site you accept these terms — please read them before working with Abdul Rehman.",
   alternates: { canonical: "/terms" },
+  openGraph: {
+    siteName: BRAND_NAME,
+    title: "Terms of Use | Abdul Rehman SEO Consultant Lahore, Pakistan",
+    description: "The terms under which you may use this portfolio website. By using this site you accept these terms — please read them before working with Abdul Rehman.",
+    type: "website",
+    url: absoluteUrl("/terms"),
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Terms of Use | Abdul Rehman SEO Consultant Lahore, Pakistan",
+    description: "The terms under which you may use this portfolio website. By using this site you accept these terms — please read them before working with Abdul Rehman.",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
 };
 
 export default function TermsPage() {
