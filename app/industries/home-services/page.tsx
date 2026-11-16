@@ -145,7 +145,7 @@ export default function HomeServicesSeoPage() {
           </Link>
         </div>
         <p className="mt-6 text-base leading-relaxed text-neutral-700">
-          Local pages start with the words homeowners use — the words behind near me home services SEO — and{" "}
+          Local pages start with the words homeowners use — the words behind near me home services SEO Lahore — and{" "}
           <Link href="/services/keyword-research" className="font-semibold text-neutral-900 underline">
             keyword research
           </Link>{" "}
