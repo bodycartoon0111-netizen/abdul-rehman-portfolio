@@ -3,7 +3,7 @@ import { Compass, Hammer, Rocket, Target, TrendingUp } from "lucide-react";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
-import { buildBreadcrumbJsonLd } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd } from "@/lib/seo";
 
 const processDescription =
   "Discover, Strategy, Build, Launch, Optimize: how Abdul Rehman takes a project from market research and a growth plan to launch and ongoing optimization.";
@@ -15,10 +15,33 @@ export const metadata: Metadata = {
   description: processDescription,
   alternates: { canonical: "/process" },
   openGraph: {
+    siteName: BRAND_NAME,
     title: "Our Process | Abdul Rehman SEO Consultant Lahore",
     description: processDescription,
-    url: "/process",
+    url: absoluteUrl("/process"),
     type: "website",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Process | Abdul Rehman SEO Consultant Lahore",
+    description: processDescription,
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
 };
 
