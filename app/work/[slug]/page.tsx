@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { projects } from "@/data/projects";
 import { getProjectDetail } from "@/data/project-details";
 import { services } from "@/data/services";
-import { absoluteUrl, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd, buildPersonJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -26,11 +26,34 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: detail.metaDescription,
     alternates: { canonical: `/work/${slug}` },
     openGraph: {
+      siteName: BRAND_NAME,
       title: detail.metaTitle,
       description: detail.metaDescription,
       type: "article",
       url: absoluteUrl(`/work/${slug}`),
-    }, twitter: { card: "summary_large_image", title: detail.metaTitle, description: detail.metaDescription },
+      images: [
+        {
+          url: absoluteUrl("/images/og-default.jpg"),
+          width: 1200,
+          height: 630,
+          type: "image/jpeg",
+          alt: "Abdul Rehman - Freelance SEO Consultant",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: detail.metaTitle,
+      description: detail.metaDescription,
+      images: [
+        {
+          url: absoluteUrl("/images/og-default.jpg"),
+          width: 1200,
+          height: 630,
+          alt: "Abdul Rehman - Freelance SEO Consultant",
+        },
+      ],
+    },
   };
 }
 
