@@ -245,66 +245,66 @@ serviceArea: {
   },
   "google-ads": {
     slug: "google-ads",
-    h1: "Google Ads Management in Pakistan — Clicks That Convert",
-      h1Highlight: "Google Ads Management in Pakistan",
+    h1: "Google Ads Consultant in Lahore — Clicks That Convert",
+      h1Highlight: "Google Ads Consultant in Lahore",
     problems: [
       {
         title: "Ad spend with nothing to show",
         description:
-          "Campaigns running on broad defaults — budget burned on irrelevant clicks while real buyers never see the ad.",
+          "Campaigns running on broad defaults — budget burned on irrelevant clicks while real buyers never see the ad — the waste the best Google Ads consultant is hired to stop, and the first thing a Google Ads specialist checks.",
       },
       {
         title: "Clicks that never convert",
         description:
-          "Traffic arrives but the landing experience doesn't match the promise, so money leaves through the same door it entered.",
+          "Traffic arrives but the landing experience doesn't match the promise, so money leaves through the same door it entered — the leak a Google Ads consultant for online stores plugs first, because the product page has to close the sale.",
       },
       {
         title: "No idea what's actually working",
         description:
-          "Conversion tracking half-configured or missing, which means every optimization decision is a guess.",
+          "Conversion tracking half-configured or missing, which means every optimization decision is a guess — the blind spot the best Google Ads consultant Lahore businesses hire should catch first.",
       },
     ],
     strategy:
-      "Google Ads works when structure, intent, and landing pages pull in the same direction. The strategy isolates high-intent searches into tightly themed campaigns, matches each ad group to a dedicated landing experience, and verifies conversion tracking before a single rupee of scale is spent. Budgets grow only behind proven cost-per-acquisition numbers.",
+      "Google Ads works when structure, intent, and landing pages pull in the same direction. As a Performance Max consultant, I treat Performance Max as a scale channel, not a set-and-forget box: it only gets budget once Search has proved what converts. The strategy isolates high-intent searches into tightly themed campaigns, matches each ad group to a dedicated landing experience, and verifies conversion tracking before a single rupee of scale is spent. That is the Google Ads management services Pakistan businesses get from one person, not a team. Budgets grow only behind proven cost-per-acquisition numbers. I work the same way as a Google Ads consultant for small businesses and for larger advertisers: isolate intent, verify tracking, then scale what proves itself.",
     strategyPoints: [
-      "Search intent mapped first — campaigns built around how buyers actually search",
-      "Tight ad groups with dedicated landing pages, never generic homepages",
-      "Conversion tracking verified before scaling, so every decision is data-backed",
-      "Negative keywords and search-term reviews as an ongoing discipline, not a one-time setup",
+      "Search intent mapped first — campaigns built around how buyers actually search. That is the starting point of PPC management services Pakistan businesses get from one person, not a team. PPC management Lahore clients get that same start, in person",
+      "Tight ad groups with dedicated landing pages, never generic homepages — and Shopping feeds structured the way a Google Shopping Ads consultant would, so the right product shows for the right search",
+      "Conversion tracking verified before scaling, so every decision is data-backed — the standard I hold as a Google Ads consultant for lead generation, where a form fill is the sale",
+      "Negative keywords and search-term reviews as an ongoing discipline, not a one-time setup — the discipline that keeps a Google Ads consultant for service businesses from paying for tyre-kickers",
     ],
     process: [
       {
         title: "Research",
         description:
-          "Keyword, competitor, and audience research to find the searches worth paying for — and the ones to avoid.",
+          "Keyword, competitor, and audience research to find the searches worth paying for — and the ones to avoid — the first job of a Google Ads consultant for startups, where the budget has no room for waste.",
       },
       {
         title: "Build",
         description:
-          "Campaign architecture, ad copy, and landing pages constructed around intent, with tracking verified end to end.",
+          "Campaign architecture, ad copy, and landing pages constructed around intent — as a Google Ads consultant for ecommerce, I build the same way for online stores: tracking verified end to end.",
       },
       {
         title: "Launch",
         description:
-          "Controlled launch with conservative budgets while real conversion data accumulates.",
+          "Controlled launch with conservative budgets while real conversion data accumulates. As a Google Ads consultant for SaaS, I keep that launch tight until the trial and demo numbers prove the funnel.",
       },
       {
         title: "Scale",
         description:
-          "Winners get budget, losers get cut, and testing continues — optimization as a routine, not an event.",
+          "Winners get budget, losers get cut, and testing continues — optimization as a routine, not an event — the routine a Google Ads consultant for B2B accounts follows, where a lead is worth more than a click.",
       },
     ],
-    metaTitle: "Google Ads Management Pakistan | PPC Expert Lahore",
+    metaTitle: "Google Ads Consultant in Pakistan | PPC Expert Lahore",
     metaDescription:
-      "Google Ads management in Pakistan by a Lahore consultant: intent-based Search and Performance Max campaigns, verified tracking, and budgets managed for profit.",
+      "Google Ads consultant in Lahore, Pakistan: intent-based Search and Performance Max campaigns, verified tracking, and budgets managed for profit.",
     problemsHeading: "Google Ads Problems We Solve in Pakistan",
     solutionHeading: "Google Ads Management in Pakistan — The Solution",
     faqHeading: "Frequently Asked Questions About Google Ads in Pakistan",
     snippet:
-      "Google Ads management in Pakistan means building Search and Performance Max campaigns around buyer intent, verifying conversion tracking before spending at scale, and managing bids and budgets against real cost-per-acquisition numbers. The account stays in your name, and every change has a written reason.",
+      "Google Ads management in Pakistan means building Search and Performance Max campaigns around buyer intent, verifying conversion tracking before spending at scale, and managing bids and budgets against real cost-per-acquisition numbers — the approach I take as a Google Ads consultant for small business owners, and as a PPC consultant for small business budgets: every rupee has to earn its place. The account stays in your name, and every change has a written reason. That is the standard a PPC consultant Lahore businesses hire should keep — and the one I keep as a Google Ads management consultant.",
     serviceArea: {
       heading: "Google Ads Management Across Pakistan",
-      text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+      text: "Google Ads management Pakistan-wide: work is in person in Lahore with a freelance Google Ads consultant, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. If you want to hire PPC consultant help in Lahore, or hire Google Ads expert help, consultation is available in English and Roman Urdu — from a Google Ads expert in Lahore Pakistan businesses can reach directly.",
     },
     heroLinks: [
       {
