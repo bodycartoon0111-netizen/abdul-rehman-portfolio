@@ -11,13 +11,13 @@ export const services: Service[] = [
     tagline: "Get found on Google by customers who are ready to buy.",
     description: "Technical audits, on-page optimization, local SEO and content that ranks in Lahore and across Pakistan.",
     problem:
-      "SEO services in Lahore that compound: technical audits, on-page optimization, local SEO and content — delivered by one consultant, not handed down a chain of juniors. Your site ranks for the searches your customers actually type, in Lahore and across Pakistan.",
+      "SEO services in Lahore that compound: technical audits, on-page optimization, local SEO and content — delivered by one consultant, not handed down a chain of juniors. Your site ranks for the searches your customers actually type, in Lahore and across Pakistan. These are the SEO services Pakistan businesses use to turn searches into enquiries. As an SEO expert in Lahore, I work on your site myself, so nothing gets lost between the person you brief and the person doing the work.",
     solution:
-      "I build SEO as an asset, not a campaign. Technical fixes so search engines can crawl and understand your site, content mapped to real search intent, and authority signals that compound over time. The result is rankings you own and traffic that doesn't invoice you every month.",
+      "I build SEO as an asset, not a campaign. Technical fixes so search engines can crawl and understand your site, content mapped to real search intent, and authority signals that compound over time. The result is rankings you own and traffic that doesn't invoice you every month. That suits startups too: SEO services for startups in Lahore that need their first customers from Google, not a big ad budget.",
     deliverables: [
       { text: "Technical SEO audit with prioritized fixes", href: "/services/seo-audit" },
       { text: "Keyword and search-intent mapping", href: "/services/keyword-research" },
-      { text: "On-page optimization (titles, structure, schema)", href: "/services/technical-seo" },
+      { text: "On-page SEO services Lahore (titles, structure, schema)", href: "/services/technical-seo" },
       { text: "Content strategy and article briefs" },
       { text: "Internal linking architecture", href: "/services/technical-seo" },
       { text: "Local SEO and Google Business Profile setup", href: "/services/local-seo" },
@@ -32,7 +32,7 @@ export const services: Service[] = [
       "WordPress",
     ],
     idealFor:
-      "Businesses that want a steady flow of enquiries and sales from Google without depending on ad spend.",
+      "Small businesses that want a steady flow of enquiries and sales from Google without depending on ad spend. As an SEO consultant for small business owners, I offer affordable SEO services Lahore businesses can follow month to month — SEO services for small business in Lahore, reported in plain language.",
     faqs: [
       {
         q: "How long does SEO take to work?",
@@ -40,7 +40,7 @@ export const services: Service[] = [
       },
       {
         q: "Do you guarantee first-page rankings?",
-        a: "No, and you should be skeptical of anyone who does. Rankings depend on competition and search engines I don't control. What I guarantee is transparent work and honest reporting of what's happening.",
+        a: "No, and you should be skeptical of anyone who does. Rankings depend on competition and search engines I don't control. What I guarantee is transparent work and honest reporting of what's happening. If you are working out how to choose SEO services in Lahore, start with that honesty: ask what is tracked, and what is guaranteed.",
       },
       {
         q: "Will my website need changes?",
