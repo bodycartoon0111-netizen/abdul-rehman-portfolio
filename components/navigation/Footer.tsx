@@ -108,7 +108,8 @@ export function Footer() {
             <p>Lahore, Punjab, Pakistan</p>
             <p><a className="font-semibold text-ink transition-colors hover:text-pine" href="tel:+923714972789">+92 371 4972789</a></p>
             <p><a className="font-semibold text-ink transition-colors hover:text-pine" href="mailto:contact@abdulrehmantech.com">contact@abdulrehmantech.com</a></p>
-            <p>Mon–Sat, 9:00 AM – 11:00 PM PKT</p></address>
+            <p>Mon–Sat, 9:00 AM – 11:00 PM PKT</p>
+            <p><a className="font-semibold text-ink transition-colors hover:text-pine" href="https://maps.app.goo.gl/EapYDNXRFq5Zoj666" target="_blank" rel="noopener noreferrer" onClick={() => trackOutboundClick("https://maps.app.goo.gl/EapYDNXRFq5Zoj666")}>Find us on Google Maps</a></p></address>
           </div>
 
           {/* Services sitemap */}
