@@ -8,6 +8,7 @@ import { getServiceDetail } from "@/data/service-details";
 import { projects } from "@/data/projects";
 import {
   absoluteUrl,
+  BRAND_NAME,
   buildBreadcrumbJsonLd,
   buildServiceJsonLd,
   buildFaqPageJsonLd,
@@ -32,6 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: detail.metaDescription,
     alternates: { canonical: `/services/${slug}` },
     openGraph: {
+      siteName: BRAND_NAME,
       title: detail.metaTitle,
       description: detail.metaDescription,
       type: "website",
