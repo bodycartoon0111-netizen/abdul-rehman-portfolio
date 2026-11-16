@@ -335,66 +335,66 @@ serviceArea: {
   },
   "meta-ads": {
     slug: "meta-ads",
-    h1: "Meta Ads in Pakistan — Facebook & Instagram That Convert",
-      h1Highlight: "Meta Ads in Pakistan",
+    h1: "Meta Ads Consultant in Lahore — Facebook & Instagram That Convert",
+      h1Highlight: "Meta Ads Consultant in Lahore",
     problems: [
       {
         title: "Boosted posts, not campaigns",
         description:
-          "Money spent on boosted posts with no funnel thinking — reach without a path to revenue.",
+          "Money spent on boosted posts with no funnel thinking — reach without a path to revenue — the waste the best Meta Ads consultant is hired to stop — and the first thing the best Meta Ads expert Lahore businesses hire checks is the funnel, not the boost button.",
       },
       {
         title: "Creative that stops nobody",
         description:
-          "Ads that look like ads get scrolled past. Without thumb-stopping creative, even perfect targeting fails.",
+          "Ads that look like ads get scrolled past. Without thumb-stopping creative, even perfect targeting fails — the gap the best Facebook Ads consultant is hired to close.",
       },
       {
         title: "Targeting on autopilot",
         description:
-          "Overlapping audiences competing against each other, driving up costs while learning stays shallow.",
+          "Overlapping audiences competing against each other, driving up costs while learning stays shallow — the mess the best Instagram Ads consultant is hired to untangle.",
       },
     ],
     strategy:
-      "Meta rewards advertisers who feed the algorithm clarity: clear conversion events, distinct creative angles, and patient budgets. The strategy tests creative concepts systematically — hooks, formats, and offers — while keeping audience structure simple enough for the algorithm to learn. Retargeting closes the loop on the interest prospecting creates.",
+      "Meta rewards advertisers who feed the algorithm clarity: clear conversion events, distinct creative angles, and patient budgets. If you are weighing a Meta Ads vs Google Ads consultant, the difference is intent: Google catches buyers who already know what they want, while Meta has to earn attention first — so creative carries more weight here. The strategy tests creative concepts systematically — hooks, formats, and offers — while keeping audience structure simple enough for the algorithm to learn. Retargeting closes the loop on the interest prospecting creates — the full-funnel view a Facebook Ads management consultant keeps, from first scroll to final sale. I work the same way as a Meta Ads consultant for small businesses and for larger brands: test creative, verify tracking, then scale what proves itself.",
     strategyPoints: [
-      "Creative testing as the core lever — multiple hooks and formats per angle",
-      "Simple, non-overlapping audience structure that lets the algorithm learn",
-      "Full-funnel thinking: prospecting, retargeting, and retention as one system",
-      "Pixel and Conversions API setup verified so optimization has clean signal",
+      "Creative testing as the core lever — multiple hooks and formats per angle — the lever a freelance Instagram Ads consultant pulls first, before spending on scale",
+      "Simple, non-overlapping audience structure that lets the algorithm learn — the structure I keep as an Instagram Ads consultant for small business accounts, where overlap wastes the budget",
+      "Full-funnel thinking: prospecting, retargeting, and retention as one system — the shape I give it as a Meta Ads consultant for lead generation, where the enquiry is the sale",
+      "Pixel and Conversions API setup verified so optimization has clean signal — the check a Meta Ads expert does before spending",
     ],
     process: [
       {
         title: "Foundation",
         description:
-          "Pixel, Conversions API, and event tracking audited and fixed — the algorithm is only as good as its signal.",
+          "Pixel, Conversions API, and event tracking audited and fixed — the algorithm is only as good as its signal — the first job of a Meta Ads consultant for startups, where the budget has no room for waste.",
       },
       {
         title: "Creative",
         description:
-          "Ad angles and creative concepts developed around real customer motivations, not stock imagery.",
+          "Ad angles and creative concepts developed around real customer motivations, not stock imagery — the starting point I use as a Meta Ads consultant for ecommerce, where the product has to sell itself in the first seconds.",
       },
       {
         title: "Testing",
         description:
-          "Structured creative and audience tests with clear kill/scale rules — no emotional attachment to losing ads.",
+          "Structured creative and audience tests with clear kill/scale rules — no emotional attachment to losing ads — the discipline I keep as a Facebook Ads consultant for small business budgets, where every test has to earn its keep.",
       },
       {
         title: "Scaling",
         description:
-          "Winning combinations scaled gradually while fresh creative keeps fatigue from eroding returns.",
+          "Winning combinations scaled gradually while fresh creative keeps fatigue from eroding returns — the gradual scaling a Meta Ads consultant for B2B accounts follows, where a lead is worth more than a click.",
       },
     ],
-    metaTitle: "Meta Ads Services Pakistan | Facebook & Instagram Ads",
+    metaTitle: "Meta Ads Consultant Pakistan | Facebook & Instagram Ads",
     metaDescription:
-      "Meta Ads services in Pakistan: Facebook and Instagram campaigns with creative testing, full-funnel structure and retargeting — run by one consultant in Lahore.",
+      "Meta Ads consultant in Pakistan: Facebook and Instagram campaigns with creative testing, full-funnel structure and retargeting — run by one consultant in Lahore.",
     problemsHeading: "Meta Ads Problems We Solve in Pakistan",
     solutionHeading: "Meta Ads Services in Pakistan — The Solution",
     faqHeading: "Frequently Asked Questions About Meta Ads in Pakistan",
     snippet:
-      "Meta Ads services in Pakistan cover Facebook and Instagram advertising: creative testing, audience strategy, Conversions API tracking, and full-funnel campaigns that turn attention into enquiries, calls and sales. The work is managed by one consultant, and every ad lives or dies by its numbers.",
+      "Meta Ads services in Pakistan cover Facebook and Instagram advertising — the work of a Facebook and Instagram Ads consultant: creative testing, audience strategy, Conversions API tracking, and full-funnel campaigns that turn attention into enquiries, calls and sales. The work is managed by one consultant, and every ad lives or dies by its numbers. That is the approach I take as a Meta Ads consultant for small business Lahore owners, where every rupee of creative testing has to earn its place.",
     serviceArea: {
       heading: "Meta Ads Services Across Pakistan",
-      text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+      text: "Meta Ads services Pakistan-wide: work is in person in Lahore with a freelance Meta Ads consultant, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. If you want to hire Meta Ads expert help in Lahore, or hire Facebook Ads consultant help, consultation is available in English and Roman Urdu — from a Meta Ads expert in Lahore Pakistan businesses can reach directly, and a Facebook Ads consultant Pakistan businesses can brief directly.",
     },
     heroLinks: [
       {
