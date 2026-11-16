@@ -362,8 +362,8 @@ export default async function ServiceDetailPage({ params }: PageProps) {
 
       <div className="mt-20">
         <CtaBand
-          title={`Ready to talk about ${service.name}?`}
-          description="Tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you."
+          title={detail.ctaTitle ?? `Ready to talk about ${service.name}?`}
+          description={detail.ctaDescription ?? "Tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you."}
         />
       </div>
     </main>
