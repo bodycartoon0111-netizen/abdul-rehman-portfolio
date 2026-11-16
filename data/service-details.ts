@@ -38,7 +38,7 @@ export interface ServiceDetail {
   serviceArea?: { heading: string; text: string };
   heroLinks?: { prefix: string; anchor: string; href: string; suffix: string }[];
   introLinks?: { prefix: string; anchor: string; href: string; suffix: string }[];
-  deliverablesLead?: string;
+  deliverablesLead?: string; ctaTitle?: string; ctaDescription?: string;
 }
 
 export const serviceDetails: Record<string, ServiceDetail> = {
@@ -50,23 +50,23 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       {
         title: "Invisible on the searches that matter",
         description:
-          "Competitors capture the enquiries while your site sits on page three for the terms your customers actually type.",
+          "Competitors capture the enquiries while your site sits on page three for the terms your customers actually type — the gap the best SEO services in Lahore are hired to close.",
       },
       {
         title: "Technical issues silently leaking traffic",
         description:
-          "Slow pages, crawl errors, and missing structure quietly cap how much of your site search engines will even consider ranking.",
+          "Slow pages, crawl errors, and missing structure quietly cap how much of your site search engines will even consider ranking — the hidden losses you hire SEO consultant Lahore expertise to find.",
       },
       {
         title: "Content with no search strategy",
         description:
-          "Blog posts and pages published without keyword intent behind them — effort that never compounds into traffic.",
+          "Blog posts and pages published without keyword intent behind them — effort that never compounds into traffic, whether it is SEO services Johar Town Lahore businesses need or a city-wide content plan.",
       },
     ],
     strategy:
-      "SEO is treated as a compounding asset, not a checklist. The strategy starts with a full technical and competitive audit, then prioritizes the pages closest to revenue — service and location pages first, supporting content second. Every change is tracked against rankings, traffic, and enquiries so the work stays accountable.",
+      "SEO is treated as a compounding asset, not a checklist. The strategy starts with a full technical and competitive audit, then prioritizes the pages closest to revenue — service and location pages first, supporting content second. Every change is tracked against rankings, traffic, and enquiries so the work stays accountable. I run it as an SEO consultant in Lahore Pakistan clients can message directly — one person, one plan, reported plainly.",
     strategyPoints: [
-      "Technical foundation first: crawlability, speed, and index hygiene before anything else",
+      "Technical foundation first: crawlability, speed, and index hygiene before anything else — where top SEO services Lahore work begins",
       "Keyword mapping by intent — commercial pages target commercial terms",
       "Content built around topics your customers search, not around what you want to say",
       "Authority built through genuine mentions and digital PR, never link schemes",
@@ -75,7 +75,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       {
         title: "Audit",
         description:
-          "A deep technical, on-page, and competitive audit that finds exactly what is holding the site back.",
+          "A deep technical, on-page, and competitive audit that finds exactly what is holding the site back — the first step of freelance SEO services Lahore businesses get from one person, not a team.",
       },
       {
         title: "Foundation",
@@ -95,15 +95,15 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     metaTitle: "SEO Services in Lahore | SEO Expert Pakistan — Free Audit",
     metaDescription:
-      "SEO services in Lahore from one consultant: technical audits, on-page SEO, local SEO and content that compound into rankings, traffic and enquiries.",
+      "SEO services in Lahore from one consultant: technical audits, on-page SEO, local SEO and content that compound into rankings, traffic and enquiries.", ctaTitle: "Ready to hire SEO consultant Lahore?", ctaDescription: "If you want to hire SEO expert in Lahore, tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you.",
 problemsHeading: "SEO Problems We Solve in Lahore",
     solutionHeading: "SEO Services in Lahore — The Solution",
     faqHeading: "Frequently Asked Questions About SEO in Lahore",
     snippet:
-        "SEO services in Lahore cover technical audits, on-page optimization, local SEO and content — the work that gets a business found on Google by customers in Lahore who are ready to buy. As a consultant, I do the work myself, and every change is tracked against rankings, traffic and enquiries.",
+        "SEO services in Lahore cover technical audits, on-page optimization, local SEO and content — the work that gets a business found on Google by customers in Lahore who are ready to buy. As a consultant, I do the work myself, and every change is tracked against rankings, traffic and enquiries. If you are looking to hire SEO expert in Lahore, you will work directly with me — no handover, no juniors.",
 serviceArea: {
   heading: "SEO Services Across Pakistan",
-  text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+  text: "Work is in person in Lahore, from SEO services in DHA Lahore to SEO services in Gulberg Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. As an SEO expert Lahore Pakistan businesses can reach directly, I consult in English and Roman Urdu.",
 },
     heroLinks: [
       {
