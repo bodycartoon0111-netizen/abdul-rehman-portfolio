@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { blogPosts } from "@/data/blog";
-import { buildBlogJsonLd, buildBreadcrumbJsonLd } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBlogJsonLd, buildBreadcrumbJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
@@ -15,11 +15,34 @@ export const metadata: Metadata = {
     "Practical notes on SEO, paid marketing, web development and AI automation from real project experience in Pakistan — checklists and mental models that work.",
   alternates: { canonical: "/blog" },
   openGraph: {
+    siteName: BRAND_NAME,
     title: "SEO & Digital Marketing Blog Pakistan | Abdul Rehman",
     description:
       "Practical notes on SEO, paid marketing, web development and AI automation from real project experience in Pakistan — checklists and mental models that work.",
-    url: "/blog",
+    url: absoluteUrl("/blog"),
     type: "website",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SEO & Digital Marketing Blog Pakistan | Abdul Rehman",
+    description: "Practical notes on SEO, paid marketing, web development and AI automation from real project experience in Pakistan — checklists and mental models that work.",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
   },
 };
 
