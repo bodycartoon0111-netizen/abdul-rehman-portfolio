@@ -1,10 +1,40 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
+import { absoluteUrl, BRAND_NAME } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: { absolute: "Privacy Policy | Abdul Rehman SEO Consultant Lahore" },
   description: "How Abdul Rehman handles your information when you use the contact form. Your details are used only to reply — never sold or shared with third parties.",
   alternates: { canonical: "/privacy" },
+  openGraph: {
+    siteName: BRAND_NAME,
+    title: "Privacy Policy | Abdul Rehman SEO Consultant Lahore",
+    description: "How Abdul Rehman handles your information when you use the contact form. Your details are used only to reply — never sold or shared with third parties.",
+    type: "website",
+    url: absoluteUrl("/privacy"),
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy | Abdul Rehman SEO Consultant Lahore",
+    description: "How Abdul Rehman handles your information when you use the contact form. Your details are used only to reply — never sold or shared with third parties.",
+    images: [
+      {
+        url: absoluteUrl("/images/og-default.jpg"),
+        width: 1200,
+        height: 630,
+        alt: "Abdul Rehman - Freelance SEO Consultant",
+      },
+    ],
+  },
 };
 
 export default function PrivacyPage() {
