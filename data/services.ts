@@ -137,17 +137,17 @@ export const services: Service[] = [
     tagline: "Scroll-stopping creative and full-funnel campaigns on Meta.",
     description: "Full-funnel Meta and Instagram campaigns with creative testing, Conversions API tracking and retargeting.",
     problem:
-      "Meta Ads services in Pakistan that start with creative, not boosting. Full-funnel Facebook and Instagram campaigns — prospecting, retargeting and retention as one system — with creative testing, Conversions API tracking, and a clear kill-or-scale rule for every ad. Run by one consultant in Lahore.",
+      "Meta Ads management services in Pakistan that start with creative, not boosting. Full-funnel Facebook and Instagram campaigns — prospecting, retargeting and retention as one system — with creative testing, Conversions API tracking, and a clear kill-or-scale rule for every ad — the Facebook Ads Pakistan businesses ask for when boosting stops working. Run by me, a Meta Ads consultant Lahore businesses work with directly.",
     solution:
-      "Creative-led testing, broad-but-disciplined targeting, Conversions API tracking done correctly, and funnels that warm cold traffic into buyers. Creative does the targeting now — so the testing program is the strategy.",
+      "As your Meta Ads consultant, I run creative-led testing, broad-but-disciplined targeting, Conversions API tracking done correctly, and funnels that warm cold traffic into buyers. Creative does the targeting now — so the testing program is the strategy, and the work of a Meta Ads expert Lahore businesses hire me for. That is the Meta Ads management Pakistan businesses get from one person, not a team — Meta Ads management services Lahore brands can follow in plain language, and Meta Ads management services Pakistan businesses can follow the same way.",
     deliverables: [
-      { text: "Pixel, Conversions API, and tracking setup" },
+      { text: "Pixel, Conversions API, and tracking setup — checked by a Facebook and Instagram Ads expert Lahore brands can reach directly" },
       { text: "Audience and full-funnel strategy", href: "/services/performance-marketing" },
-      { text: "Creative concepts and testing matrix" },
-      { text: "Ad copywriting" },
+      { text: "Creative concepts and testing matrix built by an Instagram Ads consultant, and a Meta Ads consultant Pakistan brands brief directly" },
+      { text: "Ad copywriting from a Facebook Ads consultant Lahore brands brief directly" },
       { text: "Campaign build, testing, and scaling", href: "/services/performance-marketing" },
       { text: "Retargeting sequences", href: "/services/performance-marketing" },
-      { text: "Revenue-tied reporting" },
+      { text: "Revenue-tied reporting from a freelance Facebook Ads consultant, in plain language — the same plain report Instagram Ads Pakistan brands get" },
     ],
     technologies: [
       "Meta Ads Manager",
@@ -158,7 +158,7 @@ export const services: Service[] = [
       "WordPress",
     ],
     idealFor:
-      "E-commerce and consumer brands that sell where their customers scroll — Instagram and Facebook.",
+      "E-commerce and consumer brands that sell where their customers scroll — Instagram and Facebook — the audience a Meta Ads consultant for online stores builds for, one creative test at a time. If you want to hire Meta Ads consultant Lahore businesses trust with that scrolling audience, you work with me directly — an Instagram Ads consultant Lahore brands can meet in person — no handover, no juniors.",
     faqs: [
       {
         q: "How much creative do I need?",
@@ -166,7 +166,7 @@ export const services: Service[] = [
       },
       {
         q: "What's a sensible starting budget?",
-        a: "It depends on your product price and audience size. I'll give you an honest minimum for your market — enough to test creative properly, not just burn quietly.",
+        a: "It depends on your product price and audience size. I'll give you an honest minimum for your market — enough to test creative properly, not just burn quietly. If you are working out how to choose a Meta Ads consultant, ask what they test first, what they count as a result, and when they would kill a losing ad.",
       },
       {
         q: "Can you also manage my social media pages?",
