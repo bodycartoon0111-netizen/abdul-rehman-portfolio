@@ -5,9 +5,9 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
 
-const TITLE = "Local SEO for Home Services in Lahore | Home Services SEO Pakistan";
+const TITLE = "Local SEO for Home Services in Lahore";
 const DESCRIPTION =
-  "Local SEO for Home Services in Lahore: local SEO for home services, home services SEO and Google Maps ranking for home services for Pakistan trades and repair businesses — local search and Google Business Profile work that brings enquiries from nearby homeowners.";
+  "Local SEO for home services in Lahore: Google Maps ranking and local search for Pakistan trades and repair businesses — enquiries from nearby homeowners.";
 const SLUG = "home-services";
 const NAME = "Home Services SEO";
 
