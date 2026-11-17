@@ -151,7 +151,7 @@ Digital Marketing Services for Small Business — <span className="bg-gradient-t
             myself, so strategy and execution never get lost between people.
           </p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            An agency hands your account down a chain of juniors. With a consultant, the person you hire is the digital marketing consultant for small business who does the work. digital marketing consultant for small business who does the work. person doing the work — one named person, direct access, no hand-offs.
+            An agency hands your account down a chain of juniors. With a consultant, the person you hire is the digital marketing consultant for small business who does the work — one named person, direct access, no hand-offs.
           </p>
         </header>
 
