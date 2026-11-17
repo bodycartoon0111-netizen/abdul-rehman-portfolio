@@ -94,7 +94,7 @@ export default function WorkPage() {
           >
             digital marketing services
           </Link>
-          : packaging e-commerce, a property portal, web apps and business websites — SEO case study examples, digital marketing case study examples, website case studies and web development case studies, including a website redesign case study and an ecommerce SEO case study. Each one is an SEO work example, a website portfolio example and an SEO portfolio example in my own words, showing what I actually did. Want the
+          : packaging e-commerce, a property portal, web apps and business websites — SEO case study examples, digital marketing case study examples, website case studies and web development case studies, including a website redesign case study and an ecommerce SEO case study. They are SEO work examples, website portfolio examples and SEO portfolio examples in my own words, showing what I actually did. Want the
           same thinking on your project?{" "}
           <Link
             href="/contact"
