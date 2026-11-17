@@ -9,16 +9,16 @@ import CtaBand from "@/components/sections/CtaBand";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
+    absolute: "Digital Marketing Services for Small Business | Abdul Rehman",
   },
   description:
-    "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Eleven services, one Lahore consultant. Book a free audit.",
+    "Digital marketing services for small business — Digital marketing services Pakistan: SEO, Google Ads, Meta Ads, web development and AI automation.",
   alternates: { canonical: "/services" },
   openGraph: {
     siteName: BRAND_NAME,
-    title: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
+    title: "Digital Marketing Services for Small Business | Abdul Rehman",
     description:
-      "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Eleven services, one Lahore consultant. Book a free audit.",
+      "Digital marketing services for small business — Digital marketing services Pakistan: SEO, Google Ads, Meta Ads, web development and AI automation.",
     url: absoluteUrl("/services"),
     type: "website",
     images: [
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Marketing Services Pakistan | SEO, Meta & Google Ads",
-    description: "Digital marketing services in Pakistan: SEO, Google & Meta Ads, web development and AI automation. Eleven services, one Lahore consultant. Book a free audit.",
+    title: "Digital Marketing Services for Small Business | Abdul Rehman",
+    description: "Digital marketing services for small business — Digital marketing services Pakistan: SEO, Google Ads, Meta Ads, web development and AI automation.",
     images: [
       {
         url: absoluteUrl("/images/og-default.jpg"),
@@ -103,13 +103,13 @@ export default function ServicesPage() {
         <header className="mt-8">
           <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Services</p>
           <h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
-Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO, Ads, Websites &amp; AI
+Digital Marketing Services for Small Business — <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO, Ads, Websites &amp; AI
             Automation</span>
           </h1>
           <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Growth, not vanity metrics.</p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
             Services engineered for growth, not vanity metrics. Eleven digital
-            marketing services in Pakistan — SEO, Google Ads, Meta Ads, web
+            marketing services for small business — SEO, Google Ads, Meta Ads, web
             development and AI automation — delivered by one consultant in
             Lahore. I am{" "}
             <Link
@@ -144,14 +144,14 @@ Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r fro
             .
           </p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Digital marketing services in Pakistan cover SEO, paid ads, social
+            Digital marketing services Pakistan cover SEO, paid ads, social
             media, web development and automation — the work that gets a
             business found on Google, chosen by customers, and measured
             honestly. As a consultant, I deliver all Eleven services below
             myself, so strategy and execution never get lost between people.
           </p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            An agency hands your account down a chain of juniors. With a consultant, the person you hire is the person doing the work — one named person, direct access, no hand-offs.
+            An agency hands your account down a chain of juniors. With a consultant, the person you hire is the digital marketing consultant for small business who does the work. person doing the work — one named person, direct access, no hand-offs.
           </p>
         </header>
 
@@ -162,7 +162,7 @@ Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r fro
           >
             Digital Marketing Services in Pakistan
           </h2>
-          <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <p className="mt-4 max-w-2xl text-lg text-muted-foreground">These are digital marketing services for startups as well as established firms — affordable digital marketing services for small business owners who need every rupee to work, including affordable digital marketing services for small business Pakistan clients who want senior help without agency fees. Whether you need digital marketing services for ecommerce brands, digital marketing services for B2B companies, digital marketing services for local business or digital marketing services for service businesses, each service below is delivered by me personally — freelance digital marketing services with no hand-offs.</p><ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
               <li key={service.slug}>
                 <Link
@@ -181,7 +181,7 @@ Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r fro
               </li>
             ))}
           </ul>
-          <p className="mt-8 text-muted-foreground">
+          <p className="mt-8 text-muted-foreground">The list covers SEO services Pakistan businesses use most — plus Google Ads, Meta Ads and web development services Pakistan — and the full service digital marketing services: strategy, execution and reporting from one consultant. If you want online marketing services for small business, digital marketing services for small businesses, digital marketing services for local businesses, digital marketing services for new business or small business digital marketing services that grow with you, start with the service that matches your biggest bottleneck. I write about digital marketing services for ecommerce, digital marketing services for SaaS startups, digital marketing services for growing businesses and digital marketing services for online stores — plus digital marketing services for professionals and digital marketing services for service companies that sell expertise, not products. If you want internet marketing services for small business, online marketing services or an online marketing consultant who answers his own email, start with the audit. Businesses comparing the best digital marketing agency for small business, the best digital marketing services for small business or a digital marketing agency for small business usually start by reading how I work. 
             See what this looks like in practice —{" "}
             <Link
               href="/work"
@@ -211,7 +211,7 @@ Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r fro
           </h2>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
             Most clients need more than one of these digital marketing
-            services — here is how they combine into one engagement.
+            services — here is how they combine into one engagement. The most requested mix is SEO Meta Google Ads services Pakistan — search and social working together — alongside SEO and digital marketing services Pakistan for businesses that want one consultant across every channel.
           </p>
           <ul className="mt-8 grid gap-6 sm:grid-cols-2">
             {combinations.map((combination) => (
@@ -239,10 +239,10 @@ Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r fro
             In Lahore: DHA, Gulberg, Johar Town, Model Town, Bahria Town,
             Wapda Town, Cantt and Faisal Town — in-person meetings available.
             Across Pakistan: Karachi, Islamabad, Rawalpindi, Faisalabad,
-            Multan — remote delivery.
+            Multan — remote delivery. These digital marketing services Lahore businesses use for local growth are the same digital marketing services in Lahore Pakistan companies rely on for national reach — delivered by a digital marketing company Lahore owners work with directly, and by the digital marketing consultant Pakistan businesses call when they want senior help, not a big team.
           </p>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Consultation available in English and Roman Urdu.
+            Consultation available in English and Roman Urdu. If you are comparing the best digital marketing agency in Lahore, or an affordable digital marketing agency Pakistan businesses can actually afford, start with a free audit and compare findings, not sales pitches. I offer full service digital marketing Pakistan for ecommerce and startups — digital marketing services for ecommerce Pakistan and digital marketing services for startups Pakistan — plus online marketing services Pakistan for businesses that sell across the country. For small firms, that means digital marketing services for small business Lahore owners can use without hiring a team, and if you are looking for the best digital marketing services Pakistan has to offer at consultant rates, the audit is where to start.
           </p>
         </section>
 
@@ -268,7 +268,7 @@ Digital Marketing Services in Pakistan — <span className="bg-gradient-to-r fro
         <section className="mt-16 sm:mt-24">
           <p className="text-lg text-muted-foreground">
             Not sure where to start? Get a free SEO audit — I&apos;ll check where
-            you rank today and list the first 3 fixes.
+            you rank today and list the first 3 fixes. If you would rather hire digital marketing consultant help for the whole job, hire digital marketing consultant Pakistan support here — one consultant, no hand-offs — and the audit is still the best first step. You can also hire a digital marketing consultant for a single project, with the same audit-first approach.
           </p>
           <Link
             href="/contact"
