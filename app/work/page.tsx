@@ -87,14 +87,14 @@ export default function WorkPage() {
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           A selection of projects across Pakistan and beyond — each one shipped, each one
           documented honestly. Open a case study to see the challenge, the strategy, and the
-          decisions behind the build. These are real projects from my{" "}
+          decisions behind the build. This page is my SEO portfolio — my freelance SEO portfolio and freelance digital marketing portfolio in one place — with SEO case studies, digital marketing case studies and freelance SEO case studies, including a web design case study. I keep the same work as my digital marketing portfolio and web development portfolio, so one page covers the lot. These are real projects from my{" "}
           <Link
             href="/services"
             className="font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
           >
             digital marketing services
           </Link>
-          : packaging e-commerce, a property portal, web apps and business websites. Want the
+          : packaging e-commerce, a property portal, web apps and business websites — SEO case study examples, digital marketing case study examples, website case studies and web development case studies, including a website redesign case study and an ecommerce SEO case study. Each one is an SEO work example, a website portfolio example and an SEO portfolio example in my own words, showing what I actually did. Want the
           same thinking on your project?{" "}
           <Link
             href="/contact"
@@ -120,7 +120,7 @@ export default function WorkPage() {
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Every case study shows the same four things — the challenge, the strategy, the
-          decisions, and what happened next. No cherry-picked screenshots, no invented numbers.
+          decisions, and what happened next. No cherry-picked screenshots, no invented numbers. What is an SEO case study? For me it is a plain account of one piece of work: the problem I was given, what I tried, and the outcome status afterwards. That is how SEO case studies help small business owners judge the work — they can see the thinking, not just a claim. Each one also works as an SEO results case study in that narrow sense: it records the outcome status, never measured results. And each one is an SEO case study for small business readers, alongside SEO case studies for small business and SEO case studies for startups. People comparing the best SEO case studies will find the same shape here as in any SEO consultant case studies collection: a small business problem, the work, and the outcome. This is my SEO project portfolio as much as a list of jobs — an SEO case study small business owners can read end to end, and a local SEO case study where the work was local.
         </p>
       </section>
 
@@ -130,7 +130,7 @@ export default function WorkPage() {
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Packaging e-commerce (US), property portals (Pakistan), web apps, agency websites,
-          and local directories (Lahore).
+          and local directories (Lahore). That mix is why this page also reads as SEO case studies Pakistan, website case studies Pakistan and digital marketing case studies Pakistan: an SEO case study Lahore businesses can relate to, a local SEO case study Lahore project, and Pakistan SEO case study examples drawn from the same work. If you came here for an ecommerce SEO case study Pakistan, start with the packaging store, then read the local work beside it. The website redesign case study Pakistan and web design case study Pakistan entries sit in the same list: the agency websites and business websites I have worked on. For readers in Lahore, this is my SEO portfolio Lahore page and my digital marketing portfolio Pakistan and web development portfolio Pakistan in one: a freelance SEO portfolio Pakistan readers can browse, with SEO case studies Lahore and SEO case studies for small business Lahore included, plus an SEO case study small business Pakistan owners can read without jargon. I treat each entry as an SEO results case study Pakistan readers can check the same way — outcome status only, never measured results — and I keep the whole set as the SEO portfolio of Abdul Rehman. If you reached this page by searching for case studies SEO consultant Lahore, you will find the work itself here, and if you are comparing the best SEO case studies Pakistan has on show, start with the challenge and the decisions in each one, not with the headline.
         </p>
       </section>
 
