@@ -9,17 +9,17 @@ import { absoluteUrl, BRAND_NAME, buildLocalBusinessJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "About Abdul Rehman — SEO Consultant in Lahore, Pakistan",
+    absolute: "Freelance SEO Consultant Portfolio | Abdul Rehman",
   },
   description:
-    "Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google & Meta Ads, websites and AI automation.",
+    "Hire freelance SEO consultant Lahore — this freelance SEO consultant portfolio shows my SEO work for small businesses and startups in Lahore, Pakistan.",
   alternates: { canonical: "/about" },
   openGraph: {
     siteName: BRAND_NAME,
     type: "website",
-    title: "About Abdul Rehman — SEO Consultant in Lahore, Pakistan",
+    title: "Freelance SEO Consultant Portfolio | Abdul Rehman",
     description:
-      "Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google & Meta Ads, websites and AI automation.",
+      "Hire freelance SEO consultant Lahore — this freelance SEO consultant portfolio shows my SEO work for small businesses and startups in Lahore, Pakistan.",
     url: absoluteUrl("/about"),
     images: [
       {
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Abdul Rehman — SEO Consultant in Lahore, Pakistan",
-    description: "Abdul Rehman is an SEO and digital marketing consultant in Lahore, Pakistan. One person doing SEO, Google & Meta Ads, websites and AI automation.",
+    title: "Freelance SEO Consultant Portfolio | Abdul Rehman",
+    description: "Hire freelance SEO consultant Lahore — this freelance SEO consultant portfolio shows my SEO work for small businesses and startups in Lahore, Pakistan.",
     images: [
       {
         url: absoluteUrl("/images/og-default.jpg"),
@@ -49,15 +49,15 @@ export const metadata: Metadata = {
 const PHILOSOPHY = [
   {
     title: "Own the whole loop",
-    body: "Traffic without conversion is expense. Conversion without traffic is a hobby. I work the full loop — attract, convert, retain, automate — because fixing one link while the others break is how budgets die.",
+    body: "Traffic without conversion is expense — and that is the SEO freelancer vs agency difference in one line: one person owns the whole loop, so nothing gets lost between teams. Conversion without traffic is a hobby. What does a freelance SEO consultant do, day to day? In my case, I find the broken thing, fix it, and measure whether it moved. I work the full loop — attract, convert, retain, automate — because fixing one link while the others break is how budgets die.",
   },
   {
     title: "Boring beats clever",
-    body: "Fast pages, clear offers, honest tracking, consistent publishing. The fundamentals compound; the clever hack expires. I'd rather build you something unsexy that works for five years.",
+    body: "Fast pages, clear offers, honest tracking, consistent publishing. That is the point of working with a freelance SEO consultant for small business budgets: one person, one system, no agency overhead. The fundamentals compound; the clever hack expires. I'd rather build you something unsexy that works for five years.",
   },
   {
     title: "Teach, don't mystify",
-    body: "You'll understand what I'm doing and why. No jargon walls, no black-box retainers. A client who understands the work makes better decisions — and better decisions grow businesses.",
+    body: "You'll understand what I'm doing and why. No jargon walls, no black-box retainers. When you hire an independent SEO consultant, you work with the person doing the work — no handoffs, no account managers. A client who understands the work makes better decisions — and better decisions grow businesses.",
   },
 ];
 
@@ -148,7 +148,7 @@ export default function AboutPage() {
               </Reveal>
               <Reveal delay={0.08}>
                 <h1 id="about-heading" className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
-                  Abdul Rehman — <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO &amp; Digital Marketing Consultant in Lahore</span>
+                  Abdul Rehman — <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Freelance SEO Consultant Portfolio</span>
                 </h1>
                 <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">
                   Marketing brain.<br />
@@ -161,7 +161,7 @@ export default function AboutPage() {
                   <Link href="/services" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
                     SEO, performance marketing, and websites I build myself
                   </Link>{" "}
-                  — then automate the whole thing so it keeps working when nobody&apos;s watching. No agency layers, no handoffs, no &ldquo;that&apos;s the developer&apos;s department.&rdquo; When the person running your ads can also rewrite the landing page, tracking gets fixed in hours — not sprints. See the{" "}
+                  — then automate the whole thing so it keeps working when nobody&apos;s watching. I keep this SEO consultant about page short: it is my freelance SEO consultant profile and freelance digital marketing consultant portfolio in one place — the work, the way I work, and how to reach me. No agency layers, no handoffs, no &ldquo;that&apos;s the developer&apos;s department.&rdquo; When the person running your ads can also rewrite the landing page, tracking gets fixed in hours — not sprints. If you want to hire SEO expert Lahore help, see the SEO consultant portfolio examples in my{" "}
                   <Link href="/work" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
                     selected work
                   </Link>{" "}
@@ -222,26 +222,26 @@ export default function AboutPage() {
               <Reveal>
                 <h2 className="h2 text-balance">My Story — From Code to Growth</h2>
                 <p>
-                  I started on the technology side — learning how websites are actually built,
+                  My SEO consultant biography starts on the technology side — learning how websites are actually built,
                   not just how they look in a page builder. Writing code teaches you something
                   marketing courses don&apos;t: everything on the web is changeable, measurable,
-                  and improvable.
+                  and improvable. That is the short version about an SEO consultant who started in code and stayed close to it — and this SEO freelancer portfolio shows the work, not just the story.
                 </p>
               </Reveal>
               <Reveal>
                 <p>
                   Then came the harder question: who finds the things I build? That led into
                   SEO — the slow, compounding discipline of earning attention from search — and
-                  from there into paid acquisition, where every mistake has a price tag and
-                  every lesson is written in revenue.
+                  from there into paid acquisition — the work I now do as a freelance digital marketing consultant Lahore businesses hire directly — where every mistake has a price tag and
+                  every lesson is written in revenue. That is the SEO consultant about me version in one paragraph: I learned to build first, then learned to be found. Everything here is about freelance SEO consultant work done by one person, end to end.
                 </p>
               </Reveal>
               <Reveal>
                 <p>
-                  Today I work the full loop. The same person who plans your keyword strategy
+                  Today I work the full loop as a freelance SEO consultant for startups. The same person who plans your keyword strategy
                   builds your landing pages, wires your conversion tracking, manages your ad
                   spend, and automates your follow-up. Fewer handoffs, fewer excuses, one
-                  accountable owner for growth.
+                  accountable owner for growth. Why hire a freelance SEO consultant instead of an agency? Because you talk to the person doing the work: I work as an independent SEO consultant, and as a freelance SEO consultant Lahore for small business owners, I keep every engagement one-to-one. I will not claim to be the best freelance SEO consultant Lahore has — fit matters more than superlatives.
                 </p>
               </Reveal>
             </div>
@@ -255,7 +255,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Philosophy"
             title="What I believe about growth"
-            lede="Three convictions that shape every engagement."
+            lede="Three convictions that shape every engagement — and every project in this freelance SEO expert portfolio."
             align="center"
           />
           <div className="mt-14 grid gap-6 md:grid-cols-3">
@@ -290,7 +290,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Skills"
             title="Two disciplines, one operator"
-            lede="The rare part isn't knowing both — it's knowing how they connect."
+            lede="My SEO consultant experience and skills cover both sides — the work I do as a freelance SEO expert Lahore businesses hire directly. The rare part isn't knowing both — it's knowing how they connect."
             align="center"
           />
           <div className="mx-auto mt-14 grid max-w-4xl gap-6 md:grid-cols-3">
@@ -321,7 +321,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Journey"
             title="From curiosity to growth systems"
-            lede="Six stages, one direction — scroll to walk through it."
+            lede="Six stages, one direction — scroll to walk through my SEO consultant work history and my SEO consultant credentials and experience."
             align="center"
           />
           <div className="mx-auto mt-16 max-w-4xl">
@@ -338,7 +338,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Toolbox"
             title="The technology ecosystem"
-            lede="Every tool below earned its place by solving a real problem. Here's what each one is for."
+            lede="This freelance SEO specialist portfolio runs on the stack below — every tool earned its place by solving a real problem. Here's what each one is for."
             align="center"
           />
           <div className="mt-14 space-y-10">
@@ -388,7 +388,7 @@ export default function AboutPage() {
           />
           <div className="mx-auto mt-8 max-w-2xl text-center text-[17px] leading-relaxed text-ink">
             <p>
-              In Lahore: DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt and Faisal Town — in-person meetings available. Across Pakistan: Karachi, Islamabad, Rawalpindi, Faisalabad, Multan — remote delivery. Consultation available in English and Roman Urdu.
+              As a Lahore based SEO consultant, I work across DHA, Gulberg, Johar Town, Model Town, Bahria Town, Wapda Town, Cantt and Faisal Town — an SEO consultant in Lahore Pakistan clients can meet face to face, and an SEO consultant Lahore Pakistan freelancer for remote work. Across Pakistan, I work as a freelance SEO consultant in Pakistan, remotely with teams in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan — as an SEO consultant in Pakistan freelancer clients hire directly, and as a freelance SEO consultant Lahore businesses can meet in person. As a Lahore freelance SEO consultant, I am an SEO expert in Lahore Pakistan businesses hire directly — an SEO expert Lahore clients can meet in person, not just over email. Consultation available in English and Roman Urdu.
             </p>
           </div>
         </Container>
@@ -404,7 +404,7 @@ export default function AboutPage() {
           />
           <div className="mx-auto mt-8 max-w-2xl text-center text-[17px] leading-relaxed text-ink">
             <p>
-              Every engagement starts with a free SEO audit and a plain-language plan from Abdul Rehman SEO consultant Lahore. Read how engagements combine on the{" "}
+              If you want to hire freelance SEO consultant Lahore expertise, every engagement starts with a free SEO audit and a plain-language plan from Abdul Rehman SEO consultant Lahore. This Lahore SEO consultant portfolio is the short version. When you hire a freelance SEO consultant, you should get the person doing the work, not a handoff chain. My freelance SEO consultant services combine SEO, ads, websites and automation — read how engagements combine on the{" "}
               <Link href="/services" className="font-semibold text-pine underline decoration-pine/40 underline-offset-4 hover:text-ink">
                 services page
               </Link>
@@ -425,7 +425,7 @@ export default function AboutPage() {
               <SectionHeading
                 eyebrow="Working with me"
                 title="Six rules I work by"
-                lede="Non-negotiables. If any of these sound wrong for you, we're probably not a fit — and that's fine."
+                lede="Non-negotiables — and if you are wondering how to choose a freelance SEO consultant, start here. If any of these sound wrong for you, we're probably not a fit — and that's fine. To hire SEO consultant in Lahore support from the person who does the work, or to contact freelance SEO consultant Lahore help directly, start a project."
                 align="left"
               />
               <Reveal delay={0.1} className="mt-8">
