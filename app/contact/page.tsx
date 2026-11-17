@@ -9,16 +9,16 @@ import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Contact SEO Consultant in Lahore, Pakistan | Abdul Rehman",
+    absolute: "Contact SEO Consultant Lahore, Pakistan | Abdul Rehman",
   },
   description:
-    "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
+    "Contact SEO consultant Lahore for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
   alternates: { canonical: "/contact" },
   openGraph: {
     siteName: BRAND_NAME,
-    title: "Contact SEO Consultant in Lahore, Pakistan | Abdul Rehman",
+    title: "Contact SEO Consultant Lahore, Pakistan | Abdul Rehman",
     description:
-      "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
+      "Contact SEO consultant Lahore for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
     url: absoluteUrl("/contact"),
     type: "website",
     images: [
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact SEO Consultant in Lahore, Pakistan | Abdul Rehman",
-    description: "Contact Abdul Rehman, SEO consultant in Lahore, for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
+    title: "Contact SEO Consultant Lahore, Pakistan | Abdul Rehman",
+    description: "Contact SEO consultant Lahore for SEO, Google & Meta Ads, websites or AI automation. Every message gets a reply within one business day.",
     images: [
       {
         url: absoluteUrl("/images/og-default.jpg"),
@@ -64,23 +64,23 @@ export default function ContactPage() {
           Get in touch
         </p>
         <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
-          Contact an <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO Consultant in Lahore</span> — Let&apos;s Build Something That Grows
+          Contact <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO Consultant Lahore</span> — Let&apos;s Build Something That Grows
         </h1>
-        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Tell me about your project — I read every message myself.</p>
+        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Wondering how to contact an SEO consultant? Tell me about your project — I read every message myself.</p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Tell me about your project — the more specific you are about your goals, the more
           useful my reply will be. I read every message personally and respond within one
           business day. I&apos;m Abdul Rehman, an SEO consultant in Lahore — if you are not
-          sure what you need yet, start with a free SEO audit or browse the{" "}
+          sure what you need yet, book a free SEO audit or browse the{" "}
           <Link
             href="/services"
             className="font-semibold text-neutral-900 underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
           >
             digital marketing services
           </Link>{" "}
-          first. Prefer direct? WhatsApp and email are on this page.
+          first. Prefer direct? WhatsApp and email are on this page — use whichever SEO consultant contact suits you best.
         </p>
-      </header>
+      </header><section aria-label="Ways to get in touch" className="mt-10 max-w-3xl space-y-5 text-lg leading-relaxed text-neutral-700"><p>You can get in touch with SEO consultant help through the form below, by email or on WhatsApp — all three reach me directly, and every SEO project enquiry gets a personal reply. If you would rather talk to an SEO consultant first, book a call with SEO consultant Abdul Rehman by mentioning a day and time in your message — you can book SEO consultation time the same way.</p><p>Whether you want to contact SEO expert help for a single question or hire SEO consultant support for a full project, you can contact an SEO expert directly here, with no sales team and no ticket queue. If you prefer to work with a freelance SEO consultant who answers his own emails, or to work with an SEO consultant who treats your budget like his own, start with the form and tell me what you want to grow.</p><p>To contact a freelance SEO consultant, use the form below or message me directly — either way you reach me, not an account manager. To contact a digital marketing consultant about ads or a website as well as SEO, say so in your message, and to contact SEO freelancer support directly, WhatsApp is usually fastest. This page is your freelance SEO consultant contact point, and to contact Abdul Rehman SEO consultant help directly, any channel on this page works. When you hire a freelance SEO consultant you should know exactly who does the work — with me, it is always me.</p><p>Ready to start an SEO project? You can get a free SEO audit before we talk, or request a free SEO audit in your message — every SEO audit request gets a reply within one business day, and every enquiry can start with a free SEO consultation. Local businesses can book a free SEO audit Lahore owners use to see where they stand, or start SEO project Lahore work with a free SEO consultation first.</p><p>Businesses that hire SEO consultant Lahore support from me work directly with me — no handover to juniors — and if you want to hire freelance SEO consultant Lahore help for a longer engagement, say so in your message. To contact freelance SEO consultant Lahore businesses recommend, to contact SEO expert Lahore help for a one-off review, or to contact digital marketing consultant Lahore businesses use for ads and websites too, the same form covers it. Whether you want to contact SEO consultant for small business help or contact SEO consultant for startups advice, mention your stage and goals in the form.</p><p>Businesses across the country can contact SEO consultant Pakistan support here, and can get a free SEO audit Pakistan owners use to prioritise fixes. If you need to hire SEO consultant in Pakistan contact me through the form, email or WhatsApp, and if you want to hire Google Ads consultant Lahore contact me the same way — just mention Google Ads in your message. To book SEO consultation Lahore sessions, mention a day and time; for any SEO services contact — or SEO services Lahore contact for local work — the same form covers it. If you want to work with Abdul Rehman SEO directly, this page is where it starts, and every SEO audit request Lahore businesses send gets a personal reply. Email is the SEO consultant email contact for detailed briefs, and the SEO consultant Lahore contact number is +92 371 4972789 — WhatsApp or call.</p></section>
 
       <div className="mt-12 grid gap-12 lg:grid-cols-5">
         <div className="lg:col-span-3">
@@ -108,7 +108,7 @@ export default function ContactPage() {
                 >
                   +92 371 4972789
                 </WhatsAppLink>
-                <p className="mt-1 text-sm text-neutral-600 transition group-hover:text-white/85">Prefilled message — just press send.</p>
+                <p className="mt-1 text-sm text-neutral-600 transition group-hover:text-white/85">Prefilled message — just press send. The SEO consultant WhatsApp contact for quick questions, and the SEO consultant Lahore WhatsApp number for local businesses.</p>
               </li>
               <li>
                 <p className="text-xs font-semibold uppercase tracking-widest text-neutral-600 transition group-hover:text-white/85">Social</p>
@@ -144,8 +144,8 @@ export default function ContactPage() {
               <p className="font-semibold text-neutral-900 transition group-hover/info:text-white">What happens next?</p>
               <ol className="mt-3 list-decimal space-y-2 pl-5 transition-colors group-hover/info:text-white/85">
                 <li>You send the form to contact SEO consultant Lahore — I read it the same day.</li>
-                <li>I reply with honest first impressions and clarifying questions.</li>
-                <li>If we&apos;re a fit, we schedule a call and I prepare a scoped proposal.</li>
+                <li>I reply with honest first impressions and clarifying questions, so every SEO audit request gets a personal answer.</li>
+                <li>If we&apos;re a fit, we schedule a call and I prepare a scoped proposal — your SEO consultation booking, confirmed by email.</li>
               </ol>
             </div>
           </div>
@@ -170,7 +170,7 @@ export default function ContactPage() {
           <li>Your website (if you have one)</li>
           <li>What you want to grow (calls, sales, rankings)</li>
           <li>Your timeline</li>
-          <li>Your budget range (if you know it)</li>
+          <li>Your budget range (if you know it)</li><li>Whether you would like to request a free SEO audit or a full proposal</li>
         </ul>
       </section>
 
