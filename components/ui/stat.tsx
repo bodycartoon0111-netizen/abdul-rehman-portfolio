@@ -17,10 +17,10 @@ interface StatProps {
 }
 
 /**
- * Animated counter stat. Counts up when scrolled into view;
+ * Stat that always renders its real value in the HTML;
  * renders a static value when reduced motion is preferred.
- * Uses IntersectionObserver + requestAnimationFrame (1.6s, ease-out)
- * instead of framer-motion's animate/useInView.
+ * The displayed number starts from the real value, never from 0;
+ * no JavaScript is needed to see the real number.
  *
  * NOTE: only pass values that are real and verified — never invent stats.
  */
@@ -42,7 +42,7 @@ export function Stat({
   const ref = useRef<HTMLDivElement>(null);
   // Reduced-motion users get the final value immediately — no animation needed.
   const [display, setDisplay] = useState<number>(() =>
-    prefersReducedMotion() ? value : 0,
+    value,
   );
 
   useEffect(() => {
@@ -60,8 +60,8 @@ export function Stat({
         const start = performance.now();
         const tick = (now: number) => {
           const progress = Math.min(1, (now - start) / 1600);
-          const eased = 1 - Math.pow(1 - progress, 3);
-          setDisplay(value * eased);
+          // The display already holds the real value, so there is no count-up from 0.
+          setDisplay(value);
           if (progress < 1) frame = requestAnimationFrame(tick);
         };
         frame = requestAnimationFrame(tick);
