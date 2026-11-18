@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     absolute: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
   },
   description:
-    "Work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
+    "Work and SEO case studies Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
   alternates: { canonical: "/work" },
   openGraph: {
     siteName: BRAND_NAME,
@@ -81,7 +81,7 @@ export default function WorkPage() {
           Portfolio
         </p>
         <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
-          Selected Work &amp; <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO Case Studies from Pakistan</span>
+          Selected Work &amp; <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO Case Studies Pakistan</span>
         </h1>
         <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Every project shipped. Every one documented honestly.</p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
