@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: BRAND_NAME,
     title: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
     description:
-      "Work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
+      "Work and SEO case studies Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
     url: absoluteUrl("/work"),
     type: "website",
     images: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "SEO Case Studies Pakistan | Selected Work — Abdul Rehman",
-    description: "Work and SEO case studies from Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
+    description: "Work and SEO case studies Pakistan: packaging e-commerce, property portals, web apps and business websites — each shipped and documented honestly.",
     images: [
       {
         url: absoluteUrl("/images/og-default.jpg"),
