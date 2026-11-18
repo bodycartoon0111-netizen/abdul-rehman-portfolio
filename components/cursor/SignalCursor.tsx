@@ -19,6 +19,7 @@ const INTERACTIVE_SELECTOR =
  * - Hover: arrow tilts, fills gold, glow intensifies.
  * - Press: satisfying squash.
  * - Disabled on touch devices and under prefers-reduced-motion.
+ * - Mounts on the first mousemove, so no cursor work runs before the mouse moves.
  */
 export function SignalCursor() {
   const [enabled] = useState<boolean>(
@@ -29,6 +30,10 @@ export function SignalCursor() {
   );
   const [hovering, setHovering] = useState(false);
   const [pressed, setPressed] = useState(false);
+  // Mount only after the first mousemove: a mouse cursor is not
+  // needed until the mouse moves. Until then the native cursor
+  // stays in place and no cursor work runs.
+  const [armed, setArmed] = useState(false);
   const reduceMotion = useReducedMotion();
 
   const x = useMotionValue(-100);
@@ -41,8 +46,21 @@ export function SignalCursor() {
   const trail2X = useSpring(x, { stiffness: 220, damping: 30, mass: 0.6 });
   const trail2Y = useSpring(y, { stiffness: 220, damping: 30, mass: 0.6 });
 
+  // Arm on the first mousemove, seeding the position so the cursor
+  // appears exactly where the mouse already is.
   useEffect(() => {
     if (!enabled) return;
+    const arm = (event: MouseEvent) => {
+      x.set(event.clientX);
+      y.set(event.clientY);
+      setArmed(true);
+    };
+    window.addEventListener("mousemove", arm, { once: true, passive: true });
+    return () => window.removeEventListener("mousemove", arm);
+  }, [enabled, x, y]);
+
+  useEffect(() => {
+    if (!enabled || !armed) return;
     document.documentElement.classList.add("signal-cursor-active");
 
     const onMove = (event: MouseEvent) => {
@@ -63,9 +81,9 @@ export function SignalCursor() {
       window.removeEventListener("mouseup", onUp);
       document.documentElement.classList.remove("signal-cursor-active");
     };
-  }, [enabled, x, y]);
+  }, [enabled, armed, x, y]);
 
-  if (!enabled || reduceMotion) return null;
+  if (!enabled || reduceMotion || !armed) return null;
 
   return (
     <>
