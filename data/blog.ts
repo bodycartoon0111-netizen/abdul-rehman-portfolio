@@ -40,6 +40,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Algorithms change, but the technical foundations of search barely move. A practical checklist covering crawlability, Core Web Vitals, structured data, and index hygiene.",
     publishedAt: "2026-10-01",
+    updatedAt: "2026-11-12",
     readingMinutes: 8,
     tags: ["SEO", "Technical SEO", "Checklist"],
     category: "SEO",
@@ -117,7 +118,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Want me to run this checklist on your site?",
         paragraphs: [
           "If you would rather have someone else run it, that is what I do. [Book a free consultation](/contact) and I will go through this technical SEO checklist against your site in the same order, then tell you plainly what needs fixing first. No jargon, no fifty-page report you will never read — a short list, in priority order. You can see the full list of [services](/services) on the site before you decide.",
-          "If you prefer to message first, [message me on WhatsApp](https://wa.me/923219482015). I am based in Lahore and work with businesses across Pakistan, and I reply to every message myself. You can read more about how I work on my [about page](/about).",
+          "If you prefer to message first, [message me on WhatsApp](https://wa.me/923714972789). I am based in Lahore and work with businesses across Pakistan, and I reply to every message myself. You can read more about how I work on my [about page](/about).",
         ],
       },
       ],
@@ -206,7 +207,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Want help picking your first workflow?",
         paragraphs: [
           "[Book a free consultation](/contact) and I will help you pick the one workflow worth automating first and tell you honestly whether it is worth automating at all. Some weeks the honest answer is that the process needs fixing first, and I will say that too.",
-          "If you prefer to message first, [message me on WhatsApp](https://wa.me/923219482015). I am based in Lahore and work with small teams across Pakistan, and I reply to every message myself. You can read more about how I work on my [about page](/about).",
+          "If you prefer to message first, [message me on WhatsApp](https://wa.me/923714972789). I am based in Lahore and work with small teams across Pakistan, and I reply to every message myself. You can read more about how I work on my [about page](/about).",
         ],
       },
     ],
