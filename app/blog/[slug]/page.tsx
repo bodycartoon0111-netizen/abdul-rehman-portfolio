@@ -29,6 +29,16 @@ function renderRichText(text: string) {
   });
 }
 
+export const dynamicParams = false;
+
+function formatDate(iso: string): string {
+  return new Date(`${iso}T00:00:00`).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
 export function generateStaticParams() {
   return getPostSlugs().map((slug) => ({ slug }));
 }
@@ -138,6 +148,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             ))
           : post.title}
           </h1>
+          <p className="mt-4 text-sm font-medium text-neutral-600">Abdul Rehman · <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time></p>
           <p className="mt-4 text-lg leading-relaxed text-neutral-700">{post.excerpt}</p><p className="mt-4 text-sm leading-relaxed text-neutral-700">Related service: <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link></p>
           {post.sample && (
             <p className="mt-4 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
