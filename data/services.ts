@@ -177,17 +177,17 @@ export const services: Service[] = [
   {
     slug: "web-development",
     name: "Web Development",
-    tagline: "Fast, conversion-focused websites built with modern code.",
-    description: "Fast, conversion-focused Next.js websites with technical SEO built in from the first commit.",
+    tagline: "Fast website development services — conversion-focused websites built with modern code.",
+    description: "Fast, conversion-focused Next.js websites — website development for small business with technical SEO built in from the first commit.",
     problem:
-      "Web development services in Pakistan that start from the conversion goal and work backwards: message, structure, then design. Fast, SEO-ready Next.js websites — built with modern code, measured performance budgets, and technical SEO from the first commit — by one consultant in Lahore.",
+      "Web development services in Pakistan that start from the conversion goal and work backwards: message, structure, then design. Fast, SEO-ready Next.js websites — built with modern code, measured performance budgets, and technical SEO from the first commit — by one consultant in Lahore — including web development services for startups that need a site that sells from day one.",
     solution:
-      "Custom-built with Next.js and React: sub-second loads, SEO-ready structure from the first commit, and every page designed around one job — turning visitors into enquiries. No bloated themes, no plugin towers.",
+      "Custom website development with Next.js and React: sub-second loads, SEO-ready structure from the first commit, and every page designed around one job — turning visitors into enquiries. That covers ecommerce website development and web development services for ecommerce, where the product page has to close the sale. No bloated themes, no plugin towers.",
     deliverables: [
-      { text: "Conversion-first UX and page structure", href: "/services/performance-marketing" },
-      { text: "Custom Next.js / React development", href: "/blog/fast-website-seo-nextjs" },
-      { text: "Technical SEO baked in from day one", href: "/services/technical-seo" },
-      { text: "Core Web Vitals and speed optimization", href: "/blog/technical-seo-checklist-2026" },
+      { text: "Conversion-first UX and page structure, including landing page development services", href: "/services/performance-marketing" },
+      { text: "Next.js website development — custom Next.js / React development", href: "/blog/fast-website-seo-nextjs" },
+      { text: "SEO friendly website development — technical SEO baked in from day one", href: "/services/technical-seo" },
+      { text: "Core Web Vitals and website speed optimization services", href: "/blog/technical-seo-checklist-2026" },
       { text: "CMS integration where you need it", href: "/services/wordpress" },
       { text: "Analytics and conversion tracking", href: "/services/performance-marketing" },
       { text: "Launch, hosting setup, and handover docs" },
@@ -202,7 +202,7 @@ export const services: Service[] = [
       "Vercel",
     ],
     idealFor:
-      "Businesses that need their website to act like a salesperson, not a brochure.",
+      "I work as a freelance web developer for businesses that need their website to act like a salesperson, not a brochure — affordable web development services for small business owners, and website development services for startups launching their first site.",
     faqs: [
       {
         q: "How long does a website take?",
@@ -221,20 +221,20 @@ export const services: Service[] = [
   {
     slug: "app-development",
     name: "App Development",
-    tagline: "iOS and Android apps, from idea to App Store.",
-    description: "Cross-platform iOS and Android apps from a single codebase, from scoping to store submission.",
+    tagline: "iOS app development services and Android app development services — from idea to App Store.",
+    description: "Mobile app development services — cross-platform iOS and Android apps from a single codebase, from scoping to store submission.",
     problem:
-      "Great product ideas stall because agencies quote enterprise prices, or deliver codebases nobody can maintain after launch.",
+      "Great product ideas stall because agencies quote enterprise prices, or deliver codebases nobody can maintain after launch. As a freelance app developer, I offer app development services for startups and app development services for small business owners: one codebase, one person, and a scope you can afford to finish.",
     solution:
-      "App development in Pakistan works best cross-platform: one codebase for iOS and Android, one backend, and one team — Abdul Rehman. Cross-platform builds from a single codebase: native feel, one team, faster iterations — plus a backend designed to scale past your first ten thousand users, not just your first hundred.",
+      "App development services in Pakistan work best as cross-platform app development services: one codebase for iOS and Android, one backend, and one team — Abdul Rehman. Custom mobile app development services from a single codebase: native feel, one team, faster iterations — plus a backend designed to scale past your first ten thousand users, not just your first hundred.",
     deliverables: [
       { text: "Product scoping and user flows", href: "/process" },
-      { text: "UI/UX design" },
-      { text: "Cross-platform app development" },
+      { text: "App UI UX design services — UI/UX design for the core flow first" },
+      { text: "React Native app development services — cross-platform app development from one codebase" },
       { text: "Backend APIs and database", href: "/services/custom-software" },
-      { text: "App Store and Play Store submission" },
+      { text: "App store submission services — App Store and Play Store submission" },
       { text: "Push notifications and analytics" },
-      { text: "Post-launch support plan" },
+      { text: "App maintenance and support services — post-launch support plan" },
     ],
     technologies: [
       "React Native",
@@ -245,7 +245,7 @@ export const services: Service[] = [
       "Expo",
     ],
     idealFor:
-      "Founders validating a mobile product without hiring an in-house team.",
+      "Founders validating a mobile product without hiring an in-house team — including ecommerce app development services for shops that need an app customers actually open.",
     faqs: [
       {
         q: "Should I build for iOS, Android, or both?",
@@ -253,11 +253,11 @@ export const services: Service[] = [
       },
       {
         q: "How much does an app cost?",
-        a: "It depends entirely on scope — a focused MVP and a feature-rich platform are different projects. Scoping first, fixed quote second. Never the other way around.",
+        a: "It depends entirely on scope — a focused MVP and a feature-rich platform are different projects. Scoping first, fixed quote second. Never the other way around. If you are asking what does app development include, it covers scoping, design, development, testing, store submission and post-launch support — the full build, not just the code.",
       },
       {
         q: "Who owns the code?",
-        a: "You do. Full repository access, documentation, and handover are part of every build — no hostages, no lock-in.",
+        a: "You do. Full repository access, documentation, and handover are part of every build — no hostages, no lock-in. If you are working out how to choose an app development company, start there: ask who owns the code, who does the work, and what happens after launch.",
       },
     ],
   },
