@@ -16,6 +16,7 @@ import {
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 const CtaBand = dynamic(() => import("@/components/sections/CtaBand"));
+export const dynamicParams = false;
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
 }
