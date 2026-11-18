@@ -5,8 +5,8 @@ import dynamic from "next/dynamic";
 
 // 3D network is heavy (three.js) — lazy-load after initial paint so the
 // hero text/CTAs appear instantly. Shows a soft placeholder meanwhile.
-// webpackPrefetch starts downloading the chunk early, while mounting stays lazy.
-const GrowthNetwork = dynamic(() => import(/* webpackPrefetch: true */ "@/components/hero/GrowthNetwork"), {
+// No prefetch: the chunk downloads only when mounting starts, after the load window.
+const GrowthNetwork = dynamic(() => import("@/components/hero/GrowthNetwork"), {
   ssr: false,
   loading: () => (
     <div
@@ -34,10 +34,10 @@ export function HeroVisual({ className }: { className?: string }) {
         requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
       };
       if (w.requestIdleCallback) {
-        w.requestIdleCallback(() => { if (!cancelled) setReady(true); }, { timeout: 3000 });
+        w.requestIdleCallback(() => { if (!cancelled) setReady(true); }, { timeout: 8000 });
         return;
       }
-      window.setTimeout(() => { if (!cancelled) setReady(true); }, 1500);
+      window.setTimeout(() => { if (!cancelled) setReady(true); }, 8000);
     };
     if (document.readyState === "complete") {
       start();
