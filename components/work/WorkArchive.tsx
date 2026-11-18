@@ -39,7 +39,7 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
         ))}
       </div>
       <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {visible.map((project) => (
+        {visible.map((project, i) => (
           <Link
             key={project.slug}
             href={`/work/${project.slug}`}
@@ -50,7 +50,7 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
             <div className="flex h-48 items-center justify-center bg-white px-10">
               <Image
                 src={project.logo}
-                alt={`${project.name} logo`}
+                alt={i === 0 ? `${project.name} logo — SEO case studies` : `${project.name} logo`}
                 width={280}
                 height={140}
                 className="max-h-28 w-auto max-w-full object-contain"
