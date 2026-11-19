@@ -10,9 +10,9 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import CtaBand from "@/components/sections/CtaBand";
 
-const TITLE = "SEO Audit in Lahore, Pakistan | Find & Fix Ranking Issues";
+const TITLE = "SEO Audit Services Pakistan | Find & Fix Ranking Issues";
 const DESCRIPTION =
-  "An SEO audit for Lahore and Pakistan businesses: technical checks, content and link review, and a prioritised fix list so you know what to change first.";
+  "SEO audit services Pakistan: technical checks, content and link review, and a prioritised fix list for your site — so you know what to change first.";
 const SLUG = "seo-audit";
 const NAME = "SEO Audit";
 
@@ -55,59 +55,59 @@ const problems = [
   {
     title: "Invisible on the searches that matter",
     description:
-      "Competitors take the enquiries while your pages sit on page two or three for the terms your customers actually type. The audit traces each gap back to its cause, instead of guessing at fixes.",
+      "Competitors take the enquiries while your pages sit on page two or three for the terms your customers actually type. The audit traces each gap back to its cause, instead of guessing at fixes — the first thing the best SEO audit services Pakistan check before recommending anything.",
   },
   {
     title: "Technical faults quietly capping traffic",
     description:
-      "Slow pages, crawl errors and missing structure quietly limit how much of your site search engines will even consider ranking. These faults rarely announce themselves, so they can run for years unnoticed.",
+      "Slow pages, crawl errors and missing structure quietly limit how much of your site search engines will even consider ranking. These faults rarely announce themselves, so they can run for years unnoticed — until technical SEO audit services find them in a crawl.",
   },
   {
     title: "Content with no search job to do",
     description:
-      "Pages published without a clear search purpose spread effort thin. They attract the wrong visitors, answer the wrong questions, and leave the pages that could win enquiries with nothing behind them.",
+      "Pages published without a clear search purpose spread effort thin. They attract the wrong visitors, answer the wrong questions, and leave the pages that could win enquiries with nothing behind them — the gap content SEO audit services close by giving every page a search job.",
   },
 ];
 
 const deliverables = [
-  "Full technical crawl of the live site, with errors grouped by impact rather than by tool jargon.",
-  "Indexation and sitemap review, so the pages you want found are findable and the rest stay out of the way.",
-  "Speed and Core Web Vitals assessment across the pages that matter most, with the slowest culprits named.",
-  "On-page review of titles, headings, internal links and schema on key service and location pages.",
-  "Content gap review against the searches your customers type in Lahore and across Pakistan.",
-  "Backlink profile check, covering the links that help, the links that do nothing, and the links that could be harming trust.",
-  "Local visibility review, covering your Google Business Profile and the local searches around it.",
-  "A prioritised fix list, ordered by expected impact, with plain-language notes on what each change means.",
+  "Full technical crawl of the live site — technical SEO audit services Pakistan businesses start with — with errors grouped by impact rather than by tool jargon.",
+  "SEO site audit services start with indexation and sitemap review, so the pages you want found are findable and the rest stay out of the way.",
+  "Speed and Core Web Vitals assessment across the pages that matter most — part of comprehensive SEO audit services — with the slowest culprits named.",
+  "On-page SEO audit services: review of titles, headings, internal links and schema on key service and location pages.",
+  "Content gap review against the searches your customers type in Lahore and across Pakistan — the ground website audit services Pakistan cover before any content is written.",
+  "Backlink audit services: profile check covering the links that help, the links that do nothing, and the links that could be harming trust.",
+  "Local visibility review — SEO audit services for local business — covering your Google Business Profile and the local searches around it.",
+  "A prioritised fix list, ordered by expected impact, with plain-language notes on what each change means — the deliverable professional SEO audit services are judged by.",
 ];
 
 const strategyPoints = [
-  "Start with the pages closest to revenue, and work outward from there.",
-  "Separate faults that block crawling from faults that only weaken a page.",
+  "Start with the pages closest to revenue, and work outward from there — the same order SEO audit services for startups follow when the budget has no room for waste.",
+  "Separate faults that block crawling from faults that only weaken a page — the split SEO audit services for ecommerce make first, because a blocked product page costs orders.",
   "Compare against competitors who already rank, and note exactly where they are stronger.",
-  "Check what searchers in Lahore and Pakistan actually type, instead of relying on tool guesses.",
-  "End with a short list of fixes, so the report can be acted on without a second meeting.",
+  "Check what searchers in Lahore and Pakistan actually type — the ground SEO audit services in Lahore Pakistan cover first — instead of relying on tool guesses.",
+  "End with a short list of fixes — an SEO audit checklist your team can act on without a second meeting.",
 ];
 
 const processSteps = [
   {
     title: "Brief and access",
     description:
-      "We agree on the goal of the audit and the pages that matter most. You share access to Search Console and analytics, and I confirm the scope before any checking begins.",
+      "We agree on the goal of the audit and the pages that matter most — for an SEO audit for small business website owners, that is usually the pages closest to enquiries. You share access to Search Console and analytics, and I confirm the scope before any checking begins.",
   },
   {
     title: "Crawl and measure",
     description:
-      "The site is crawled the way a search engine would crawl it, and speed, indexation, structure and content are measured page by page, with the raw findings kept as evidence.",
+      "The site is crawled the way a search engine would crawl it, whether it is SEO audit services for WordPress or SEO audit services for Shopify, and speed, indexation, structure and content are measured page by page, with the raw findings kept as evidence.",
   },
   {
     title: "Review and prioritise",
     description:
-      "Findings are sorted by impact, not by volume. A fault that blocks ten pages outranks ten faults that each affect one line of text, and the report says why.",
+      "Findings are sorted by impact, not by volume — for an SEO audit for ecommerce website, a fault that blocks ten product pages outranks ten faults that each affect one line of text — and the report says why.",
   },
   {
     title: "Report and walkthrough",
     description:
-      "You receive the written audit and a plain-language walkthrough of what matters, what can wait, and what the next step should be for your site.",
+      "You receive the written audit and a plain-language walkthrough of what matters, what can wait, and what the next step should be for your site — affordable SEO audit services Pakistan owners can act on without a second meeting. The walkthrough also covers how often should you do an SEO audit for a site like yours, so the next check is planned rather than guessed at.",
   },
 ];
 
@@ -135,7 +135,7 @@ export default function SeoAuditPage() {
         <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Service</p>
         <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
-            SEO Audit in Lahore
+            SEO Audit Services Pakistan
           </span>{" "}
           — Find What Is Holding Your Site Back
         </h1>
@@ -144,11 +144,11 @@ export default function SeoAuditPage() {
           A clear, honest picture of your website’s search health — before you spend anything on fixes.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          An SEO audit is the diagnostic first step of the wider{" "}
+          If you are asking what is an SEO audit, it is the diagnostic first step of the wider{" "}
           <Link href="/services/seo" className="font-semibold text-neutral-900 underline">
             SEO services in Lahore
           </Link>{" "}
-          I offer. Instead of changing things and hoping, the audit measures what search engines can actually reach, understand and trust on your site, and then turns those measurements into a fix list in order of impact. It is the part of SEO that stops guesswork: every recommendation is tied to something found on your pages, in your analytics, or in the way competitors are outranking you.
+          I offer — the SEO audit Lahore Pakistan businesses ask for before they spend on fixes. Instead of changing things and hoping, the audit measures what search engines can actually reach, understand and trust on your site, and then turns those measurements into a fix list in order of impact. It is the part of SEO that stops guesswork: every recommendation is tied to something found on your pages, in your analytics, or in the way competitors are outranking you — the same evidence SEO audit and keyword research services start from.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Many Lahore businesses know their website should be bringing in more enquiries, but they do not know why it is not. The design may look finished, the content may read well, and the site may even rank for its own business name — yet the searches that bring new customers go to competitors. That gap is rarely caused by one dramatic fault. It is usually a collection of smaller problems: pages search engines never see, pages that load too slowly on mobile, titles that say nothing useful, and content that never matched what customers were searching for. An audit from SEO Audit Services Pakistan finds that collection and names each item, so the work that follows is aimed at the right targets from the start.
@@ -197,10 +197,10 @@ export default function SeoAuditPage() {
           The solution
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The audit works through your site the way a search engine does. It starts with access: can the important pages be found, crawled and indexed, or are they blocked, orphaned or buried under pages that do not matter? From there it moves to speed and structure, checking how quickly key pages load on real mobile connections and whether headings, titles and internal links tell search engines what each page is for. Finally it looks outward, at the content and links around your site, to see whether search engines have reason to trust your pages more than the competitors already ranking above them.
+          Website SEO audit services Pakistan work through your site the way a search engine does. They start with access: can the important pages be found, crawled and indexed, or are they blocked, orphaned or buried under pages that do not matter? From there it moves to speed and structure, checking how quickly key pages load on real mobile connections and whether headings, titles and internal links tell search engines what each page is for. Finally it looks outward, at the content and links around your site, to see whether search engines have reason to trust your pages more than the competitors already ranking above them.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          What makes the result useful is the order it is given in. A long list of faults with no ranking is almost as unhelpful as no audit at all, so every finding is scored by how much it is likely to matter and how much work it will take to fix. Quick wins come first: the changes that bring in traffic without a rebuild. Larger pieces of work are described honestly, with the trade-off stated plainly, so you can decide what to approve and what to leave. The report is written in plain language throughout, because an audit only helps if the person paying for it can understand it.
+          What makes full SEO audit services useful is the order the result is given in. A long list of faults with no ranking is almost as unhelpful as no audit at all, so every finding is scored by how much it is likely to matter and how much work it will take to fix. Quick wins come first: the changes that bring in traffic without a rebuild. Larger pieces of work are described honestly, with the trade-off stated plainly, so you can decide what to approve and what to leave. The report is written in plain language throughout — that is what SEO audit report services should deliver: an audit only helps if the person paying for it can understand it.
         </p>
       </section>
 
@@ -210,7 +210,7 @@ export default function SeoAuditPage() {
           What is included
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Every audit covers the same ground, so nothing important is left to chance. The checks below are all included, and the report shows what was found under each heading, with the evidence behind it.
+          If you are asking what does an SEO audit include, it is this: every audit covers the same ground, so nothing important is left to chance. The checks below are all included, and the report shows what was found under each heading, with the evidence behind it.
         </p>
         <ul className="mt-8 grid gap-4 sm:grid-cols-2">
           {deliverables.map((d) => (
@@ -228,7 +228,7 @@ export default function SeoAuditPage() {
           Strategy
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The strategy behind the audit is simple: measure first, fix second, and never fix what has not been measured. That order matters, because the loudest problem is not always the most important one. A site can have hundreds of warnings in a crawling tool and still rank well, if none of them touch the pages that bring enquiries. Equally, a site can look clean in a tool and still be invisible, if the pages that should rank are the ones search engines cannot reach. The audit therefore starts from the business questions — which pages should be bringing in enquiries, and which searches should be finding them — and only then works down into the technical detail. Every check is there to answer one of those questions, not to fill a report.
+          If you are asking how to do an SEO audit, the strategy behind it is simple: measure first, fix second, and never fix what has not been measured. That order matters, because the loudest problem is not always the most important one. A site can have hundreds of warnings in a crawling tool and still rank well, if none of them touch the pages that bring enquiries. Equally, a site can look clean in a tool and still be invisible, if the pages that should rank are the ones search engines cannot reach. The audit therefore starts from the business questions — which pages should be bringing in enquiries, and which searches should be finding them — and only then works down into the technical detail. Every check is there to answer one of those questions, not to fill a report. I do the audit myself, as a freelance SEO audit expert Pakistan owners hire directly — an SEO audit consultant Pakistan businesses can message directly, the SEO audit consultant Lahore owners meet in person, not an SEO audit company where the work passes down a chain.
         </p>
         <ul className="mt-6 list-disc space-y-3 pl-6 text-neutral-700">
           {strategyPoints.map((point) => (
@@ -261,7 +261,7 @@ export default function SeoAuditPage() {
           Who this is for
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
-          This audit is for businesses that already have a website and want to know, honestly, what is wrong with it before spending more on marketing. It suits owners in Lahore whose sites were built some time ago and have never been checked properly, as well as businesses elsewhere in Pakistan whose traffic has stalled and who need a second pair of eyes. It is also useful before a redesign or a new content push, when the worst outcome would be rebuilding on top of faults nobody noticed. If you would rather have a clear list of what to fix than another promise of fast rankings, this is the right starting point.
+          This audit is for businesses that already have a website and want to know, honestly, what is wrong with it before spending more on marketing. It suits owners in Lahore whose sites were built some time ago and have never been checked properly, as well as businesses elsewhere in Pakistan whose traffic has stalled and who need a second pair of eyes. It is also useful before a redesign or a new content push, when the worst outcome would be rebuilding on top of faults nobody noticed — the SEO audit services for small business Pakistan owners ask for before they rebuild. If you would rather have a clear list of what to fix than another promise of fast rankings, this is the right starting point — including SEO audit services for ecommerce Pakistan shops whose product pages stopped bringing orders.
         </p>
       </section>
 
@@ -271,7 +271,7 @@ export default function SeoAuditPage() {
           SEO audits in Lahore and across Pakistan
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The audit is carried out for businesses in Lahore first and foremost, with the <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">local searches</Link>, neighbourhoods and buying habits of the city in mind — from DHA and Gulberg to Johar Town, Model Town and Bahria Town, the aim is always the same: to be found by customers nearby who are ready to buy. The same checks apply for businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan, and for Pakistan-based businesses serving customers abroad. Because the work is done remotely using Search Console, analytics and crawling tools, the audit does not depend on where your office sits; it depends on what your site shows search engines, wherever your customers are.
+          The audit is carried out for businesses in Lahore first and foremost — SEO audit services Lahore businesses brief in person, and SEO audit services DHA Lahore teams in the city's business districts ask for first — with the <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">local searches</Link>, neighbourhoods and buying habits of the city in mind — from DHA and Gulberg to Johar Town, Model Town and Bahria Town, the aim is always the same: to be found by customers nearby who are ready to buy. The same checks apply for businesses in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan — SEO audit services Karachi and SEO audit services Islamabad work the same way, as local SEO audit services Pakistan businesses use wherever their customers are — and for Pakistan-based businesses serving customers abroad. Because the work is done remotely using Search Console, analytics and crawling tools, the audit does not depend on where your office sits; it depends on what your site shows search engines, wherever your customers are.
         </p>
       </section>
 
@@ -316,8 +316,8 @@ export default function SeoAuditPage() {
 
       <div className="mt-20">
         <CtaBand
-          title="Ready to talk about SEO Audit?"
-          description="Tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you."
+          title="Hire SEO audit expert Lahore"
+          description="Book a free SEO audit Lahore businesses start with, and tell me about your goals — I'll reply with an honest assessment of what this service can — and can't — do for you."
         />
       </div>
     </main>
