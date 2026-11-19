@@ -12,7 +12,7 @@ import CtaBand from "@/components/sections/CtaBand";
 
 const TITLE = "Off-Page SEO Services Pakistan | Earn Authority & Links";
 const DESCRIPTION =
-  "Off-page SEO services for Pakistan businesses: digital PR, link earning and authority building that raise trust with search engines and bring visitors.";
+  "Off-page SEO services Pakistan for businesses: digital PR, link earning and authority building that raise trust with search engines and bring visitors.";
 const SLUG = "off-page-seo";
 const NAME = "Off-Page SEO";
 
@@ -71,8 +71,8 @@ const problems = [
 
 const deliverables = [
   "Link audit of your current backlinks, separating the links that help from the ones that do nothing or harm.",
-  "Digital PR angles and outreach to publications and sites your customers actually read.",
-  "Linkable content ideas — guides and resources other sites will want to reference.",
+  "Off-page SEO services for ecommerce: digital PR angles and outreach to publications and sites your customers actually read.",
+  "Linkable content ideas — guides and resources other sites will want to reference — for off-page SEO services for SaaS, off-page SEO services for WordPress and off-page SEO services for local business.",
   "Local citation and directory work, keeping your business name, address and phone consistent.",
   "Google Business Profile review, with the gaps that weaken local visibility filled in.",
   "Competitor link gap analysis, showing where rivals earn links that you could earn too.",
@@ -135,7 +135,7 @@ export default function OffPageSeoPage() {
         <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Service</p>
         <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
           <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
-            Off-Page SEO Services in Pakistan
+            Off-Page SEO Services Pakistan
           </span>{" "}
           — Earn Authority That Lasts
         </h1>
@@ -151,7 +151,7 @@ export default function OffPageSeoPage() {
           I offer: everything that happens away from your website and still shapes how search engines judge it. The pages on your site say what you do; the web around it says whether anyone believes you. Links, mentions, reviews and local listings are the signals search engines use to settle that question, and this service earns them honestly — through link building and work worth linking to, rather than through shortcuts that can damage a site for years.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          A website can have good content and solid technical foundations and still sit below competitors, because search engines do not only judge pages — they judge reputations. If nobody links to your site, nobody mentions it, and no local listing confirms it, there is little for a search engine to trust. The result is familiar: pages that deserve to rank sit on the second page while older, better-known competitors take the enquiries, even when their content is no better than yours. Off-page SEO is the work that closes that trust gap, steadily and openly.
+          A website can have good content and solid technical foundations and still sit below competitors, because search engines do not only judge pages — they judge reputations. If nobody links to your site, nobody mentions it, and no local listing confirms it, there is little for a search engine to trust. The result is familiar: pages that deserve to rank sit on the second page while older, better-known competitors take the enquiries, even when their content is no better than yours. Off-page SEO is the work that closes that trust gap, steadily and openly. I am often asked what is off-page SEO, how to do off-page SEO, and how to build backlinks for small business without buying links — and my answer is the same each time: start with pages worth linking to, then earn mentions the honest way. As an off-page SEO consultant and freelance off-page SEO expert, I offer off-page SEO services for small business, off-page SEO services for startups and off-page SEO services for small business websites, using white hat off-page SEO services and off-page SEO techniques that suit a small budget.
         </p>
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <Link
@@ -197,10 +197,10 @@ export default function OffPageSeoPage() {
           The solution
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The approach starts with something worth linking to. Nobody links to a service page out of kindness, so the work creates the material other sites want to reference — clear guides, useful data, and pages that answer questions better than anything else available. Then it earns attention for that material: digital PR aimed at publications and sites your customers actually read, outreach to relevant local and industry sites, and listings that keep your business details consistent wherever they appear. Every link is earned in the open, from real sites, for a real reason.
+          The approach starts with something worth linking to. Nobody links to a service page out of kindness, so the work creates the material other sites want to reference — clear guides, useful data, and pages that answer questions better than anything else available. Then it earns attention for that material: digital PR aimed at publications and sites your customers actually read, outreach to relevant local and industry sites, and listings that keep your business details consistent wherever they appear. Every link is earned in the open, from real sites, for a real reason. I run this as an off-page SEO company and off-page SEO agency: backlink building services, link building services for small business, guest post outreach services, digital PR services, brand mention building services and local citation building services. I also run off-page SEO audit services, broken link building services and unlinked brand mention services, and I plan off-page SEO strategy services around the pages you already have.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">Local work</Link> runs alongside it. For a Lahore business, much of the authority that matters is local: your Google Business Profile, local directories and the mentions that tie your business to the city. Those signals are checked, corrected and built up, so that when someone searches for your service in Lahore, the evidence points to you. The same applies across Pakistan: city pages, local coverage and consistent listings all add up to a reputation search engines can verify. Nothing here is bought or faked — earned authority is slower, but it is the kind that lasts, and it is the kind that survives the updates that punish shortcuts.
+          <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">Local work</Link> runs alongside it. For a Lahore business, much of the authority that matters is local: your Google Business Profile, local directories and the mentions that tie your business to the city. Those signals are checked, corrected and built up, so that when someone searches for your service in Lahore, the evidence points to you. The same applies across Pakistan: city pages, local coverage and consistent listings all add up to a reputation search engines can verify. Nothing here is bought or faked — earned authority is slower, but it is the kind that lasts, and it is the kind that survives the updates that punish shortcuts. Across Pakistan I offer link building services Pakistan, backlink building services Pakistan, guest post outreach services Pakistan, digital PR services Pakistan, brand mention building services Pakistan and local citation building services Pakistan. If you want affordable off-page SEO services Pakistan businesses can sustain, the best off-page SEO services Pakistan has from a local specialist, an off-page SEO consultant Pakistan businesses can actually reach, off-page SEO audit services Pakistan, off-page SEO agency Pakistan or a freelance link building expert Pakistan, I can help — including off-page SEO for ecommerce Pakistan.
         </p>
       </section>
 
@@ -228,7 +228,7 @@ export default function OffPageSeoPage() {
           Strategy
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The strategy is to earn trust the way a real business earns it: by doing something worth noticing, and then making sure the right people notice it. That is why the work starts with content and only then moves to outreach — a link to a page that nobody would want to read is a link that nobody will give. Relevance is the second rule: a handful of links from sites your customers trust is worth more than hundreds from sites nobody in your market has heard of. And patience is the third: authority compounds month by month, and the links earned this month make the next month easier. There is no step in the plan that depends on search engines not noticing what was done, because everything about it is open and honest.
+          The strategy is to earn trust the way a real business earns it: by doing something worth noticing, and then making sure the right people notice it. That is why the work starts with content and only then moves to outreach — a link to a page that nobody would want to read is a link that nobody will give. Relevance is the second rule: a handful of links from sites your customers trust is worth more than hundreds from sites nobody in your market has heard of. And patience is the third: authority compounds month by month, and the links earned this month make the next month easier. There is no step in the plan that depends on search engines not noticing what was done, because everything about it is open and honest. I aim to deliver the best off-page SEO services I can — honest work, no shortcuts, and no links I would not want pointing at my own site. Every plan is built around your pages and your market, so the authority you earn fits the business you actually run.
         </p>
         <ul className="mt-6 list-disc space-y-3 pl-6 text-neutral-700">
           {strategyPoints.map((point) => (
@@ -271,7 +271,7 @@ export default function OffPageSeoPage() {
           Off-page SEO for Pakistan businesses
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Authority in Pakistan is earned locally as much as nationally. A Lahore business benefits most from links and mentions rooted in the city — local publications, community sites, business directories and the local searches that follow them — while a Pakistan-wide business needs the same care spread across Karachi, Islamabad, Rawalpindi and beyond. The work is planned around that geography, with outreach and listings aimed at the places your customers actually find you. Because the links are earned from real Pakistani and international sites for real reasons, the authority they build is the kind that lasts through search updates rather than vanishing with them.
+          Authority in Pakistan is earned locally as much as nationally. A Lahore business benefits most from links and mentions rooted in the city — local publications, community sites, business directories and the local searches that follow them — while a Pakistan-wide business needs the same care spread across Karachi, Islamabad, Rawalpindi and beyond. The work is planned around that geography, with outreach and listings aimed at the places your customers actually find you. Because the links are earned from real Pakistani and international sites for real reasons, the authority they build is the kind that lasts through search updates rather than vanishing with them. This is Off-Page SEO / Link Building Services Pakistan, delivered by someone based here: off-page SEO services Lahore, off-page SEO services Karachi and off-page SEO services Islamabad, as well as off-page SEO services in Lahore Pakistan and link building services Lahore. I work across the country, so the same care goes into every city, not just the one I live in.
         </p>
       </section>
 
@@ -310,8 +310,8 @@ export default function OffPageSeoPage() {
 
       <div className="mt-20">
         <CtaBand
-          title="Ready to talk about Off-Page SEO?"
-          description="Tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you."
+          title="Hire an off-page SEO expert — ready to talk?"
+          description="If you want to hire link building expert help, tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you."
         />
       </div>
     </main>
