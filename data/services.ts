@@ -351,14 +351,14 @@ export const services: Service[] = [
     slug: "shopify",
     name: "Shopify",
     tagline: "High-converting Shopify stores, built to sell.",
-    description: "Conversion-tuned Shopify stores with a fast custom theme, checkout optimization and pixel tracking.",
+    description: "Shopify store development Pakistan: conversion-tuned Shopify stores with a fast custom theme, checkout optimization and pixel tracking.",
     problem:
-      "Generic themes and app overload make stores slow and same-looking. Checkout friction, weak product pages, and blind tracking quietly kill sales you already earned.",
+      "Generic themes and app overload make stores slow and same-looking. Checkout friction, weak product pages, and blind tracking quietly kill sales you already earned. A Shopify expert in Lahore can look at the store with you and find what is costing sales — the best Shopify development company Pakistan brands work with is the one that fixes the funnel, not just the theme.",
     solution:
-      "Conversion-tuned Shopify builds: a fast, clean theme customized around your brand, product architecture that guides buying decisions, upsells that don't annoy, and tracking that shows what actually sells.",
+      "Conversion-tuned Shopify builds from a freelance Shopify developer Pakistan brands can reach directly: Shopify store design services with a fast, clean theme customized around your brand — custom Shopify development services, not a generic template — product architecture that guides buying decisions, upsells that don't annoy, and tracking that shows what actually sells. Affordable Shopify development Pakistan means paying for the build that sells, not for features you will not use — and if you want to hire Shopify developer help, you work with me directly, from brief to launch.",
     deliverables: [
-      { text: "Store setup and theme customization" },
-      { text: "Product and collection architecture" },
+      { text: "Shopify theme development services — custom theme and store setup" },
+      { text: "Shopify store design Pakistan — product and collection architecture" },
       { text: "Checkout and upsell optimization" },
       { text: "Speed optimization", href: "/blog/technical-seo-checklist-2026" },
       { text: "Payments, shipping, and tax setup" },
@@ -374,37 +374,37 @@ export const services: Service[] = [
       "Shopify Apps",
     ],
     idealFor:
-      "Brands launching direct-to-consumer sales — or stores that get traffic but not enough orders.",
+      "Brands launching direct-to-consumer sales — Shopify development for startups and Shopify development services for small business owners launching a first store — or Shopify store development for small business clients whose store gets traffic but not enough orders.",
     faqs: [
       {
         q: "Shopify or WooCommerce — which should I pick?",
-        a: "Shopify if you want selling infrastructure handled for you and a store live fast. WooCommerce if you need deep customization and already run WordPress. I'll recommend based on your situation, not my preference.",
+        a: "Shopify if you want selling infrastructure handled for you and a store live fast. WooCommerce if you need deep customization and already run WordPress. I'll recommend based on your situation, not my preference. If you are wondering what is Shopify development, it is building and customizing a Shopify store — theme, product setup, checkout and tracking — so the store sells rather than just existing.",
       },
       {
         q: "Can you migrate my existing store?",
-        a: "Yes — products, customers, orders, and URL redirects handled so you don't lose rankings or break bookmarks in the move.",
+        a: "Yes — Shopify migration services cover products, customers, orders, and URL redirects, handled so you don't lose rankings or break bookmarks in the move. If you are asking how to choose a Shopify developer, ask whether they handle the migration properly — products, customers, orders and redirects — and whether they will show you the store working before it goes live.",
       },
       {
         q: "Do you handle product uploads and content?",
-        a: "I set up the structure and train your team; bulk product imports can be included. Ongoing catalog management stays with you — that's how it should be.",
+        a: "I set up the structure and train your team; bulk product imports can be included. Ongoing catalog management stays with you — that's how it should be. If you are asking how to set up a Shopify store in Pakistan, I handle the store setup — payments, shipping and tax, COD and local gateways — and train your team so you can run it yourself.",
       },
     ],
   },
   {
     slug: "performance-marketing",
     name: "Performance Marketing",
-    tagline: "Full-funnel paid growth across Google, Meta, and beyond — managed as one P&L.",
-    description: "Google and Meta managed as one P&L, with unified tracking, shared creative learnings and plain-language reporting.",
+    tagline: "Ecommerce performance marketing services — full-funnel paid growth across Google, Meta, and beyond, managed as one P&L.",
+    description: "A Performance marketing agency Pakistan brands can reach directly: Google and Meta managed as one P&L, with unified tracking, shared creative learnings and plain-language reporting.",
     problem:
-      "Agencies optimize channels in silos: Google reports a ROAS, Meta reports a ROAS, and nobody reports profit. Budgets stay where they're comfortable instead of where they convert.",
+      "ROAS focused performance marketing Pakistan should report profit, not channel ROAS: Google reports a ROAS, Meta reports a ROAS, and nobody reports profit. Budgets stay where they're comfortable instead of where they convert. A ROAS agency Pakistan brands hire should answer one question: did it make money? Performance marketing services Karachi, Lahore and Islamabad businesses buy should work the same way — one owner, one P&L.",
     solution:
-      "One accountable owner across channels: unified tracking and attribution, creative learnings shared between platforms, landing pages built to convert the traffic, and budgets that move to whatever acquires customers cheapest.",
+      "One accountable owner across channels — a freelance performance marketing consultant Pakistan brands can reach directly, and a performance marketing agency Islamabad, Lahore and Karachi businesses can brief in person: unified tracking and attribution, creative learnings shared between platforms, landing pages built to convert the traffic, and budgets that move to whatever acquires customers cheapest. Paid media marketing services, run as one P&L. If you want to hire performance marketing agency help, tell me about your ad spend and I'll reply with an honest assessment of what this service can — and can't — do for you.",
     deliverables: [
-      { text: "Cross-channel growth strategy", href: "/blog/performance-marketing-pakistan" },
+      { text: "Performance marketing strategy services — cross-channel growth strategy", href: "/blog/performance-marketing-pakistan" },
       { text: "Unified tracking and attribution setup" },
-      { text: "Google and Meta campaign management", href: "/services/google-ads" },
-      { text: "Creative testing program", href: "/services/meta-ads" },
-      { text: "Landing page conversion optimization", href: "/services/web-development" },
+      { text: "Google Ads management services — Google and Meta campaign management", href: "/services/google-ads" },
+      { text: "Meta Ads management services — creative testing program", href: "/services/meta-ads" },
+      { text: "Conversion rate optimization services — landing page conversion optimization", href: "/services/web-development" },
       { text: "Budget allocation by marginal acquisition cost" },
       { text: "Monthly growth reporting in plain language" },
     ],
@@ -417,19 +417,19 @@ export const services: Service[] = [
       "n8n",
     ],
     idealFor:
-      "Businesses already spending on ads that need one accountable owner for growth — not three dashboards.",
+      "Businesses already spending on ads that need one accountable owner for growth — not three dashboards. A performance marketing consultant Lahore brands can brief in person, who owns the P&L, not a channel. Performance marketing for small business Pakistan means the same discipline at a smaller spend — one owner, one report, budgets that move to what works. Performance marketing services for ecommerce brands Pakistan businesses use to turn ad spend into revenue — affordable performance marketing services Pakistan for businesses that need every rupee to earn its place.",
     faqs: [
       {
         q: "How is this different from hiring channel specialists?",
-        a: "Specialists optimize their channel; I optimize your profit. When Google and Meta compete for the same budget, someone has to decide based on marginal cost per customer — that's the job.",
+        a: "Specialists optimize their channel; I optimize your profit. When Google and Meta compete for the same budget, someone has to decide based on marginal cost per customer — that's the job. If you are wondering what is performance marketing, it is advertising where every rupee is tracked to a measurable result — a sale, a lead, a signup — and budgets move to whatever acquires customers cheapest.",
       },
       {
         q: "What spend level makes this worthwhile?",
-        a: "Enough that reallocating budget between channels moves the needle. If you're spending meaningfully on two or more channels without unified reporting, you're the right fit.",
+        a: "Enough that reallocating budget between channels moves the needle. If you're spending meaningfully on two or more channels without unified reporting, you're the right fit. If you are asking how to choose a performance marketing agency, look for one accountable owner across channels who reports profit, not channel ROAS — and who will show you the numbers before asking for more budget.",
       },
       {
         q: "How do you report results?",
-        a: "One report: spend, revenue, cost per acquisition, and what changed because of the data. No vanity metrics, no 40-slide decks that say nothing.",
+        a: "One report: spend, revenue, cost per acquisition, and what changed because of the data. No vanity metrics, no 40-slide decks that say nothing. If you are asking how does performance marketing work, that report is the answer: spend tracked to revenue, and budgets moved to whatever acquires customers cheapest.",
       },
     ],
   },
