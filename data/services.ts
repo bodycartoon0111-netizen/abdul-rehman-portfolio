@@ -439,15 +439,15 @@ export const services: Service[] = [
     tagline: "AI workflows that remove busywork and follow up like clockwork.",
     description: "Practical AI workflows for lead follow-up, CRM updates and reporting, with human-in-the-loop safeguards.",
     problem:
-      "AI automation services in Pakistan that start from costed workflows, not from tools. Lead follow-up, CRM updates and reporting — automated where they pay, with a human approving anything customer-facing. Practical AI for small teams, built in Lahore.",
+      "AI automation services in Pakistan that start from costed workflows, not from tools. Lead follow-up, CRM updates and reporting — automated where they pay, with a human approving anything customer-facing. Practical AI automation for small business, built in Lahore — AI automation services for small business that fit small teams, priced around the hours they return.",
     solution:
-      "Practical AI automation, not demos: instant lead responses, CRM updates, content pipelines, and reporting — wired into the tools you already use, with human-in-the-loop safeguards where judgment matters.",
+      "Practical AI automation, not demos: instant lead responses, CRM updates, content pipelines, and reporting — wired into the tools you already use, with human-in-the-loop safeguards where judgment matters. The same approach fits AI automation services for startups, AI automation services for agencies and AI automation services for ecommerce: automate the most expensive workflow first, then the next one. For chat, I build AI chatbot development Lahore businesses can brief in person — the AI chatbot services Pakistan teams use for first responses, with the same human approval before anything reaches a customer.",
     deliverables: [
-      { text: "Automation opportunity audit", href: "/blog/ai-automation-small-marketing-team" },
-      { text: "Instant lead response and nurturing workflows", href: "/blog/ai-automation-small-marketing-teams-pakistan-workflows" },
-      { text: "CRM and tool integrations", href: "/services/custom-software" },
-      { text: "AI chat assistants for sales and support" },
-      { text: "Content and reporting pipelines", href: "/blog/ai-automation-small-marketing-team" },
+      { text: "Automation opportunity audit — the first step the best AI automation services take before building anything", href: "/blog/ai-automation-small-marketing-team" },
+      { text: "AI lead follow-up automation services — instant lead response and nurturing workflows", href: "/blog/ai-automation-small-marketing-teams-pakistan-workflows" },
+      { text: "CRM and tool integrations, including AI email automation services", href: "/services/custom-software" },
+      { text: "AI chatbot services — AI chat assistants for sales and support" },
+      { text: "AI document processing services, content and reporting pipelines", href: "/blog/ai-automation-small-marketing-team" },
       { text: "Human-in-the-loop safeguards" },
       { text: "Documentation and handover" },
     ],
@@ -460,19 +460,19 @@ export const services: Service[] = [
       "Airtable",
     ],
     idealFor:
-      "Teams losing time — or leads — to manual, repetitive work that software should be doing.",
+      "Teams losing time — or leads — to manual, repetitive work that software should be doing. It fits AI automation for marketing teams and the AI agents for small business Pakistan businesses use for first replies, and the AI chatbot for small business Pakistan owners need, with the AI automation tools for small business Pakistan owners need to run it without hiring.",
     faqs: [
       {
         q: "Will AI replace my team?",
-        a: "It replaces the repetitive parts of their jobs — data entry, first responses, follow-up reminders — so humans spend time on judgment and relationships. That's the goal I design for.",
+        a: "It replaces the repetitive parts of their jobs — data entry, first responses, follow-up reminders — so humans spend time on judgment and relationships. That's the goal I design for. If you are asking what is AI automation, it is software carrying out the repetitive steps of a workflow — reading, drafting, routing and updating records — while people keep the decisions. That is how AI automation helps small business in practice: the repetitive work goes to the workflow, and the judgment stays with your team.",
       },
       {
         q: "What tools can you integrate with?",
-        a: "CRMs, spreadsheets, email, WhatsApp, ad platforms, and most tools with an API. The audit maps your actual stack before anything is built.",
+        a: "CRMs, spreadsheets, email, WhatsApp, ad platforms, and most tools with an API. The audit maps your actual stack before anything is built. If you are asking what is AI automation for small business, it is this same idea at a smaller scale: the tools you already use, connected so the repetitive steps run themselves.",
       },
       {
         q: "Is my business data safe?",
-        a: "Automations run on infrastructure you control where possible, with least-privilege access and no training on your private data. Data handling is documented, not hand-waved.",
+        a: "Automations run on infrastructure you control where possible, with least-privilege access and no training on your private data. Data handling is documented, not hand-waved. If you are working out how to choose an AI automation consultant, ask how your data is handled, who can see it, and whether anything is trained on it — the answers should be written down, not hand-waved.",
       },
     ],
   },
