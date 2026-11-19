@@ -82,8 +82,8 @@ const deliverables = [
 
 const strategyPoints = [
   "Fix what blocks crawling before anything else, because hidden pages cannot rank.",
-  "Spend crawl budget on the pages that bring enquiries, not on filters, tags and duplicates.",
-  "Measure speed on real mobile conditions, not only on a fast office connection.",
+  "Spend crawl budget on the pages that bring enquiries, not on filters, tags and duplicates. That is where crawlability and indexation services Pakistan businesses need most are focused — on the pages that earn, not on filters and duplicates.",
+  "Measure speed on real mobile conditions, not only on a fast office connection. Website speed optimization services Pakistan and website speed optimization Lahore work is measured the same way: on the connections customers actually use.",
   "Use schema to state plainly what each page is, instead of leaving search engines to guess.",
   "Verify every fix after it is made, and keep the evidence, so the improvement is proven rather than assumed.",
 ];
@@ -92,12 +92,12 @@ const processSteps = [
   {
     title: "Crawl and baseline",
     description:
-      "The site is crawled and the current measurements are recorded — speed, indexation and structure — so every later improvement can be compared against them.",
+      "The site is crawled and the current measurements are recorded — speed, indexation and structure — so every later improvement can be compared against them. The baseline covers technical SEO audit services Lahore work as well as technical SEO audit Lahore checks — the same crawl, read for the pages Lahore customers actually search for.",
   },
   {
     title: "Prioritise the faults",
     description:
-      "Faults are ordered by impact: crawl blocks and broken links first, then speed, then structure, with the reasoning written down.",
+      "Faults are ordered by impact: crawl blocks and broken links first, then speed, then structure, with the reasoning written down. Technical SEO audit services Pakistan clients get the same ranked list, so the most expensive faults are fixed first.",
   },
   {
     title: "Fix on the site",
@@ -148,7 +148,7 @@ export default function TechnicalSeoPage() {
           <Link href="/services/seo" className="font-semibold text-neutral-900 underline">
             SEO services in Lahore
           </Link>{" "}
-          I offer: it makes sure search engines can reach every page that matters, <Link href="/blog/fast-website-seo-nextjs" className="font-semibold text-neutral-900 underline">load it quickly</Link>, and understand what it is about. If you are wondering what is technical SEO, in plain terms it is this: the crawl, speed and structure work that lets content and links do their job. A brilliant article on a page Google cannot crawl might as well not exist, which is why I start with a technical SEO audit and technical SEO audit services that find the faults first. As a technical SEO consultant, I fix the foundations first — JavaScript SEO services, schema markup services and Next.js technical SEO services included — then prove each fix with measurements, so rankings are built on something solid rather than on hope.
+          I offer: my technical SEO services make sure search engines can reach every page that matters, <Link href="/blog/fast-website-seo-nextjs" className="font-semibold text-neutral-900 underline">load it quickly</Link>, and understand what it is about. If you are wondering what is technical SEO, in plain terms it is this: the crawl, speed and structure work that lets content and links do their job. A brilliant article on a page Google cannot crawl might as well not exist, which is why I start with a technical SEO audit and technical SEO audit services that find the faults first. As a technical SEO consultant, I fix the foundations first — JavaScript SEO services, schema markup services and Next.js technical SEO services included — then prove each fix with measurements, so rankings are built on something solid rather than on hope.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Many websites in Pakistan are built to look good and never checked for the things search engines care about. Pages load slowly on the mobile connections most customers use, important pages sit behind broken links or JavaScript that crawlers cannot follow, and search engines are left to guess what each page is about because the structure gives them nothing to work with. The owner sees a finished website; Google sees a maze. Technical SEO is the work of clearing that maze, page by page, until the site is easy to crawl, quick to load and simple to understand. Owners often ask how to fix technical SEO issues when rankings stall, and how to do a technical SEO audit that actually finds the cause — the answer is a technical SEO audit checklist worked through in order, from crawl blocks to website crawl error fix services for the broken links and redirect chains underneath. Many of those same sites also need to know how to improve website speed on the mobile connections most customers use, because a page that loads slowly loses visitors before its content is ever read.
