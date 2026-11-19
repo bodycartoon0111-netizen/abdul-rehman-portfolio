@@ -591,48 +591,48 @@ serviceArea: {
   },
   "custom-software": {
     slug: "custom-software",
-    h1: "Custom Software in Pakistan — Systems Built for Business.",
-      h1Highlight: "Custom Software in Pakistan",
+    h1: "Custom Software Development Pakistan — Custom Software Development Services Built for Your Business",
+      h1Highlight: "Custom Software Development Pakistan",
     problems: [
       {
         title: "Processes held together by spreadsheets",
         description:
-          "Critical operations living in Excel files and WhatsApp threads — fragile, unsearchable, and one lost phone away from disaster.",
+          "Critical operations living in Excel files and WhatsApp threads — fragile, unsearchable, and one lost phone away from disaster — the kind of fragility business software development services are built to remove.",
       },
       {
         title: "Off-the-shelf tools that almost fit",
         description:
-          "Subscriptions piled on subscriptions, each covering 80% of the need and none of them talking to each other.",
+          "Subscriptions piled on subscriptions, each covering 80% of the need and none of them talking to each other — the gap custom software solutions close by replacing five subscriptions with one system.",
       },
       {
         title: "No visibility into the business",
         description:
-          "Decisions made on gut feeling because the data exists but lives in five disconnected places.",
+          "Decisions made on gut feeling because the data exists but lives in five disconnected places — the blind spot dashboard development services close by pulling the numbers into one view.",
       },
     ],
     strategy:
-      "Custom software earns its keep by removing friction from the specific way your business actually works. The strategy maps the real workflow first — not the idealized one — then builds the smallest system that removes the biggest pain. Integrations connect what you already use; automation handles the repetitive middle; dashboards surface what matters.",
+      "Custom software earns its keep by removing friction from the specific way your business actually works — that is the job of a custom software development company, and the reason clients hire a custom software developer instead of buying another subscription. The strategy maps the real workflow first — not the idealized one — then builds the smallest system that removes the biggest pain. Whether it is custom software development for small business or custom software development for startups, the shape of the build stays the same: map first, build second. Integrations connect what you already use; business automation software development handles the repetitive middle; dashboards surface what matters — the core of business software development services and enterprise software development services alike. That covers custom application development services and SaaS development services — software development services shaped around one business at a time. Where an old system still runs the business, legacy software modernisation services rebuild it in place, piece by piece, instead of a risky rip-and-replace. And when the brief is a customer-facing product, custom web application development and web application development services get the same workflow-first treatment.",
     strategyPoints: [
-      "Workflow-first: the software follows your process, not the other way around",
-      "Start with the highest-friction problem, prove value, then expand",
-      "Integrations with your existing tools instead of rip-and-replace",
+      "Workflow-first: the software follows your process, not the other way around — custom software development Lahore teams work this way when the process comes first",
+      "Start with the highest-friction problem, prove value, then expand — the same way the best custom software company in Pakistan would scope a first phase",
+      "Integrations with your existing tools instead of rip-and-replace — custom software solutions Pakistan businesses can actually maintain",
       "Built for the team that will use it daily — simple beats clever",
     ],
     process: [
       {
         title: "Mapping",
         description:
-          "Your current workflow documented honestly — including the workarounds nobody admits to.",
+          "Your current workflow documented honestly — including the workarounds nobody admits to — the first step of any custom software development process, and the step a custom software development company Lahore clients start with.",
       },
       {
         title: "Specification",
         description:
-          "A clear build plan: what the system does, what it connects to, and what success looks like.",
+          "A clear build plan: what the system does, what it connects to, and what success looks like — written so a software development company in Lahore, or a freelance software developer, could pick it up and build it.",
       },
       {
         title: "Build",
         description:
-          "Iterative development with working versions in your hands early and often.",
+          "Iterative development with working versions in your hands early and often — custom software development services Lahore clients review in weekly cycles.",
       },
       {
         title: "Adoption",
@@ -642,79 +642,79 @@ serviceArea: {
     ],
     metaTitle: "Custom Software Development Pakistan | CRMs & Dashboards",
     metaDescription:
-      "Custom software development in Pakistan: internal tools, dashboards and integrations built around how your business works. Custom-built, never off-the-shelf.",
+      "Custom software development Pakistan — custom software development services for CRMs, dashboards and internal tools built around your business.",
     faqHeading: "Custom Software FAQ",
-    snippet: "Custom software development in Pakistan means building internal tools, dashboards and systems around how a specific business actually works — instead of forcing the team into off-the-shelf software. The workflow is mapped first, then the smallest useful system is built, integrated with existing tools, and owned outright.",
+    snippet: "Custom software development in Pakistan means building internal tools, dashboards and systems around how a specific business actually works — instead of forcing the team into off-the-shelf software. The workflow is mapped first, then the smallest useful system is built — custom CRM development, a dashboard or an internal tool — integrated with existing tools, and owned outright.",
     introLinks: [
-      { prefix: "Custom software development in Pakistan should start with your workflow, not with a feature list. I map how your team actually works — spreadsheets, workarounds and all — then build the CRM, dashboard or internal tool that removes the biggest friction first. The system is yours outright, with ", anchor: "apps on top", href: "/services/app-development", suffix: " when you need them and", },
+      { prefix: "Custom software development in Pakistan should start with your workflow, not with a feature list. I map how your team actually works — spreadsheets, workarounds and all — then build the CRM, dashboard or internal tool that removes the biggest friction first — custom software development for small business, built the same workflow-first way. The system is yours outright, with ", anchor: "apps on top", href: "/services/app-development", suffix: " when you need them and", },
       { prefix: "", anchor: "automation", href: "/services/ai-automation", suffix: " for the repetitive middle.", },
       { prefix: "", anchor: "Discuss your system", href: "/contact", suffix: ".", },
     ],
-    deliverablesLead: "Everything custom software development in Pakistan should deliver — from process mapping to team training.",
+    deliverablesLead: "Everything custom software development in Pakistan should deliver — CRM development Pakistan, dashboards, process mapping and team training.", serviceArea: { heading: "Custom Software Development Across Pakistan", text: "Custom software development Pakistan work is in person in Lahore — as a Custom software company Pakistan businesses can meet face to face — and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Business software development Pakistan teams get the same workflow-first build, from a web application development company Pakistan clients brief directly, with custom CRM development Lahore teams can visit in person, and business automation software Pakistan teams use to remove repetitive work. If you want affordable custom software development Pakistan work that starts with one small system, tell me about the workflow that costs you the most time." }, ctaTitle: "Hire a custom software developer in Lahore", ctaDescription: "If you want to hire custom software developer Lahore help, tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you.",
   },
   wordpress: {
     slug: "wordpress",
-    h1: "WordPress Development in Pakistan — Fast, Secure Websites.",
-      h1Highlight: "WordPress Development in Pakistan",
+    h1: "WordPress Development Services Pakistan — Fast, Secure Websites.",
+      h1Highlight: "WordPress Development Services Pakistan",
     problems: [
       {
         title: "A WordPress site held together by plugins",
         description:
-          "Forty plugins deep, updates everyone is afraid to run, and a site that gets slower every month.",
+          "Forty plugins deep, updates everyone is afraid to run, and a site that gets slower every month — the bloat WordPress speed optimization services Pakistan clients ask me to strip out first.",
       },
       {
         title: "Hacked, or one update away from it",
         description:
-          "Outdated themes and nulled plugins turning the site into a liability instead of an asset.",
+          "Outdated themes and nulled plugins turning the site into a liability instead of an asset — the risk WordPress security services close with hardening, updates and backups.",
       },
       {
         title: "Can't publish without breaking things",
         description:
-          "A fragile page-builder setup where every content update risks the layout.",
+          "A fragile page-builder setup where every content update risks the layout — the fragility WordPress website redesign services replace with a clean, lean theme.",
       },
     ],
     strategy:
-      "WordPress is at its best when it's boring: a lean theme, a handful of well-chosen plugins, and hardened security. The strategy strips the bloat, locks down the attack surface, and rebuilds the editing experience so publishing feels safe. Speed optimization and SEO fundamentals come standard in WordPress development services Pakistan, not as add-ons.",
+      "WordPress is at its best when it's boring: a lean theme, a handful of well-chosen plugins, and hardened security. That is WordPress website development services done properly — custom WordPress development services, not a bought theme with forty plugins. The strategy strips the bloat, locks down the attack surface, and rebuilds the editing experience so publishing feels safe — whether it is WordPress development for small business or WordPress development services for startups. Speed optimization and SEO fundamentals come standard in WordPress development services Pakistan, not as add-ons. WordPress SEO services come from a WordPress SEO consultant for small business — the same WordPress SEO consultant help I build into every site, so the SEO fundamentals are never an afterthought.",
     strategyPoints: [
-      "Lean builds — only the plugins the site actually needs, nothing more",
+      "Lean builds — only the plugins the site actually needs, nothing more — including headless WordPress development services where a decoupled front end fits",
       "Security hardening: updates, backups, and locked-down access as standard",
-      "Editor experience your team can use without fear of breaking layouts",
-      "Performance and SEO fundamentals baked in from the start",
+      "Editor experience your team can use without fear of breaking layouts — and WordPress multisite development services when one install must serve several sites",
+      "Performance and SEO fundamentals baked in from the start, with WordPress API integration services where the site must talk to other tools",
     ],
     process: [
       {
         title: "Audit",
         description:
-          "Current site reviewed: plugin bloat, security gaps, speed issues, and what's worth keeping.",
+          "Current site reviewed: plugin bloat, security gaps, speed issues, and what's worth keeping — the first step of any WordPress website development Pakistan project.",
       },
       {
         title: "Blueprint",
         description:
-          "Theme approach, plugin shortlist, and content structure agreed up front.",
+          "Theme approach, plugin shortlist, and content structure agreed up front — the blueprint for custom WordPress development Lahore clients approve before a build starts.",
       },
       {
         title: "Build",
         description:
-          "Clean build or rebuild on staging, with content migrated and redirects mapped.",
+          "Clean build or rebuild on staging, with content migrated and redirects mapped — including WordPress ecommerce development services and WooCommerce development services for stores.",
       },
       {
         title: "Handover",
         description:
-          "Security checklist, backup routine, and training so your team publishes confidently.",
+          "Security checklist, backup routine, and training so your team publishes confidently — the handover WordPress development services Lahore clients get on every build.",
       },
     ],
-    metaTitle: "WordPress Development Pakistan | Fast, Secure Sites",
+    metaTitle: "WordPress Development Services Pakistan | Fast, Secure Sites",
     metaDescription:
-      "WordPress development in Pakistan: lean, secure, super-fast WordPress websites your team can easily manage — no bloated themes, no plugin chaos.",
+      "WordPress development services Pakistan — lean, secure WordPress websites with a custom theme, speed and security your team can manage.",
     faqHeading: "WordPress FAQ",
-    snippet: "WordPress development in Pakistan means building lean, secure WordPress websites with a custom theme, only the plugins the site genuinely needs, and hardened security — so the team can publish without fear and the site stays fast. WordPress's flexibility without its reputation for bloat.",
+    snippet: "WordPress development in Pakistan means building lean, secure WordPress websites — WordPress website development Lahore teams can brief in person — with a custom theme, only the plugins the site genuinely needs, and hardened security — so the team can publish without fear and the site stays fast. Stores get the same treatment through WooCommerce development Pakistan builds. WordPress's flexibility without its reputation for bloat.",
     introLinks: [
-      { prefix: "WordPress development in Pakistan should be boring — in the best way. A lean custom theme, only the plugins your site genuinely needs, and hardened security, built by one consultant in Lahore: ", anchor: "Abdul Rehman", href: "/about", suffix: ". Your team publishes without fear, your site stays fast, and the", },
+      { prefix: "WordPress development in Pakistan should be boring — in the best way. A lean custom theme, only the plugins your site genuinely needs, and hardened security, built by one consultant in Lahore — the WordPress development company Lahore businesses meet in person: ", anchor: "Abdul Rehman", href: "/about", suffix: ". Your team publishes without fear, your site stays fast, and the", },
       { prefix: "", anchor: "SEO fundamentals", href: "/services/seo", suffix: " are baked in from the start. Selling online instead? See", },
       { prefix: "", anchor: "Shopify development", href: "/services/shopify", suffix: ".", },
       { prefix: "", anchor: "Discuss your WordPress site", href: "/contact", suffix: ".", },
     ],
-    deliverablesLead: "Everything WordPress development services in Pakistan should include — custom theme, speed, security, and training.",
+    deliverablesLead: "Everything WordPress development services in Pakistan should include — custom theme, speed, security, and training — including WordPress ecommerce website development Pakistan for stores that sell.", serviceArea: { heading: "WordPress Development Across Pakistan", text: "WordPress development services Pakistan work is in person in Lahore — WordPress website development Lahore clients can brief face to face — and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. As a WordPress SEO consultant Pakistan businesses can reach directly, I build sites your team can publish on without fear." }, ctaTitle: "Hire WordPress developer in Lahore", ctaDescription: "If you want to hire WordPress developer Pakistan help, tell me about your site and I'll reply with an honest assessment of what this service can — and can't — do for you.",
   },
   shopify: {
     slug: "shopify",
