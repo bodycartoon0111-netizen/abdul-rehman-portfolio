@@ -718,18 +718,18 @@ serviceArea: {
   },
   shopify: {
     slug: "shopify",
-    h1: "Shopify Development in Pakistan — Stores Built to Convert.",
-      h1Highlight: "Shopify Development in Pakistan",
+    h1: "Shopify Development Services Pakistan — Stores Built to Convert.",
+      h1Highlight: "Shopify Development Services Pakistan",
     problems: [
       {
         title: "A store that doesn't convert",
         description:
-          "Traffic arrives but checkout stays quiet — friction in the product pages, the cart, or the trust signals.",
+          "Traffic arrives but checkout stays quiet — friction in the product pages, the cart, or the trust signals. Shopify store development in Lahore Pakistan starts by finding that friction.",
       },
       {
         title: "Generic theme, generic results",
         description:
-          "An out-of-the-box look that tells customers nothing about why they should buy from you specifically.",
+          "An out-of-the-box look that tells customers nothing about why they should buy from you specifically. Shopify store redesign services start from what is already working and fix what is not — the look, the product pages, and the checkout.",
       },
       {
         title: "Held back by app overload",
@@ -738,110 +738,110 @@ serviceArea: {
       },
     ],
     strategy:
-      "Shopify stores win on trust and frictionless checkout. The strategy sharpens the offer and product presentation first, then removes every unnecessary step between 'interested' and 'ordered'. Local payment methods, clear shipping information, and mobile-first design are treated as conversion essentials, not nice-to-haves.",
+      "Shopify store development services win on trust and frictionless checkout — the best Shopify development services are measured by orders, not by launch day. The strategy sharpens the offer and product presentation first, then removes every unnecessary step between 'interested' and 'ordered'. Local payment methods, clear shipping information, and mobile-first design are treated as conversion essentials, not nice-to-haves. Shopify SEO services Pakistan are baked into every build — SEO for ecommerce stores, from a Shopify SEO expert — titles, structure and product pages that help the store rank as well as convert. For larger catalogues, Shopify Plus development Pakistan builds on the same conversion-first approach, with Shopify Plus development services for stores that need room to scale. For brands that need a fully custom front end, headless Shopify development services separate the storefront from Shopify's backend while keeping checkout and payments intact. Shopify dropshipping store setup Pakistan sellers get the same treatment: supplier products presented clearly, shipping that reconciles, and COD that works.",
     strategyPoints: [
-      "Conversion-focused product pages: photography guidance, reviews, and clear offers",
-      "Checkout friction audit — every extra step measured against its cost",
-      "Local payment and shipping setup done properly from day one",
-      "App minimalism: native theme features first, paid apps only where they earn it",
+      "Shopify product page optimization services: conversion-focused product pages — photography guidance, reviews, and clear offers",
+      "Shopify CRO services: checkout friction audit — every extra step measured against its cost",
+      "Shopify payment gateway setup services: local payment and shipping setup done properly from day one",
+      "App minimalism: native theme features first, paid apps only where they earn it — and Shopify app development services when a custom app is the honest answer",
     ],
     process: [
       {
         title: "Audit",
         description:
-          "Existing store or business reviewed: offer strength, funnel leaks, and quick wins.",
+          "Shopify store development services Lahore: existing store or business reviewed — offer strength, funnel leaks, and quick wins.",
       },
       {
         title: "Design",
         description:
-          "Store design built around your products and customers — not a generic theme demo.",
+          "Shopify development services Lahore: store design built around your products and customers — not a generic theme demo.",
       },
       {
         title: "Build",
         description:
-          "Development, product setup, payments, shipping, and apps — configured and tested.",
+          "Shopify store setup Pakistan and Shopify theme development Pakistan: development, product setup, payments, shipping, and apps — configured and tested.",
       },
       {
         title: "Launch",
         description:
-          "Pre-launch checklist, analytics, and a growth roadmap for what comes after day one.",
+          "Shopify store setup Lahore and across Pakistan: pre-launch checklist, analytics, and a growth roadmap for what comes after day one — with Shopify maintenance services after launch so updates and fixes are handled.",
       },
     ],
     metaTitle: "Shopify Development Pakistan | High-Converting Stores",
     metaDescription:
-      "Shopify development in Pakistan: conversion-focused online stores with proper payments, shipping and mobile-first design — built to sell from day one.",
+      "Shopify development services — conversion-focused Shopify development Pakistan stores with proper payments, shipping and mobile-first design.",
     faqHeading: "Shopify FAQ",
-    snippet: "Shopify development in Pakistan means building a conversion-focused online store on Shopify — fast theme, product architecture, checkout optimization, local payments like COD and JazzCash, courier setup, and tracking — so a brand can sell from day one without managing servers or security.",
+    snippet: "Shopify development in Pakistan means building a conversion-focused online store on Shopify — Shopify store setup services and Shopify website development services covering fast theme, product architecture, checkout optimization, local payments like COD and JazzCash, courier setup, and tracking — so a brand can sell from day one without managing servers or security. Built by a Shopify expert Pakistan brands can reach directly — the Shopify development company Lahore brands brief in person.",
     introLinks: [
-      { prefix: "Shopify development in Pakistan is not just a theme — it is COD that works, JazzCash and EasyPaisa connected properly, courier setup that reconciles, and a mobile-first store that loads fast on Pakistani connections. I build conversion-focused stores for brands that want to sell from day one, with ", anchor: "tracking that shows what actually sells", href: "/services/performance-marketing", suffix: " and", },
+      { prefix: "Shopify development Pakistan is not just a theme — it is COD that works, JazzCash and EasyPaisa connected properly, courier setup that reconciles, and a mobile-first store that loads fast on Pakistani connections. I build conversion-focused stores for brands that want to sell from day one, with ", anchor: "tracking that shows what actually sells", href: "/services/performance-marketing", suffix: " and", },
       { prefix: "", anchor: "Meta ads", href: "/services/meta-ads", suffix: " ready to plug in. Not sure Shopify is right? Compare it with", },
       { prefix: "", anchor: "WordPress and WooCommerce", href: "/services/wordpress", suffix: ".", },
-      { prefix: "", anchor: "Discuss your store", href: "/contact", suffix: ".", },
+      { prefix: "", anchor: "Discuss your store", href: "/contact", suffix: ". If you want to hire Shopify developer Lahore help, tell me about your store and I'll reply with an honest assessment.", },
     ],
-    deliverablesLead: "Everything Shopify development in Pakistan should include — store, checkout, local payments, and tracking.",
+    deliverablesLead: "Everything Shopify development services for ecommerce brands in Pakistan should include — store, checkout, local payments, and tracking.",
   },
   "performance-marketing": {
     slug: "performance-marketing",
-    h1: "Performance Marketing in Pakistan — Campaigns With ROI.",
-      h1Highlight: "Performance Marketing in Pakistan",
+    h1: "Performance Marketing Services Pakistan — Campaigns With ROI.",
+      h1Highlight: "Performance Marketing Services Pakistan",
     problems: [
       {
         title: "Marketing spend nobody can defend",
         description:
-          "Budget going out across channels with no clear line to revenue coming back.",
+          "Budget going out across channels with no clear line to revenue coming back. Performance marketing for startups starts by drawing that line — every rupee tied to a result.",
       },
       {
         title: "Channels working against each other",
         description:
-          "Google, Meta, and email each optimized in isolation — double-counted conversions and contradictory decisions.",
+          "Google, Meta, and email each optimized in isolation — double-counted conversions and contradictory decisions. A performance marketing consultant for ecommerce fixes that by deciding from one set of numbers.",
       },
       {
         title: "Reports full of vanity metrics",
         description:
-          "Impressions and clicks reported as wins while the actual question — did it make money? — goes unanswered.",
+          "Impressions and clicks reported as wins while the actual question — did it make money? — goes unanswered. Google Ads management Pakistan brands buy should answer that question first.",
       },
     ],
     strategy:
-      "Performance marketing means one thing: every rupee accountable to revenue. The strategy unifies tracking across channels so each gets honest credit, sets target acquisition costs from your real margins, and reallocates budget continuously toward what converts. Creative and landing pages are treated as part of media performance, because they are.",
+      "Performance marketing services Pakistan means one thing: every rupee accountable to revenue. The strategy unifies tracking across channels so each gets honest credit, sets target acquisition costs from your real margins, and reallocates budget continuously toward what converts. Creative and landing pages are treated as part of media performance, because they are. Performance marketing vs digital marketing is a simple distinction: digital marketing covers every channel, performance marketing is the part of it held accountable to revenue. Performance marketing vs SEO is a different question: SEO builds an asset you own, performance marketing buys results you can measure today — and the two should share what they learn. The best performance marketing services are judged on profit, not on how many dashboards they fill. Performance marketing services for B2B work the same way — targets set from real margins, and every lead tracked to revenue.",
     strategyPoints: [
-      "Unified measurement — one source of truth across Google, Meta, and beyond",
+      "PPC management services with unified measurement — one source of truth across Google, Meta, and beyond",
       "Targets set from your margins, not from platform benchmarks",
-      "Budget fluidity: spend follows proven return, not channel loyalty",
-      "Creative and landing pages optimized as part of the media equation",
+      "ROAS agency Lahore — budget fluidity: spend follows proven return, not channel loyalty",
+      "Paid social advertising services: creative and landing pages optimized as part of the media equation",
     ],
     process: [
       {
         title: "Baseline",
         description:
-          "Tracking audit and historical analysis — establishing what the numbers actually say today.",
+          "Performance marketing audit services start here: tracking audit and historical analysis — establishing what the numbers actually say today.",
       },
       {
         title: "Targets",
         description:
-          "Acquisition costs and return targets agreed from your unit economics.",
+          "Performance marketing services for lead generation start here: acquisition costs and return targets agreed from your unit economics.",
       },
       {
         title: "Execution",
         description:
-          "Campaigns launched or rebuilt across channels with unified reporting.",
+          "Paid search advertising services and Meta Ads management Pakistan: campaigns launched or rebuilt across channels with unified reporting.",
       },
       {
         title: "Optimization",
         description:
-          "Continuous reallocation and testing against the targets — marketing as a managed investment.",
+          "Performance marketing services Lahore: continuous reallocation and testing against the targets — marketing as a managed investment.",
       },
     ],
     metaTitle: "Performance Marketing Agency Pakistan | Google & Meta Ads",
     metaDescription:
-      "Performance marketing in Pakistan: multi-channel campaigns held accountable to revenue, with unified tracking and honest reporting — no vanity metrics.",
+      "Performance marketing services — a Performance marketing agency Pakistan brands trust, with campaigns held accountable to revenue and honest reporting.",
   faqHeading: "Performance Marketing FAQ",
-  snippet: "Performance marketing in Pakistan means running paid campaigns across Google, Meta and beyond with every rupee held accountable to revenue — unified tracking, targets set from real margins, and budgets moved continuously toward what acquires customers cheapest. No vanity metrics: spend, revenue and cost per acquisition, reported plainly.",
+  snippet: "Performance marketing in Pakistan means running paid campaigns across Google, Meta and beyond with every rupee held accountable to revenue — unified tracking, targets set from real margins, and budgets moved continuously toward what acquires customers cheapest. No vanity metrics: spend, revenue and cost per acquisition, reported plainly. A performance marketing agency Lahore brands can brief in person reports those numbers in plain language. The best performance marketing agency Pakistan brands work with is judged on the same numbers — spend, revenue and cost per acquisition.",
   introLinks: [
-    { prefix: "Performance marketing in Pakistan only works when every rupee is accountable to revenue. I run ", anchor: "Google Ads", href: "/services/google-ads", suffix: " and", },
+    { prefix: "Performance marketing services in Lahore Pakistan only work when every rupee is accountable to revenue. I run ", anchor: "Google Ads", href: "/services/google-ads", suffix: " and", },
     { prefix: "", anchor: "Meta Ads", href: "/services/meta-ads", suffix: " as one system — unified tracking, targets set from your real margins, and budgets moved to whatever acquires customers cheapest. One accountable owner, not three dashboards.", },
-    { prefix: "", anchor: "Discuss your ad spend", href: "/contact", suffix: ".", },
+    { prefix: "", anchor: "Discuss your ad spend", href: "/contact", suffix: ". If you want to hire performance marketing consultant help, tell me about your ad spend and I'll reply with an honest assessment.", },
   ],
-  deliverablesLead: "Everything performance marketing in Pakistan should include — strategy, tracking, campaigns, creative, and honest reporting.",
+  deliverablesLead: "Everything performance marketing services for ecommerce brands in Pakistan should include — strategy, tracking, campaigns, creative, and honest reporting — from a performance marketing agency for ecommerce Pakistan brands can reach directly.",
   },
   "ai-automation": {
     slug: "ai-automation",
