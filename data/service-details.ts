@@ -425,66 +425,65 @@ serviceArea: {
   },
   "web-development": {
     slug: "web-development",
-    h1: "Web Development in Pakistan — Websites Built to Convert",
-      h1Highlight: "Web Development in Pakistan",
+    h1: "Web development services Pakistan — web development services for small business that load fast and turn visitors into enquiries",
+      h1Highlight: "web development services for small business",
     problems: [
       {
-        title: "A website that doesn't sell",
+        title: "A slow website that doesn't sell",
         description:
-          "Pretty pages that confuse visitors — no clear message, no clear next step, and enquiries that never arrive.",
+          "Your visitors leave before the page even loads, and nobody can tell you how to improve website speed. That is exactly what website speed optimization services fix: I find what is slowing the site down, then show you how to make a website load faster — and how to improve website loading speed for good, with fast website development services built on a performance budget instead of guesswork.",
       },
       {
-        title: "Slow, fragile, embarrassing",
+        title: "A dated site that embarrasses the business",
         description:
-          "Long load times and broken layouts on phones, where most of your visitors actually are.",
+          "A site that no longer matches the business — the kind of site website redesign services for small business exist to replace: pages that confuse visitors, layouts that break on phones, and a design that makes a good business look careless.",
       },
       {
         title: "Developer-dependent for every change",
         description:
-          "Simple text edits require a ticket and a wait, so the site slowly goes stale.",
+          "Simple text edits require a ticket and a wait, so the site slowly goes stale — and every fix means finding a freelance web developer first. I build sites your own team can update, and I stay reachable for the changes that do need a developer.",
       },
     ],
     strategy:
-      "A business website has one job: turn visitors into enquiries. The strategy starts from that conversion goal and works backwards — message, structure, then design. Technical choices favor speed, maintainability, and SEO-readiness: modern frameworks, clean code, and performance budgets that are measured, not hoped for.",
+      "My approach is custom website development, not a bought template: custom web development services shaped around your offer, your customers and what a win looks like. Every build is SEO friendly website development — SEO friendly website development Pakistan businesses can actually rank with — and most sites are Next.js website development, including Next.js website development Pakistan teams can maintain after handover. The result is business website development services that work as website development for small business and website development services for local business: fast on real phones, easy to find, and built to turn visitors into enquiries.",
     strategyPoints: [
-      "Conversion-first structure — every page has a job and a next step",
-      "Performance as a feature: fast loads on real mobile connections",
-      "SEO-ready from the first commit: semantics, metadata, and schema",
-      "Built so non-developers can update content without breaking anything",
+      "Built for startups: website development services for startups and web development services for startups — including web development services for startups Pakistan founders can afford — with a site that sells from day one",
+      "For B2B, SaaS and service businesses: website development services for B2B, web development services for SaaS and web development services for service businesses — one consultant, one accountable build",
+      "For shops: ecommerce website development, web development services for ecommerce and website development services for online stores — product pages, checkout and search that actually work",
+      "If you are looking for a web development company for small business, you get the consultant directly — custom website development Pakistan and custom web development services Lahore, without the agency layers",
     ],
     process: [
       {
         title: "Discovery",
         description:
-          "Your offer, your customers, and what a 'win' looks like for the site — the brief everything else serves.",
+          "Your offer, your customers, and what a win looks like for the site — the brief everything else serves. We agree the goal first: enquiries, sales or bookings, so the build has something to be measured against.",
       },
       {
         title: "Blueprint",
         description:
-          "Sitemap, wireframes, and content plan agreed before a single pixel is designed.",
+          "Sitemap, wireframes and content plan agreed before a single pixel is designed — including landing page development services and landing page development Pakistan pages for campaigns, so every page has one job and one next step.",
       },
       {
         title: "Build",
         description:
-          "Design and development in parallel, with staging links so you see progress weekly.",
+          "Design and development in parallel, with staging links so you see progress weekly. This is also where ecommerce website development Pakistan work happens — product pages, checkout and the technical SEO that lets the shop be found.",
       },
       {
         title: "Launch",
         description:
-          "Testing across devices, analytics and SEO checks, then launch — with handover training included.",
+          "Testing across devices, analytics and SEO checks, then launch — with handover training included, so your team can update the site without breaking it.",
       },
     ],
     metaTitle: "Web Development Services Pakistan | Fast SEO-Ready Sites",
     metaDescription:
-      "Web development in Pakistan: fast, SEO-ready Next.js websites built to turn visitors into enquiries. One consultant in Lahore — design, build and launch.",
+      "Web development services Pakistan — web development services for small business that load fast, rank well and turn visitors into enquiries.",
     problemsHeading: "Web Development Problems We Solve in Pakistan",
     solutionHeading: "Web Development Services in Pakistan — The Solution",
-    faqHeading: "Frequently Asked Questions About Web Development in Pakistan",
+    faqHeading: "Frequently Asked Questions About Web Development in Pakistan", ctaTitle: "Hire a web developer in Lahore", ctaDescription: "Tell me about your site and I'll reply with an honest assessment. If you want to hire web developer Lahore help, or hire a freelance web developer instead of an agency, this is the place to start — I work as a freelance web developer Pakistan businesses hire directly, and every build starts with a conversation, not a quote.",
     snippet:
-      "Web development services in Pakistan cover business websites, online stores and web applications — designed to turn visitors into enquiries. A good build is fast on real mobile connections, SEO-ready from the first commit, and editable by your team without breaking anything.",
+      "Website development services Pakistan for small businesses that need a site that sells, not one that just sits there. Business website development Pakistan owners can update themselves, from a consultant in Lahore — affordable web development services for small business, and the best web development services for small business is the one that loads fast, ranks well and turns visitors into enquiries. If you are looking for the best web development company Pakistan has, start with the work: fast pages, honest SEO and a site your team can update.",
     serviceArea: {
-      heading: "Web Development Services Across Pakistan",
-      text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+      heading: "Web Development Services in Lahore, Pakistan", text: "Web development services Pakistan are what I build from my Lahore studio — business website development services Lahore, business website development Lahore, website development services for small business Lahore and custom web development services Lahore. Web development company Lahore clients find me through search, and I work like a website development company in Lahore, with one difference: you talk to the person building your site. For the rest of the country I offer affordable web development services Pakistan, working remotely in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan — web development services in Lahore Pakistan, without the agency layers.",
     },
     heroLinks: [
       {
@@ -527,61 +526,61 @@ serviceArea: {
   },
   "app-development": {
     slug: "app-development",
-    h1: "App Development in Pakistan — iOS & Android Apps That Work.",
-      h1Highlight: "App Development in Pakistan",
+    h1: "App development company Pakistan — app development services for iOS and Android that people actually use",
+      h1Highlight: "app development services",
     problems: [
       {
         title: "An idea stuck in documents",
         description:
-          "The app concept is clear in your head but translating it into a shippable product feels impossibly far away.",
+          "The app concept is clear in your head, but turning it into a shippable product feels impossibly far away. That is where app development services for small business and app development services for startups come in — including app development services for startups Pakistan founders can actually afford: a focused MVP, scoped properly, instead of a document that never ships.",
       },
       {
         title: "Quoted timelines nobody believes",
         description:
-          "Vague scopes and ballooning budgets from teams that never defined what 'version one' actually includes.",
+          "Vague scopes and ballooning budgets from teams that never defined what 'version one' actually includes. I scope the smallest version that delivers real value first, so you know what you are getting before the build starts.",
       },
       {
         title: "An app users abandon",
         description:
-          "Launched but confusing — downloads that never become daily habits because the core flow wasn't designed around real use.",
+          "Launched but confusing — downloads that never become daily habits because the core flow wasn't designed around real use. App UI UX design services fix that before the build: flows and prototypes tested with real users, so the app feels obvious from the first open.",
       },
     ],
     strategy:
-      "Apps succeed on focus: one core job done brilliantly beats ten features done averagely. The strategy defines a tight MVP around the single most valuable user flow, ships it to real users fast, and lets actual behavior — not opinions — decide what gets built next. Cross-platform tooling keeps one codebase serving both major platforms.",
+      "Apps succeed on focus: one core job done brilliantly beats ten features done averagely. I offer mobile app development services that stay custom — custom mobile app development services and cross-platform app development services from one codebase, with progressive web app development services where a web app is the smarter first step. Every build starts as MVP app development services: the smallest version that delivers real value, whether that means app development services for ecommerce, ecommerce app development services, or business app development services for a team that needs its own tool.",
     strategyPoints: [
-      "MVP discipline — the smallest version that delivers real value ships first",
-      "User flows designed around actual behavior, validated before heavy build",
-      "Cross-platform development for iOS and Android from one codebase",
-      "Analytics and crash reporting built in from day one, not bolted on later",
+      "Flutter app development services, built the way a Flutter app development company would build them — one codebase, one team, both stores — except you talk to the person writing the code",
+      "Flutter vs React Native app development, decided on your app, not on fashion: React Native app development services, with the judgement you would expect from a React Native app development company — I will tell you which fits yours before we build",
+      "iOS app development services and Android app development services from one codebase — the coverage of an iOS app development company and an Android app development company, delivered by one developer",
+      "App store submission services and app maintenance and support services after launch: listings, screenshots and review submission, then a plan for the first update based on real usage",
     ],
     process: [
       {
         title: "Scoping",
         description:
-          "The idea turned into a defined MVP: user stories, core flows, and a firm definition of 'version one'.",
+          "The idea turned into a defined MVP: user stories, core flows, and a firm definition of version one. Mobile app development Pakistan founders get a scope they can hold me to — the best app development services are the ones with a clear version one.",
       },
       {
         title: "Design",
         description:
-          "Interface design and clickable prototypes you can test with real users before development begins.",
+          "Interface design and clickable prototypes you can test with real users before development begins. iOS and Android app development Lahore teams test the same way: prototype first, build second.",
       },
       {
         title: "Build",
         description:
-          "Agile development in weekly cycles with test builds you can run on your own phone.",
+          "Agile development in weekly cycles with test builds you can run on your own phone. I build in Flutter and React Native — the same care a Flutter app development company Pakistan clients trust would bring, with React Native app development Lahore pace and a React Native developer Pakistan clients can actually reach.",
       },
       {
         title: "Launch",
         description:
-          "Store submission, launch checklist, and a post-launch plan for the improvements real usage will reveal.",
+          "Store submission, launch checklist, and a post-launch plan for the improvements real usage will reveal — app development services Lahore and mobile app development Lahore clients get the same launch care, from a mobile app development company Lahore founders can visit.",
       },
     ],
     metaTitle: "App Development Company Pakistan | iOS & Android Apps",
     metaDescription:
-      "Mobile app development in Pakistan: focused MVPs for iOS and Android, designed around real users and shipped to stores — lean, fast, zero bloat.",
-  faqHeading: "App Development FAQ",
+      "App development company Pakistan — app development services for iOS and Android, built in Lahore for startups and small businesses.",
+  faqHeading: "App Development FAQ", serviceArea: { heading: "App Development in Lahore, Pakistan", text: "App development company Pakistan, based in Lahore — an app development company in Lahore Pakistan founders can actually visit: app development services Lahore and mobile app development Lahore for founders across the city, from a mobile app development company Lahore teams can reach directly. I offer Flutter app developer Lahore help for teams that want Flutter, and affordable app development Pakistan for clients in Karachi, Islamabad and beyond: in person in Lahore, remote everywhere else." }, ctaTitle: "Hire an app developer in Lahore", ctaDescription: "Tell me about your app idea and I'll reply with an honest assessment. If you want to hire app developer Pakistan help, or hire an app developer directly instead of an agency, start here — I work as a freelance app developer Pakistan founders hire directly, and every build starts with a conversation about the smallest version that delivers real value.",
   snippet:
-    "App development in Pakistan means designing and building mobile apps for iOS and Android — usually from one cross-platform codebase — then shipping them to the App Store and Google Play with the backend, analytics and store listings they need to work. A focused MVP ships first; real usage decides what gets built next.",
+    "App development in Pakistan means designing and building mobile apps for iOS and Android — usually from one cross-platform codebase — then shipping them to the App Store and Google Play. As an app development company, I cover iOS app development Pakistan and Android app development Pakistan from Lahore: custom mobile app development Pakistan and mobile app development services Pakistan, from a mobile app development company that keeps every build focused. If you are looking for the best app development company in Pakistan, judge it on what ships: a focused MVP first, then real usage deciding what gets built next.",
   introLinks: [
     { prefix: "App development in Pakistan works best cross-platform: one codebase for iOS and Android, one backend, and one team — ", anchor: "Abdul Rehman", href: "/about", suffix: ". I build focused MVPs for founders who want a real product in users' hands, not a demo. The app ships with its its", },
     { prefix: "", anchor: "backend and APIs", href: "/services/custom-software", suffix: "included, and the", },
