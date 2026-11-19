@@ -310,7 +310,7 @@ export default function OffPageSeoPage() {
 
       <div className="mt-20">
         <CtaBand
-          title="Hire an off-page SEO expert — ready to talk?"
+          title="Hire off-page SEO expert — ready to talk?"
           description="If you want to hire link building expert help, tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you."
         />
       </div>
