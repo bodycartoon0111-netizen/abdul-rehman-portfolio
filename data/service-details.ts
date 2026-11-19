@@ -845,31 +845,31 @@ serviceArea: {
   },
   "ai-automation": {
     slug: "ai-automation",
-    h1: "AI Automation in Pakistan — Workflows That Save You Hours",
-      h1Highlight: "AI Automation in Pakistan",
+    h1: "AI Automation Services Pakistan — Workflows That Save You Hours",
+      h1Highlight: "AI Automation Services Pakistan",
     problems: [
       {
         title: "Hours lost to copy-paste work",
         description:
-          "Your team spends its days moving data between tools instead of serving customers.",
+          "Your team spends its days moving data between tools instead of serving customers — the copy-paste work workflow automation Pakistan businesses ask me to remove first.",
       },
       {
         title: "Leads going cold",
         description:
-          "Enquiries waiting hours for a first response because follow-up depends on someone remembering.",
+          "Enquiries waiting hours for a first response because follow-up depends on someone remembering — the gap AI customer support automation services close first.",
       },
       {
         title: "AI hype with no use case",
         description:
-          "Everyone says 'use AI' but nobody can name the specific workflow where it pays for itself in your business.",
+          "Everyone says 'use AI' but nobody can name the specific workflow where it pays for itself in your business — the first question an AI automation consultant should answer before building anything.",
       },
     ],
     strategy:
-      "Automation starts from costed workflows, not from tools. The strategy identifies the repetitive processes eating the most hours, prices them, and automates the most expensive one first — with humans approving anything customer-facing. AI handles drafting, classifying, and routing; people handle judgment and relationships.",
+      "Automation starts from costed workflows, not from tools. The strategy identifies the repetitive processes eating the most hours, prices them, and automates the most expensive one first — with humans approving anything customer-facing. AI handles drafting, classifying, and routing; people handle judgment and relationships. I work as an AI automation consultant Pakistan businesses can message directly, and the build is business process automation services shaped around your process, not a bought tool.",
     strategyPoints: [
-      "Workflow-first: the most expensive repetitive process gets automated first",
+      "Workflow-first: workflow automation services for small teams start with the most expensive repetitive process and automate it first",
       "Human-in-the-loop on anything external — AI drafts, people approve",
-      "Integrations across your existing stack: CRM, email, sheets, and more",
+      "Integrations across your existing stack — n8n workflow automation services and Zapier automation services connecting your CRM, email, sheets, and more",
       "Measured in hours returned to the team, not in demos that impress",
     ],
     process: [
@@ -881,30 +881,30 @@ serviceArea: {
       {
         title: "Design",
         description:
-          "The automation blueprint: triggers, steps, human checkpoints, and failure handling.",
+          "The automation blueprint: triggers, steps, human checkpoints, and failure handling — the same discipline AI agents for small business need before they touch a customer.",
       },
       {
         title: "Build",
         description:
-          "Implementation and testing against real scenarios, including the edge cases.",
+          "Implementation and testing against real scenarios, including the edge cases — the AI chatbot development services Pakistan teams rely on are tested the same way, against real conversations.",
       },
       {
         title: "Handover",
         description:
-          "Documentation, monitoring, and training — plus a clear path for the next workflow.",
+          "Documentation, monitoring, and training — plus a clear path for the next workflow, and business process automation Pakistan teams can build on next without rebuilding.",
       },
     ],
     metaTitle: "AI Automation Services Pakistan | Workflows & Chatbots",
     metaDescription:
-      "AI automation services in Pakistan: lead follow-up, CRM updates and reporting workflows that return hours to your team. Human-in-the-loop, built in Lahore.",
+      "AI automation services Pakistan: lead follow-up, CRM updates and reporting workflows that return hours to your team. Human-in-the-loop, built in Lahore.",
     problemsHeading: "AI Automation Problems We Solve in Pakistan",
     solutionHeading: "AI Automation Services in Pakistan — The Solution",
-    faqHeading: "Frequently Asked Questions About AI Automation in Pakistan",
+    faqHeading: "Frequently Asked Questions About AI Automation in Pakistan", ctaTitle: "Hire AI automation consultant for your team", ctaDescription: "If you want to hire AI automation consultant Pakistan businesses trust with their workflows, tell me about the process that costs you the most time and I'll reply with an honest assessment of what this service can — and can't — do for you.",
     snippet:
-      "AI automation services in Pakistan cover lead follow-up, CRM updates, reporting and chat assistants — the repetitive work that eats a small team's week. The work starts by costing the workflow, automates the most expensive one first, and keeps a human approving anything a customer sees.",
+      "AI automation services in Pakistan cover lead follow-up, CRM updates, reporting, chat assistants and AI agent development services — the repetitive work that eats a small team's week. As AI workflow automation services, the work starts by costing the workflow, automates the most expensive one first, and keeps a human approving anything a customer sees.",
     serviceArea: {
       heading: "AI Automation Services Across Pakistan",
-      text: "Work is in person in Lahore, and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan. Consultation available in English and Roman Urdu.",
+      text: "Work is in person in Lahore — AI automation services Lahore teams can brief face to face, including AI workflow automation services Lahore businesses brief in person — and remote in Karachi, Islamabad, Rawalpindi, Faisalabad and Multan, where the same workflow automation services Pakistan businesses use are delivered the same way. AI automation services Karachi and AI automation services Islamabad clients get the same workflow-first build, and the AI agents for business Pakistan builds I deliver run on n8n automation services Pakistan work I set up in person or remotely. You work with a freelance AI automation consultant Pakistan businesses hire directly — no handover, no juniors — and the measure is the one the best AI automation services Pakistan are judged by: hours returned, not demos. Consultation available in English and Roman Urdu.",
     },
     heroLinks: [
       { prefix: "Work with an ", anchor: "SEO consultant in Lahore", href: "/", suffix: " who automates what he measures.", },
