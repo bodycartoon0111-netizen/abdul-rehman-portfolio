@@ -74,7 +74,7 @@ export const blogPosts: BlogPost[] = [
           "Cumulative Layout Shift under 0.1 — set width/height on all media",
           "Interaction to Next Paint under 200ms — defer or remove heavy third-party scripts",
         ],
-      }
+      },
       {
         heading: "Structured data: mark up what you can prove",
         paragraphs: [
