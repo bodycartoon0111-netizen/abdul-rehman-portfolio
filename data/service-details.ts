@@ -44,7 +44,7 @@ export interface ServiceDetail {
 export const serviceDetails: Record<string, ServiceDetail> = {
   seo: {
     slug: "seo",
-    h1: "SEO Services in Lahore — Rank Higher, Convert Better",
+    h1: "SEO Services in Lahore: SEO Services for Small Business — Rank Higher, Convert Better",
       h1Highlight: "SEO Services in Lahore",
     problems: [
       {
@@ -95,7 +95,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     ],
     metaTitle: "SEO Services in Lahore | SEO Expert Pakistan — Free Audit",
     metaDescription:
-      "SEO services in Lahore from one consultant: technical audits, on-page SEO, local SEO and content that compound into rankings, traffic and enquiries.", ctaTitle: "Ready to hire SEO consultant Lahore?", ctaDescription: "If you want to hire SEO expert in Lahore, tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you.",
+      "SEO services for small business — SEO services in Lahore: technical audits, on-page SEO, local SEO and content that compound into rankings and enquiries.", ctaTitle: "Ready to hire SEO consultant Lahore?", ctaDescription: "If you want to hire SEO expert in Lahore, tell me about your goals and I'll reply with an honest assessment of what this service can — and can't — do for you.",
 problemsHeading: "SEO Problems We Solve in Lahore",
     solutionHeading: "SEO Services in Lahore — The Solution",
     faqHeading: "Frequently Asked Questions About SEO in Lahore",
