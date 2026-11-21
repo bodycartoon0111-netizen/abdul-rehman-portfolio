@@ -27,11 +27,11 @@ import CtaBanner from "@/components/sections/CtaBanner";
 export const metadata: Metadata = {
   ...pageMetadata(
     "SEO, Performance Marketing & Web Development",
-    "Freelance SEO consultant in Lahore, Pakistan. Grow your business with SEO, Google & Meta Ads, websites and AI automation. Book a free SEO audit today.",
+    "Freelance SEO specialist helping businesses grow worldwide. SEO, Google & Meta Ads, websites, apps and AI automation — one person from plan to results.",
     "/", "Abdul Rehman — SEO, Google & Meta Ads, websites and AI automation from Lahore, Pakistan. See the work, then book a free SEO audit.",
   ),
   title: {
-    absolute: "SEO Consultant in Lahore | Freelance SEO Expert Pakistan",
+    absolute: "Freelance SEO Specialist | Abdul Rehman",
   },
 };
 
@@ -53,9 +53,9 @@ export default function HomePage() {
         <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-mint/50 blur-3xl" />
                                                         <Container className="relative grid gap-8 pb-8 pt-8 md:pb-10 md:pt-10 lg:grid-cols-2 lg:items-center">
                             <div><h1 className="mt-4 max-w-3xl text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-ink">
-                                I Turn Search Visibility Into{" "}<span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">Sustainable Business Growth</span>
+                                Freelance SEO Specialist
               </h1>
-                                <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">I&apos;m <strong className="font-bold text-ink">Abdul Rehman</strong>. I build your website, rank it on Google, and automate what happens after someone finds it — SEO, Google &amp; Meta Ads, and AI automation, all handled by one person, so nothing gets lost between the build and the results.
+                                <p className="mt-3 max-w-xl text-base leading-relaxed text-ink/85 md:text-lg">I&apos;m a freelance SEO specialist. I help businesses grow worldwide with SEO, Google &amp; Meta Ads, websites, apps and AI automation — one person, from plan to results.
                         
                             </p>
                             <div className="mt-5 flex flex-wrap items-center gap-3">
