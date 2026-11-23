@@ -66,7 +66,7 @@ export default function BlogPage() {
         <p className="mt-5 text-lg leading-relaxed text-muted">
           Notes from the work — practical write-ups on SEO, marketing, and automation from real project experience in Pakistan. These are the checklists and mental models I actually use on client projects, written for business owners who want to understand the work, not just buy it. Start with the{" "}
           <Link
-            href="/blog/technical-seo-checklist-2026"
+            href="/blog/technical-seo-checklist-for-websites"
             className="font-semibold text-ink underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
           >
             technical SEO checklist
@@ -88,7 +88,7 @@ export default function BlogPage() {
         <p className="mt-5 text-lg leading-relaxed text-muted">
           New here? Start with the{" "}
           <Link
-            href="/blog/technical-seo-checklist-2026"
+            href="/blog/technical-seo-checklist-for-websites"
             className="font-semibold text-ink underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
           >
             technical SEO checklist
