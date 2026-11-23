@@ -135,7 +135,7 @@ export default function HomePage() {
             align="center"
           />
 <p className="mx-auto mt-8 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">An SEO consultant improves a website's visibility on Google through technical fixes, keyword research, content optimization and link building. In Lahore, a consultant also handles local SEO — Google Business Profile, Maps rankings and location pages — so nearby customers find the business first.</p>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">You can explore the full scope of my <Link href="/services/seo">SEO services in Lahore</Link> or work through the <Link href="/blog/technical-seo-checklist-2026">technical SEO checklist</Link> before we talk.
+          <p className="mx-auto mt-4 max-w-2xl text-center text-lg leading-relaxed text-muted text-pretty">You can explore the full scope of my <Link href="/services/seo">SEO services in Lahore</Link> or work through the <Link href="/blog/technical-seo-checklist-for-websites">technical SEO checklist</Link> before we talk.
           </p>
     <div className="mt-14 grid gap-4 md:grid-cols-3">
             <Link href="/about" className="block group rounded-2xl border border-line bg-paper p-7 transition-colors hover:border-pine hover:bg-pine">
