@@ -170,7 +170,7 @@ export default function ServicesExplorer() {
               </p>
 
               {active.slug === "ai-automation" && (
-              <p className="mt-8 text-sm leading-relaxed text-ink/90">Related reading: <Link href="/blog/ai-automation-small-marketing-team">AI automation for small teams</Link>
+              <p className="mt-8 text-sm leading-relaxed text-ink/90">Related reading: <Link href="/blog/ai-automation-small-businesses">AI automation for small teams</Link>
               </p>
           )}
               {active.slug === "meta-ads" && (
