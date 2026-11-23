@@ -204,14 +204,14 @@ serviceArea: {
       },
       {
         prefix: "Start with my ",
-        anchor: "Local SEO guide for Lahore businesses",
-        href: "/blog/local-seo-lahore-google-business-profile-guide",
+        anchor: "local, national and international SEO guide",
+        href: "/blog/local-vs-national-vs-international-seo",
         suffix: ".",
       },
       {
         prefix: "Or read the ",
-        anchor: "Google Business Profile mistakes Lahore businesses make",
-        href: "/blog/google-business-profile-mistakes-lahore",
+        anchor: "local, national and international SEO guide",
+        href: "/blog/local-vs-national-vs-international-seo",
         suffix: " before you change anything.",
       },
       {
@@ -224,15 +224,15 @@ serviceArea: {
     introLinks: [
       {
         prefix: "I am Abdul Rehman, an SEO consultant in Lahore and a local SEO expert Lahore businesses call when their map listing stops bringing calls. Local SEO is the part of SEO that deals with place: when someone in DHA searches for a clinic, or someone in Gulberg searches for a restaurant, or someone in Johar Town searches for a plumber, Google answers with a map. The three businesses on that map get the calls. Local SEO is the work of getting your business into that group and keeping it there. It is not the same as ranking a website for a general search. Your website still matters — it needs to be fast, clear and easy to use when a customer taps through — but the profile is what most nearby customers see first, so that is where I start. Read my ",
-        anchor: "Local SEO guide for Lahore businesses",
-        href: "/blog/local-seo-lahore-google-business-profile-guide",
+        anchor: "local, national and international SEO guide",
+        href: "/blog/local-vs-national-vs-international-seo",
         suffix: " for the steps, or keep reading for how I do the work.",
       },
       {
         prefix: "Reviews decide a lot of those calls. A business with recent, honest reviews and replies to each one looks open and trusted. A business with no reviews, or with reviews nobody answers, looks uncertain. I help you earn real reviews by asking at the right moment and making it easy for a happy customer to leave one, and I help you reply to the unhappy ones calmly, with facts. What I will not do is buy reviews, write them, or ask staff to leave them — fake reviews get removed, and they damage trust when they are found. The same plain rule applies to your details: one name, one address, one phone number, spelled the same way everywhere. My ",
-        anchor: "guide to Google Business Profile mistakes in Lahore",
-        href: "/blog/google-business-profile-mistakes-lahore",
-        suffix: " walks through the errors that quietly hold a profile back.",
+        anchor: "local, national and international SEO guide",
+        href: "/blog/local-vs-national-vs-international-seo",
+        suffix: " explains which kind of SEO fits your business.",
       },
       {
         prefix: "If you want me to look at your profile with you, ",

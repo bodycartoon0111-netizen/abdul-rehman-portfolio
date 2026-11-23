@@ -58,8 +58,8 @@ export const services: Service[] = [
     solution:
       "Google Business Profile optimization services Lahore start with your profile: I claim and verify it, pick the category that matches what you actually do, and fill in every field properly — your real business name, service areas, hours, phone, website, services and a plain description of what you offer. I start with a Google Business Profile audit: category, fields, photos, hours and reviews, checked against what Google actually shows. That is how to optimize Google Business Profile Lahore businesses rely on: a complete profile, consistent details, and fresh posts and reviews. In practice, that is Google Business Profile optimization Lahore businesses can follow step by step: claim, verify, complete every field, then keep it fresh with posts and reviews. Then I work on the searches that bring calls: local keywords on your website, such as a dentist in DHA or a plumber in Johar Town, written in the words customers use. I check your name, address and phone number everywhere they appear, so Google sees one consistent business, and I list you in local directories that fit what you do. That first check is what local SEO audit services mean here: profile, website, citations and reviews, looked at before any monthly work. For reviews, I set up a simple routine: ask happy customers at the right moment, after a good service, a delivery or a successful appointment, and reply to every review, good and bad. I never buy reviews, write them myself, or ask staff to leave them. I track calls, direction requests and website visits from your profile in Google Business Profile insights, Search Console and GA4, and I tell you plainly what changed each month. I do it as your local SEO consultant: one person, one plan, reported plainly. It also suits startups — local SEO services for startups that need their first customers from the map. And the best local SEO company for a small business is often one person who does the work, not a team that hands you down a chain. If you want to hire local SEO expert help from the person who will actually do the work, start with a message — I reply myself. That monthly rhythm is Google Business Profile management Lahore businesses can follow: posts, photos, review replies and a plain report. That monthly work is Google Business Profile management services: posts, photos, review replies and a plain report, from the same person every month. I report plainly every month, with local SEO services with monthly reporting and local SEO services to get found on Google as the standard, not an extra. That includes local SEO citation building services, local SEO services for more phone calls and local SEO services for lead generation — the calls and enquiries, not just the map position. I also offer local search ranking services, local SEO services for new businesses, local SEO services for businesses in multiple cities, local SEO services for established businesses, local SEO services for businesses with multiple branches and local SEO services for more foot traffic — the same one-person service, shaped around how your customers actually find you.",
     deliverables: [
-      { text: "Google Business Profile setup Lahore, verification and optimisation", href: "/blog/local-seo-lahore-google-business-profile-guide" },
-      { text: "Maps ranking work for your service areas in Lahore", href: "/blog/local-seo-lahore-google-business-profile-guide" },
+      { text: "Google Business Profile setup Lahore, verification and optimisation", href: "/blog/local-vs-national-vs-international-seo" },
+      { text: "Maps ranking work for your service areas in Lahore", href: "/blog/local-vs-national-vs-international-seo" },
       { text: "Local keyword research and on-page local content", href: "/services/keyword-research" },
       { text: "Review routine: how to ask, when to ask, and replies to every review" },
       { text: "NAP audit: name, address and phone checked everywhere" },
@@ -185,9 +185,9 @@ export const services: Service[] = [
       "Custom website development with Next.js and React: sub-second loads, SEO-ready structure from the first commit, and every page designed around one job — turning visitors into enquiries. That covers ecommerce website development and web development services for ecommerce, where the product page has to close the sale. No bloated themes, no plugin towers.",
     deliverables: [
       { text: "Conversion-first UX and page structure, including landing page development services", href: "/services/performance-marketing" },
-      { text: "Next.js website development — custom Next.js / React development", href: "/blog/fast-website-seo-nextjs" },
+      { text: "Next.js website development — custom Next.js / React development", href: "/blog/technical-seo-checklist-for-websites" },
       { text: "SEO friendly website development — technical SEO baked in from day one", href: "/services/technical-seo" },
-      { text: "Core Web Vitals and website speed optimization services", href: "/blog/technical-seo-checklist-2026" },
+      { text: "Core Web Vitals and website speed optimization services", href: "/blog/technical-seo-checklist-for-websites" },
       { text: "CMS integration where you need it", href: "/services/wordpress" },
       { text: "Analytics and conversion tracking", href: "/services/performance-marketing" },
       { text: "Launch, hosting setup, and handover docs" },
@@ -315,7 +315,7 @@ export const services: Service[] = [
       "Lean WordPress builds: WordPress theme development services and custom WordPress theme development, WordPress plugin development services only where a plugin genuinely earns its place, hardened security, and a Gutenberg editing experience your team will actually use. WordPress's flexibility without its reputation for bloat.",
     deliverables: [
       { text: "Custom WordPress theme development Pakistan" },
-      { text: "Speed and Core Web Vitals optimization", href: "/blog/technical-seo-checklist-2026" },
+      { text: "Speed and Core Web Vitals optimization", href: "/blog/technical-seo-checklist-for-websites" },
       { text: "Security hardening" },
       { text: "SEO-ready configuration", href: "/services/seo" },
       { text: "Gutenberg editing experience" },
@@ -360,7 +360,7 @@ export const services: Service[] = [
       { text: "Shopify theme development services — custom theme and store setup" },
       { text: "Shopify store design Pakistan — product and collection architecture" },
       { text: "Checkout and upsell optimization" },
-      { text: "Speed optimization", href: "/blog/technical-seo-checklist-2026" },
+      { text: "Speed optimization", href: "/blog/technical-seo-checklist-for-websites" },
       { text: "Payments, shipping, and tax setup" },
       { text: "Analytics and pixel tracking", href: "/services/meta-ads" },
       { text: "Launch checklist and training" },
@@ -400,7 +400,7 @@ export const services: Service[] = [
     solution:
       "One accountable owner across channels — a freelance performance marketing consultant Pakistan brands can reach directly, and a performance marketing agency Islamabad, Lahore and Karachi businesses can brief in person: unified tracking and attribution, creative learnings shared between platforms, landing pages built to convert the traffic, and budgets that move to whatever acquires customers cheapest. Paid media marketing services, run as one P&L. If you want to hire performance marketing agency help, tell me about your ad spend and I'll reply with an honest assessment of what this service can — and can't — do for you.",
     deliverables: [
-      { text: "Performance marketing strategy services — cross-channel growth strategy", href: "/blog/performance-marketing-pakistan" },
+      { text: "Performance marketing strategy services — cross-channel growth strategy", href: "/blog/google-ads-vs-meta-ads" },
       { text: "Unified tracking and attribution setup" },
       { text: "Google Ads management services — Google and Meta campaign management", href: "/services/google-ads" },
       { text: "Meta Ads management services — creative testing program", href: "/services/meta-ads" },
@@ -443,11 +443,11 @@ export const services: Service[] = [
     solution:
       "Practical AI automation, not demos: instant lead responses, CRM updates, content pipelines, and reporting — wired into the tools you already use, with human-in-the-loop safeguards where judgment matters. The same approach fits AI automation services for startups, AI automation services for agencies and AI automation services for ecommerce: automate the most expensive workflow first, then the next one. For chat, I build AI chatbot development Lahore businesses can brief in person — the AI chatbot services Pakistan teams use for first responses, with the same human approval before anything reaches a customer.",
     deliverables: [
-      { text: "Automation opportunity audit — the first step the best AI automation services take before building anything", href: "/blog/ai-automation-small-marketing-team" },
-      { text: "AI lead follow-up automation services — instant lead response and nurturing workflows", href: "/blog/ai-automation-small-marketing-teams-pakistan-workflows" },
+      { text: "Automation opportunity audit — the first step the best AI automation services take before building anything", href: "/blog/ai-automation-small-businesses" },
+      { text: "AI lead follow-up automation services — instant lead response and nurturing workflows", href: "/blog/ai-automation-small-businesses" },
       { text: "CRM and tool integrations, including AI email automation services", href: "/services/custom-software" },
       { text: "AI chatbot services — AI chat assistants for sales and support" },
-      { text: "AI document processing services, content and reporting pipelines", href: "/blog/ai-automation-small-marketing-team" },
+      { text: "AI document processing services, content and reporting pipelines", href: "/blog/ai-automation-small-businesses" },
       { text: "Human-in-the-loop safeguards" },
       { text: "Documentation and handover" },
     ],
