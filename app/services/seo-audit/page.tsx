@@ -282,8 +282,8 @@ export default function SeoAuditPage() {
         </h2>
         <p className="mb-2 text-sm leading-relaxed text-neutral-700">
           Related reading:{" "}
-          <Link href="/blog/technical-seo-checklist-2026" className="font-semibold text-neutral-900 underline">
-            Technical SEO Checklist for 2026
+          <Link href="/blog/technical-seo-checklist-for-websites" className="font-semibold text-neutral-900 underline">
+            Technical SEO Checklist: 30 Things Every Website Should Get Right
           </Link>
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
