@@ -297,10 +297,10 @@ export function buildBlogJsonLd(
   return {
     ...baseContext(),
     "@type": "Blog",
-    name: "Digital Marketing Blog Pakistan",
+    name: "Digital Marketing Blog",
     url: absoluteUrl("/blog"),
     description:
-      "Practical notes on SEO, paid marketing, web development and AI automation from real project experience in Pakistan — checklists and mental models that work.",
+      "Practical notes on SEO, paid marketing, web development and AI automation from real project experience — checklists and mental models that work.",
     inLanguage: "en",
     author: {
       "@type": "Person",
