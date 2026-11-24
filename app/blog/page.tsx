@@ -9,16 +9,16 @@ import BlogHub from "@/components/blog/BlogHub";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "SEO for Beginners | Digital Marketing Blog Pakistan",
+    absolute: "SEO for Beginners | Digital Marketing Blog",
   },
   description:
-    "SEO for Beginners: practical SEO tips and digital marketing notes from my digital marketing blog Pakistan — learn SEO from scratch, free.",
+    "SEO for Beginners: practical SEO tips and digital marketing notes from my digital marketing blog — learn SEO from scratch, free.",
   alternates: { canonical: "/blog" },
   openGraph: {
     siteName: BRAND_NAME,
-    title: "SEO for Beginners | Digital Marketing Blog Pakistan",
+    title: "SEO for Beginners | Digital Marketing Blog",
     description:
-      "SEO for Beginners: practical SEO tips and digital marketing notes from my digital marketing blog Pakistan — learn SEO from scratch, free.",
+      "SEO for Beginners: practical SEO tips and digital marketing notes from my digital marketing blog — learn SEO from scratch, free.",
     url: absoluteUrl("/blog"),
     type: "website",
     images: [
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SEO for Beginners | Digital Marketing Blog Pakistan",
-    description: "SEO for Beginners: practical SEO tips and digital marketing notes from my digital marketing blog Pakistan — learn SEO from scratch, free.",
+    title: "SEO for Beginners | Digital Marketing Blog",
+    description: "SEO for Beginners: practical SEO tips and digital marketing notes from my digital marketing blog — learn SEO from scratch, free.",
     images: [
       {
         url: absoluteUrl("/images/og-default.jpg"),
@@ -61,10 +61,10 @@ export default function BlogPage() {
       <header className="mt-8 max-w-3xl">
         <p className="text-xs font-bold uppercase tracking-[0.28em] text-pine">Blog</p>
         <h1 className="mt-4 text-4xl font-black leading-[1.06] tracking-tight text-ink md:text-6xl">
-          <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO for Beginners | Digital Marketing Blog Pakistan</span> — Notes from the Work
+          <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">SEO for Beginners | Digital Marketing Blog</span> — Notes from the Work
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-muted">
-          Notes from the work — practical write-ups on SEO, marketing, and automation from real project experience in Pakistan. These are the checklists and mental models I actually use on client projects, written for business owners who want to understand the work, not just buy it. Start with the{" "}
+          Notes from the work — practical write-ups on SEO, marketing, and automation from real project experience. These are the checklists and mental models I actually use on client projects, written for business owners who want to understand the work, not just buy it. Start with the{" "}
           <Link
             href="/blog/technical-seo-checklist-for-websites"
             className="font-semibold text-ink underline decoration-neutral-300 underline-offset-2 transition hover:decoration-neutral-900"
@@ -80,7 +80,7 @@ export default function BlogPage() {
           </Link>
           {" "}behind the notes.
         </p>
-        <p className="mt-5 text-lg leading-relaxed text-muted">I write about the SEO and marketing work I actually do — mostly for small businesses in Pakistan, and mostly from what I have seen on real sites. Start with the checklist if you are new here, or pick the topic you are stuck on.</p>
+        <p className="mt-5 text-lg leading-relaxed text-muted">I write about the SEO and marketing work I actually do — mostly for small businesses, and mostly from what I have seen on real sites. Start with the checklist if you are new here, or pick the topic you are stuck on.</p>
       </header>
 
       <section className="mt-12 max-w-3xl">
