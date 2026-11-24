@@ -96,7 +96,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
     const pageUrl = absoluteUrl(`/blog/${post.slug}`);
 
-  const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 2); const serviceHref = post.category === "AI Automation" ? "/services/ai-automation" : "/services/seo"; const serviceLabel = post.category === "AI Automation" ? "AI automation services" : "SEO services in Lahore";
+  const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 2); const serviceHref = post.category === "AI Automation" ? "/services/ai-automation" : "/services/seo"; const serviceLabel = post.category === "AI Automation" ? "AI automation services" : "SEO services";
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -149,7 +149,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           : post.title}
           </h1>
           <p className="mt-4 text-sm font-medium text-neutral-600">Abdul Rehman · <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time></p>
-          <p className="mt-4 text-lg leading-relaxed text-neutral-700">{post.excerpt}</p><p className="mt-4 text-sm leading-relaxed text-neutral-700">Related service: <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link></p>
+          <p className="mt-4 text-sm leading-relaxed text-neutral-700">Related service: <Link href={serviceHref} className="font-semibold text-neutral-900 underline">{serviceLabel}</Link></p>
           {post.sample && (
             <p className="mt-4 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
               Sample content — a placeholder article demonstrating the blog layout until real
