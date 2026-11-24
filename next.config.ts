@@ -46,6 +46,15 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: "/blog/technical-seo-checklist-2026",
+        destination: "/blog/technical-seo-checklist-for-websites",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
