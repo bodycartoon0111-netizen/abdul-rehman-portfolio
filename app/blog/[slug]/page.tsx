@@ -12,19 +12,30 @@ const CtaBand = dynamic(() => import("@/components/sections/CtaBand"));
 function renderRichText(text: string) {
   return text.split(/(\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
     const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-    if (!match) return part;
-    const [, label, href] = match;
-    if (href.startsWith("/")) {
+    if (match) {
+      const [, label, href] = match;
+      if (href.startsWith("/")) {
+        return (
+          <Link key={i} href={href} className="font-semibold text-pine underline underline-offset-2 decoration-pine/60 transition hover:text-pine-bright">
+            {label}
+          </Link>
+        );
+      }
       return (
-        <Link key={i} href={href} className="font-semibold text-pine underline underline-offset-2 decoration-pine/60 transition hover:text-pine-bright">
+        <a key={i} href={href} target="_blank" rel="noopener noreferrer" className="font-semibold text-pine underline underline-offset-2 decoration-pine/60 transition hover:text-pine-bright">
           {label}
-        </Link>
+        </a>
       );
     }
+    // Bold: **text** renders as <strong>. Content has no other markup.
     return (
-      <a key={i} href={href} target="_blank" rel="noopener noreferrer" className="font-semibold text-pine underline underline-offset-2 decoration-pine/60 transition hover:text-pine-bright">
-        {label}
-      </a>
+      <Fragment key={i}>
+        {part.split(/(\*\*[^*]+\*\*)/g).map((chunk, j) => {
+          const bold = chunk.match(/^\*\*([^*]+)\*\*$/);
+          if (!bold) return chunk;
+          return <strong key={j}>{bold[1]}</strong>;
+        })}
+      </Fragment>
     );
   });
 }
@@ -69,7 +80,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           width: 1200,
           height: 630,
           type: "image/jpeg",
-          alt: "Abdul Rehman - Freelance SEO Consultant",
+          alt: "Abdul Rehman - Freelance SEO Specialist",
         },
     ],
     }, 
@@ -82,7 +93,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
               url: ogImage,
             width: 1200,
             height: 630,
-            alt: "Abdul Rehman - Freelance SEO Consultant",
+            alt: "Abdul Rehman - Freelance SEO Specialist",
           },
       ],
       },
