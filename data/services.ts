@@ -182,7 +182,7 @@ export const services: Service[] = [
     problem:
       "Web development services in Pakistan that start from the conversion goal and work backwards: message, structure, then design. Fast, SEO-ready Next.js websites — built with modern code, measured performance budgets, and technical SEO from the first commit — by one consultant in Lahore — including web development services for startups that need a site that sells from day one.",
     solution:
-      "Custom website development with Next.js and React: sub-second loads, SEO-ready structure from the first commit, and every page designed around one job — turning visitors into enquiries. That covers ecommerce website development and web development services for ecommerce, where the product page has to close the sale. No bloated themes, no plugin towers.",
+      "Custom website development with Next.js and React: sub-second loads, SEO-ready structure from the first commit, and every page designed around one job — turning visitors into enquiries. That covers ecommerce website development and web development services for ecommerce, where the product page has to close the sale. No bloated themes, no plugin towers. I build website development services for lead generation, website development services for more conversions, website development services for more sales, website development services for more enquiries and website development services for business growth — every page has one job, and I check it against the enquiries it brings in. That includes website development services for booking websites, website development services for membership websites, website development services for directory websites and website development services for portfolio websites — the structure changes with the job, but the aim stays the same: a site visitors can use without thinking. I also offer website development services for a new website, website development services for professional websites, website development services for modern websites, website development services for responsive websites, website development services for mobile friendly websites, website development services for corporate websites, website development services for personal websites and website development services for high converting websites — fast on a phone, clear on a laptop, and built so the next step is obvious.",
     deliverables: [
       { text: "Conversion-first UX and page structure, including landing page development services", href: "/services/performance-marketing" },
       { text: "Next.js website development — custom Next.js / React development", href: "/blog/technical-seo-checklist-for-websites" },
@@ -202,11 +202,11 @@ export const services: Service[] = [
       "Vercel",
     ],
     idealFor:
-      "I work as a freelance web developer for businesses that need their website to act like a salesperson, not a brochure — affordable web development services for small business owners, and website development services for startups launching their first site.",
+      "I work as a freelance web developer for businesses that need their website to act like a salesperson, not a brochure — affordable web development services for small business owners, and website development services for startups launching their first site. After launch I offer website maintenance services for small business — small fixes, updates and checks, done by the same person who built the site, so nothing drifts.",
     faqs: [
       {
         q: "How long does a website take?",
-        a: "Most marketing sites take three to six weeks from kickoff, depending on how ready your content is. You'll get a firm timeline in the proposal.",
+        a: "Most marketing sites take three to six weeks from kickoff, depending on how ready your content is. You'll get a firm timeline in the proposal. If you are asking how long does it take to build a website, that three-to-six-week range is the honest answer for most marketing sites — a bigger build with booking, membership or ecommerce takes longer, and I will say so in the proposal before we start.",
       },
       {
         q: "Can you redesign my existing site?",
@@ -214,7 +214,7 @@ export const services: Service[] = [
       },
       {
         q: "Will I be able to update content myself?",
-        a: "Yes. Where it makes sense I integrate a CMS with an editing experience your team can actually use — plus a handover walkthrough.",
+        a: "Yes. Where it makes sense I integrate a CMS with an editing experience your team can actually use — plus a handover walkthrough. If you are asking what does website development include, it covers the plan, the design, the build, the SEO-ready structure, the speed work, the tracking and the handover — the full site, not just the pages you see.",
       },
     ],
   },
