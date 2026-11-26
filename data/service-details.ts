@@ -582,9 +582,9 @@ serviceArea: {
   snippet:
     "App development in Pakistan means designing and building mobile apps for iOS and Android — usually from one cross-platform codebase — then shipping them to the App Store and Google Play. As an app development company, I cover iOS app development Pakistan and Android app development Pakistan from Lahore: custom mobile app development Pakistan and mobile app development services Pakistan, from a mobile app development company that keeps every build focused. If you are looking for the best app development company in Pakistan, judge it on what ships: a focused MVP first, then real usage deciding what gets built next.",
   introLinks: [
-    { prefix: "App development in Pakistan works best cross-platform: one codebase for iOS and Android, one backend, and one team — ", anchor: "Abdul Rehman", href: "/about", suffix: ". I build focused MVPs for founders who want a real product in users' hands, not a demo. The app ships with its its", },
-    { prefix: "", anchor: "backend and APIs", href: "/services/custom-software", suffix: "included, and the", },
-    { prefix: "", anchor: "website", href: "/services/web-development", suffix: "to support it when you need one.", },
+    { prefix: "App development in Pakistan works best cross-platform: one codebase for iOS and Android, one backend, and one team — ", anchor: "Abdul Rehman", href: "/about", suffix: ". I build focused MVPs for founders who want a real product in users' hands, not a demo. The app ships with its", },
+    { prefix: "", anchor: "backend and APIs", href: "/services/custom-software", suffix: " included, and the", },
+    { prefix: "", anchor: "website", href: "/services/web-development", suffix: " to support it when you need one.", },
     { prefix: "", anchor: "Discuss your app idea", href: "/contact", suffix: ".", },
   ],
   deliverablesLead: "Everything an app development company in Pakistan should deliver — from scoping to store submission.",
@@ -775,7 +775,7 @@ serviceArea: {
     introLinks: [
       { prefix: "Shopify development Pakistan is not just a theme — it is COD that works, JazzCash and EasyPaisa connected properly, courier setup that reconciles, and a mobile-first store that loads fast on Pakistani connections. I build conversion-focused stores for brands that want to sell from day one, with ", anchor: "tracking that shows what actually sells", href: "/services/performance-marketing", suffix: " and", },
       { prefix: "", anchor: "Meta ads", href: "/services/meta-ads", suffix: " ready to plug in. Not sure Shopify is right? Compare it with", },
-      { prefix: "", anchor: "WordPress and WooCommerce", href: "/services/wordpress", suffix: ".", },
+      { prefix: "", anchor: "WordPress and WooCommerce", href: "/blog/shopify-vs-wordpress", suffix: ".", },
       { prefix: "", anchor: "Discuss your store", href: "/contact", suffix: ". If you want to hire Shopify developer Lahore help, tell me about your store and I'll reply with an honest assessment.", },
     ],
     deliverablesLead: "Everything Shopify development services for ecommerce brands in Pakistan should include — store, checkout, local payments, and tracking.",
