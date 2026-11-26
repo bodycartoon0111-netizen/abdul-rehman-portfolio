@@ -192,6 +192,31 @@ export default function ContactPage() {
           ))}
         </div>
       </section>
+
+      <section aria-labelledby="google-business-heading" className="mt-20 max-w-3xl">
+        <div className="group rounded-2xl border border-neutral-200 bg-white p-8 transition-colors hover:bg-pine">
+          <h2 id="google-business-heading" className="text-3xl font-bold tracking-tight text-neutral-900 transition group-hover:text-white">
+            AbdulRehman Tech on Google
+          </h2>
+          <p className="mt-5 text-lg leading-relaxed text-neutral-700 transition group-hover:text-white/85">
+            I run AbdulRehman Tech as an internet marketing service from Lahore. You can find my business on Google — check the hours, the areas I serve, and leave a review after we work together.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-neutral-700 transition group-hover:text-white/85">
+            Monday – Saturday: 9:00 AM – 11:00 PM PKT · Sunday: Closed
+          </p>
+          <p className="mt-2 text-lg leading-relaxed text-neutral-700 transition group-hover:text-white/85">
+            Lahore, Islamabad, Karachi, Rawalpindi, Faisalabad, Multan — and remote clients worldwide.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a href="https://maps.app.goo.gl/EapYDNXRFq5Zoj666" target="_blank" rel="noopener noreferrer" className="rounded-full bg-pine px-5 py-3 text-sm font-semibold text-white transition group-hover:bg-white group-hover:text-pine">
+              View on Google Maps
+            </a>
+            <a href="https://g.page/r/CVEVkSQEg5kEEBM/review" target="_blank" rel="noopener noreferrer" className="rounded-full border border-pine px-5 py-3 text-sm font-semibold text-pine transition group-hover:border-white group-hover:text-white">
+              Leave a review on Google
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
