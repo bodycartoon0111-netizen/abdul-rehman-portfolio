@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { faqs } from "@/data/faqs";
-import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd, buildLocalBusinessJsonLd, BRAND_WHATSAPP_LINK } from "@/lib/seo";
+import { absoluteUrl, BRAND_NAME, buildBreadcrumbJsonLd, buildLocalBusinessJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import Breadcrumbs from "@/components/sections/Breadcrumbs";
 import ContactForm from "@/components/forms/ContactForm";
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         type: "image/jpeg",
-        alt: "Abdul Rehman - Freelance SEO Consultant",
+        alt: "Abdul Rehman - Freelance SEO Specialist",
       },
     ],
   },
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
         url: absoluteUrl("/images/og-default.jpg"),
         width: 1200,
         height: 630,
-        alt: "Abdul Rehman - Freelance SEO Consultant",
+        alt: "Abdul Rehman - Freelance SEO Specialist",
       },
     ],
   },
 };
 
-const whatsappHref = BRAND_WHATSAPP_LINK;
+const whatsappHref = "https://wa.me/923714972789?text=Hi%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20AbdulRehman%20Tech";
 
 export default function ContactPage() {
   return (
@@ -80,7 +80,7 @@ export default function ContactPage() {
           </Link>{" "}
           first. Prefer direct? WhatsApp and email are on this page — use whichever SEO consultant contact suits you best.
         </p>
-      </header><section aria-label="Ways to get in touch" className="mt-10 max-w-3xl space-y-5 text-lg leading-relaxed text-neutral-700"><p>You can get in touch with SEO consultant help through the form below, by email or on WhatsApp — all three reach me directly, and every SEO project enquiry gets a personal reply. If you would rather talk to an SEO consultant first, book a call with SEO consultant Abdul Rehman by mentioning a day and time in your message — you can book SEO consultation time the same way.</p><p>Whether you want to contact SEO expert help for a single question or hire SEO consultant support for a full project, you can contact an SEO expert directly here, with no sales team and no ticket queue. If you prefer to work with a freelance SEO consultant who answers his own emails, or to work with an SEO consultant who treats your budget like his own, start with the form and tell me what you want to grow.</p><p>To contact a freelance SEO consultant, use the form below or message me directly — either way you reach me, not an account manager. To contact a digital marketing consultant about ads or a website as well as SEO, say so in your message, and to contact SEO freelancer support directly, WhatsApp is usually fastest. This page is your freelance SEO consultant contact point, and to contact Abdul Rehman SEO consultant help directly, any channel on this page works. When you hire a freelance SEO consultant you should know exactly who does the work — with me, it is always me.</p><p>Ready to start an SEO project? You can get a free SEO audit before we talk, or request a free SEO audit in your message — every SEO audit request gets a reply within one business day, and every enquiry can start with a free SEO consultation. Local businesses can book a free SEO audit Lahore owners use to see where they stand, or start SEO project Lahore work with a free SEO consultation first.</p><p>Businesses that hire SEO consultant Lahore support from me work directly with me — no handover to juniors — and if you want to hire freelance SEO consultant Lahore help for a longer engagement, say so in your message. To contact freelance SEO consultant Lahore businesses recommend, to contact SEO expert Lahore help for a one-off review, or to contact digital marketing consultant Lahore businesses use for ads and websites too, the same form covers it. Whether you want to contact SEO consultant for small business help or contact SEO consultant for startups advice, mention your stage and goals in the form.</p><p>Businesses across the country can contact SEO consultant Pakistan support here, and can get a free SEO audit Pakistan owners use to prioritise fixes. If you need to hire SEO consultant in Pakistan contact me through the form, email or WhatsApp, and if you want to hire Google Ads consultant Lahore contact me the same way — just mention Google Ads in your message. To book SEO consultation Lahore sessions, mention a day and time; for any SEO services contact — or SEO services Lahore contact for local work — the same form covers it. If you want to work with Abdul Rehman SEO directly, this page is where it starts, and every SEO audit request Lahore businesses send gets a personal reply. Email is the SEO consultant email contact for detailed briefs, and the SEO consultant Lahore contact number is +92 371 4972789 — WhatsApp or call.</p></section>
+      </header><section aria-label="Ways to get in touch" className="mt-10 max-w-3xl space-y-5 text-lg leading-relaxed text-neutral-700"><p>You can get in touch with SEO consultant help through the form below, by email or on WhatsApp — all three reach me directly, and every SEO project enquiry gets a personal reply. If you would rather talk to an SEO consultant first, book a call with SEO consultant Abdul Rehman by mentioning a day and time in your message — you can book SEO consultation time the same way.</p><p>Message me directly here — one question or a full project, no sales team and no ticket queue. If you prefer to work with a freelance SEO consultant who answers his own emails, or to work with an SEO consultant who treats your budget like his own, start with the form and tell me what you want to grow.</p><p>To contact a freelance SEO consultant, use the form below or message me directly — either way you reach me, not an account manager. To contact a digital marketing consultant about ads or a website as well as SEO, say so in your message, and to contact SEO freelancer support directly, WhatsApp is usually fastest. This page is your freelance SEO consultant contact point, and to contact Abdul Rehman SEO consultant help directly, any channel on this page works. When you hire a freelance SEO consultant you should know exactly who does the work — with me, it is always me.</p><p>Ready to start an SEO project? You can get a free SEO audit before we talk, or request a free SEO audit in your message — every SEO audit request gets a reply within one business day, and every enquiry can start with a free SEO consultation. Local businesses can book a free SEO audit Lahore owners use to see where they stand, or start SEO project Lahore work with a free SEO consultation first.</p><p>Businesses that hire SEO consultant Lahore support from me work directly with me — no handover to juniors — and if you want to hire freelance SEO consultant Lahore help for a longer engagement, say so in your message. To contact freelance SEO consultant Lahore businesses recommend, to contact SEO expert Lahore help for a one-off review, or to contact digital marketing consultant Lahore businesses use for ads and websites too, the same form covers it. For contact SEO consultant for small business help or contact SEO consultant for startups advice, mention your stage and goals in the form.</p><p>Businesses across the country can contact SEO consultant Pakistan support here, and can get a free SEO audit Pakistan owners use to prioritise fixes. If you need to hire SEO consultant in Pakistan contact me through the form, email or WhatsApp, and if you want to hire Google Ads consultant Lahore contact me the same way — just mention Google Ads in your message. To book SEO consultation Lahore sessions, mention a day and time; for any SEO services contact — or SEO services Lahore contact for local work — the same form covers it. If you want to work with Abdul Rehman SEO directly, this page is where it starts, and every SEO audit request Lahore businesses send gets a personal reply. Email is the SEO consultant email contact for detailed briefs, and the SEO consultant Lahore contact number is +92 371 4972789 — WhatsApp or call.</p></section>
 
       <div className="mt-12 grid gap-12 lg:grid-cols-5">
         <div className="lg:col-span-3">
