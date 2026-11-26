@@ -36,7 +36,7 @@ export const projects: Project[] = [
     services: ["Web Development", "SEO"],
     technologies: ["Next.js", "React", "PostgreSQL", "WhatsApp API", "SEO"],
     outcome:
-      "Live and operating — 205 listings, 78 agents, 13 cities, per the site's public counters.",
+      "Live and operating — 213 listings, 95 agents, 13 cities, per the site's public counters.",
     relatedServices: ["web-development", "seo"],
   },
   {
