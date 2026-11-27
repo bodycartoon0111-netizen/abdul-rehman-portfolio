@@ -67,7 +67,7 @@ const deliverables = [
   "Product page SEO Pakistan work starts with product and category page optimisation, with titles, descriptions and headings written for the way shoppers actually search.",
   "Category page SEO for ecommerce starts with site structure and internal linking that guides search engines — and visitors — from a category to the right product in as few steps as possible.",
   "An ecommerce website SEO audit Pakistan stores start with: a technical review of crawl, indexing and faceted navigation, so duplicate and near-duplicate pages stop competing with each other.",
-  "Ecommerce SEO audit services include a product schema and review markup review, so listings can show price, availability and ratings where search engines support them.",
+  "Ecommerce SEO audit services include product schema SEO for ecommerce and a review markup review, so listings can show price, availability and ratings where search engines support them.",
   "Ecommerce site speed SEO: page speed and mobile usability work, because most Pakistani shoppers browse on a phone and leave slow stores quickly.",
   "Ecommerce content marketing SEO means content for buying guides and category hubs that answer the questions shoppers ask before they choose a product.",
   "A Shopify SEO expert Pakistan stores hire handles out-of-stock and discontinued products too, so dead pages stop wasting crawl budget and visitors are guided to a live alternative.",
@@ -96,7 +96,7 @@ const processSteps = [
   {
     title: "Optimise what sells",
     description:
-      "An ecommerce SEO consultant for small business rewrites product and category pages around real search demand, starting with the lines that matter most.",
+      "An ecommerce SEO consultant for small business rewrites product and category pages around real search demand — the practical answer to how to rank product pages on Google — starting with the lines that matter most.",
   },
   {
     title: "Grow and report",
@@ -191,7 +191,7 @@ export default function EcommerceSeoPage() {
           The solution
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The work begins with the catalogue itself — and with how to increase online store sales with SEO. Products are grouped the way shoppers think, not the way a warehouse is organised, and category pages are given real content: guidance on choosing, comparisons between options and answers to the questions people ask before they buy. Product pages get descriptions written for the buyer in front of them, with the details that settle a purchase — sizes, materials, compatibility, delivery and returns — stated plainly. Internal links then connect the pieces, so a visitor who lands on a guide can reach the product in one or two clicks, and search engines can follow the same path.
+          The work begins with the catalogue itself — and with how to increase online store sales with SEO. Products are grouped the way shoppers think, not the way a warehouse is organised, and category pages are given real content: guidance on choosing, comparisons between options and answers to the questions people ask before they buy. Product pages get descriptions written for the buyer in front of them, with the details that settle a purchase — sizes, materials, compatibility, delivery and returns — stated plainly. Internal links — ecommerce internal linking SEO — then connect the pieces, so a visitor who lands on a guide can reach the product in one or two clicks, and search engines can follow the same path.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           The <Link href="/services/technical-seo" className="font-semibold text-neutral-900 underline">technical side</Link> runs alongside it: ecommerce technical SEO means faceted navigation is controlled so that filters do not flood search results with copies of the same page. Slow images are compressed, heavy scripts are trimmed, and the store is checked on a real phone rather than only on a fast office connection. Structured data is added where it helps listings show price and availability. None of this is a trick: it is the store made easier to crawl, easier to load and easier to buy from — the three things search engines and shoppers both reward.
@@ -222,7 +222,7 @@ export default function EcommerceSeoPage() {
           Strategy
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Shopify SEO services Pakistan and WooCommerce SEO services follow one ecommerce SEO strategy: treat the store as a shop, not as a pile of pages. In a real shop, the best sellers are near the front, the shelves are labelled in the words customers use, and nobody has to walk through the stockroom to find what they came for. The same logic applies online: the products that earn the most get the most attention, the categories carry the words shoppers type, and nothing important sits more than a couple of clicks from the homepage. Search data guides those decisions — what people ask, which products they compare and where they give up — and that is how to rank ecommerce website pages that already earn, so the store improves where it matters most, rather than everywhere at once.
+          Shopify SEO services Pakistan, WooCommerce SEO services, SEO for Magento stores and SEO for BigCommerce stores follow one ecommerce SEO strategy: treat the store as a shop, not as a pile of pages. In a real shop, the best sellers are near the front, the shelves are labelled in the words customers use, and nobody has to walk through the stockroom to find what they came for. The same logic applies online: the products that earn the most get the most attention, the categories carry the words shoppers type, and nothing important sits more than a couple of clicks from the homepage. Search data guides those decisions — what people ask, which products they compare and where they give up — and that is how to rank ecommerce website pages that already earn, so the store improves where it matters most, rather than everywhere at once.
         </p>
         <ul className="mt-6 list-disc space-y-3 pl-6 text-neutral-700">
           {strategyPoints.map((point) => (
@@ -255,7 +255,7 @@ export default function EcommerceSeoPage() {
           Who this is for
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
-          SEO for online stores in Pakistan starts with shops that already sell but rely too heavily on paid ads or marketplaces for their orders. Ecommerce SEO for small business Pakistan suits shops with a real catalogue and real stock, where the website is the business rather than a side project — fashion, electronics, beauty, home goods, groceries and any store where shoppers compare before they buy. SEO for Shopify stores and SEO for WooCommerce stores are both built the same way: pages written for how shoppers search, and a store that loads fast on a phone. Ecommerce SEO for startups is the same work at a smaller scale: if your store gets traffic but too few orders from search, or gets orders only when you pay for them, this is the work that changes the balance.
+          SEO for online stores in Pakistan starts with shops that already sell but rely too heavily on paid ads or marketplaces for their orders. Ecommerce SEO for small business Pakistan suits shops with a real catalogue and real stock, where the website is the business rather than a side project — whether that is SEO for dropshipping stores, SEO for fashion stores online, SEO for beauty stores online, SEO for furniture stores online, ecommerce SEO for electronics stores, SEO for handmade products online, or any store where shoppers compare before they buy. SEO for Shopify stores and SEO for WooCommerce stores are both built the same way: pages written for how shoppers search, and a store that loads fast on a phone. The same work covers ecommerce SEO for jewelry stores, SEO for subscription box stores, ecommerce SEO for pet stores, SEO for sports equipment stores, ecommerce SEO for food brands, SEO for toy stores online and ecommerce SEO for home decor stores — the same work, shaped around what each kind of store sells. Ecommerce SEO for startups — including SEO for new online stores and SEO for Amazon stores — is the same work at a smaller scale: if your store gets traffic but too few orders from search, or gets orders only when you pay for them, this is the work that changes the balance.
         </p>
       </section>
 
