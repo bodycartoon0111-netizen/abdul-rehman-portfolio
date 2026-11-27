@@ -70,22 +70,22 @@ const problems = [
 ];
 
 const deliverables = [
-  "Link audit of your current backlinks, separating the links that help from the ones that do nothing or harm.",
+  "Link audit of your current backlinks, separating the links that help from the ones that do nothing or harm. That is the starting point for authority link building services — the kind of work people mean by high authority backlink services — and for authority backlink building services that put relevance before volume.",
   "Off-page SEO services for ecommerce: digital PR angles and outreach to publications and sites your customers actually read.",
   "Linkable content ideas — guides and resources other sites will want to reference — for off-page SEO services for SaaS, off-page SEO services for WordPress and off-page SEO services for local business.",
-  "Local citation and directory work, keeping your business name, address and phone consistent.",
+  "Local citation and directory work, keeping your business name, address and phone consistent. It goes hand in hand with local link building services from a local link building agency that knows the city — links from local sites, not from directories nobody reads.",
   "Google Business Profile review, with the gaps that weaken local visibility filled in.",
-  "Competitor link gap analysis, showing where rivals earn links that you could earn too.",
-  "Broken-link and unlinked-mention recovery, turning mentions your site already has into links.",
+  "Competitor link gap analysis, showing where rivals earn links that you could earn too. That gap is often local link building for small business in particular, and the outreach that closes it is link building outreach services — real emails to real sites, not bulk blasts.",
+  "Broken-link and unlinked-mention recovery, turning mentions your site already has into links. The follow-up is classic link building outreach agency work: a short, honest email to the site that already mentioned you.",
   "A monthly link and mention report, in plain language, showing what was earned and where it came from.",
 ];
 
 const strategyPoints = [
   "Earn links by making something worth linking to, before asking anyone for a link.",
-  "Prefer relevant, local and industry links over large numbers of unrelated ones.",
+  "Prefer relevant, local and industry links over large numbers of unrelated ones. When a story is worth telling, I pitch it as a digital PR agency would — to publications your customers read, not to link farms.",
   "Keep business details identical everywhere, so local signals reinforce each other.",
   "Study where competitors earn their links, and earn the same kinds of links honestly.",
-  "Reject shortcuts — bought links and link schemes risk the rankings they promise to improve.",
+  "Reject shortcuts — bought links and link schemes risk the rankings they promise to improve. That is why my digital PR services for small business and my work as a digital PR agency for startups stay in the open: real stories, real publications, nothing bought.",
 ];
 
 const processSteps = [
@@ -102,7 +102,7 @@ const processSteps = [
   {
     title: "Earn the links",
     description:
-      "Outreach, digital PR and local work run together, each link earned in the open from a real site for a real reason.",
+      "Outreach, digital PR and local work run together, each link earned in the open from a real site for a real reason. That mix includes HARO: HARO link building services that answer journalists' requests with useful quotes, HARO link building agency work for owners who want press links, and HARO link building for small business owners who want press mentions without a press budget.",
   },
   {
     title: "Report and repeat",
@@ -148,10 +148,10 @@ export default function OffPageSeoPage() {
           <Link href="/services/seo" className="font-semibold text-neutral-900 underline">
             SEO services in Lahore
           </Link>{" "}
-          I offer: everything that happens away from your website and still shapes how search engines judge it. The pages on your site say what you do; the web around it says whether anyone believes you. Links, mentions, reviews and local listings are the signals search engines use to settle that question, and this service earns them honestly — through link building and work worth linking to, rather than through shortcuts that can damage a site for years.
+          I offer: everything that happens away from your website and still shapes how search engines judge it. The pages on your site say what you do; the web around it says whether anyone believes you. Links, mentions, reviews and local listings are the signals search engines use to settle that question, and this service earns them honestly — through link building and work worth linking to, rather than through shortcuts that can damage a site for years. Every link is built by hand: this is manual link building services work, done one site at a time, and I run it the way a manual link building agency should — with a list I can show you.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          A website can have good content and solid technical foundations and still sit below competitors, because search engines do not only judge pages — they judge reputations. If nobody links to your site, nobody mentions it, and no local listing confirms it, there is little for a search engine to trust. The result is familiar: pages that deserve to rank sit on the second page while older, better-known competitors take the enquiries, even when their content is no better than yours. Off-page SEO is the work that closes that trust gap, steadily and openly. I am often asked what is off-page SEO, how to do off-page SEO, and how to build backlinks for small business without buying links — and my answer is the same each time: start with pages worth linking to, then earn mentions the honest way. As an off-page SEO consultant and freelance off-page SEO expert, I offer off-page SEO services for small business, off-page SEO services for startups and off-page SEO services for small business websites, using white hat off-page SEO services and off-page SEO techniques that suit a small budget.
+          A website can have good content and solid technical foundations and still sit below competitors, because search engines do not only judge pages — they judge reputations. If nobody links to your site, nobody mentions it, and no local listing confirms it, there is little for a search engine to trust. The result is familiar: pages that deserve to rank sit on the second page while older, better-known competitors take the enquiries, even when their content is no better than yours. Off-page SEO is the work that closes that trust gap, steadily and openly. I am often asked what is off-page SEO, how to do off-page SEO, and how to build backlinks for small business without buying links — and my answer is the same each time: start with pages worth linking to, then earn mentions the honest way. As an off-page SEO consultant and freelance off-page SEO expert, I offer off-page SEO services for small business, off-page SEO services for startups and off-page SEO services for small business websites, using white hat off-page SEO services and off-page SEO techniques that suit a small budget. That includes manual link building for small business owners who want every link earned by hand, and manual link building for ecommerce stores whose product pages need links that actually help.
         </p>
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <Link
@@ -197,7 +197,7 @@ export default function OffPageSeoPage() {
           The solution
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The approach starts with something worth linking to. Nobody links to a service page out of kindness, so the work creates the material other sites want to reference — clear guides, useful data, and pages that answer questions better than anything else available. Then it earns attention for that material: digital PR aimed at publications and sites your customers actually read, outreach to relevant local and industry sites, and listings that keep your business details consistent wherever they appear. Every link is earned in the open, from real sites, for a real reason. I run this as an off-page SEO company and off-page SEO agency: backlink building services, link building services for small business, guest post outreach services, digital PR services, brand mention building services and local citation building services. I also run off-page SEO audit services, broken link building services and unlinked brand mention services, and I plan off-page SEO strategy services around the pages you already have.
+          The approach starts with something worth linking to. Nobody links to a service page out of kindness, so the work creates the material other sites want to reference — clear guides, useful data, and pages that answer questions better than anything else available. Then it earns attention for that material: digital PR aimed at publications and sites your customers actually read, outreach to relevant local and industry sites, and listings that keep your business details consistent wherever they appear. Every link is earned in the open, from real sites, for a real reason. I run this as an off-page SEO company and off-page SEO agency: backlink building services, link building services for small business, guest post outreach services, digital PR services, brand mention building services and local citation building services. I also run off-page SEO audit services, broken link building services and unlinked brand mention services, and I plan off-page SEO strategy services around the pages you already have. I also take on white label link building services for agencies that resell my work, and act as a white label link building agency partner for firms that need links without hiring in-house.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">Local work</Link> runs alongside it. For a Lahore business, much of the authority that matters is local: your Google Business Profile, local directories and the mentions that tie your business to the city. Those signals are checked, corrected and built up, so that when someone searches for your service in Lahore, the evidence points to you. The same applies across Pakistan: city pages, local coverage and consistent listings all add up to a reputation search engines can verify. Nothing here is bought or faked — earned authority is slower, but it is the kind that lasts, and it is the kind that survives the updates that punish shortcuts. Across Pakistan I offer link building services Pakistan, backlink building services Pakistan, guest post outreach services Pakistan, digital PR services Pakistan, brand mention building services Pakistan and local citation building services Pakistan. If you want affordable off-page SEO services Pakistan businesses can sustain, the best off-page SEO services Pakistan has from a local specialist, an off-page SEO consultant Pakistan businesses can actually reach, off-page SEO audit services Pakistan, off-page SEO agency Pakistan or a freelance link building expert Pakistan, I can help — including off-page SEO for ecommerce Pakistan.
