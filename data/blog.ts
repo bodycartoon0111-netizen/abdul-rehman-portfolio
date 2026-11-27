@@ -1019,7 +1019,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Want the build done right from day one?",
         paragraphs: [
-          "[Book a free SEO audit](/contact) and I will look at your site — or your build plan — and tell you plainly what needs to change before launch. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start. If your site runs on WordPress, I will show you how to audit technical SEO for a WordPress site as I go, so you can run the same checks yourself next time. That list is my technical SEO audit checklist for 2026, and I work through it in the same order on every audit.",
+          "[Book a free SEO audit](/contact) and I will look at your site — or your build plan — and tell you plainly what needs to change before launch. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start.",
         ],
       },
     ],
@@ -1149,7 +1149,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Want me to optimise your pages?",
         paragraphs: [
-          "[Book a free SEO audit](/contact) and I will run this on-page checklist against your most important pages and tell you plainly what needs fixing first. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start. If your site runs on WordPress, I will show you how to audit technical SEO for a WordPress site as I go, so you can run the same checks yourself next time. That list is my technical SEO audit checklist for 2026, and I work through it in the same order on every audit.",
+          "[Book a free SEO audit](/contact) and I will run this on-page checklist against your most important pages and tell you plainly what needs fixing first. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start.",
         ],
       },
     ],
