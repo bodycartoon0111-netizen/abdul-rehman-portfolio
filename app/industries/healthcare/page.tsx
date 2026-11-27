@@ -50,33 +50,33 @@ const problems = [
   {
     title: "Patients who cannot judge whom to trust",
     description:
-      "A clinic page that hides the doctors, their qualifications, the timings and the location gives a worried patient nothing to hold on to. They go back to the results and choose a practice that answers those questions, and that is why local SEO for doctors — SEO for doctors done properly — starts with the people behind the practice.",
+      "A clinic page that hides the doctors, their qualifications, the timings and the location gives a worried patient nothing to hold on to. They go back to the results and choose a practice that answers those questions, and that is why local SEO for doctors — SEO for doctors done properly — starts with the people behind the practice, and it is the same starting point for healthcare SEO for clinics, SEO for private clinics and local SEO for private practices.",
   },
   {
     title: "Health content that says nothing useful",
     description:
-      "Thin pages copied from general health sites do not help a patient decide, and search engines treat health content with extra care. Generic text earns neither trust nor rankings, and the same is true of SEO for pharmacies in Pakistan.",
+      "Thin pages copied from general health sites do not help a patient decide, and search engines treat health content with extra care. Generic text earns neither trust nor rankings, and the same is true of SEO for pharmacies in Pakistan — and of SEO for optometrists, where patients also need clear, trustworthy answers before they book.",
   },
   {
     title: "Invisible in the searches that matter",
     description:
-      "Most patients search for a specialty and a place — a dentist in Gulberg, a physiotherapist near DHA. A practice without strong local signals does not appear in those searches at all — and that is the gap local SEO for medical practices and SEO for medical clinics are meant to close.",
+      "Most patients search for a specialty and a place — a dentist in Gulberg, a physiotherapist near DHA. A practice without strong local signals does not appear in those searches at all — and that is the gap local SEO for medical practices and SEO for medical clinics are meant to close. The same gap shows up for a physiotherapist or a vet: SEO for physiotherapy clinics and SEO for veterinary clinics work from the same local searches, a specialty and a place.",
   },
 ];
 
 const deliverables = [
-  "Service and specialty pages that describe what the practice treats and how appointments work, in plain language patients can understand — that is clinic website SEO and medical clinic SEO, written for patients first.",
+  "Service and specialty pages that describe what the practice treats and how appointments work, in plain language patients can understand — that is clinic website SEO and medical clinic SEO, written for patients first, whether the page is for a general practice, SEO for mental health clinics or chiropractic SEO services.",
   "Practitioner and clinic pages that state qualifications, experience and timings clearly, so patients can make an informed choice — the human detail local SEO for clinics depends on.",
   "Google Business Profile for clinics: optimisation and local citation work, keeping your name, address, phone and hours consistent everywhere.",
-  "Health content planning as part of wider healthcare digital marketing: guides that answer the questions patients actually ask, written carefully and kept accurate.",
-  "Technical review of the site — speed, mobile usability and structure — so patients on a phone can find and contact you without friction; the quiet, technical half of clinic SEO.",
+  "Health content planning as part of wider healthcare digital marketing: guides that answer the questions patients actually ask, written carefully and kept accurate — healthcare content marketing SEO in practice, aimed at patient acquisition SEO that brings the right enquiries, not just visits.",
+  "Technical review of the site — speed, mobile usability and structure — so patients on a phone can find and contact you without friction; the quiet, technical half of clinic SEO, and the same review is where a medical SEO audit starts.",
   "Structured data review for the practice and its services, helping search engines present your information clearly.",
-  "Review and reputation guidance as part of clinic SEO services: making it easy for satisfied patients to leave honest feedback, and responding to it properly.",
+  "Review and reputation guidance as part of clinic SEO services: making it easy for satisfied patients to leave honest feedback, and responding to it properly — the same care applies whether the practice needs SEO for dermatology clinics, SEO for urgent care clinics or telemedicine SEO services, where trust is won one honest review at a time.",
   "A monthly report in plain language, part of local SEO services for healthcare: which services and locations gained visibility, and what patients searched to find you.",
 ];
 
 const strategyPoints = [
-  "Put trust first: qualifications, timings, location and what happens at an appointment, stated clearly on every key page — the first thing I look at as a healthcare SEO consultant.",
+  "Put trust first: qualifications, timings, location and what happens at an appointment, stated clearly on every key page — the first thing I look at as a healthcare SEO consultant, whether the practice needs SEO for wellness clinics or SEO for fertility clinics.",
   "Write for patients, not for search engines — clear answers in plain language, with no exaggerated claims — whether the page is about a clinic or about pharmacy SEO.",
   "Win the local searches around the clinic before chasing broader health terms — local SEO for pharmacies and SEO for pharmacies work the same way, one area at a time.",
   "Keep health content accurate and current, and remove anything that is out of date.",
@@ -97,7 +97,7 @@ const processSteps = [
   {
     title: "Build the service pages",
     description:
-      "Pages for each service and specialty are written around the searches patients actually make, with clear answers and next steps — the writing I do as a healthcare SEO consultant Pakistan practices can reach directly.",
+      "Pages for each service and specialty are written around the searches patients actually make, with clear answers and next steps — the writing I do as a healthcare SEO consultant Pakistan practices can reach directly, from SEO for home healthcare agencies and SEO for pediatric clinics to SEO for cosmetic clinics — and I work through a simple clinic SEO checklist for each one, so nothing patients search for is left out.",
   },
   {
     title: "Measure and maintain",
