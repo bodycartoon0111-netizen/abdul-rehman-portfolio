@@ -310,9 +310,9 @@ export const services: Service[] = [
     tagline: "WordPress done right: fast, secure, and easy to manage.",
     description: "Lean, secure WordPress builds with a custom theme, speed optimization and an editing experience your team can use.",
     problem:
-      "Most WordPress sites are plugin towers — slow, fragile, and one update away from breaking. The platform gets blamed for what bad builds caused — and the best WordPress development services are the ones that prevent the tower in the first place.",
+      "Most WordPress sites are plugin towers — slow, fragile, and one update away from breaking. The platform gets blamed for what bad builds caused — and the best WordPress development services are the ones that prevent the tower in the first place. I work as a WordPress development agency for the small teams I take on — a WordPress website development agency in how I work, not just in name — so whether you need a WordPress development agency for small business, a WordPress development agency for startups, or a WordPress development agency for ecommerce, you deal with me directly, from the first call to launch.",
     solution:
-      "Lean WordPress builds: WordPress theme development services and custom WordPress theme development, WordPress plugin development services only where a plugin genuinely earns its place, hardened security, and a Gutenberg editing experience your team will actually use. WordPress's flexibility without its reputation for bloat.",
+      "Lean WordPress builds: WordPress theme development services and custom WordPress theme development, WordPress plugin development services only where a plugin genuinely earns its place, hardened security, and a Gutenberg editing experience your team will actually use. WordPress's flexibility without its reputation for bloat. I also handle the launch itself: WordPress website launch services and WordPress website launch and setup services, including WordPress site launch services for a new site or a rebuild, so launch day is a checklist I run through with you, not a scramble. For shops, that includes WooCommerce store setup services, WooCommerce store setup for small business owners, and WooCommerce website setup services — the shop, the payments and the pages, set up so you can run them yourself. And when a site needs a second pair of eyes, I do WordPress consulting services as part of the build, plus WordPress technical SEO audit services and WordPress website security audit services before anything goes live.",
     deliverables: [
       { text: "Custom WordPress theme development Pakistan" },
       { text: "Speed and Core Web Vitals optimization", href: "/blog/technical-seo-checklist-for-websites" },
@@ -335,15 +335,15 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Is WordPress still a good choice in 2026?",
-        a: "For content-heavy sites and teams that publish often — absolutely. The key is a lean build. A well-built WordPress site is fast and secure; a page-builder tower is neither. If you are asking how to choose a WordPress developer, start with the build: ask how lean the theme is, how many plugins it needs, and who does the security.",
+        a: "For content-heavy sites and teams that publish often — absolutely. The key is a lean build. A well-built WordPress site is fast and secure; a page-builder tower is neither. If you are asking how to choose a WordPress developer, start with the build: ask how lean the theme is, how many plugins it needs, and who does the security. That is also how I work when you hire me for WordPress consultant services — if you want to hire WordPress consultant help, or need a WordPress consultant for small business, you get the same lean build and the same straight answers, from me directly.",
       },
       {
         q: "Can you speed up my existing WordPress site?",
-        a: "Usually, significantly. I audit what's actually slow — hosting, theme, plugins, images — and fix in order of impact. Sometimes that means rebuilding the theme; I'll show you the numbers first. If you are working out how to choose a WordPress development company, ask the same way: what they audit first, what they fix in order of impact, and what the numbers say before a rebuild.",
+        a: "Usually, significantly. I audit what's actually slow — hosting, theme, plugins, images — and fix in order of impact. Sometimes that means rebuilding the theme; I'll show you the numbers first. If you are working out how to choose a WordPress development company, ask the same way: what they audit first, what they fix in order of impact, and what the numbers say before a rebuild. The same audit habit applies to search and security: I offer WordPress SEO audit services, including a WordPress SEO audit for small business sites, so you know what is actually holding the site back before you spend on fixes.",
       },
       {
         q: "What about security and updates?",
-        a: "Hardening is part of every build: least-privilege access, update strategy, backups, and monitoring. Plus a plain-English guide so updates stop being scary. If you are wondering what is WordPress development, it is this: building and maintaining a WordPress site properly — lean theme, hardened security, updates and backups included — so publishing stays safe.",
+        a: "Hardening is part of every build: least-privilege access, update strategy, backups, and monitoring. Plus a plain-English guide so updates stop being scary. If you are wondering what is WordPress development, it is this: building and maintaining a WordPress site properly — lean theme, hardened security, updates and backups included — so publishing stays safe. That hardening is what my WordPress security audit services cover — I check access, updates, backups and monitoring, then leave you a plain-English guide, so you know what was checked and what to watch.",
       },
     ],
   },
