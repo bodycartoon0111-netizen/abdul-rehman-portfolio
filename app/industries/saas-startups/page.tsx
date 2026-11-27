@@ -50,12 +50,12 @@ const problems = [
   {
     title: "A good product nobody finds",
     description:
-      "The software works, the early users like it, but the website is a single landing page with nothing for search engines to rank. Every signup depends on paid ads (PPC) — startup PPC management Pakistan founders keep paying for month after month — or personal introductions.",
+      "The software works, the early users like it, but the website is a single landing page with nothing for search engines to rank. Every signup depends on paid ads (PPC) — startup PPC management Pakistan founders keep paying for month after month — or personal introductions. There is no SEO for SaaS free trial signups working in the background, so every trial has to be bought or introduced.",
   },
   {
     title: "Blog posts that bring readers, not users",
     description:
-      "Traffic grows, signups do not. The content answers general questions but never reaches the people comparing tools, weighing alternatives or ready to try something new.",
+      "Traffic grows, signups do not. The content answers general questions but never reaches the people comparing tools, weighing alternatives or ready to try something new — and a SaaS blog SEO strategy fixes that by aiming each post at a buyer, not just a reader.",
   },
   {
     title: "A site that hides its own product",
@@ -65,18 +65,18 @@ const problems = [
 ];
 
 const deliverables = [
-  "SaaS content SEO Pakistan planning: pages for the problems your software solves, the audiences it serves and the features buyers compare.",
-  "Comparison and alternative pages that answer the searches buyers make when choosing between tools — written honestly, without attacking competitors.",
+  "SaaS content SEO Pakistan planning: pages for the problems your software solves, the audiences it serves and the features buyers compare — the same planning I use for SEO for fintech startups, SEO for healthtech startups, SEO for AI startups and SEO for marketplace startups, where the buyers and their questions differ.",
+  "Comparison and alternative pages that answer the searches buyers make when choosing between tools — SEO for SaaS comparison pages, SEO for SaaS alternatives pages and SEO for SaaS review pages — written honestly, without attacking competitors.",
   "Feature and use-case page optimisation, so each part of the product can be found by the people looking for exactly that.",
   "Technical review of the marketing site and documentation: crawl, indexing, JavaScript rendering, speed and structure.",
   "Documentation and help-centre SEO, so support searches bring new users to your product instead of to a competitor's guide.",
-  "Pricing and signup page optimisation, making the path from search to trial as short and as clear as possible.",
+  "Pricing and signup page optimisation, making the path from search to trial as short and as clear as possible — SEO for SaaS landing pages, SEO for SaaS signup pages, SEO for SaaS pricing pages and SEO for SaaS onboarding pages, each built around the searches buyers make.",
   "SaaS link building SEO and internal linking between the blog, the product pages and the docs, so readers move naturally from a question to a trial.",
   "A monthly report in plain language: which pages brought signups and trials, and what the next pages should cover.",
 ];
 
 const strategyPoints = [
-  "A startup SEO strategy starts with the searches closest to a signup, and builds outward to broader topics only after those are won.",
+  "A startup SEO strategy starts with the searches closest to a signup, and builds outward to broader topics only after those are won. I keep a startup SEO checklist — and a B2B startup SEO checklist for teams selling to businesses — so nothing close to a signup gets missed.",
   "Startup content SEO lets the product do the persuading: show it working, rather than writing about it in the abstract.",
   "Write comparison pages that are fair enough for a sceptical buyer to trust.",
   "Treat documentation as marketing, because the people reading it are already using — or about to use — software like yours.",
@@ -102,7 +102,7 @@ const processSteps = [
   {
     title: "Grow and measure",
     description:
-      "Content and links grow month by month, with plain-language reporting on the pages that brought signups and trials. Founders always ask how long does SaaS SEO take — the honest answer is that the pages closest to a signup are built first, so progress arrives in that order rather than all at once.",
+      "Content and links grow month by month, with plain-language reporting on the pages that brought signups and trials. Founders always ask how long does SaaS SEO take, and how startups rank on Google — the honest answer is that the pages closest to a signup are built first, so progress arrives in that order rather than all at once.",
   },
 ];
 
@@ -139,10 +139,10 @@ export default function SaasStartupsSeoPage() {
           Your future users are already searching for the problem you solve. This work makes sure they find your product, not someone else's.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          SEO for SaaS startups Pakistan is the work of turning search into a steady source of signups for a software product. It goes beyond a landing page: feature pages, use-case pages, comparison pages and documentation that together answer every search a buyer makes on the way to a decision. When those pages are built around the words buyers actually use — the problem, the alternative they are leaving, the integration they need — the product starts appearing before the trial starts, rather than only after a paid ad. That traffic costs nothing per click, and it compounds as the library grows.
+          SEO for SaaS startups Pakistan is the work of turning search into a steady source of signups for a software product. It goes beyond a landing page: feature pages, use-case pages, comparison pages and documentation that together answer every search a buyer makes on the way to a decision. When those pages are built around the words buyers actually use — the problem, the alternative they are leaving, the integration they need — the product starts appearing before the trial starts, rather than only after a paid ad — and that is SaaS SEO for product-led growth: the product itself, shown in the open, brings the signups. That traffic costs nothing per click, and it compounds as the library grows.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Startups in Pakistan face a particular version of this problem. Many sell to customers abroad, where they compete with established tools that have years of content behind them. Others sell at home, where buyers compare carefully and want proof before they commit. Google Ads for SaaS startups can launch a product, and SaaS PPC management has its place for launches and tests, but PPC for SaaS startups Pakistan keeps costing more while the product is still improving, so a startup cannot buy its way to growth for long. Search is the channel that rewards a better product page over a bigger budget — that is the heart of SEO vs PPC for SaaS startups — and that is why SEO for startups suits a young company. As an SEO consultant for startups, I work as a freelance SEO consultant for startups Pakistan founders hire directly, as part of the wider{" "}
+          Startups in Pakistan face a particular version of this problem. Many sell to customers abroad, where they compete with established tools that have years of content behind them. Others sell at home, where buyers compare carefully and want proof before they commit. Google Ads for SaaS startups can launch a product, and SaaS PPC management has its place for launches and tests — startup PPC for signups is how I test a message before building the pages around it, but PPC for SaaS startups Pakistan keeps costing more while the product is still improving, so a startup cannot buy its way to growth for long. Search is the channel that rewards a better product page over a bigger budget — that is the heart of SEO vs PPC for SaaS startups — and that is why SEO for startups suits a young company. As an SEO consultant for startups, I work as a freelance SEO consultant for startups Pakistan founders hire directly, as part of the wider{" "}
           <Link href="/services/seo" className="font-semibold text-neutral-900 underline">
             SEO services in Lahore
           </Link>{" "}
@@ -256,7 +256,7 @@ export default function SaasStartupsSeoPage() {
           Who this is for
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
-          SEO for early stage startups Pakistan is for SaaS startups and young software companies with a live product, early users, and a need for growth that does not depend on ad spend alone. I offer freelance SEO for SaaS startups and B2B SaaS SEO services for teams selling to businesses or to consumers, at home or abroad, where buyers research before they sign up. If your product works and your users stay, but too few new users find you through search, a startup SEO consultant can change that — and founders who want to hire SEO consultant for startup growth start with an honest look at the funnel.
+          SEO for early stage startups Pakistan is for SaaS startups and young software companies with a live product, early users, and a need for growth that does not depend on ad spend alone. I offer freelance SEO for SaaS startups and B2B SaaS SEO services for teams selling to businesses or to consumers, at home or abroad — from startup SEO for app downloads to SaaS SEO for enterprise leads — where buyers research before they sign up. If your product works and your users stay, but too few new users find you through search, a startup SEO consultant can change that — and founders who want to hire SEO consultant for startup growth start with an honest look at the funnel.
         </p>
       </section>
 
