@@ -55,7 +55,7 @@ const problems = [
   {
     title: "Courses buried where nobody searches",
     description:
-      "A strong course can sit on a website that search engines barely crawl: one page for everything, no programme pages, no local pages and no content that matches what learners actually type.",
+      "A strong course can sit on a website that search engines barely crawl: one page for everything, no programme pages, no local pages and no content that matches what learners actually type — the same gap I see in SEO for coding bootcamps and SEO for vocational training centers, where one page tries to cover every course.",
   },
   {
     title: "Admissions season passes you by",
@@ -65,11 +65,11 @@ const problems = [
 ];
 
 const deliverables = [
-  "Programme and course pages that explain what is taught, who it is for, how long it takes and how to apply, in plain language — including SEO for online courses Pakistan learners can join from home.",
-  "Admissions pages for each intake, kept current with dates, entry requirements and the steps a family should follow — the pages behind admissions SEO services Lahore.",
+  "Programme and course pages that explain what is taught, who it is for, how long it takes and how to apply, in plain language — including SEO for online courses Pakistan learners can join from home — and course landing page SEO for the pages that turn a search into an application.",
+  "Admissions pages for each intake, kept current with dates, entry requirements and the steps a family should follow — the pages behind admissions SEO services Lahore — student enrollment SEO for every intake, with education PPC for admissions when a deadline needs extra reach.",
   "Local pages for each campus or branch — local SEO for schools Lahore families can actually find — so families searching near a specific area find the location that serves them.",
   "Google Business Profile optimisation, Google Maps ranking for schools Lahore parents check first, and local citation work for every campus, keeping names, addresses, phones and hours consistent.",
-  "Guides for students and parents: choosing a course, preparing for entry tests, understanding what a programme leads to.",
+  "Guides for students and parents: choosing a course, preparing for entry tests, understanding what a programme leads to — including SEO for test prep centers, and, for course creators, how to rank an online course on Google.",
   "Teacher and faculty pages that introduce the people behind the teaching, so families can see who their children will learn from.",
   "Technical review of the site — school website SEO Pakistan families judge in seconds: speed, mobile usability and structure — because most families research courses on a phone.",
   "A monthly report in plain language: which courses and campuses gained visibility, and what learners searched to find you.",
@@ -192,7 +192,7 @@ export default function EducationSeoPage() {
           The solution
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The work begins with the offering itself. Each course gets its own page — whether it is SEO for academies, SEO for institutes in Pakistan, SEO for colleges in Pakistan or SEO for tuition academies Lahore parents ask about: what is taught, who it is for, how long it runs, what a student needs to join and how to apply. Each campus gets its own page too, with its location, timings and the courses taught there. Admissions pages are kept current for each intake, so a family searching during admissions season finds the dates and requirements they need instead of last year's information. Internal links connect the course to its campus and the campus to its admissions page, so a visitor can move from a search to an application without getting lost.
+          The work begins with the offering itself. Each course gets its own page — whether it is SEO for academies, SEO for institutes in Pakistan, SEO for colleges in Pakistan, SEO for language schools, SEO for music schools, SEO for art schools, SEO for dance schools, SEO for Montessori schools, SEO for preschools, SEO for international schools, SEO for driving schools or SEO for tuition academies Lahore parents ask about: what is taught, who it is for, how long it runs, what a student needs to join and how to apply. Each campus gets its own page too, with its location, timings and the courses taught there. Admissions pages are kept current for each intake, so a family searching during admissions season finds the dates and requirements they need instead of last year's information. Internal links connect the course to its campus and the campus to its admissions page, so a visitor can move from a search to an application without getting lost.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
           Trust and <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">local visibility</Link> are built around those pages — the day-to-day of education digital marketing Lahore families actually see. The business profile for every campus is completed and kept accurate, listings across the web are made consistent, and guides are written for the questions families ask — how to choose between courses, how to prepare for an entry test, what a programme prepares a student for. Nothing is overstated: the site earns applications by being clear, complete and honest about what is on offer, which is exactly what both families and search engines are looking for.
@@ -223,7 +223,7 @@ export default function EducationSeoPage() {
           Strategy
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The strategy is to be the clearest answer at each stage of a family's decision. First they search for a type of course — SEO for schools and colleges, SEO for private schools, SEO for online schools, SEO for universities, SEO for educational institutions, each with its own questions; then they compare providers; then they check a campus near them; finally they look for admissions dates. The website is organised in that order, with a page for each step and a clear next action on every one. Content is planned around the admissions calendar, so the pages families need are ready before the searches arrive — and the institution that explains itself best is the one that receives the application — and that is the whole of my education SEO strategy: be the clearest answer, not the loudest.
+          The strategy is to be the clearest answer at each stage of a family's decision. First they search for a type of course — SEO for schools and colleges, SEO for private schools, SEO for online schools, SEO for universities, SEO for educational institutions, SEO for private tutors, SEO for study abroad consultants and SEO for training providers, each with its own questions; then they compare providers; then they check a campus near them; finally they look for admissions dates. The website is organised in that order, with a page for each step and a clear next action on every one. Content is planned around the admissions calendar, so the pages families need are ready before the searches arrive — and the institution that explains itself best is the one that receives the application — and that is the whole of my education SEO strategy: be the clearest answer, not the loudest.
         </p>
         <ul className="mt-6 list-disc space-y-3 pl-6 text-neutral-700">
           {strategyPoints.map((point) => (
@@ -256,7 +256,7 @@ export default function EducationSeoPage() {
           Who this is for
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
-          This is for schools, academies, tuition centres, professional training institutes and online course providers in Pakistan that take admissions and want those applications to come through search. It suits institutions with real courses and real campuses — including coaching institutes, where SEO for coaching institutes Pakistan is often the difference between a full batch and an empty one — and that is what education SEO services Pakistan are for: a website that reflects the quality of the teaching. If your courses fill by reputation but your website is not the one families find when they search, this is the work that changes that.
+          This is for schools, academies, tuition centres, professional training institutes and online course providers in Pakistan — including SEO for online tutoring and SEO for e-learning platforms — that take admissions and want those applications to come through search. It suits institutions with real courses and real campuses — including coaching institutes, where SEO for coaching institutes Pakistan is often the difference between a full batch and an empty one — and that is what education SEO services Pakistan are for: a website that reflects the quality of the teaching. If your courses fill by reputation but your website is not the one families find when they search, this is the work that changes that.
         </p>
       </section>
 
