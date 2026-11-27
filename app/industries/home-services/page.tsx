@@ -65,43 +65,44 @@ const problems = [
 ];
 
 const deliverables = [
-  "Service and trade pages that describe the work, the areas served and how to book, in plain language — trade SEO and home services SEO, written for homeowners first, whether that trade needs carpet cleaning SEO services, junk removal SEO or handyman SEO services.",
-  "Practitioner and trade pages that state qualifications, experience, service areas and timings clearly, so homeowners can make an informed choice — the human detail local SEO for home services depends on.",
-  "Google Business Profile and local citation work for home services businesses: keeping the name, address, phone and hours consistent everywhere, so nearby homeowners can find and call you. That consistency matters just as much for window cleaning SEO and pressure washing SEO, where most jobs come from a few streets away.",
-  "Local content planning for the areas you serve, with guides that answer the questions homeowners actually ask before they book — the same planning behind fencing company SEO and local SEO for flooring companies, built area by area.",
-  "Technical review of the site — speed, mobile usability and structure — so homeowners on a phone can find and call you without friction; the quiet, technical half of home services SEO.",
-  "Review and reputation guidance: making it easy for satisfied customers to leave honest feedback, and responding to it properly. That trust matters for SEO for solar installation companies and emergency plumber SEO alike, where the customer is choosing someone to let into their home.",
-  "A monthly report in plain language, part of local SEO services for home services: which trades and areas gained visibility, and what homeowners searched to find you.",
+  "Service pages for every trade you offer — plumbing, electrical work, air conditioning, painting, cleaning, pest control and more — written around the searches homeowners make; that is home services SEO services, page by page, whether the job needs carpet cleaning SEO services, junk removal SEO or handyman SEO services.",
+  "Area pages for the neighbourhoods and societies you serve, so your business appears for searches made near the job — local SEO for home services Lahore, built area by area, the same pages that carry window cleaning SEO and pressure washing SEO for the streets you cover.",
+  "Google Business Profile for home services: accurate services, hours, photos and service area, with guidance on asking customers for honest reviews.",
+  "Local citation and directory consistency as part of local SEO services for home services, so your name, address and phone match everywhere a customer might find them — the same consistency behind fencing company SEO and local SEO for flooring companies.",
+  "Call-friendly mobile pages, because a homeowner with a burst pipe is on a phone and needs your number in one tap — the simplest part of home services digital marketing, and the part customers trust most.",
+  "Emergency and seasonal content: the jobs people search for in summer heat, winter cold and the monsoon, answered in plain language — the content local SEO for repair services is built on, from SEO for solar installation companies to emergency plumber SEO, where the search is urgent.",
+  "Technical review of the site — speed, structure and mobile usability — so search engines and customers can reach the right page quickly; the technical half of the local SEO audit for home services.",
+  "A monthly report in plain language: which services and areas brought calls, and what was done to bring more — the reporting you should expect from the best local SEO agency for home services, and the reporting I give you.",
 ];
 
 const strategyPoints = [
-  "Put the local job first: the trade, the area and how to book, stated clearly on every key page — the first thing I look at as a home services SEO consultant, whether the business needs pool cleaning SEO services or local SEO for home inspection companies.",
-  "Write for homeowners, not for search engines — clear answers in plain language, with no exaggerated claims — whether the page is about a trade or about home repair SEO.",
-  "Win the local searches around the business before chasing broader terms — local SEO for electricians and SEO for electricians work the same way, one area at a time.",
-  "Keep trade content accurate and current, and remove anything that is out of date.",
-  "Make calling the business the easiest action on every page, day or night.",
+  "Win the searches made within your service area first, before trying to rank anywhere else — local SEO for electricians Lahore and local SEO for cleaning services Lahore work the same way, one area at a time, whether the job is pool cleaning SEO services or local SEO for home inspection companies.",
+  "Make the next step obvious on every page: call, message or book, with no digging — on the website and on the map, which is what Google Maps SEO for tradesmen comes down to.",
+  "Let genuine customer reviews do the persuading that advertising cannot — whether the page is about plumbing or about local SEO for landscapers.",
+  "Cover the urgent jobs people search for in the moment, not only the planned work they research for weeks — local SEO for HVAC companies depends on it, because customers search for the exact job they need.",
+  "Turn one good job in an area into visibility for the next job in the same area — the way local SEO for roofers grows, one street at a time.",
 ];
 
 const processSteps = [
   {
-    title: "Audit the business online",
+    title: "Audit the local presence",
     description:
-      "The website, business profile and local listings are reviewed, so the work starts from what homeowners see when they search today. The same review covers home services SEO services Pakistan, where the profile and the listings matter just as much.",
+      "The website, business profile and local listings are reviewed, so the work starts from what nearby homeowners see when they search. That first review is the local SEO audit for home services Lahore.",
   },
   {
-    title: "Fix trust and local signals",
+    title: "Build services and areas",
     description:
-      "Trade details, service areas and local listings are corrected and completed, giving homeowners and search engines a business they can trust. That is local SEO services for home services Lahore, fixed at the level homeowners actually see.",
+      "Pages for each service and each area you cover are created or rebuilt, with the details a homeowner needs before they call. That is local SEO services for contractors Lahore, fixed at the level customers actually see, including SEO for interior designers, where the homeowner is choosing on taste and trust as much as on price.",
   },
   {
-    title: "Build the service pages",
+    title: "Strengthen the profile",
     description:
-      "Pages for each trade and area are written around the searches homeowners actually make, with clear answers and next steps — the writing I do as a home services SEO consultant Pakistan trades can reach directly, including SEO for interior designers, where the homeowner is choosing on taste and trust as much as on price.",
+      "The business profile, reviews and local listings are built up, so the business shows clearly in map results and local searches — the work I do as a home services SEO consultant Pakistan businesses can reach directly.",
   },
   {
-    title: "Measure and maintain",
+    title: "Report the calls",
     description:
-      "Visibility and enquiries are reported in plain language each month, and the pages that homeowners use most are kept accurate — the reporting you should expect from the best home services SEO agency, and the reporting I give you.",
+      "Enquiries by service and area are reported in plain language each month, and the pages that bring work get more attention — the reporting you should expect from a home services SEO agency, and the reporting I give you.",
   },
 ];
 
@@ -131,17 +132,17 @@ export default function HomeServicesSeoPage() {
           <span className="bg-gradient-to-r from-pine-bright via-pine to-gold bg-clip-text text-transparent">
             Local SEO for Home Services in Lahore
           </span>{" "}
-          — Help Homeowners Find You
+          — Win the Local Jobs Near You
         </h1>
-        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Clear answers. A trustworthy first impression.</p>
+        <p className="mt-4 text-2xl font-black leading-tight tracking-tight text-ink md:text-3xl">Be the first reliable business they call.</p>
         <p className="mt-4 text-xl font-medium text-neutral-700">
-          When something breaks at home, nobody waits — they search, and they call the business that answers them clearly and looks trustworthy.
+          A homeowner needs help now, searches near home, and calls the first business that looks reliable. This work puts yours in that place.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Local SEO for home services — local SEO for home repair — is the work of making a trade or repair business easy to find and easy to trust. I offer home services SEO services Pakistan trades and repair businesses can rely on to be found first when homeowners search for help. It covers the pages homeowners rely on: the trades you cover, the areas you serve, the timings, the location and how to book. When those pages are complete, accurate and written in plain language, the business starts appearing for the searches homeowners actually make — a trade and a place, a problem and a question — instead of only for its own name. That visibility is what SEO for home services is for, and it is how homeowners find home services on Google and how home services businesses get customers from Google — enquiries from people who have already decided what they need.
+          Local SEO for home services — home services SEO — is the work of making a trades or repair business the obvious choice in <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">local search</Link>. It covers the pages homeowners land on — one for each service, one for each area — and the business profile that appears in map results, and that is how home service businesses get leads from Google. When those pages are clear about what you do, where you work and how to reach you, the business starts appearing for the searches that carry real urgency: a plumber near me, an AC technician in Gulberg, a painter in DHA. The enquiries arrive from people who need the work done, not from people still browsing — that is how contractors get leads from Google, and what SEO for home service businesses is for.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Home services searches are different from most others because the need is urgent. A homeowner with a leak or a dead air conditioner is choosing whom to trust with their home, and search engines treat that choice with extra care: they look for evidence that the information is accurate, current and written by people who know the trade. A thin website with copied text and no trade details fails that test, however good the work itself may be. The work on this page — my home services SEO strategy for the business, built around SEO for home services and how to rank a home services business on Google Maps — is about bringing the website up to the standard of the work, as part of the wider{" "}
+          Most home services work is won or lost in a few minutes. The tap is leaking, the fridge has stopped, the power is out — and the homeowner searches, scans the first few results and calls. A business with a slow website, no service pages and an empty business profile is not even in that comparison. The work on this page — built around how to rank a home services business on Google and home services lead generation SEO — is about changing that: building a local presence that matches the quality of the work itself, as part of the wider{" "}
           <Link href="/services/seo" className="font-semibold text-neutral-900 underline">
             SEO services in Lahore
           </Link>{" "}
@@ -162,7 +163,7 @@ export default function HomeServicesSeoPage() {
           </Link>
         </div>
         <p className="mt-6 text-base leading-relaxed text-neutral-700">
-          Homeowner searches start with their words, not yours — and{" "}
+          Local pages start with the words homeowners use — the words behind near me home services SEO Lahore — and{" "}
           <Link href="/services/keyword-research" className="font-semibold text-neutral-900 underline">
             keyword research
           </Link>{" "}
@@ -191,10 +192,10 @@ export default function HomeServicesSeoPage() {
           The solution
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The work begins with the business itself: who does the work, what trades you cover, when you are available and where you are based. Trade pages state qualifications and experience plainly. Service pages explain what each job involves, who it is for and how booking works, in language a homeowner can follow without trade jargon. Timings, prices where the business chooses to publish them, and directions are kept current, because a homeowner who cannot reach you will call someone else — the kind of detail a home services SEO agency would check first, and the kind I check too.
+          The work starts with the services themselves. Each trade gets its own page that explains what is included, what it typically costs to call out — in general terms the business is comfortable stating — and what the homeowner should expect on the visit. Area pages then say where that work is done, so a search made in one neighbourhood finds a business that genuinely covers it. The phone number and booking options sit where they can be reached in one tap, because a homeowner in a hurry will not search a site for them — the first thing I check as a home services SEO consultant.
         </p>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          <Link href="/services/local-seo" className="font-semibold text-neutral-900 underline">Local visibility</Link> and trustworthy content are built around that foundation. The Google Business Profile for home services Lahore is completed with accurate hours and services, listings across the web are made consistent, and guides are written to answer the questions homeowners ask before they book — what a first visit involves, how to prepare, what to bring. The same work covers home services SEO services and home repair SEO services. Nothing is exaggerated and nothing is promised that the work cannot deliver: the site earns trust by being accurate, complete and easy to use, which is exactly what both homeowners and search engines are looking for. That is home services SEO services Lahore in practice.
+          The local profile is built at the same time. The Google Business Profile for home services Lahore is filled out completely — services, hours, service area and photographs of real work — and customers are encouraged to leave honest reviews after a job is finished. Business details are kept consistent across directories, so a customer who finds a different number somewhere else is never sent to a dead line. Over time, the business becomes the name that homeowners in its area keep seeing, and the enquiries stop depending on luck — the standard people check when they compare the best home services SEO company options.
         </p>
       </section>
 
@@ -222,7 +223,7 @@ export default function HomeServicesSeoPage() {
           Strategy
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          The strategy is to answer the homeowner before they have to ask. Someone searching for help at home wants to know three things: can this business help me, can I trust the people who come to my home, and how do I reach them. The website is therefore organised around those questions, with service pages that explain, trade pages that reassure, and contact details that are never more than a tap away. Local search is the priority, because most homeowners choose a business near home — and the businesses that win those local searches are the ones with the clearest, most complete presence. That is home services digital marketing Lahore in the plain sense, and home services website SEO Pakistan built around the business's own area.
+          The strategy is to be found where the job is. A homeowner searches for a trade and a place together, so the website is organised that way: services crossed with the areas they are offered in, each page able to stand on its own in search. The business profile carries the same structure in map results, backed by reviews from real customers in those same areas. And because so much of this work is urgent, every page is built for a phone and a single action — calling — rather than for reading at leisure. That is home services SEO Lahore in the plain sense, and home services SEO Pakistan built around the business's own areas. It is also the work people mean when they look for the best home services SEO company Lahore has.
         </p>
         <ul className="mt-6 list-disc space-y-3 pl-6 text-neutral-700">
           {strategyPoints.map((point) => (
@@ -255,17 +256,17 @@ export default function HomeServicesSeoPage() {
           Who this is for
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700 group-hover:text-white/85">
-          This is for plumbers, electricians, cleaners, painters, pest control teams, HVAC technicians, movers and other home services businesses in Pakistan whose customers find them by searching — SEO for home services in Pakistan, built around real trades and real premises. It suits businesses with real tradespeople and real premises, where the website should reflect the standard of work customers receive — that is SEO for home services Pakistan, in plain terms. If your business is trusted by the customers who find it, but too few customers find it in the first place, this is the work that changes that. It is the work people look for when they search for the best home services SEO agency Pakistan has.
+          This is for plumbers, electricians, AC technicians, painters, cleaners, pest control teams, solar installers and other home service businesses in Pakistan that work in a defined area and want the phone to ring steadily — local SEO for home services Pakistan, built around real trades and real areas. It suits small teams and growing firms alike, as long as the work is real and the service area is clear, which is where local SEO for plumbers Pakistan starts: real trades, real areas. If your customers already recommend you once they have used you, but too few find you in the first place, this is the work that changes that. It is the work people look for when they search for the best local SEO agency for home services Pakistan has.
         </p>
       </section>
 
       {/* Service area */}
       <section aria-labelledby="service-area-heading" className="mt-16 max-w-4xl">
         <h2 id="service-area-heading" className="text-3xl font-bold tracking-tight text-neutral-900">
-          Home Services SEO for Pakistan businesses
+          Home services SEO for Lahore and Pakistan
         </h2>
         <p className="mt-5 text-lg leading-relaxed text-neutral-700">
-          Homeowners in Pakistan search in English and in Urdu, on phones, often for a trade near a specific area — Gulberg, DHA, Johar Town, Model Town, Bahria Town or their own neighbourhood in Karachi or Islamabad — and local SEO for home services in Lahore starts from those same area searches. They weigh the distance, the timings, the tradesperson's background and what other customers have said — the details local SEO for home services in Lahore has to get right. A business in Lahore serves a different set of local searches from one in Karachi, and both need pages and local signals built around their own area — local SEO for home services Pakistan, planned city by city. That is where Google Maps ranking for home services Lahore is won or lost: in the searches made a few streets away from the business. The same searches bring customers to repair businesses too, and local SEO for home repair Lahore starts from the same area pages and the same accurate profile. The work is planned around that: home services SEO services Lahore, with local pages for the areas you serve, accurate information a homeowner can act on, and a presence that looks as careful as the work itself.
+          Homeowners in Lahore search by trade and by area — DHA, Gulberg, Johar Town, Model Town, Cantt, Bahria Town and the neighbourhoods around them — and they search in both English and Urdu, usually on a phone — and local SEO for plumbers in Lahore starts from those same trade-and-area searches. The same pattern holds in Karachi, Islamabad and Rawalpindi, where a family wants someone reliable nearby, not a national directory — and local SEO for repair services Pakistan follows the same pattern, city by city. Seasons shape the work too: cooling in the summer heat, heating and damp in winter, repairs after the monsoon — and home services digital marketing Lahore plans around those seasons, not around generic posts. The work is planned around that: Local SEO for Home Services in Lahore means pages for the services and areas you actually cover, a profile that shows in map results — where Google Maps ranking for home services Lahore is won — and a site a homeowner can use with one hand while holding a torch in the other. That is Google Maps SEO for tradesmen Lahore, in the plain sense.
         </p>
       </section>
 
@@ -282,10 +283,10 @@ export default function HomeServicesSeoPage() {
             SEO
           </Link>
           <Link
-            href="/services/off-page-seo"
+            href="/services/seo-audit"
             className="rounded-full border border-neutral-300 px-5 py-2.5 text-sm font-medium text-neutral-700 transition hover:border-neutral-900 hover:text-neutral-900"
           >
-            Off-Page SEO
+            SEO Audit
           </Link>
           <Link
             href="/services/technical-seo"
@@ -304,8 +305,8 @@ export default function HomeServicesSeoPage() {
 
       <div className="mt-20">
         <CtaBand
-          title="Hire home services SEO expert help — ready to talk?"
-          description="Looking to hire home services SEO expert Lahore support for your business? Tell me about your business and customers and I'll reply with an honest assessment of what this service can — and can't — do for you."
+          title="Hire local SEO expert for home services — ready to talk?"
+          description="Tell me about your trades and service area and I'll reply with an honest assessment of what this service can — and can't — do for you."
         />
       </div>
     </main>
