@@ -267,9 +267,9 @@ export const services: Service[] = [
     tagline: "Internal tools, dashboards, and systems built around how you work.",
     description: "CRMs, dashboards and internal tools built around your workflow, with documentation and training included.",
     problem:
-      "Off-the-shelf software forces your team into someone else's workflow, and the subscriptions pile up — while the one feature you actually need still doesn't exist — the gap custom software development services for small business exist to close, because custom software for small business is built around one team's workflow, not a market of thousands.",
+      "Off-the-shelf software forces your team into someone else's workflow, and the subscriptions pile up — while the one feature you actually need still doesn't exist — the gap custom software development services for small business exist to close, because custom software for small business is built around one team's workflow, not a market of thousands. My work is custom software development services for business growth, built the same way for custom software development services for established businesses, custom software development services for growing businesses, custom software development services for service businesses and custom software development services for online businesses — sized to where you are now, not where a template assumes you are.",
     solution:
-      "Purpose-built software from a software development company that builds it around your process: CRM development services, dashboards, booking systems, internal tools — designed around your actual process, integrated with the tools you already use, and owned outright instead of rented forever. The best custom software development services are the ones your team actually wants to use.",
+      "Purpose-built software from a software development company that builds it around your process: CRM development services, dashboards, booking systems, internal tools — designed around your actual process, integrated with the tools you already use, and owned outright instead of rented forever. The best custom software development services are the ones your team actually wants to use. I use the same approach for custom software development services for scheduling systems, custom software development services for workflow automation, custom software development services for inventory management, custom software development services for order management, custom software development services for booking systems and custom software development services for membership systems, plus custom software development services for data management, custom software development services for internal tools and custom software development services for document management — each one shaped around the work it has to do, not a template.",
     deliverables: [
       { text: "Requirements and process mapping", href: "/process" },
       { text: "System architecture and data design, including ERP software development services" },
@@ -288,7 +288,7 @@ export const services: Service[] = [
       "Python",
     ],
     idealFor:
-      "Teams that have outgrown spreadsheets and generic SaaS — and know exactly what's slowing them down — including small businesses looking for custom software development for small business Pakistan, and custom software for small business Lahore, from a freelance software developer Pakistan businesses hire directly.",
+      "Teams that have outgrown spreadsheets and generic SaaS — and know exactly what's slowing them down — including small businesses looking for custom software development for small business Pakistan, and custom software for small business Lahore, from a freelance software developer Pakistan businesses hire directly. I also build custom software development services for B2B companies, custom software development services for small teams, custom software development services for cloud applications, custom software development services for API development and custom software development services for system integrations — so the tools you already use can finally talk to each other.",
     faqs: [
       {
         q: "How do I decide between building and buying?",
@@ -296,7 +296,7 @@ export const services: Service[] = [
       },
       {
         q: "How long does custom software take?",
-        a: "Scoped in phases: a useful first version typically ships in weeks, not quarters, then we iterate on real usage instead of imagined requirements. If you are working out how to choose a software development company, ask the same questions of every quote: who builds it, how the phases are scoped, and what the first version includes.",
+        a: "Scoped in phases: a useful first version typically ships in weeks, not quarters, then we iterate on real usage instead of imagined requirements. If you are working out how to choose a software development company, ask the same questions of every quote: who builds it, how the phases are scoped, and what the first version includes. If you are asking how long does custom software development take, that phased answer is the honest one: a useful first version in weeks, then steady improvements from real use.",
       },
       {
         q: "What about maintenance after launch?",
