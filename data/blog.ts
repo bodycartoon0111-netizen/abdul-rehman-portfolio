@@ -641,7 +641,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What this technical SEO checklist is for",
         paragraphs: [
           "Technical SEO is the part of SEO nobody sees. Your visitors never notice it when it works. They only notice it when it breaks — a page that will not load, a link that goes nowhere, a search result that shows the wrong title.",
-          "I run this technical SEO checklist in the same order every time I audit a site. If you are starting out, treat it as a technical SEO audit checklist for beginners and work the list in order. That order is also how to audit a website for technical SEO: check what Google can reach before you judge anything else. On a technical SEO checklist for large websites the order stays the same — only the schedule changes, with the crawl and index checks monthly and the full list quarterly. Crawl first, then index, then speed, then the rest. The order matters because a page Google cannot reach does not care how fast it is, and a fast page Google never indexes does not rank. Work through the 30 items below in order, and fix what fails before you move on.",
+          "I run this technical SEO checklist in the same order every time I audit a site. If you are starting out, treat it as a technical SEO audit checklist for beginners and work the list in order. That order is also how to audit a website for technical SEO: check what Google can reach before you judge anything else. On a technical SEO checklist for large websites the order stays the same — only the schedule changes, with the crawl and index checks monthly and the full list quarterly. Crawl first, then index, then speed, then the rest. The order matters because a page Google cannot reach does not care how fast it is, and a fast page Google never indexes does not rank. Work through the 30 items below in order, and fix what fails before you move on. I work through it as a technical SEO audit checklist step by step, in the same order every time, so nothing gets skipped. If you want to know how to do a technical SEO audit step by step, this list is the order I would follow: access first, then speed, then polish. A new website gets the same treatment: my technical SEO audit checklist for new websites starts with the same access checks, before anything else.",
           "If you want the deeper version of the audit work behind this list, my [SEO audit service](/services/seo-audit) follows the same sequence. The same sequence works as a technical SEO checklist for a new domain — run it before launch, not after, so nothing starts out blocked. It is also the sequence I follow when someone asks me how to fix technical SEO issues: find the problem first, then fix it in order. The [technical SEO service](/services/technical-seo) page covers what the fixes look like once the checklist is done.",
         ],
       },
@@ -649,7 +649,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Crawl: can Google reach your pages?",
         paragraphs: [
           "**1. Your robots.txt file does not block anything important.**",
-          "Open yoursite.com/robots.txt in a browser and read it. One line — `Disallow: /` — blocks your whole site. I have seen it left over from a staging build more than once. Your robots.txt should name your sitemap and block only the parts of the site that should never be crawled, like admin pages and internal search results.",
+          "Open yoursite.com/robots.txt in a browser and read it. One line — `Disallow: /` — blocks your whole site. I have seen it left over from a staging build more than once. Your robots.txt should name your sitemap and block only the parts of the site that should never be crawled, like admin pages and internal search results. That check is where I start whenever a client asks how to find and fix technical SEO issues: first find out what Google can reach, then fix what it cannot. The tools for that check are free, and my technical SEO audit tools checklist starts with them: Search Console, PageSpeed Insights, and a crawler.",
           "**2. Your XML sitemap exists, is submitted, and lists only pages you want indexed.**",
           "A sitemap at /sitemap.xml, submitted in Google Search Console, with every canonical URL in it. The same check sits at the heart of a technical SEO checklist for SaaS websites, where the docs, the changelog and the app pages all need to stay in the index. A technical SEO checklist for online stores starts in the same place, with one clean URL per product and category. No noindexed pages, no redirected pages, no 404s. Keep the sitemap clean so Google does not waste crawl on pages you never want indexed.",
           "**3. Every important page returns a 200 status code.**",
@@ -689,18 +689,18 @@ export const blogPosts: BlogPost[] = [
           "**15. Server response time is fast.**",
           "Time to first byte should be well under a second for your key pages. Slow hosting, an uncached database query on every request, or a server on the other side of the world from your visitors all show up here. I fix the server before I chase smaller wins.",
           "**16. Images are sized, compressed, and lazy-loaded below the fold.**",
-          "Serve the size the screen needs, not the original from the camera. That habit is the core of a technical SEO checklist for images — every oversized file you skip is speed your visitors keep. Compress before you upload. Images below the first screen should load only when the visitor scrolls to them.",
+          "Serve the size the screen needs, not the original from the camera. That habit is the core of a technical SEO checklist for images — every oversized file you skip is speed your visitors keep. Compress before you upload. Images below the first screen should load only when the visitor scrolls to them. Most of that traffic is on phones, so my technical SEO audit checklist for mobile sites starts with these same image checks on a real phone.",
         ],
       },
       {
         heading: "Mobile and rendering: does the page work on a phone?",
         paragraphs: [
           "**17. The mobile version shows the same content as the desktop version.**",
-          "Google indexes the mobile version of your site first. If the mobile layout hides content, trims text, or drops sections, Google treats that content as gone. Check the mobile page in Search Console's URL inspection tool and compare it with the desktop version.",
+          "Google indexes the mobile version of your site first. If the mobile layout hides content, trims text, or drops sections, Google treats that content as gone. Check the mobile page in Search Console's URL inspection tool and compare it with the desktop version. For a small business the stakes are plain: my technical SEO audit checklist for local business sites checks the mobile page first, because that is the page their customers see.",
           "**18. Text is readable without zooming, and tap targets are big enough.**",
           "Small text and buttons packed together are a mobile usability failure. That is the first thing I check on a mobile technical SEO checklist, because most visitors arrive on a phone and a page they cannot read is a page they leave. On a technical SEO checklist for local business websites I check the same things on a real phone first, because most local visitors arrive on one and a blocked page loses the call. A visitor should be able to read the page and tap a link without pinching or missing. Basic check, and it still catches sites — I find small text and cramped tap targets on live sites regularly.",
           "**19. JavaScript-rendered content appears in the rendered HTML.**",
-          "If your site builds its content with JavaScript, I use the URL inspection tool to see what Google actually gets after rendering. That rendered view is the core of a technical SEO checklist for JavaScript websites — what the tool shows after rendering is what Google can actually use. Content that never renders is content that never ranks. Server-side rendering or pre-rendering fixes this for most sites.",
+          "If your site builds its content with JavaScript, I use the URL inspection tool to see what Google actually gets after rendering. That rendered view is the core of a technical SEO checklist for JavaScript websites — what the tool shows after rendering is what Google can actually use. Content that never renders is content that never ranks. Server-side rendering or pre-rendering fixes this for most sites. That is why my technical SEO audit checklist for JavaScript sites always starts with the rendered HTML, not the source code. Single page apps need the same care, so I run a technical SEO audit checklist for single page apps against the rendered pages too: if the content only exists after rendering, that rendered view is what counts.",
           "**20. No pop-ups or interstitials cover the main content on mobile.**",
           "A full-screen pop-up that blocks the page on a phone hurts visitors and can hurt rankings. Keep calls to action small, dismissible, and off the first screen.",
         ],
@@ -713,9 +713,9 @@ export const blogPosts: BlogPost[] = [
           "**22. Breadcrumb schema matches the visible breadcrumbs.**",
           "If your pages show breadcrumb navigation, mark it up. It helps Google show the path in search results, and it confirms your site structure.",
           "**23. Type-specific schema is used only where it genuinely applies.**",
-          "Article schema on articles, Product schema on product pages, FAQPage schema where the page shows real questions and answers. A technical SEO checklist for news websites starts with Article schema on every story, so Google knows what each page is, and the same rule applies on a technical SEO checklist for multi-language websites, where each language version gets its own markup. Only mark up content that is visible on the page — hidden or misleading markup can cost you eligibility for rich results.",
+          "Article schema on articles, Product schema on product pages, FAQPage schema where the page shows real questions and answers. A technical SEO checklist for news websites starts with Article schema on every story, so Google knows what each page is, and the same rule applies on a technical SEO checklist for multi-language websites, where each language version gets its own markup. Only mark up content that is visible on the page — hidden or misleading markup can cost you eligibility for rich results. I keep a separate technical SEO audit checklist for multilingual websites for those sites, because every language version needs the same access checks. News sites need the same care at speed: my technical SEO audit checklist for news sites starts with the Article schema on every story, because Google has to know what each page is.",
           "**24. Schema validates cleanly in the Rich Results Test.**",
-          "I run every templated page type through the test before I call the work done. A single syntax error can invalidate the whole block, and the test shows you exactly where it is.",
+          "I run every templated page type through the test before I call the work done. A single syntax error can invalidate the whole block, and the test shows you exactly where it is. For shops, that test runs on the product pages first: my technical SEO audit checklist for ecommerce stores starts with the product page, because prices, availability, and review counts have to be true. Shopify stores get the same treatment, so I run a technical SEO audit checklist for Shopify stores against the product and collection pages first.",
         ],
       },
       {
@@ -726,19 +726,19 @@ export const blogPosts: BlogPost[] = [
           "**26. Broken internal and outbound links are fixed.**",
           "I crawl the site and fix every 404 a visitor or a crawler can reach. A broken link on a key page wastes the authority that page has and tells visitors the site is not maintained.",
           "**27. Your internal links point at the pages that earn business.**",
-          "Link from your blog posts to your service pages with words that describe the destination. My guide to [keyword research that brings customers](/blog/keyword-research-that-brings-customers) covers how to choose the pages worth linking to. Orphan pages — pages with no internal links pointing at them — are pages Google may never find.",
+          "Link from your blog posts to your service pages with words that describe the destination. My guide to [keyword research that brings customers](/blog/keyword-research-that-brings-customers) covers how to choose the pages worth linking to. Orphan pages — pages with no internal links pointing at them — are pages Google may never find. That is why my technical SEO audit checklist for blogs always includes the oldest posts: they are the pages that quietly break.",
           "**28. Images have descriptive alt text.**",
           "Alt text describes the image for screen readers and for Google. Write what the image shows, in plain words. Leave decorative images with empty alt text so screen readers skip them.",
           "**29. Your site has one preferred version, and every other version redirects to it.**",
           "The www and non-www versions, and the HTTP version, should all redirect to the one canonical address. Two live versions of the same site split your rankings in half.",
           "**30. You re-run this checklist on a schedule, not when something breaks.**",
-          "Technical SEO drifts. Plugins update, pages get added, redirects pile up. I re-run the crawl and the Pages report monthly, and the full checklist every quarter. A site that is checked on a schedule rarely breaks badly, because the small problems get caught while they are still small.",
+          "Technical SEO drifts. Plugins update, pages get added, redirects pile up. I re-run the crawl and the Pages report monthly, and the full checklist every quarter. A site that is checked on a schedule rarely breaks badly, because the small problems get caught while they are still small. Startups drift fastest, so my technical SEO audit checklist for startups runs monthly: the crawl, the checklist, and the pages that move the money. The SaaS version of that schedule is a technical SEO audit checklist for SaaS: pricing and docs pages every month, the full list every quarter. The report I send afterwards follows a technical SEO audit report checklist: what I checked, what I found, and what to fix first.",
         ],
       },
       {
         heading: "How long does the checklist take?",
         paragraphs: [
-          "A small site — under fifty pages — takes a morning to check and a few days to fix, depending on what comes up. A large site with thousands of pages takes longer, mostly because the crawl itself takes time and because sorting real errors from noise is real work. The size of the site decides it, not the checklist.",
+          "A small site — under fifty pages — takes a morning to check and a few days to fix, depending on what comes up. A large site with thousands of pages takes longer, mostly because the crawl itself takes time and because sorting real errors from noise is real work. The size of the site decides it, not the checklist. Most service business sites are that size, and my technical SEO audit checklist for service websites takes the same morning: the 30 items, in order.",
           "Start with items 1 to 11. Those are the access checks, and they decide whether the rest of the list matters. Speed and mobile come next, because they decide what happens to the traffic the first group earns. Schema and hygiene go last, on a schedule, because they are maintenance, not emergencies.",
           "If you would rather have someone else run it, that is what I do. This checklist is the list I work from, and my [SEO audit](/services/seo-audit) runs it against your site in this order, then hands you a short list of fixes in priority order. My [process](/process) page shows how an audit runs from first check to final report.",
         ],
@@ -759,7 +759,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Want me to run this checklist on your site?",
         paragraphs: [
-          "[Book a free SEO audit](/contact) and I will go through all 30 items against your site in the order above, then tell you plainly what needs fixing first. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start.",
+          "[Book a free SEO audit](/contact) and I will go through all 30 items against your site in the order above, then tell you plainly what needs fixing first. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start. If your site runs on WordPress, I will show you how to audit technical SEO for a WordPress site as I go, so you can run the same checks yourself next time. That list is my technical SEO audit checklist for 2026, and I work through it in the same order on every audit.",
         ],
       },
     ],
@@ -1019,7 +1019,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Want the build done right from day one?",
         paragraphs: [
-          "[Book a free SEO audit](/contact) and I will look at your site — or your build plan — and tell you plainly what needs to change before launch. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start.",
+          "[Book a free SEO audit](/contact) and I will look at your site — or your build plan — and tell you plainly what needs to change before launch. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start. If your site runs on WordPress, I will show you how to audit technical SEO for a WordPress site as I go, so you can run the same checks yourself next time. That list is my technical SEO audit checklist for 2026, and I work through it in the same order on every audit.",
         ],
       },
     ],
@@ -1149,7 +1149,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Want me to optimise your pages?",
         paragraphs: [
-          "[Book a free SEO audit](/contact) and I will run this on-page checklist against your most important pages and tell you plainly what needs fixing first. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start.",
+          "[Book a free SEO audit](/contact) and I will run this on-page checklist against your most important pages and tell you plainly what needs fixing first. Or [message me on WhatsApp](https://wa.me/923714972789) and I will tell you where to start. If your site runs on WordPress, I will show you how to audit technical SEO for a WordPress site as I go, so you can run the same checks yourself next time. That list is my technical SEO audit checklist for 2026, and I work through it in the same order on every audit.",
         ],
       },
     ],
