@@ -224,9 +224,9 @@ export const services: Service[] = [
     tagline: "iOS app development services and Android app development services — from idea to App Store.",
     description: "Mobile app development services — cross-platform iOS and Android apps from a single codebase, from scoping to store submission.",
     problem:
-      "Great product ideas stall because agencies quote enterprise prices, or deliver codebases nobody can maintain after launch. As a freelance app developer, I offer app development services for startups and app development services for small business owners: one codebase, one person, and a scope you can afford to finish.",
+      "Great product ideas stall because agencies quote enterprise prices, or deliver codebases nobody can maintain after launch. As a freelance app developer, I offer app development services for startups and app development services for small business owners: one codebase, one person, and a scope you can afford to finish. When people ask me how long does it take to build an app, I give a straight answer after scoping, because a rushed date helps no one.",
     solution:
-      "App development services in Pakistan work best as cross-platform app development services: one codebase for iOS and Android, one backend, and one team — Abdul Rehman. Custom mobile app development services from a single codebase: native feel, one team, faster iterations — plus a backend designed to scale past your first ten thousand users, not just your first hundred.",
+      "App development services in Pakistan work best as cross-platform app development services: one codebase for iOS and Android, one backend, and one team — Abdul Rehman. Custom mobile app development services from a single codebase: native feel, one team, faster iterations — plus a backend designed to scale past your first ten thousand users, not just your first hundred. I build app development services for more downloads and app development services for more customers into the same release plan, because an app that no one finds does not help app development services for business growth. That is why I also cover app development services for app store optimisation, app development services for push notifications and app development services for in-app purchases, and I take on app development services for app redesign and app development services for existing apps when a good product needs a second chance.",
     deliverables: [
       { text: "Product scoping and user flows", href: "/process" },
       { text: "App UI UX design services — UI/UX design for the core flow first" },
@@ -245,11 +245,11 @@ export const services: Service[] = [
       "Expo",
     ],
     idealFor:
-      "Founders validating a mobile product without hiring an in-house team — including ecommerce app development services for shops that need an app customers actually open.",
+      "Founders validating a mobile product without hiring an in-house team — including ecommerce app development services for shops that need an app customers actually open. I also work with app development services for service businesses, app development services for booking apps, app development services for delivery apps and app development services for marketplace apps, plus app development services for B2B companies, app development services for B2C businesses and app development services for new businesses — if you serve customers through an app, I can build it with you.",
     faqs: [
       {
         q: "Should I build for iOS, Android, or both?",
-        a: "Cross-platform means you don't have to choose — one codebase ships to both stores, which is the right call for most MVPs and early-stage products.",
+        a: "Cross-platform means you don't have to choose — one codebase ships to both stores, which is the right call for most MVPs and early-stage products. If you are looking to hire Flutter developer help, to hire React Native developer help, to hire iOS developer help, or to hire Android developer help, you still get the same person doing the work — me — instead of a handoff chain.",
       },
       {
         q: "How much does an app cost?",
