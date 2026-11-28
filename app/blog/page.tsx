@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     ],
   },
 };
-
 export default function BlogPage() {
   return (
+
     <main className="mx-auto max-w-6xl px-6 py-10">
       <JsonLd
         data={buildBreadcrumbJsonLd([
@@ -79,8 +79,14 @@ export default function BlogPage() {
             digital marketing services
           </Link>
           {" "}behind the notes.
+          {" "}If you are learning how to grow a website from zero traffic, this is where I put what worked for me, including how to write blog posts that rank on Google and how to get your first 1000 website visitors without guessing.
+          {" "}I learned most of this without a course, so if you want to know how to learn SEO without a course or how to improve Google rankings without ads, I share the SEO learning resources for beginners and the digital marketing learning roadmap I actually followed.
         </p>
-        <p className="mt-5 text-lg leading-relaxed text-muted">I write about the SEO and marketing work I actually do — mostly for small businesses, and mostly from what I have seen on real sites. Start with the checklist if you are new here, or pick the topic you are stuck on.</p>
+        <p className="mt-5 text-lg leading-relaxed text-muted">I write about the SEO and marketing work I actually do — mostly for small businesses, and mostly from what I have seen on real sites. Start with the checklist if you are new here, or pick the topic you are stuck on.
+          {" "}You will find SEO tips that actually work for small websites and digital marketing ideas for small businesses here, the kind of thing I test on real sites before I write about it.
+          {" "}That includes the SEO mistakes beginners make and how to fix them, content marketing ideas for small business blogs, and how to plan content that ranks and converts.
+          {" "}I keep it plain: digital marketing explained simply for beginners, how to choose the right digital marketing channel, and how to rank a brand new website.
+          {" "}I also cover the digital marketing skills to learn first, how to build an online presence from scratch, the SEO questions beginners ask, how to stay updated with SEO changes, and free ways to learn digital marketing online.
       </header>
 
       <section className="mt-12 max-w-3xl">
