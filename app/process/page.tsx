@@ -48,27 +48,27 @@ export const metadata: Metadata = {
 const steps = [
   {
     name: "Discover",
-    body: "We map your market, your competitors, and the search demand you can actually win — before anything is built or spent. This is my SEO onboarding process and the start of the technical SEO process: I check how your site is built, how Google reads it, and what your customers in Lahore are actually searching for.",
+    body: "We map your market, your competitors, and the search demand you can actually win — the SEO process for keyword research and mapping starts here — before anything is built or spent. This is my SEO onboarding process and the start of the technical SEO process: I check how your site is built, how Google reads it — that is the SEO process for fixing crawl and index issues, and the SEO process for new domains runs the same checks from day one, and what your customers in Lahore are actually searching for. The same first step shapes the SEO process for recovering lost rankings: find what slipped, then fix it in order.",
     icon: Compass,
   },
   {
     name: "Strategy",
-    body: "One growth plan: which channels, which pages, which campaigns — and the exact numbers that will define success. If you are wondering what happens after an SEO audit, this is it — I turn the findings into your plan, and I will tell you how long does each SEO step take before we start, so there are no surprises.",
+    body: "One growth plan: which channels, which pages, which campaigns — and the exact numbers that will define success. The SEO process timeline month by month is part of that plan, so you know what happens when. If you are wondering what happens after an SEO audit, this is it — I turn the findings into your plan — the SEO process for B2B companies and the SEO process for lead generation websites work the same way, and I will tell you how long does each SEO step take before we start, so there are no surprises. That order matters most in the SEO process for competitive niches, where doing the right work first decides the result.",
     icon: Target,
   },
   {
     name: "Build",
-    body: "Design, development, and tracking instrumented from day one. No 'we'll add analytics later' — later never comes. This is the SEO implementation process: the technical fixes, the local SEO process for your Google Business Profile and location pages, and the SEO content process — the pages and posts your customers actually need.",
+    body: "Design, development, and tracking instrumented from day one — the same build step covers the SEO process for ecommerce websites, the SEO process for SaaS websites, and the SEO process for service businesses. No 'we'll add analytics later' — later never comes. This is the SEO implementation process: the technical fixes, the local SEO process for your Google Business Profile and location pages, and the SEO content process — the pages and posts your customers actually need. It is also the SEO process for a website redesign: the new site keeps what ranked, and the old URLs redirect cleanly.",
     icon: Hammer,
   },
   {
     name: "Launch",
-    body: "Ship, submit, switch on: sitemaps, Search Console, ad accounts, automations — everything verified live. This is how SEO is done step by step at launch: every page checked, every redirect tested, and the SEO process checklist for launch ticked off before I call it done.",
+    body: "Ship, submit, switch on: sitemaps, Search Console, ad accounts, automations — everything verified live. The same launch checks run in the SEO process for multi-location businesses and the SEO process for franchise websites, where every location page has to be right. This is how SEO is done step by step at launch: every page checked, every redirect tested — the SEO process for membership websites and the SEO process for blogs and content sites get the same checks — and the SEO process checklist for launch ticked off before I call it done.",
     icon: Rocket,
   },
   {
     name: "Optimize",
-    body: "Read the data, double down on winners, cut losers. This is where growth compounds instead of plateauing. The SEO optimization process never stops: my SEO monthly process — and the SEO monthly process Pakistan clients stay on — pairs the SEO reporting process with the next round of fixes, so you always know how SEO process works in practice and what changed.",
+    body: "Read the data, double down on winners, cut losers. That is the SEO process for tracking rankings and leads in plain form: watch what moves, then do more of it. This is where growth compounds instead of plateauing. The SEO optimization process never stops: my SEO monthly process — and the SEO monthly process Pakistan clients stay on — pairs the SEO process for quarterly reviews and reporting with the next round of fixes — the SEO process for refreshing old content and the SEO process for internal linking improvements usually lead that round, so you always know how SEO process works in practice and what changed.",
     icon: TrendingUp,
   },
 ];
