@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     ],
   },
 };
+
 export default function BlogPage() {
   return (
-
     <main className="mx-auto max-w-6xl px-6 py-10">
       <JsonLd
         data={buildBreadcrumbJsonLd([
@@ -86,7 +86,7 @@ export default function BlogPage() {
           {" "}You will find SEO tips that actually work for small websites and digital marketing ideas for small businesses here, the kind of thing I test on real sites before I write about it.
           {" "}That includes the SEO mistakes beginners make and how to fix them, content marketing ideas for small business blogs, and how to plan content that ranks and converts.
           {" "}I keep it plain: digital marketing explained simply for beginners, how to choose the right digital marketing channel, and how to rank a brand new website.
-          {" "}I also cover the digital marketing skills to learn first, how to build an online presence from scratch, the SEO questions beginners ask, how to stay updated with SEO changes, and free ways to learn digital marketing online.
+          {" "}I also cover the digital marketing skills to learn first, how to build an online presence from scratch, the SEO questions beginners ask, how to stay updated with SEO changes, and free ways to learn digital marketing online.</p>
       </header>
 
       <section className="mt-12 max-w-3xl">
